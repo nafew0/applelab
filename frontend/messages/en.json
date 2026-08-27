@@ -1,0 +1,116 @@
+{
+  "common": {
+    "siteName": "AppleLab",
+    "loading": "Loading…"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "testimonials": "Reviews",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "cta": "Contact us",
+    "login": "Login"
+  },
+  "hero": {
+    "eyebrow": "Welcome",
+    "headline": "Your trusted local service partner.",
+    "subheadline": "Fast, honest and professional — we take care of it so you don't have to.",
+    "primaryCta": "Contact us",
+    "secondaryCta": "View services"
+  },
+  "sections": {
+    "services": {
+      "eyebrow": "What we do",
+      "headline": "Our services"
+    },
+    "testimonials": {
+      "eyebrow": "Customer stories",
+      "headline": "What customers say"
+    },
+    "faq": {
+      "eyebrow": "Good to know",
+      "headline": "Frequently asked questions"
+    },
+    "contact": {
+      "eyebrow": "Get in touch",
+      "headline": "Contact us"
+    }
+  },
+  "contact": {
+    "whatsapp": "Chat on WhatsApp",
+    "loadMap": "Click to load the map",
+    "mapTitle": "Our location on Google Maps",
+    "form": {
+      "name": "Your name",
+      "phone": "Phone number",
+      "email": "Email",
+      "emailHint": "Optional — for a written reply.",
+      "message": "How can we help?",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "successTitle": "Message sent!",
+      "successBody": "Thanks for reaching out — we will get back to you shortly.",
+      "submitError": "Something went wrong. Please try again or call us directly.",
+      "errors": {
+        "required": "This field is required."
+      }
+    }
+  },
+  "footer": {
+    "quickLinks": "Quick links",
+    "services": "Services",
+    "contact": "Contact",
+    "follow": "Follow us",
+    "rights": "All rights reserved."
+  },
+  "leadForm": {
+    "name": "Your name",
+    "phone": "Phone number",
+    "email": "Email",
+    "emailHint": "Optional — for a written reply.",
+    "service": "Service",
+    "servicePlaceholder": "Choose a service…",
+    "message": "Anything we should know?",
+    "consent": "You may contact me about offers and updates.",
+    "submit": "Get my free quote",
+    "sending": "Sending…",
+    "successTitle": "Request received!",
+    "successBody": "We will contact you shortly.",
+    "submitError": "Something went wrong. Please try again or call us directly.",
+    "errors": {
+      "required": "This field is required."
+    }
+  },
+  "funnel": {
+    "demo": {
+      "eyebrow": "Limited-time offer",
+      "headline": "Get your free quote today.",
+      "subheadline": "Tell us what you need — we reply within 2 hours, no obligation.",
+      "benefit1Title": "Free assessment",
+      "benefit1Body": "A clear, honest quote before any work starts.",
+      "benefit2Title": "2-hour response",
+      "benefit2Body": "We get back to you the same day, every day.",
+      "benefit3Title": "Satisfaction guaranteed",
+      "benefit3Body": "Professional work backed by our service guarantee.",
+      "formTitle": "Request your free quote",
+      "formSub": "It takes less than a minute.",
+      "trustNote": "No spam — we only use your details to respond to this request."
+    },
+    "thanks": {
+      "title": "Request received!",
+      "body": "Our team will contact you shortly. Keep your reference number handy:",
+      "whatsapp": "Chat with us on WhatsApp",
+      "whatsappPrefill": "Hello! I just submitted a request (ref {reference}).",
+      "backHome": "Back to home"
+    }
+  },
+  "languageToggle": {
+    "ariaLabel": "Change language"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you are looking for does not exist or has moved.",
+    "backHome": "Back to home"
+  }
+}
