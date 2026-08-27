@@ -1,0 +1,809 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Apple Lab — Bangladesh's most trusted Apple repair lab</title>
+  <link rel="icon" type="image/svg+xml" href="assets/icon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body style="background-color: rgb(255, 255, 255)">
+
+  <!-- ============================================================
+       SVG ICON SPRITE
+       ============================================================ -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-badge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2l3 3h4v4l3 3-3 3v4h-4l-3 3-3-3H5v-4l-3-3 3-3V5h4z"/>
+        <path d="m9 12 2 2 4-4"/>
+      </symbol>
+      <symbol id="i-sparkle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/>
+        <circle cx="12" cy="12" r="3.2"/>
+      </symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 3 4 6v6c0 5 3.5 8.5 8 9 4.5-.5 8-4 8-9V6l-8-3z"/>
+        <path d="m9 12 2 2 4-4"/>
+      </symbol>
+      <symbol id="i-receipt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 3h14v18l-3-2-3 2-3-2-3 2-2-2V3z"/>
+        <path d="M9 8h6M9 12h6M9 16h4"/>
+      </symbol>
+      <symbol id="i-bolt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M13 2 4 14h7l-1 8 9-12h-7l1-8z"/>
+      </symbol>
+      <symbol id="i-truck" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 7h11v9H3zM14 10h4l3 3v3h-7zM6 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM17 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+      </symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 22s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z"/>
+        <circle cx="12" cy="10" r="2.5"/>
+      </symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2z"/>
+      </symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="5" width="18" height="14" rx="2"/>
+        <path d="m3 7 9 7 9-7"/>
+      </symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="9"/>
+        <path d="M12 7v5l3 2"/>
+      </symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 12h14M13 5l7 7-7 7"/>
+      </symbol>
+      <symbol id="i-image" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="4" width="18" height="16" rx="2"/>
+        <circle cx="9" cy="10" r="2"/>
+        <path d="m4 18 5-5 4 4 3-3 4 4"/>
+      </symbol>
+      <symbol id="i-fb" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+      </symbol>
+      <symbol id="i-ig" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="3" width="18" height="18" rx="5"/>
+        <circle cx="12" cy="12" r="3.5"/>
+        <circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/>
+      </symbol>
+      <symbol id="i-yt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="6" width="20" height="12" rx="3"/>
+        <path d="m10 9 5 3-5 3z" fill="currentColor"/>
+      </symbol>
+      <symbol id="i-in" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="3" width="18" height="18" rx="3"/>
+        <path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/>
+      </symbol>
+      <symbol id="i-burger" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+        <path d="M4 7h16M4 12h16M4 17h16"/>
+      </symbol>
+      <symbol id="i-send" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m4 12 16-8-5 19-3-8-8-3z"/>
+      </symbol>
+      <symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m6 6 12 12M18 6 6 18"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <!-- ============================================================
+       NAVIGATION
+       ============================================================ -->
+  <nav class="nav" aria-label="Primary">
+    <div class="nav-inner">
+      <a href="#top" class="nav-brand" aria-label="Apple Lab home">
+        <img src="assets/icon.svg" alt="" aria-hidden="true" />
+        <span class="wordmark">Apple Lab</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#how" class="nav-link">How it works</a></li>
+        <li><a href="#tracker" class="nav-link">Track repair</a></li>
+        <li><a href="#corporate" class="nav-link">Corporate</a></li>
+        <li><a href="#blog" class="nav-link">Blog</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="nav-lang" type="button" aria-label="Switch language">বাংলা / EN</button>
+        <a href="#booking" class="btn btn-primary btn-sm">Book a Repair</a>
+        <button class="nav-burger" type="button" aria-label="Open menu">
+          <svg><use href="#i-burger"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main id="top">
+
+    <!-- ============================================================
+         HERO
+         ============================================================ -->
+    <section class="hero">
+      <div class="hero-bg-glow"></div>
+      <div class="container-wide">
+        <p class="hero-eyebrow reveal">
+          Bangladesh's most trusted Apple repair lab
+          <span class="dot"></span>
+          Since 2010
+        </p>
+        <h1 class="h-hero reveal">
+          Your Apple device,<br/>
+          <span class="gradient-text">perfectly repaired.</span>
+        </h1>
+        <p class="sub reveal">
+          MacBook · iPhone · iPad · iMac · Apple Watch.<br/>
+          Genuine parts. 90-day warranty. Free diagnosis.
+        </p>
+        <div class="btn-row hero-cta reveal">
+          <a href="#booking" class="btn btn-primary">Book a Repair</a>
+          <a href="#quote" class="btn btn-secondary">Get an Instant Quote</a>
+        </div>
+        <div class="hero-walkin reveal">
+          <a href="#contact" class="link">Or walk in at Dhanmondi, Dhaka</a>
+        </div>
+      </div>
+
+      <!-- Hero showcase image -->
+      <div class="hero-showcase reveal">
+        <div class="placeholder" style="aspect-ratio: 21 / 10;">
+          <svg class="ph-icon"><use href="#i-image"/></svg>
+          <div class="ph-size">1600 × 760</div>
+          <div class="ph-label">Hero · MacBook + iPhone + iPad collage on white</div>
+        </div>
+      </div>
+
+      <!-- Trust bar -->
+      <div class="trust-bar reveal stagger">
+        <div class="trust-item">
+          <div class="num"><span data-count="15" data-suffix="+">15+</span></div>
+          <div class="lbl">Years of expertise</div>
+        </div>
+        <div class="trust-item">
+          <div class="num"><span data-count="10000" data-suffix="+">10,000+</span></div>
+          <div class="lbl">Devices repaired</div>
+        </div>
+        <div class="trust-item">
+          <div class="num"><span data-count="90" data-suffix="-day">90-day</span></div>
+          <div class="lbl">Warranty on every repair</div>
+        </div>
+        <div class="trust-item">
+          <div class="num">No fix.</div>
+          <div class="lbl">No fee. Ever.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 2 — DEVICE GRID
+         ============================================================ -->
+    <section class="section gray" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Our services</p>
+          <h2 class="h-xl">Every Apple device.<br/><span class="gradient-text">Every repair.</span></h2>
+          <p class="sub">From cracked screens to logic-board surgery — if Apple made it, we fix it. Walk-in or courier nationwide.</p>
+        </div>
+
+        <div class="device-grid reveal stagger">
+          <a href="#" class="device-card">
+            <div class="placeholder">
+              <svg class="ph-icon"><use href="#i-image"/></svg>
+              <div class="ph-size">640 × 480</div>
+              <div class="ph-label">MacBook Pro</div>
+            </div>
+            <h3>MacBook Pro</h3>
+            <span class="device-from">Screen · Battery · Logic board</span>
+            <span class="link">View services</span>
+          </a>
+          <a href="#" class="device-card">
+            <div class="placeholder">
+              <svg class="ph-icon"><use href="#i-image"/></svg>
+              <div class="ph-size">640 × 480</div>
+              <div class="ph-label">MacBook Air</div>
+            </div>
+            <h3>MacBook Air</h3>
+            <span class="device-from">Screen · Battery · Keyboard</span>
+            <span class="link">View services</span>
+          </a>
+          <a href="#" class="device-card">
+            <div class="placeholder">
+              <svg class="ph-icon"><use href="#i-image"/></svg>
+              <div class="ph-size">640 × 480</div>
+              <div class="ph-label">iPhone — all models</div>
+            </div>
+            <h3>iPhone</h3>
+            <span class="device-from">Screen · Battery · Camera · Charging</span>
+            <span class="link">View services</span>
+          </a>
+          <a href="#" class="device-card">
+            <div class="placeholder">
+              <svg class="ph-icon"><use href="#i-image"/></svg>
+              <div class="ph-size">640 × 480</div>
+              <div class="ph-label">iPad — all models</div>
+            </div>
+            <h3>iPad</h3>
+            <span class="device-from">Screen · Battery · Charging port</span>
+            <span class="link">View services</span>
+          </a>
+          <a href="#" class="device-card">
+            <div class="placeholder">
+              <svg class="ph-icon"><use href="#i-image"/></svg>
+              <div class="ph-size">640 × 480</div>
+              <div class="ph-label">iMac</div>
+            </div>
+            <h3>iMac</h3>
+            <span class="device-from">Display · SSD · Power supply</span>
+            <span class="link">View services</span>
+          </a>
+          <a href="#" class="device-card">
+            <div class="placeholder">
+              <svg class="ph-icon"><use href="#i-image"/></svg>
+              <div class="ph-size">640 × 480</div>
+              <div class="ph-label">Mac Mini / Studio</div>
+            </div>
+            <h3>Mac Mini / Studio</h3>
+            <span class="device-from">SSD · Logic board · Cooling</span>
+            <span class="link">View services</span>
+          </a>
+          <a href="#" class="device-card">
+            <div class="placeholder">
+              <svg class="ph-icon"><use href="#i-image"/></svg>
+              <div class="ph-size">640 × 480</div>
+              <div class="ph-label">Apple Watch</div>
+            </div>
+            <h3>Apple Watch</h3>
+            <span class="device-from">Screen · Battery · Crown</span>
+            <span class="link">View services</span>
+          </a>
+          <a href="#" class="device-card">
+            <div class="placeholder">
+              <svg class="ph-icon"><use href="#i-image"/></svg>
+              <div class="ph-size">640 × 480</div>
+              <div class="ph-label">AirPods — all generations</div>
+            </div>
+            <h3>AirPods</h3>
+            <span class="device-from">Speaker · Mic · Battery</span>
+            <span class="link">View services</span>
+          </a>
+          <a href="#" class="device-card">
+            <div class="placeholder">
+              <svg class="ph-icon"><use href="#i-image"/></svg>
+              <div class="ph-size">640 × 480</div>
+              <div class="ph-label">Accessories &amp; cables</div>
+            </div>
+            <h3>Accessories</h3>
+            <span class="device-from">Chargers · Cables · Keyboards</span>
+            <span class="link">View services</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 3 — WHY APPLE LAB
+         ============================================================ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Why Apple Lab</p>
+          <h2 class="h-xl">Repairs you can trust.<br/>Every time.</h2>
+        </div>
+        <div class="feature-grid reveal stagger">
+          <article class="feature-card">
+            <div class="icon-wrap"><svg><use href="#i-badge"/></svg></div>
+            <h3>Certified technicians</h3>
+            <p>Engineers trained on Apple silicon, board-level repairs, and the tools the rest of Dhaka does not have.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon-wrap"><svg><use href="#i-sparkle"/></svg></div>
+            <h3>Genuine parts only</h3>
+            <p>OEM displays, batteries and logic-board components — sourced through the same supply chain Apple Authorized service providers use.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon-wrap"><svg><use href="#i-shield"/></svg></div>
+            <h3>90-day warranty</h3>
+            <p>Every repair comes with a no-questions-asked 90-day guarantee. If the same fault returns, we fix it free.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon-wrap"><svg><use href="#i-receipt"/></svg></div>
+            <h3>No fix, no fee</h3>
+            <p>Free diagnosis. If we can't fix your device, you owe nothing — not even a service charge.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon-wrap"><svg><use href="#i-bolt"/></svg></div>
+            <h3>Same-day service</h3>
+            <p>Most screen, battery and charging repairs are completed within hours — not days.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon-wrap"><svg><use href="#i-truck"/></svg></div>
+            <h3>Nationwide courier</h3>
+            <p>Outside Dhaka? Send your device by courier — we repair, test, and return it to your doorstep, insured.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 4 — HOW IT WORKS (DARK)
+         ============================================================ -->
+    <section class="section dark" id="how">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Simple process</p>
+          <h2 class="h-xl" style="color:#fff;">From broken to like-new<br/>in four steps.</h2>
+          <p class="sub bright">Engineered to be predictable. No surprises, no hidden costs, no time wasted.</p>
+        </div>
+
+        <div class="steps reveal stagger">
+          <div class="step">
+            <div class="step-num">01</div>
+            <h3>Book online or walk in</h3>
+            <p>Book a slot in seconds, or just walk into our Dhanmondi lab — six days a week, no appointment needed.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">02</div>
+            <h3>Free diagnosis</h3>
+            <p>Our engineers run a full diagnostic on every device. Always free, always thorough.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">03</div>
+            <h3>Repair with genuine parts</h3>
+            <p>You approve a fixed quote. We rebuild with original components and bench-test before sign-off.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">04</div>
+            <h3>Pickup &amp; 90-day warranty</h3>
+            <p>Collect in-store or have it couriered — every repair comes with our 90-day warranty as standard.</p>
+          </div>
+        </div>
+
+        <div class="steps-cta reveal">
+          <a href="#booking" class="btn btn-ghost-dark">Book your repair <svg style="width:14px;height:14px;stroke:#fff;fill:none;stroke-width:2"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 5 — COMMON REPAIRS / PRICING STRIP
+         ============================================================ -->
+    <section class="section gray" id="quote">
+      <div class="container">
+        <div class="section-head reveal" style="margin-bottom:48px;">
+          <p class="eyebrow">Common repairs</p>
+          <h2 class="h-xl">Know your price<br/>before you visit.</h2>
+          <p class="sub">Starting prices for our most-booked services. Your final quote is fixed after free diagnosis — no surprises.</p>
+        </div>
+
+        <div class="repair-strip reveal" role="list">
+          <div class="repair-pill" role="listitem">
+            <span class="repair-cat">iPhone</span>
+            <span class="repair-name">Screen replacement</span>
+            <span class="repair-price">From <strong>৳ 7,500</strong></span>
+          </div>
+          <div class="repair-pill" role="listitem">
+            <span class="repair-cat">iPhone</span>
+            <span class="repair-name">Battery replacement</span>
+            <span class="repair-price">From <strong>৳ 3,200</strong></span>
+          </div>
+          <div class="repair-pill" role="listitem">
+            <span class="repair-cat">iPhone</span>
+            <span class="repair-name">Charging port</span>
+            <span class="repair-price">From <strong>৳ 2,800</strong></span>
+          </div>
+          <div class="repair-pill" role="listitem">
+            <span class="repair-cat">MacBook</span>
+            <span class="repair-name">Retina display</span>
+            <span class="repair-price">From <strong>৳ 28,500</strong></span>
+          </div>
+          <div class="repair-pill" role="listitem">
+            <span class="repair-cat">MacBook</span>
+            <span class="repair-name">Battery replacement</span>
+            <span class="repair-price">From <strong>৳ 9,500</strong></span>
+          </div>
+          <div class="repair-pill" role="listitem">
+            <span class="repair-cat">MacBook</span>
+            <span class="repair-name">Keyboard / topcase</span>
+            <span class="repair-price">From <strong>৳ 14,000</strong></span>
+          </div>
+          <div class="repair-pill" role="listitem">
+            <span class="repair-cat">MacBook</span>
+            <span class="repair-name">Liquid damage recovery</span>
+            <span class="repair-price">From <strong>৳ 6,500</strong></span>
+          </div>
+          <div class="repair-pill" role="listitem">
+            <span class="repair-cat">iPad</span>
+            <span class="repair-name">Glass replacement</span>
+            <span class="repair-price">From <strong>৳ 6,800</strong></span>
+          </div>
+          <div class="repair-pill" role="listitem">
+            <span class="repair-cat">iMac</span>
+            <span class="repair-name">SSD upgrade</span>
+            <span class="repair-price">From <strong>৳ 12,000</strong></span>
+          </div>
+          <div class="repair-pill" role="listitem">
+            <span class="repair-cat">Apple Watch</span>
+            <span class="repair-name">Screen + battery</span>
+            <span class="repair-price">From <strong>৳ 5,500</strong></span>
+          </div>
+          <div class="repair-pill" role="listitem">
+            <span class="repair-cat">AirPods</span>
+            <span class="repair-name">Battery / speaker</span>
+            <span class="repair-price">From <strong>৳ 2,400</strong></span>
+          </div>
+        </div>
+
+        <div class="btn-row reveal" style="margin-top:32px;">
+          <a href="#" class="btn btn-primary">Get an instant quote</a>
+          <span style="font-size:14px;color:var(--text-tertiary);">Prices may vary after free diagnosis.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 6 — TRACKER WIDGET
+         ============================================================ -->
+    <section class="section" id="tracker">
+      <div class="container-narrow">
+        <div class="section-head reveal">
+          <p class="eyebrow">Track your repair</p>
+          <h2 class="h-xl">Know exactly where<br/>your device is.</h2>
+          <p class="sub">Enter your ticket ID for real-time status updates — no phone calls, no waiting.</p>
+        </div>
+
+        <div class="tracker-card reveal">
+          <form class="tracker-form" id="tracker-form" autocomplete="off">
+            <input id="tracker-id" type="text" placeholder="Ticket ID  (e.g. APL-2026-04821)" />
+            <input id="tracker-phone" type="text" placeholder="Last 4 of phone" />
+            <button type="submit" class="btn btn-primary">Track</button>
+          </form>
+
+          <div class="tracker-result active" id="tracker-result" aria-live="polite">
+            <div class="tracker-meta">
+              <span class="ticket">APL-2026-04821</span>
+              <span class="device">MacBook Pro 14" · Screen replacement</span>
+              <span class="label">Estimated ready: tomorrow, 4:00 PM</span>
+            </div>
+
+            <div class="timeline" role="list">
+              <div class="step-dot done" role="listitem">
+                <div class="ring">✓</div>
+                <div class="name">Received</div>
+              </div>
+              <div class="step-dot done" role="listitem">
+                <div class="ring">✓</div>
+                <div class="name">Diagnosed</div>
+              </div>
+              <div class="step-dot active" role="listitem">
+                <div class="ring">3</div>
+                <div class="name">In repair</div>
+              </div>
+              <div class="step-dot" role="listitem">
+                <div class="ring">4</div>
+                <div class="name">Quality test</div>
+              </div>
+              <div class="step-dot" role="listitem">
+                <div class="ring">5</div>
+                <div class="name">Ready</div>
+              </div>
+            </div>
+
+            <div class="tracker-status-line">
+              <span class="pulse"></span>
+              <span>Your MacBook is with our engineers — display installed, currently in 24-hour burn-in test.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 7 — TESTIMONIALS (DARK)
+         ============================================================ -->
+    <section class="section dark">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Customer stories</p>
+          <h2 class="h-xl" style="color:#fff;">Thousands of happy<br/><span class="gradient-text">Apple users.</span></h2>
+          <p class="sub bright">Real reviews from customers across Bangladesh.</p>
+        </div>
+
+        <div class="testimonial-row reveal stagger">
+          <article class="testimonial">
+            <div class="stars" aria-label="5 out of 5">★★★★★</div>
+            <blockquote>“My MacBook Pro had liquid damage I was sure was terminal. Apple Lab brought it back in three days — and charged me half what an authorized centre quoted. Honest people, real expertise.”</blockquote>
+            <div class="testimonial-meta">
+              <div class="name"><strong>Tasnim R.</strong><span>Banani, Dhaka</span></div>
+              <span class="device-badge">MacBook Pro 16"</span>
+            </div>
+          </article>
+          <article class="testimonial">
+            <div class="stars" aria-label="5 out of 5">★★★★★</div>
+            <blockquote>“Cracked iPhone screen replaced in 40 minutes, indistinguishable from original. The Face ID still works perfectly — that's the part nobody else gets right in this city.”</blockquote>
+            <div class="testimonial-meta">
+              <div class="name"><strong>Rifat A.</strong><span>Uttara, Dhaka</span></div>
+              <span class="device-badge">iPhone 14 Pro</span>
+            </div>
+          </article>
+          <article class="testimonial">
+            <div class="stars" aria-label="5 out of 5">★★★★★</div>
+            <blockquote>“They couriered our iMac back to Chattogram, repaired and packed better than the original box. Status updates by SMS through the entire process. This is how Apple service should feel.”</blockquote>
+            <div class="testimonial-meta">
+              <div class="name"><strong>Nusrat J.</strong><span>Chattogram</span></div>
+              <span class="device-badge">iMac 24" M1</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="center reveal" style="margin-top:48px;">
+          <a href="#" class="link" style="color:var(--brand-blue);">See all 600+ Google reviews</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 8 — CORPORATE (split)
+         ============================================================ -->
+    <section class="section gray" id="corporate">
+      <div class="container">
+        <div class="split">
+          <div class="copy reveal">
+            <p class="eyebrow">For business</p>
+            <h2 class="h-lg">Apple fleet management,<br/>built for Dhaka's teams.</h2>
+            <p class="sub">Priority repair, SLA contracts, bulk servicing, and monthly invoicing for companies running on Apple. From three-person studios to 500-seat enterprises.</p>
+            <div class="btn-row left" style="margin-top:32px;">
+              <a href="#" class="btn btn-primary">Talk to corporate</a>
+              <a href="#" class="btn btn-secondary">See plans</a>
+            </div>
+          </div>
+          <div class="visual reveal">
+            <div class="placeholder">
+              <svg class="ph-icon"><use href="#i-image"/></svg>
+              <div class="ph-size">880 × 660</div>
+              <div class="ph-label">MacBook fleet / office workspace</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 9 — BLOG PREVIEW
+         ============================================================ -->
+    <section class="section" id="blog">
+      <div class="container">
+        <div class="section-head left reveal" style="flex-direction:row; justify-content:space-between; align-items:flex-end; max-width:none; margin-bottom:48px;">
+          <div>
+            <p class="eyebrow">Tips &amp; guides</p>
+            <h2 class="h-lg" style="margin-top:8px;">From our repair experts.</h2>
+          </div>
+          <a href="#" class="link" style="white-space:nowrap;">See all articles</a>
+        </div>
+
+        <div class="blog-grid reveal stagger">
+          <a href="#" class="blog-card">
+            <div class="placeholder">
+              <svg class="ph-icon"><use href="#i-image"/></svg>
+              <div class="ph-size">640 × 360</div>
+              <div class="ph-label">Article thumbnail</div>
+            </div>
+            <div class="body">
+              <span class="cat">Battery health</span>
+              <h3>When should you actually replace your iPhone battery?</h3>
+              <p>The 80% rule is real, but it's not the only signal. Here's how our engineers decide.</p>
+              <div class="meta">
+                <span>Tanvir, Lead Engineer</span><span class="dot"></span>
+                <span>4 min read</span><span class="dot"></span>
+                <span>May 2026</span>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="blog-card">
+            <div class="placeholder">
+              <svg class="ph-icon"><use href="#i-image"/></svg>
+              <div class="ph-size">640 × 360</div>
+              <div class="ph-label">Article thumbnail</div>
+            </div>
+            <div class="body">
+              <span class="cat">MacBook</span>
+              <h3>Liquid damage: what to do in the first 60 minutes</h3>
+              <p>The mistake almost everyone makes — and what to do instead if you want a chance at recovery.</p>
+              <div class="meta">
+                <span>Rezwan, Sr. Engineer</span><span class="dot"></span>
+                <span>6 min read</span><span class="dot"></span>
+                <span>Apr 2026</span>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="blog-card">
+            <div class="placeholder">
+              <svg class="ph-icon"><use href="#i-image"/></svg>
+              <div class="ph-size">640 × 360</div>
+              <div class="ph-label">Article thumbnail</div>
+            </div>
+            <div class="body">
+              <span class="cat">Buying guide</span>
+              <h3>Is a used MacBook from Bashundhara worth it in 2026?</h3>
+              <p>What to check before you pay, what to walk away from, and the three model years to avoid entirely.</p>
+              <div class="meta">
+                <span>Apple Lab Editorial</span><span class="dot"></span>
+                <span>8 min read</span><span class="dot"></span>
+                <span>Apr 2026</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 10 — CONTACT / MAP
+         ============================================================ -->
+    <section class="section gray" id="contact">
+      <div class="container">
+        <div class="split">
+          <div class="copy reveal">
+            <p class="eyebrow">Visit our lab</p>
+            <h2 class="h-lg">Dhanmondi, Dhaka.<br/>Open six days a week.</h2>
+
+            <div class="contact-info">
+              <div class="contact-row">
+                <div class="icon-wrap"><svg><use href="#i-pin"/></svg></div>
+                <div>
+                  <div class="info-label">Address</div>
+                  <div class="info-value">ADC Empire Plaza, 183 Satmasjid Road<br/>Dhanmondi, Dhaka 1205</div>
+                </div>
+              </div>
+              <div class="contact-row">
+                <div class="icon-wrap"><svg><use href="#i-phone"/></svg></div>
+                <div>
+                  <div class="info-label">Phone</div>
+                  <div class="info-value">
+                    <a href="tel:+8801603710044">01603-710044</a>
+                    &nbsp;·&nbsp;
+                    <a href="tel:+8801737292828">01737-292828</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-row">
+                <div class="icon-wrap"><svg><use href="#i-mail"/></svg></div>
+                <div>
+                  <div class="info-label">Email</div>
+                  <div class="info-value"><a href="mailto:hello@applelab.com.bd">hello@applelab.com.bd</a></div>
+                </div>
+              </div>
+              <div class="contact-row">
+                <div class="icon-wrap"><svg><use href="#i-clock"/></svg></div>
+                <div>
+                  <div class="info-label">Hours</div>
+                  <div class="info-value">Saturday – Thursday · 10 AM – 9 PM<br/>Closed on Fridays &amp; public holidays</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="btn-row left">
+              <a href="#" class="btn btn-primary">WhatsApp us</a>
+              <a href="#" class="btn btn-secondary">Get directions</a>
+            </div>
+          </div>
+
+          <div class="visual reveal">
+            <div class="map-frame placeholder">
+              <svg class="ph-icon"><use href="#i-pin"/></svg>
+              <div class="ph-size">880 × 660</div>
+              <div class="ph-label">Google Maps embed · Dhanmondi 1205</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FOOTER
+         ============================================================ -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="brand">
+            <img src="assets/icon-white.svg" alt="" />
+            <span class="wordmark">Apple Lab</span>
+          </div>
+          <div style="display:flex;gap:14px;align-items:center;">
+            <span style="font-size:13px;color:#86868B;">Language:</span>
+            <a href="#" style="font-size:13px;color:#fff;">English</a>
+            <span style="color:#3A3A3C;">·</span>
+            <a href="#" style="font-size:13px;color:#86868B;">বাংলা</a>
+          </div>
+        </div>
+
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#">MacBook Pro repair</a></li>
+              <li><a href="#">MacBook Air repair</a></li>
+              <li><a href="#">iPhone repair</a></li>
+              <li><a href="#">iPad repair</a></li>
+              <li><a href="#">iMac repair</a></li>
+              <li><a href="#">Apple Watch repair</a></li>
+              <li><a href="#">AirPods repair</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Quick links</h4>
+            <ul>
+              <li><a href="#booking">Book a repair</a></li>
+              <li><a href="#tracker">Track repair</a></li>
+              <li><a href="#quote">Get a quote</a></li>
+              <li><a href="#corporate">Corporate services</a></li>
+              <li><a href="#">Sell your Mac</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Warranty policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="tel:+8801603710044">01603-710044</a></li>
+              <li><a href="tel:+8801737292828">01737-292828</a></li>
+              <li><a href="mailto:hello@applelab.com.bd">hello@applelab.com.bd</a></li>
+              <li style="color:#86868B;">ADC Empire Plaza, 183 Satmasjid Rd, Dhanmondi, Dhaka 1205</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Follow</h4>
+            <div class="social-row">
+              <a href="#" aria-label="Facebook"><svg><use href="#i-fb"/></svg></a>
+              <a href="#" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a>
+              <a href="#" aria-label="YouTube"><svg><use href="#i-yt"/></svg></a>
+              <a href="#" aria-label="LinkedIn"><svg><use href="#i-in"/></svg></a>
+            </div>
+            <ul style="margin-top:24px;">
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span>© 2026 Apple Lab Bangladesh. All rights reserved.</span>
+          <div class="legal-links">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Sitemap</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- ============================================================
+       CHAT WIDGET
+       ============================================================ -->
+  <button id="chat-trigger" class="chat-trigger" type="button" aria-label="Chat with AppleBot">
+    <img src="assets/icon-white.svg" alt="" aria-hidden="true" />
+  </button>
+
+  <div id="chat-window" class="chat-window" role="dialog" aria-label="Apple Lab chat assistant">
+    <div class="chat-header">
+      <div class="avatar"><img src="assets/icon-white.svg" alt="" /></div>
+      <div class="who">
+        <strong>AppleBot</strong>
+        <span>AI-powered · usually replies instantly</span>
+      </div>
+      <button id="chat-close" class="chat-close" type="button" aria-label="Close chat">
+        <svg width="16" height="16"><use href="#i-x"/></svg>
+      </button>
+    </div>
+    <div class="chat-body" id="chat-body">
+      <div class="msg bot">Hi! 👋 I'm AppleBot — ask me about prices, repair times, or how to book. I can also help track a repair.</div>
+      <div class="msg bot">Try: <em>"How much for an iPhone 13 screen?"</em></div>
+    </div>
+    <form class="chat-input" id="chat-form">
+      <input id="chat-input" type="text" placeholder="Type a message…" autocomplete="off" />
+      <button type="submit" aria-label="Send"><svg><use href="#i-send"/></svg></button>
+    </form>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
