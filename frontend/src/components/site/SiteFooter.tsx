@@ -26,7 +26,7 @@ export default function SiteFooter({
   }
 }) {
   const year = new Date().getFullYear()
-  const siteName = config?.site_name || 'AppleLab'
+  const siteName = config?.site_name || 'Apple Lab'
   const socials = [
     { href: config?.social.facebook, Icon: FacebookIcon, label: 'Facebook' },
     { href: config?.social.instagram, Icon: InstagramIcon, label: 'Instagram' },

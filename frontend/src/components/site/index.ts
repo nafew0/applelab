@@ -1,5 +1,5 @@
 /**
- * AppleLab public site kit — generic, token-driven primitives.
+ * Apple Lab public site kit — generic, token-driven primitives.
  * Rules: no hardcoded colors (tokens only via the Tailwind preset),
  * no client-specific strings. See SYNC_GATE.md before editing.
  */

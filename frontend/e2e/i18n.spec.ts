@@ -36,7 +36,7 @@ test.describe('BP-2 i18n (locale routing, toggle, cookie, exclusions)', () => {
     await page.goto('/en/styleguide')
     await page.getByTestId('navbar-desktop-actions').getByTestId('language-option-bn').click()
     await expect(page).toHaveURL(/\/bn\/styleguide$/)
-    await expect(page.getByRole('heading', { name: 'AppleLab Styleguide' })).toBeVisible()
+    await expect(page.getByRole('heading', { name: 'Apple Lab Styleguide' })).toBeVisible()
     // Bengali sample in the styleguide renders under the bn frame
     await expect(page.getByTestId('alt-script-sample')).toBeVisible()
   })

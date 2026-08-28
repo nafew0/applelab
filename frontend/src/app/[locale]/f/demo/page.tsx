@@ -12,7 +12,7 @@ import Section from '@/components/site/Section'
 import { getServices } from '@/lib/content'
 
 export const metadata: Metadata = {
-  title: 'Free Quote — AppleLab',
+  title: 'Free Quote — Apple Lab',
   robots: { index: false }, // funnels are ad landing pages, not organic pages
 }
 

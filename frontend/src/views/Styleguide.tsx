@@ -105,7 +105,7 @@ export default function StyleguideView() {
             <Eyebrow>Site kit</Eyebrow>
             <LanguageToggle />
           </div>
-          <h1 className="mt-2 text-headline-lg text-ink">AppleLab Styleguide</h1>
+          <h1 className="mt-2 text-headline-lg text-ink">Apple Lab Styleguide</h1>
           <p className="mt-3 max-w-content-tight text-body-lg text-ink-secondary">
             Every generic primitive rendered under the active theme tokens. Re-theme via
             <code className="font-code"> src/theme/tokens.css</code> only.

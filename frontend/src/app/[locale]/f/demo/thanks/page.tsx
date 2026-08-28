@@ -9,7 +9,7 @@ import Section from '@/components/site/Section'
 import { getSiteConfig, whatsappLink } from '@/lib/content'
 
 export const metadata: Metadata = {
-  title: 'Thank you — AppleLab',
+  title: 'Thank you — Apple Lab',
   robots: { index: false },
 }
 

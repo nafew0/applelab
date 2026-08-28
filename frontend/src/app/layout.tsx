@@ -4,7 +4,7 @@ import Providers from './providers'
 import ClientShell from './ClientShell'
 
 export const metadata: Metadata = {
-  title: 'AppleLab',
+  title: 'Apple Lab',
   description: 'Service-provider website template',
   icons: {
     icon: '/branding/logo.ico',

@@ -1,5 +1,5 @@
 /**
- * Tailwind preset exposing the AppleLab theme tokens (src/theme/tokens.css)
+ * Tailwind preset exposing the Apple Lab theme tokens (src/theme/tokens.css)
  * as utility classes for the generic site kit (src/components/site/).
  *
  * Per-client re-theming changes tokens.css VALUES — this file defines NAMES and

@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation'
 
 import StyleguideView from '@/views/Styleguide'
 
-export const metadata = { title: 'Styleguide — AppleLab', robots: { index: false } }
+export const metadata = { title: 'Styleguide — Apple Lab', robots: { index: false } }
 
 /**
  * Dev/QA-only rendering of the site kit under the current theme tokens.

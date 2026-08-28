@@ -19,7 +19,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params
   const config = await getSiteConfig(locale)
-  return buildSiteMetadata(config, locale, 'AppleLab')
+  return buildSiteMetadata(config, locale, 'Apple Lab')
 }
 
 /**

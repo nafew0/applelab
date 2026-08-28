@@ -1,4 +1,4 @@
-# Quick Start — AppleLab Template
+# Quick Start — Apple Lab Template
 
 Local development setup. Prereqs: Python 3.12, Node 24.x + npm 11, PostgreSQL 12+ (Redis optional in dev — rate-limit cache falls back to local memory).
 

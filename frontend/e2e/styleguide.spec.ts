@@ -6,7 +6,7 @@ test.describe('BP-1 styleguide (site kit under theme tokens)', () => {
   })
 
   test('renders heading, sections, and alt-script sample', async ({ page }) => {
-    await expect(page.getByRole('heading', { name: 'AppleLab Styleguide' })).toBeVisible()
+    await expect(page.getByRole('heading', { name: 'Apple Lab Styleguide' })).toBeVisible()
     for (const section of [
       'section-colors',
       'section-type',

@@ -34,7 +34,7 @@ export default async function LocaleLayout({
   ])
   const tFooter = await getTranslations({ locale, namespace: 'footer' })
 
-  const siteName = config?.site_name || 'AppleLab'
+  const siteName = config?.site_name || 'Apple Lab'
   const navLinks = [
     { href: '/#services', label: t('services') },
     { href: '/#testimonials', label: t('testimonials') },
