@@ -4,7 +4,9 @@
 **Stack:** Django (Gunicorn) + Next.js + PostgreSQL + Redis
 **Isolation:** System user `applelab`, backend port `8002`, frontend port `3002`, Redis DB 4–5, PG user `applelab_user`
 
-> **Existing server:** PostgreSQL, Redis, Nginx, Certbot and Node.js 20 are already installed by the Opsync deployment. There is no server-preparation section here — start at Section 1.
+> **Existing server:** PostgreSQL, Redis, Nginx and Certbot are already installed by the Opsync deployment. There is no server-preparation section here — start at Section 1.
+>
+> **Node.js:** the system `/usr/bin/node` is Node 20, used by Opsync and EcommbdHosting. AppleLab's frontend requires Node 24 (`engines.node: 24.15.x`, and its `package-lock.json` is written by npm 11 — npm 10 rejects it with a bogus `Missing: @swc/helpers` error). Section 5 installs Node 24 privately under `/opt/applelab/node` so the other two projects keep Node 20 untouched. Do **not** upgrade the system Node.
 
 ---
 
@@ -163,9 +165,33 @@ Static files land in `/opt/applelab/app/backend/staticfiles/`, uploads in `/opt/
 
 ## 5. Frontend Setup
 
+### Install Node 24 for this project only
+
+```bash
+sudo -u applelab bash -c 'cd /opt/applelab && \
+  curl -fsSLO https://nodejs.org/dist/v24.16.0/node-v24.16.0-linux-x64.tar.xz && \
+  tar -xJf node-v24.16.0-linux-x64.tar.xz && \
+  rm node-v24.16.0-linux-x64.tar.xz && \
+  ln -sfn node-v24.16.0-linux-x64 node'
+
+/opt/applelab/node/bin/node -v   # v24.16.0
+/opt/applelab/node/bin/npm -v    # 11.x
+```
+
+The `node` symlink is what every command and the systemd unit reference, so a future upgrade is: unpack the new tarball, re-point the symlink, rebuild, restart.
+
+### Install dependencies
+
 ```bash
 cd /opt/applelab/app/frontend
-sudo -u applelab npm ci
+sudo -u applelab env PATH=/opt/applelab/node/bin:$PATH /opt/applelab/node/bin/npm ci
+```
+
+> An `EBADENGINE` warning about `npm@11.12.1` vs the tarball's npm is harmless — `engines.npm` is an exact pin, and only `engines.node` actually matters.
+
+### Environment file
+
+```bash
 sudo -u applelab nano /opt/applelab/app/frontend/.env.production
 ```
 
@@ -183,7 +209,8 @@ NEXT_PUBLIC_ENABLE_STYLEGUIDE=0
 Build:
 
 ```bash
-sudo -u applelab npm run build
+cd /opt/applelab/app/frontend
+sudo -u applelab env PATH=/opt/applelab/node/bin:$PATH NODE_ENV=production /opt/applelab/node/bin/npm run build
 ```
 
 ---
@@ -237,7 +264,8 @@ After=network.target applelab-backend.service
 User=applelab
 WorkingDirectory=/opt/applelab/app/frontend
 Environment="NODE_ENV=production"
-ExecStart=/usr/bin/node node_modules/.bin/next start -p 3002
+Environment="PATH=/opt/applelab/node/bin:/usr/local/bin:/usr/bin:/bin"
+ExecStart=/opt/applelab/node/bin/node node_modules/.bin/next start -p 3002
 Restart=on-failure
 
 [Install]
@@ -363,10 +391,10 @@ sudo -u applelab venv/bin/pip install -r requirements.txt
 sudo -u applelab DOTENV_FILE=.env.production venv/bin/python manage.py migrate
 sudo -u applelab DOTENV_FILE=.env.production venv/bin/python manage.py collectstatic --noinput
 
-# Frontend: deps + rebuild
+# Frontend: deps + rebuild (Node 24 toolchain, not the system Node 20)
 cd ../frontend
-sudo -u applelab npm ci
-sudo -u applelab npm run build
+sudo -u applelab env PATH=/opt/applelab/node/bin:$PATH /opt/applelab/node/bin/npm ci
+sudo -u applelab env PATH=/opt/applelab/node/bin:$PATH NODE_ENV=production /opt/applelab/node/bin/npm run build
 
 # Restart
 sudo systemctl restart applelab-backend applelab-frontend
@@ -395,6 +423,8 @@ Common issues:
 - **Unstyled admin** — `collectstatic` was not run, or the `/static/` alias path is wrong.
 - **Frontend 500s on data fetches** — `BACKEND_URL` is wrong, or the backend service is down; `curl` port 8002 directly.
 - **Rate limits behaving inconsistently** — `USE_REDIS=True` is missing, so each worker keeps its own counters.
+- **`npm ci` fails with `Missing: @swc/helpers@... from lock file`** — you are running the system npm 10. The lockfile is written by npm 11, which records optional peer dependencies differently. Use `/opt/applelab/node/bin/npm` (Section 5). Never "fix" this by running `npm install` on the server: it rewrites the committed lockfile and the failure returns on the next deploy.
+- **Frontend service dies at startup after a Node upgrade** — `node_modules` contains native builds (sharp, swc); re-run `npm ci` and `npm run build` with the new toolchain.
 
 ---
 
