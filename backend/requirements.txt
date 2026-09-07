@@ -21,6 +21,9 @@ redis==5.0.1
 # Environment variables
 python-dotenv==1.0.1
 
+# WSGI server (production)
+gunicorn>=23.0.0
+
 # Image processing (for avatar uploads)
 Pillow==10.2.0
 

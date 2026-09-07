@@ -87,6 +87,12 @@ sudo -u applelab venv/bin/pip install --upgrade pip
 sudo -u applelab venv/bin/pip install -r requirements.txt
 ```
 
+Confirm the WSGI server landed — the systemd unit fails with `status=203/EXEC` if it is missing:
+
+```bash
+ls -l /opt/applelab/app/backend/venv/bin/gunicorn
+```
+
 ### Environment file
 
 ```bash
@@ -410,6 +416,8 @@ sudo tail -f /var/log/nginx/error.log
 ```
 
 Common issues:
+
+- **Backend fails instantly with `status=203/EXEC`** — systemd cannot execute the `ExecStart` binary. Almost always `venv/bin/gunicorn` is missing (`pip install -r requirements.txt` was skipped or predates gunicorn being added). After fixing, run `sudo systemctl reset-failed applelab-backend` before `start`, or the restart-rate limit rejects it.
 
 - **400 Bad Request from Django** — the host is missing from `ALLOWED_HOSTS` in `.env.production`.
 - **CSRF/cookie failures over HTTPS** — check `TRUST_X_FORWARDED_PROTO=True` and that Nginx sends `X-Forwarded-Proto`.
