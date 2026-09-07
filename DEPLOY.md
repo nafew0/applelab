@@ -6,7 +6,7 @@
 
 > **Existing server:** PostgreSQL, Redis, Nginx and Certbot are already installed by the Opsync deployment. There is no server-preparation section here — start at Section 1.
 >
-> **Node.js:** the system `/usr/bin/node` is Node 20, used by Opsync and EcommbdHosting. AppleLab's frontend requires Node 24 (`engines.node: 24.15.x`, and its `package-lock.json` is written by npm 11 — npm 10 rejects it with a bogus `Missing: @swc/helpers` error). Section 5 installs Node 24 privately under `/opt/applelab/node` so the other two projects keep Node 20 untouched. Do **not** upgrade the system Node.
+> **Node.js 24 is required.** AppleLab's frontend pins `engines.node: 24.15.x`, and its `package-lock.json` is written by npm 11 — npm 10 rejects it with a misleading `Missing: @swc/helpers` error. The server's system Node was upgraded from 20 to 24 for this deployment, so all three projects now share Node 24. If you upgrade the system Node again, see *Upgrading the system Node* at the end of this file — every project's `node_modules` must be rebuilt.
 
 ---
 
@@ -165,29 +165,23 @@ Static files land in `/opt/applelab/app/backend/staticfiles/`, uploads in `/opt/
 
 ## 5. Frontend Setup
 
-### Install Node 24 for this project only
+### Confirm the toolchain
 
 ```bash
-sudo -u applelab bash -c 'cd /opt/applelab && \
-  curl -fsSLO https://nodejs.org/dist/v24.16.0/node-v24.16.0-linux-x64.tar.xz && \
-  tar -xJf node-v24.16.0-linux-x64.tar.xz && \
-  rm node-v24.16.0-linux-x64.tar.xz && \
-  ln -sfn node-v24.16.0-linux-x64 node'
-
-/opt/applelab/node/bin/node -v   # v24.16.0
-/opt/applelab/node/bin/npm -v    # 11.x
+node -v   # must be v24.x
+npm -v    # must be 11.x
 ```
 
-The `node` symlink is what every command and the systemd unit reference, so a future upgrade is: unpack the new tarball, re-point the symlink, rebuild, restart.
+If this shows Node 20, stop — `npm ci` will fail. Upgrade first (see *Upgrading the system Node* below).
 
 ### Install dependencies
 
 ```bash
 cd /opt/applelab/app/frontend
-sudo -u applelab env PATH=/opt/applelab/node/bin:$PATH /opt/applelab/node/bin/npm ci
+sudo -u applelab npm ci
 ```
 
-> An `EBADENGINE` warning about `npm@11.12.1` vs the tarball's npm is harmless — `engines.npm` is an exact pin, and only `engines.node` actually matters.
+> An `EBADENGINE` warning about `npm@11.12.1` is harmless — `engines.npm` is an exact pin, and only `engines.node` actually matters.
 
 ### Environment file
 
@@ -210,7 +204,7 @@ Build:
 
 ```bash
 cd /opt/applelab/app/frontend
-sudo -u applelab env PATH=/opt/applelab/node/bin:$PATH NODE_ENV=production /opt/applelab/node/bin/npm run build
+sudo -u applelab npm run build
 ```
 
 ---
@@ -264,8 +258,7 @@ After=network.target applelab-backend.service
 User=applelab
 WorkingDirectory=/opt/applelab/app/frontend
 Environment="NODE_ENV=production"
-Environment="PATH=/opt/applelab/node/bin:/usr/local/bin:/usr/bin:/bin"
-ExecStart=/opt/applelab/node/bin/node node_modules/.bin/next start -p 3002
+ExecStart=/usr/bin/node node_modules/.bin/next start -p 3002
 Restart=on-failure
 
 [Install]
@@ -391,10 +384,10 @@ sudo -u applelab venv/bin/pip install -r requirements.txt
 sudo -u applelab DOTENV_FILE=.env.production venv/bin/python manage.py migrate
 sudo -u applelab DOTENV_FILE=.env.production venv/bin/python manage.py collectstatic --noinput
 
-# Frontend: deps + rebuild (Node 24 toolchain, not the system Node 20)
+# Frontend: deps + rebuild
 cd ../frontend
-sudo -u applelab env PATH=/opt/applelab/node/bin:$PATH /opt/applelab/node/bin/npm ci
-sudo -u applelab env PATH=/opt/applelab/node/bin:$PATH NODE_ENV=production /opt/applelab/node/bin/npm run build
+sudo -u applelab npm ci
+sudo -u applelab npm run build
 
 # Restart
 sudo systemctl restart applelab-backend applelab-frontend
@@ -423,8 +416,45 @@ Common issues:
 - **Unstyled admin** — `collectstatic` was not run, or the `/static/` alias path is wrong.
 - **Frontend 500s on data fetches** — `BACKEND_URL` is wrong, or the backend service is down; `curl` port 8002 directly.
 - **Rate limits behaving inconsistently** — `USE_REDIS=True` is missing, so each worker keeps its own counters.
-- **`npm ci` fails with `Missing: @swc/helpers@... from lock file`** — you are running the system npm 10. The lockfile is written by npm 11, which records optional peer dependencies differently. Use `/opt/applelab/node/bin/npm` (Section 5). Never "fix" this by running `npm install` on the server: it rewrites the committed lockfile and the failure returns on the next deploy.
-- **Frontend service dies at startup after a Node upgrade** — `node_modules` contains native builds (sharp, swc); re-run `npm ci` and `npm run build` with the new toolchain.
+- **`npm ci` fails with `Missing: @swc/helpers@... from lock file`** — you are on npm 10. The lockfile is written by npm 11, which records optional peer dependencies differently. Check `npm -v` and upgrade Node. Never "fix" this by running `npm install` on the server: it rewrites the committed lockfile and the failure returns on the next deploy.
+- **`NODE_MODULE_VERSION` mismatch or `invalid ELF header` on startup** — `node_modules` holds native builds (sharp, swc) compiled for the previous Node major. Delete `node_modules` and re-run `npm ci` + `npm run build`.
+
+---
+
+## Upgrading the system Node
+
+All three projects share `/usr/bin/node`, so a Node major upgrade is a coordinated, all-projects operation — not a package install. `apt` replaces the binary immediately, but running services keep the old one mapped in memory, so breakage surfaces at the *next* restart or reboot rather than during the upgrade. Do the rebuilds in the same maintenance window.
+
+```bash
+curl -fsSL https://deb.nodesource.com/setup_24.x | sudo -E bash -
+sudo apt install -y nodejs
+node -v && npm -v
+```
+
+Then rebuild every frontend from scratch — deleting `node_modules` is the step that matters, because native modules are compiled per Node ABI:
+
+```bash
+cd /opt/opsync/app/frontend
+sudo -u opsync rm -rf node_modules .next
+sudo -u opsync npm ci && sudo -u opsync npm run build
+sudo systemctl restart opsync-frontend
+
+cd /opt/ecommbdhosting/app/frontend
+sudo -u ecommbdhosting rm -rf node_modules .next
+sudo -u ecommbdhosting npm ci && sudo -u ecommbdhosting npm run build
+sudo systemctl restart ecommbdhosting-frontend
+
+cd /opt/applelab/app/frontend
+sudo -u applelab rm -rf node_modules .next
+sudo -u applelab npm ci && sudo -u applelab npm run build
+sudo systemctl restart applelab-frontend
+```
+
+Verify all three actually serve, rather than merely reporting `active`:
+
+```bash
+for p in 3000 3001 3002; do echo -n "$p -> "; curl -sS -o /dev/null -w '%{http_code}\n' http://127.0.0.1:$p; done
+```
 
 ---
 
