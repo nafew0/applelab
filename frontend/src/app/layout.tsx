@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import Providers from './providers'
 import ClientShell from './ClientShell'
+import { bengaliFont } from '@/theme/fonts'
 
 export const metadata: Metadata = {
   title: 'Apple Lab',
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="h-full antialiased">
-      <body suppressHydrationWarning className="flex min-h-full flex-col">
+      <body suppressHydrationWarning className={`flex min-h-full flex-col ${bengaliFont.variable}`}>
         <Providers>
           <ClientShell>{children}</ClientShell>
         </Providers>

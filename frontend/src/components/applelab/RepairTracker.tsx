@@ -1,13 +1,18 @@
 'use client'
 import { useRef, useState, type FormEvent } from 'react'
+import { useTranslations } from 'next-intl'
 
 /**
- * Repair status widget. Demo behaviour for now: submitting reveals the sample
- * timeline. Wiring it to the leads pipeline is a later phase.
+ * Repair status widget (Apple Lab design). DEMO behaviour for now: submitting
+ * reveals a sample timeline from messages `applelab.tracker.demo`. The real
+ * lookup against the leads pipeline arrives in AL-4.
  */
 export default function RepairTracker() {
+  const t = useTranslations('applelab.tracker')
   const [showResult, setShowResult] = useState(true)
   const idRef = useRef<HTMLInputElement>(null)
+  const steps = t.raw('demo.steps') as string[]
+  const activeIndex = 2
 
   const onSubmit = (e: FormEvent) => {
     e.preventDefault()
@@ -19,12 +24,12 @@ export default function RepairTracker() {
   }
 
   return (
-    <div className="tracker-card reveal">
+    <div className="tracker-card reveal" data-testid="repair-tracker">
       <form className="tracker-form" id="tracker-form" autoComplete="off" onSubmit={onSubmit}>
-        <input id="tracker-id" type="text" placeholder="Ticket ID  (e.g. APL-2026-04821)" ref={idRef} />
-        <input id="tracker-phone" type="text" placeholder="Last 4 of phone" />
+        <input id="tracker-id" type="text" placeholder={t('idPlaceholder')} ref={idRef} />
+        <input id="tracker-phone" type="text" placeholder={t('phonePlaceholder')} />
         <button type="submit" className="btn btn-primary">
-          Track
+          {t('submit')}
         </button>
       </form>
 
@@ -34,40 +39,27 @@ export default function RepairTracker() {
         aria-live="polite"
       >
         <div className="tracker-meta">
-          <span className="ticket">APL-2026-04821</span>
-          <span className="device">MacBook Pro 14&quot; · Screen replacement</span>
-          <span className="label">Estimated ready: tomorrow, 4:00 PM</span>
+          <span className="ticket">{t('demo.ticket')}</span>
+          <span className="device">{t('demo.device')}</span>
+          <span className="label">{t('demo.eta')}</span>
         </div>
 
         <div className="timeline" role="list">
-          <div className="step-dot done" role="listitem">
-            <div className="ring">✓</div>
-            <div className="name">Received</div>
-          </div>
-          <div className="step-dot done" role="listitem">
-            <div className="ring">✓</div>
-            <div className="name">Diagnosed</div>
-          </div>
-          <div className="step-dot active" role="listitem">
-            <div className="ring">3</div>
-            <div className="name">In repair</div>
-          </div>
-          <div className="step-dot" role="listitem">
-            <div className="ring">4</div>
-            <div className="name">Quality test</div>
-          </div>
-          <div className="step-dot" role="listitem">
-            <div className="ring">5</div>
-            <div className="name">Ready</div>
-          </div>
+          {steps.map((name, index) => (
+            <div
+              key={name}
+              className={`step-dot${index < activeIndex ? ' done' : index === activeIndex ? ' active' : ''}`}
+              role="listitem"
+            >
+              <div className="ring">{index < activeIndex ? '✓' : index + 1}</div>
+              <div className="name">{name}</div>
+            </div>
+          ))}
         </div>
 
         <div className="tracker-status-line">
           <span className="pulse" />
-          <span>
-            Your MacBook is with our engineers — display installed, currently in 24-hour burn-in
-            test.
-          </span>
+          <span>{t('demo.statusLine')}</span>
         </div>
       </div>
     </div>

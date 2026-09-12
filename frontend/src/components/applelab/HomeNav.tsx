@@ -1,23 +1,25 @@
 'use client'
 import { useEffect, useState } from 'react'
-import { useLocale } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
 
-import { LOCALES } from '@/i18n/config'
+import { LOCALES, LOCALE_LABELS, type AppLocale } from '@/i18n/config'
 import { usePathname, useRouter } from '@/i18n/navigation'
 
 const LINKS = [
-  { href: '#services', label: 'Services' },
-  { href: '#how', label: 'How it works' },
-  { href: '#tracker', label: 'Track repair' },
-  { href: '#corporate', label: 'Corporate' },
-  { href: '#blog', label: 'Blog' },
-]
+  { href: '#services', key: 'services' },
+  { href: '#how', key: 'how' },
+  { href: '#tracker', key: 'tracker' },
+  { href: '#corporate', key: 'corporate' },
+  { href: '#blog', key: 'blog' },
+] as const
 
 /**
- * Sticky translucent homepage nav. The hamburger opens a full-width drawer on
- * tablet/mobile, where the design hides the inline links.
+ * Sticky translucent homepage nav (Apple Lab design). Labels come from
+ * messages `applelab.nav`; the language switch uses the template locale
+ * config and shows the OTHER locale's native name.
  */
 export default function HomeNav() {
+  const t = useTranslations('applelab.nav')
   const [open, setOpen] = useState(false)
   const activeLocale = useLocale()
   const pathname = usePathname()
@@ -38,15 +40,29 @@ export default function HomeNav() {
     return () => removeEventListener('keydown', onKey)
   }, [])
 
-  const otherLocale = LOCALES.find((l) => l !== activeLocale)
+  const otherLocale = LOCALES.find((l) => l !== activeLocale) as AppLocale | undefined
   const switchLocale = () => {
     if (otherLocale) router.replace(pathname, { locale: otherLocale })
   }
 
+  const languageButton = (extraClass = '') =>
+    otherLocale ? (
+      <button
+        className={`nav-lang${extraClass}`}
+        type="button"
+        lang={otherLocale}
+        aria-label={t('switchLanguage')}
+        data-testid={`language-option-${otherLocale}`}
+        onClick={switchLocale}
+      >
+        {LOCALE_LABELS[otherLocale]}
+      </button>
+    ) : null
+
   return (
-    <nav className="nav" aria-label="Primary">
+    <nav className="nav" aria-label={t('primary')} data-testid="site-navbar">
       <div className="nav-inner">
-        <a href="#top" className="nav-brand" aria-label="Apple Lab home">
+        <a href="#top" className="nav-brand" aria-label={t('home')}>
           <img src="/applelab/icon.svg" alt="" aria-hidden="true" />
           <span className="wordmark">Apple Lab</span>
         </a>
@@ -54,30 +70,22 @@ export default function HomeNav() {
           {LINKS.map((link) => (
             <li key={link.href}>
               <a href={link.href} className="nav-link">
-                {link.label}
+                {t(link.key)}
               </a>
             </li>
           ))}
         </ul>
-        <div className="nav-right">
-          {LOCALES.length > 1 ? (
-            <button
-              className="nav-lang"
-              type="button"
-              aria-label="Switch language"
-              onClick={switchLocale}
-            >
-              বাংলা / EN
-            </button>
-          ) : null}
-          <a href="#booking" className="btn btn-primary btn-sm">
-            Book a Repair
+        <div className="nav-right" data-testid="navbar-desktop-actions">
+          {languageButton()}
+          <a href="#booking" className="btn btn-primary btn-sm" data-testid="navbar-cta">
+            {t('book')}
           </a>
           <button
             className="nav-burger"
             type="button"
-            aria-label={open ? 'Close menu' : 'Open menu'}
+            aria-label={open ? t('menuClose') : t('menuOpen')}
             aria-expanded={open}
+            data-testid="navbar-menu-button"
             onClick={() => setOpen((v) => !v)}
           >
             <svg>
@@ -87,25 +95,21 @@ export default function HomeNav() {
         </div>
       </div>
 
-      <div className={`nav-drawer${open ? ' open' : ''}`} hidden={!open}>
+      <div className={`nav-drawer${open ? ' open' : ''}`} hidden={!open} data-testid="navbar-drawer">
         <ul>
           {LINKS.map((link) => (
             <li key={link.href}>
               <a href={link.href} onClick={() => setOpen(false)}>
-                {link.label}
+                {t(link.key)}
               </a>
             </li>
           ))}
         </ul>
         <div className="nav-drawer-actions">
           <a href="#booking" className="btn btn-primary" onClick={() => setOpen(false)}>
-            Book a Repair
+            {t('book')}
           </a>
-          {LOCALES.length > 1 ? (
-            <button className="nav-lang" type="button" onClick={switchLocale}>
-              বাংলা / EN
-            </button>
-          ) : null}
+          {languageButton(' drawer')}
         </div>
       </div>
     </nav>

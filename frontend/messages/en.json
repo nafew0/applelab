@@ -112,5 +112,407 @@
     "title": "Page not found",
     "body": "The page you are looking for does not exist or has moved.",
     "backHome": "Back to home"
+  },
+  "applelab": {
+    "nav": {
+      "home": "Apple Lab home",
+      "services": "Services",
+      "how": "How it works",
+      "tracker": "Track repair",
+      "corporate": "Corporate",
+      "blog": "Blog",
+      "book": "Book a Repair",
+      "menuOpen": "Open menu",
+      "menuClose": "Close menu",
+      "switchLanguage": "Switch language",
+      "primary": "Primary"
+    },
+    "hero": {
+      "eyebrow": "Bangladesh's most trusted Apple repair lab",
+      "since": "Since 2010",
+      "headline": "Your Apple device,",
+      "headlineAccent": "perfectly repaired.",
+      "sub1": "MacBook · iPhone · iPad · iMac · Apple Watch.",
+      "sub2": "Genuine parts. 90-day warranty. Free diagnosis.",
+      "book": "Book a Repair",
+      "quote": "Get an Instant Quote",
+      "walkin": "Or walk in at Dhanmondi, Dhaka",
+      "showcaseAlt": "A MacBook Pro, iMac, Apple Watch and Magic Keyboard arranged on a white surface"
+    },
+    "trust": {
+      "years": "15+",
+      "yearsLabel": "Years of expertise",
+      "devices": "10,000+",
+      "devicesLabel": "Devices repaired",
+      "warranty": "90-day",
+      "warrantyLabel": "Warranty on every repair",
+      "noFix": "No fix.",
+      "noFixLabel": "No fee. Ever."
+    },
+    "devices": {
+      "eyebrow": "Our services",
+      "headline": "Every Apple device.",
+      "headlineAccent": "Every repair.",
+      "sub": "From cracked screens to logic-board surgery — if Apple made it, we fix it. Walk-in or courier nationwide.",
+      "book": "Book a repair",
+      "pricing": "View pricing",
+      "items": {
+        "macbook-pro": {
+          "title": "MacBook Pro",
+          "sub": "Screen · Battery · Logic board · Liquid damage",
+          "alt": "MacBook Pro"
+        },
+        "macbook-air": {
+          "title": "MacBook Air",
+          "sub": "Screen · Battery · Keyboard",
+          "alt": "MacBook Air"
+        },
+        "iphone": {
+          "title": "iPhone",
+          "sub": "Screen · Battery · Camera · Charging",
+          "alt": "iPhone"
+        },
+        "ipad": {
+          "title": "iPad",
+          "sub": "Screen · Battery · Charging port",
+          "alt": "iPad"
+        },
+        "imac": {
+          "title": "iMac",
+          "sub": "Display · SSD · Power supply",
+          "alt": "iMac"
+        },
+        "mac-mini": {
+          "title": "Mac Mini / Studio",
+          "sub": "SSD · Logic board · Cooling",
+          "alt": "Mac Mini"
+        },
+        "apple-watch": {
+          "title": "Apple Watch",
+          "sub": "Screen · Battery · Crown",
+          "alt": "Apple Watch"
+        },
+        "airpods": {
+          "title": "AirPods",
+          "sub": "Speaker · Mic · Battery",
+          "alt": "AirPods with charging case"
+        },
+        "accessories": {
+          "title": "Accessories",
+          "sub": "Chargers · Cables · Keyboards",
+          "alt": "Magic Keyboard"
+        }
+      }
+    },
+    "why": {
+      "eyebrow": "Why Apple Lab",
+      "headline1": "Repairs you can trust.",
+      "headline2": "Every time.",
+      "items": {
+        "certified": {
+          "title": "Certified technicians",
+          "body": "Engineers trained on Apple silicon, board-level repairs, and the tools the rest of Dhaka does not have."
+        },
+        "genuine": {
+          "title": "Genuine parts only",
+          "body": "OEM displays, batteries and logic-board components — sourced through the same supply chain Apple Authorized service providers use."
+        },
+        "warranty": {
+          "title": "90-day warranty",
+          "body": "Every repair comes with a no-questions-asked 90-day guarantee. If the same fault returns, we fix it free."
+        },
+        "noFee": {
+          "title": "No fix, no fee",
+          "body": "Free diagnosis. If we can't fix your device, you owe nothing — not even a service charge."
+        },
+        "sameDay": {
+          "title": "Same-day service",
+          "body": "Most screen, battery and charging repairs are completed within hours — not days."
+        },
+        "courier": {
+          "title": "Nationwide courier",
+          "body": "Outside Dhaka? Send your device by courier — we repair, test, and return it to your doorstep, insured."
+        }
+      }
+    },
+    "steps": {
+      "eyebrow": "Simple process",
+      "headline1": "From broken to like-new",
+      "headline2": "in four steps.",
+      "sub": "Engineered to be predictable. No surprises, no hidden costs, no time wasted.",
+      "cta": "Book your repair",
+      "items": {
+        "1": {
+          "title": "Book online or walk in",
+          "body": "Book a slot in seconds, or just walk into our Dhanmondi lab — six days a week, no appointment needed."
+        },
+        "2": {
+          "title": "Free diagnosis",
+          "body": "Our engineers run a full diagnostic on every device. Always free, always thorough."
+        },
+        "3": {
+          "title": "Repair with genuine parts",
+          "body": "You approve a fixed quote. We rebuild with original components and bench-test before sign-off."
+        },
+        "4": {
+          "title": "Pickup & 90-day warranty",
+          "body": "Collect in-store or have it couriered — every repair comes with our 90-day warranty as standard."
+        }
+      }
+    },
+    "repairs": {
+      "eyebrow": "Common repairs",
+      "headline1": "Know your price",
+      "headline2": "before you visit.",
+      "sub": "Starting prices for our most-booked services. Your final quote is fixed after free diagnosis — no surprises.",
+      "from": "From",
+      "cta": "Get an instant quote",
+      "note": "Prices may vary after free diagnosis.",
+      "items": [
+        {
+          "cat": "iPhone",
+          "name": "Screen replacement",
+          "price": "৳ 7,500"
+        },
+        {
+          "cat": "iPhone",
+          "name": "Battery replacement",
+          "price": "৳ 3,200"
+        },
+        {
+          "cat": "iPhone",
+          "name": "Charging port",
+          "price": "৳ 2,800"
+        },
+        {
+          "cat": "MacBook",
+          "name": "Retina display",
+          "price": "৳ 28,500"
+        },
+        {
+          "cat": "MacBook",
+          "name": "Battery replacement",
+          "price": "৳ 9,500"
+        },
+        {
+          "cat": "MacBook",
+          "name": "Keyboard / topcase",
+          "price": "৳ 14,000"
+        },
+        {
+          "cat": "MacBook",
+          "name": "Liquid damage recovery",
+          "price": "৳ 6,500"
+        },
+        {
+          "cat": "iPad",
+          "name": "Glass replacement",
+          "price": "৳ 6,800"
+        },
+        {
+          "cat": "iMac",
+          "name": "SSD upgrade",
+          "price": "৳ 12,000"
+        },
+        {
+          "cat": "Apple Watch",
+          "name": "Screen + battery",
+          "price": "৳ 5,500"
+        },
+        {
+          "cat": "AirPods",
+          "name": "Battery / speaker",
+          "price": "৳ 2,400"
+        }
+      ]
+    },
+    "tracker": {
+      "eyebrow": "Track your repair",
+      "headline1": "Know exactly where",
+      "headline2": "your device is.",
+      "sub": "Enter your ticket ID for real-time status updates — no phone calls, no waiting.",
+      "idPlaceholder": "Ticket ID  (e.g. APL-202609-00421)",
+      "phonePlaceholder": "Last 4 of phone",
+      "submit": "Track",
+      "demo": {
+        "ticket": "APL-202609-00421",
+        "device": "MacBook Pro 14\" · Screen replacement",
+        "eta": "Estimated ready: tomorrow, 4:00 PM",
+        "statusLine": "Your MacBook is with our engineers — display installed, currently in 24-hour burn-in test.",
+        "steps": [
+          "Received",
+          "Diagnosed",
+          "In repair",
+          "Quality test",
+          "Ready"
+        ]
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Customer stories",
+      "headline": "Thousands of happy",
+      "headlineAccent": "Apple users.",
+      "sub": "Real reviews from customers across Bangladesh.",
+      "reviewsLink": "See all 600+ Google reviews",
+      "stars": "5 out of 5",
+      "items": [
+        {
+          "quote": "“My MacBook Pro had liquid damage I was sure was terminal. Apple Lab brought it back in three days — and charged me half what an authorized centre quoted. Honest people, real expertise.”",
+          "name": "Tasnim R.",
+          "place": "Banani, Dhaka",
+          "device": "MacBook Pro 16\""
+        },
+        {
+          "quote": "“Cracked iPhone screen replaced in 40 minutes, indistinguishable from original. The Face ID still works perfectly — that’s the part nobody else gets right in this city.”",
+          "name": "Rifat A.",
+          "place": "Uttara, Dhaka",
+          "device": "iPhone 14 Pro"
+        },
+        {
+          "quote": "“They couriered our iMac back to Chattogram, repaired and packed better than the original box. Status updates by SMS through the entire process. This is how Apple service should feel.”",
+          "name": "Nusrat J.",
+          "place": "Chattogram",
+          "device": "iMac 24\" M1"
+        }
+      ]
+    },
+    "corporate": {
+      "eyebrow": "For business",
+      "headline1": "Apple fleet management,",
+      "headline2": "built for Dhaka's teams.",
+      "sub": "Priority repair, SLA contracts, bulk servicing, and monthly invoicing for companies running on Apple. From three-person studios to 500-seat enterprises.",
+      "cta": "Talk to corporate",
+      "plans": "See plans",
+      "imageAlt": "Apple Lab engineer servicing a MacBook at the workbench"
+    },
+    "blog": {
+      "eyebrow": "Tips & guides",
+      "headline": "From our repair experts.",
+      "seeAll": "See all articles",
+      "items": [
+        {
+          "cat": "Battery health",
+          "title": "When should you actually replace your iPhone battery?",
+          "excerpt": "The 80% rule is real, but it’s not the only signal. Here’s how our engineers decide.",
+          "author": "Tanvir, Lead Engineer",
+          "read": "4 min read",
+          "date": "May 2026",
+          "alt": "Battery being lifted out of a MacBook"
+        },
+        {
+          "cat": "MacBook",
+          "title": "Liquid damage: what to do in the first 60 minutes",
+          "excerpt": "The mistake almost everyone makes — and what to do instead if you want a chance at recovery.",
+          "author": "Rezwan, Sr. Engineer",
+          "read": "6 min read",
+          "date": "Apr 2026",
+          "alt": "MacBook logic board exposed on the bench"
+        },
+        {
+          "cat": "Buying guide",
+          "title": "Is a used MacBook from Bashundhara worth it in 2026?",
+          "excerpt": "What to check before you pay, what to walk away from, and the three model years to avoid entirely.",
+          "author": "Apple Lab Editorial",
+          "read": "8 min read",
+          "date": "Apr 2026",
+          "alt": "MacBook components laid out in order"
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Visit our lab",
+      "headline1": "Dhanmondi, Dhaka.",
+      "headline2": "Open six days a week.",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Hours",
+      "whatsapp": "WhatsApp us",
+      "directions": "Get directions",
+      "mapTitle": "Apple Lab, Dhanmondi, Dhaka"
+    },
+    "footer": {
+      "language": "Language:",
+      "services": "Services",
+      "quickLinks": "Quick links",
+      "contact": "Contact",
+      "follow": "Follow",
+      "careers": "Careers",
+      "press": "Press",
+      "rights": "© {year} Apple Lab Bangladesh. All rights reserved.",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "sitemap": "Sitemap",
+      "serviceLinks": [
+        "MacBook Pro repair",
+        "MacBook Air repair",
+        "iPhone repair",
+        "iPad repair",
+        "iMac repair",
+        "Apple Watch repair",
+        "AirPods repair"
+      ],
+      "quick": {
+        "book": "Book a repair",
+        "track": "Track repair",
+        "quote": "Get a quote",
+        "corporate": "Corporate services",
+        "sell": "Sell your Mac",
+        "faq": "FAQ",
+        "warranty": "Warranty policy"
+      }
+    },
+    "chat": {
+      "open": "Chat with AppleBot",
+      "title": "AppleBot",
+      "subtitle": "AI-powered · usually replies instantly",
+      "close": "Close chat",
+      "windowLabel": "Apple Lab chat assistant",
+      "placeholder": "Type a message…",
+      "send": "Send",
+      "greeting": "Hi! 👋 I'm AppleBot — ask me about prices, repair times, or how to book. I can also help track a repair.",
+      "tryPrefix": "Try: ",
+      "tryExample": "\"How much for an iPhone 13 screen?\"",
+      "replies": {
+        "price": "Most repairs start with a free diagnosis — once we know what is needed we send a fixed quote. Type your device + issue (e.g. “iPhone 13 screen”) and I will share a starting price.",
+        "screen": "Screen replacements use genuine Apple-grade parts. Service usually completes within 24 hours. Want me to start a booking?",
+        "battery": "Battery service for iPhone, MacBook, iPad and Apple Watch — original cells, 90-day warranty. Free health check on walk-in.",
+        "track": "You can track any repair with your ticket ID right on the homepage — or paste it here and I will look it up.",
+        "warranty": "Every repair is covered by our 90-day warranty. No-fix, no-fee — if we cannot fix it, you owe nothing.",
+        "hello": "Hi! I am AppleBot — ask me about prices, repair times, or how to book. I can also help track a repair.",
+        "fallback": "Got it. A human engineer can take over any time — tap “Book a Repair” at the top, or share your device + issue here and I will guide you."
+      }
+    },
+    "film": {
+      "eyebrow": "The Apple Lab process",
+      "introLine1": "Watch a MacBook",
+      "introLine2": "come",
+      "introAccent": "back to life.",
+      "captions": {
+        "01": "Free diagnosis — every fault, found",
+        "02": "Opened with care — board-level access",
+        "03": "Genuine parts, surgical hands",
+        "04": "Every component, accounted for"
+      },
+      "outroAccent": "Reborn.",
+      "outroBody": "Genuine parts. 90-day warranty. Like it never happened.",
+      "cta": "Book a repair",
+      "credit": "Repair photography — iFixit",
+      "hint": "Scroll to play",
+      "frames": [
+        "MacBook resting, screen dark",
+        "Technician inspecting the keyboard",
+        "Bottom case lifted away from the chassis",
+        "Driver removing internal screws",
+        "Battery being lifted out",
+        "Speakers lifted from the chassis",
+        "Tweezers disconnecting a ribbon cable",
+        "Tweezers seating a keycap",
+        "Logic board, fully exposed",
+        "Every component laid out in order",
+        "Chassis closing back up",
+        "MacBook reassembled"
+      ]
+    }
   }
 }

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { setRequestLocale } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 
 import ChatWidget from '@/components/applelab/ChatWidget'
 import HomeEffects from '@/components/applelab/HomeEffects'
@@ -7,13 +7,16 @@ import HomeNav from '@/components/applelab/HomeNav'
 import IconSprite from '@/components/applelab/IconSprite'
 import RepairTracker from '@/components/applelab/RepairTracker'
 import ScrollFilm from '@/components/applelab/ScrollFilm'
-import { getSiteConfig } from '@/lib/content'
+import { LOCALES, LOCALE_LABELS, type AppLocale } from '@/i18n/config'
+import { Link } from '@/i18n/navigation'
+import { getSiteConfig, whatsappLink } from '@/lib/content'
 import { buildSiteMetadata, localBusinessJsonLd } from '@/lib/seo'
 
 import './applelab-home.css'
 
 export const revalidate = 60
 
+/** Page title/description come from SiteConfig.meta (seeded by seed_applelab). */
 export async function generateMetadata({
   params,
 }: {
@@ -21,220 +24,70 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params
   const config = await getSiteConfig(locale)
-  // The homepage copy is fixed by the design, so its title/description are too.
-  // Everything else (alternates, OG url) still comes from SiteConfig.
-  const base = buildSiteMetadata(config, locale, 'Apple Lab')
-  const title = "Apple Lab — Bangladesh's most trusted Apple repair lab"
-  const description =
-    'MacBook, iPhone, iPad, iMac and Apple Watch repair in Dhanmondi, Dhaka. Genuine parts, free diagnosis and a 90-day warranty on every repair.'
-  return {
-    ...base,
-    title,
-    description,
-    openGraph: { ...base.openGraph, title, description },
-  }
+  return buildSiteMetadata(config, locale, 'Apple Lab')
 }
 
-const PROMO_CARDS = [
-  {
-    title: 'MacBook Pro',
-    sub: 'Screen · Battery · Logic board · Liquid damage',
-    img: '/applelab/device-macbook-pro.jpg',
-    alt: 'MacBook Pro',
-    className: 'promo-card sky wide',
-  },
-  {
-    title: 'MacBook Air',
-    sub: 'Screen · Battery · Keyboard',
-    img: '/applelab/device-macbook-air.jpg',
-    alt: 'MacBook Air',
-    className: 'promo-card',
-  },
-  {
-    title: 'iPhone',
-    sub: 'Screen · Battery · Camera · Charging',
-    img: '/applelab/device-iphone.jpg',
-    alt: 'iPhone',
-    className: 'promo-card sky',
-  },
-  {
-    title: 'iPad',
-    sub: 'Screen · Battery · Charging port',
-    img: '/applelab/device-ipad.jpg',
-    alt: 'iPad',
-    className: 'promo-card sky',
-  },
-  {
-    title: 'iMac',
-    sub: 'Display · SSD · Power supply',
-    img: '/applelab/device-imac.jpg',
-    alt: 'iMac',
-    className: 'promo-card',
-  },
-  {
-    title: 'Mac Mini / Studio',
-    sub: 'SSD · Logic board · Cooling',
-    img: '/applelab/device-mac-mini.jpg',
-    alt: 'Mac Mini',
-    className: 'promo-card',
-  },
-  {
-    title: 'Apple Watch',
-    sub: 'Screen · Battery · Crown',
-    img: '/applelab/device-apple-watch.jpg',
-    alt: 'Apple Watch',
-    className: 'promo-card sky',
-  },
-  {
-    title: 'AirPods',
-    sub: 'Speaker · Mic · Battery',
-    img: '/applelab/device-airpods.jpg',
-    alt: 'AirPods with charging case',
-    className: 'promo-card',
-  },
-  {
-    title: 'Accessories',
-    sub: 'Chargers · Cables · Keyboards',
-    img: '/applelab/device-accessories.jpg',
-    alt: 'Magic Keyboard',
-    className: 'promo-card',
-  },
-]
+/* ---------------------------------------------------------------------------
+ * Presentation data: images, icons, layout classes and anchors live in code;
+ * every human-readable string lives in messages/<locale>.json under `applelab`.
+ * ------------------------------------------------------------------------- */
 
-const FEATURES = [
-  {
-    icon: 'i-badge',
-    title: 'Certified technicians',
-    body: 'Engineers trained on Apple silicon, board-level repairs, and the tools the rest of Dhaka does not have.',
-  },
-  {
-    icon: 'i-sparkle',
-    title: 'Genuine parts only',
-    body: 'OEM displays, batteries and logic-board components — sourced through the same supply chain Apple Authorized service providers use.',
-  },
-  {
-    icon: 'i-shield',
-    title: '90-day warranty',
-    body: 'Every repair comes with a no-questions-asked 90-day guarantee. If the same fault returns, we fix it free.',
-  },
-  {
-    icon: 'i-receipt',
-    title: 'No fix, no fee',
-    body: "Free diagnosis. If we can't fix your device, you owe nothing — not even a service charge.",
-  },
-  {
-    icon: 'i-bolt',
-    title: 'Same-day service',
-    body: 'Most screen, battery and charging repairs are completed within hours — not days.',
-  },
-  {
-    icon: 'i-truck',
-    title: 'Nationwide courier',
-    body: 'Outside Dhaka? Send your device by courier — we repair, test, and return it to your doorstep, insured.',
-  },
-]
+const DEVICE_CARDS = [
+  { key: 'macbook-pro', img: '/applelab/device-macbook-pro.jpg', className: 'promo-card sky wide' },
+  { key: 'macbook-air', img: '/applelab/device-macbook-air.jpg', className: 'promo-card' },
+  { key: 'iphone', img: '/applelab/device-iphone.jpg', className: 'promo-card sky' },
+  { key: 'ipad', img: '/applelab/device-ipad.jpg', className: 'promo-card sky' },
+  { key: 'imac', img: '/applelab/device-imac.jpg', className: 'promo-card' },
+  { key: 'mac-mini', img: '/applelab/device-mac-mini.jpg', className: 'promo-card' },
+  { key: 'apple-watch', img: '/applelab/device-apple-watch.jpg', className: 'promo-card sky' },
+  { key: 'airpods', img: '/applelab/device-airpods.jpg', className: 'promo-card' },
+  { key: 'accessories', img: '/applelab/device-accessories.jpg', className: 'promo-card' },
+] as const
 
-const STEPS = [
-  {
-    num: '01',
-    title: 'Book online or walk in',
-    body: 'Book a slot in seconds, or just walk into our Dhanmondi lab — six days a week, no appointment needed.',
-  },
-  {
-    num: '02',
-    title: 'Free diagnosis',
-    body: 'Our engineers run a full diagnostic on every device. Always free, always thorough.',
-  },
-  {
-    num: '03',
-    title: 'Repair with genuine parts',
-    body: 'You approve a fixed quote. We rebuild with original components and bench-test before sign-off.',
-  },
-  {
-    num: '04',
-    title: 'Pickup & 90-day warranty',
-    body: 'Collect in-store or have it couriered — every repair comes with our 90-day warranty as standard.',
-  },
-]
+const FEATURE_ICONS = {
+  certified: 'i-badge',
+  genuine: 'i-sparkle',
+  warranty: 'i-shield',
+  noFee: 'i-receipt',
+  sameDay: 'i-bolt',
+  courier: 'i-truck',
+} as const
 
-const REPAIRS = [
-  { cat: 'iPhone', name: 'Screen replacement', price: '৳ 7,500' },
-  { cat: 'iPhone', name: 'Battery replacement', price: '৳ 3,200' },
-  { cat: 'iPhone', name: 'Charging port', price: '৳ 2,800' },
-  { cat: 'MacBook', name: 'Retina display', price: '৳ 28,500' },
-  { cat: 'MacBook', name: 'Battery replacement', price: '৳ 9,500' },
-  { cat: 'MacBook', name: 'Keyboard / topcase', price: '৳ 14,000' },
-  { cat: 'MacBook', name: 'Liquid damage recovery', price: '৳ 6,500' },
-  { cat: 'iPad', name: 'Glass replacement', price: '৳ 6,800' },
-  { cat: 'iMac', name: 'SSD upgrade', price: '৳ 12,000' },
-  { cat: 'Apple Watch', name: 'Screen + battery', price: '৳ 5,500' },
-  { cat: 'AirPods', name: 'Battery / speaker', price: '৳ 2,400' },
-]
+const STEP_KEYS = ['1', '2', '3', '4'] as const
 
-const TESTIMONIALS = [
-  {
-    quote:
-      '“My MacBook Pro had liquid damage I was sure was terminal. Apple Lab brought it back in three days — and charged me half what an authorized centre quoted. Honest people, real expertise.”',
-    name: 'Tasnim R.',
-    place: 'Banani, Dhaka',
-    device: 'MacBook Pro 16"',
-  },
-  {
-    quote:
-      '“Cracked iPhone screen replaced in 40 minutes, indistinguishable from original. The Face ID still works perfectly — that’s the part nobody else gets right in this city.”',
-    name: 'Rifat A.',
-    place: 'Uttara, Dhaka',
-    device: 'iPhone 14 Pro',
-  },
-  {
-    quote:
-      '“They couriered our iMac back to Chattogram, repaired and packed better than the original box. Status updates by SMS through the entire process. This is how Apple service should feel.”',
-    name: 'Nusrat J.',
-    place: 'Chattogram',
-    device: 'iMac 24" M1',
-  },
-]
+const BLOG_IMAGES = ['/applelab/hero-11.jpg', '/applelab/hero-08.jpg', '/applelab/hero-14.jpg'] as const
 
-const POSTS = [
-  {
-    cat: 'Battery health',
-    title: 'When should you actually replace your iPhone battery?',
-    excerpt:
-      'The 80% rule is real, but it’s not the only signal. Here’s how our engineers decide.',
-    author: 'Tanvir, Lead Engineer',
-    read: '4 min read',
-    date: 'May 2026',
-    img: '/applelab/hero-11.jpg',
-    alt: 'Battery being lifted out of a MacBook',
-  },
-  {
-    cat: 'MacBook',
-    title: 'Liquid damage: what to do in the first 60 minutes',
-    excerpt:
-      'The mistake almost everyone makes — and what to do instead if you want a chance at recovery.',
-    author: 'Rezwan, Sr. Engineer',
-    read: '6 min read',
-    date: 'Apr 2026',
-    img: '/applelab/hero-08.jpg',
-    alt: 'MacBook logic board exposed on the bench',
-  },
-  {
-    cat: 'Buying guide',
-    title: 'Is a used MacBook from Bashundhara worth it in 2026?',
-    excerpt:
-      'What to check before you pay, what to walk away from, and the three model years to avoid entirely.',
-    author: 'Apple Lab Editorial',
-    read: '8 min read',
-    date: 'Apr 2026',
-    img: '/applelab/hero-14.jpg',
-    alt: 'MacBook components laid out in order',
-  },
-]
+const QUICK_LINKS = [
+  { key: 'book', href: '#booking' },
+  { key: 'track', href: '#tracker' },
+  { key: 'quote', href: '#quote' },
+  { key: 'corporate', href: '#corporate' },
+  { key: 'sell', href: '#' },
+  { key: 'faq', href: '#' },
+  { key: 'warranty', href: '#' },
+] as const
+
+const SOCIALS = [
+  { key: 'facebook', icon: 'i-fb', label: 'Facebook' },
+  { key: 'instagram', icon: 'i-ig', label: 'Instagram' },
+  { key: 'youtube', icon: 'i-yt', label: 'YouTube' },
+  { key: 'linkedin', icon: 'i-in', label: 'LinkedIn' },
+] as const
+
+interface RepairItem { cat: string; name: string; price: string }
+interface TestimonialItem { quote: string; name: string; place: string; device: string }
+interface PostItem { cat: string; title: string; excerpt: string; author: string; read: string; date: string; alt: string }
+
+/** `tel:` href from a display number like "01603-710044" (BD → +880). */
+function telHref(display: string): string {
+  const digits = display.replace(/\D/g, '')
+  return `tel:+${digits.startsWith('0') ? `88${digits}` : digits}`
+}
 
 /**
- * Apple Lab homepage — a 1:1 port of the approved design (Design/Apple Lab
- * Homepage.html). Copy is intentionally static for this phase; the CMS wiring
- * follows once the content plan's price card and blog models land.
+ * Apple Lab homepage — 1:1 port of Design/Apple Lab Homepage.html.
+ * Copy: messages/*.json (`applelab`). Theme: src/theme/tokens.css.
+ * NAP/hours/WhatsApp/map: SiteConfig (backend `seed_applelab`).
  */
 export default async function HomePage({
   params,
@@ -243,7 +96,24 @@ export default async function HomePage({
 }) {
   const { locale } = await params
   setRequestLocale(locale)
-  const config = await getSiteConfig(locale)
+  const [t, config] = await Promise.all([
+    getTranslations({ locale, namespace: 'applelab' }),
+    getSiteConfig(locale),
+  ])
+
+  const repairs = t.raw('repairs.items') as RepairItem[]
+  const testimonials = t.raw('testimonials.items') as TestimonialItem[]
+  const posts = t.raw('blog.items') as PostItem[]
+  const serviceLinks = t.raw('footer.serviceLinks') as string[]
+
+  const whatsapp = config ? whatsappLink(config.whatsapp_number) : null
+  const directions = config?.address
+    ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(config.address.replace(/\n/g, ', '))}`
+    : null
+  const socials = config
+    ? SOCIALS.filter((s) => Boolean(config.social[s.key]))
+    : []
+  const year = new Date().getFullYear()
 
   return (
     <>
@@ -266,31 +136,31 @@ export default async function HomePage({
           <div className="hero-bg-glow" />
           <div className="container-wide">
             <p className="hero-eyebrow reveal">
-              Bangladesh&apos;s most trusted Apple repair lab
+              {config?.tagline || t('hero.eyebrow')}
               <span className="dot" />
-              Since 2010
+              {t('hero.since')}
             </p>
-            <h1 className="h-hero reveal">
-              Your Apple device,
+            <h1 className="h-hero reveal" data-testid="hero-headline">
+              {t('hero.headline')}
               <br />
-              <span className="gradient-text">perfectly repaired.</span>
+              <span className="gradient-text">{t('hero.headlineAccent')}</span>
             </h1>
             <p className="sub reveal">
-              MacBook · iPhone · iPad · iMac · Apple Watch.
+              {t('hero.sub1')}
               <br />
-              Genuine parts. 90-day warranty. Free diagnosis.
+              {t('hero.sub2')}
             </p>
             <div className="btn-row hero-cta reveal">
-              <a href="#booking" className="btn btn-primary">
-                Book a Repair
+              <a href="#booking" className="btn btn-primary" data-testid="hero-cta-primary">
+                {t('hero.book')}
               </a>
               <a href="#quote" className="btn btn-secondary">
-                Get an Instant Quote
+                {t('hero.quote')}
               </a>
             </div>
             <div className="hero-walkin reveal">
               <a href="#contact" className="link">
-                Or walk in at Dhanmondi, Dhaka
+                {t('hero.walkin')}
               </a>
             </div>
           </div>
@@ -299,7 +169,7 @@ export default async function HomePage({
             <img
               className="hero-showcase-media"
               src="/applelab/hero-showcase.jpg"
-              alt="A MacBook Pro, iMac, Apple Watch and Magic Keyboard arranged on a white surface"
+              alt={t('hero.showcaseAlt')}
               fetchPriority="high"
             />
           </div>
@@ -307,66 +177,55 @@ export default async function HomePage({
           <div className="trust-bar reveal stagger">
             <div className="trust-item">
               <div className="num">
-                <span data-count="15" data-suffix="+">
-                  15+
-                </span>
+                <span data-count="15" data-suffix="+">{t('trust.years')}</span>
               </div>
-              <div className="lbl">Years of expertise</div>
+              <div className="lbl">{t('trust.yearsLabel')}</div>
             </div>
             <div className="trust-item">
               <div className="num">
-                <span data-count="10000" data-suffix="+">
-                  10,000+
-                </span>
+                <span data-count="10000" data-suffix="+">{t('trust.devices')}</span>
               </div>
-              <div className="lbl">Devices repaired</div>
+              <div className="lbl">{t('trust.devicesLabel')}</div>
             </div>
             <div className="trust-item">
-              <div className="num">
-                <span data-count="90" data-suffix="-day">
-                  90-day
-                </span>
-              </div>
-              <div className="lbl">Warranty on every repair</div>
+              <div className="num">{t('trust.warranty')}</div>
+              <div className="lbl">{t('trust.warrantyLabel')}</div>
             </div>
             <div className="trust-item">
-              <div className="num">No fix.</div>
-              <div className="lbl">No fee. Ever.</div>
+              <div className="num">{t('trust.noFix')}</div>
+              <div className="lbl">{t('trust.noFixLabel')}</div>
             </div>
           </div>
         </section>
 
         {/* ================= DEVICE GRID ================= */}
-        <section className="section gray" id="services">
+        <section className="section gray" id="services" data-testid="devices-section">
           <div className="container">
             <div className="section-head reveal">
-              <p className="eyebrow">Our services</p>
+              <p className="eyebrow">{t('devices.eyebrow')}</p>
               <h2 className="h-xl">
-                Every Apple device.
+                {t('devices.headline')}
                 <br />
-                <span className="gradient-text">Every repair.</span>
+                <span className="gradient-text">{t('devices.headlineAccent')}</span>
               </h2>
-              <p className="sub">
-                From cracked screens to logic-board surgery — if Apple made it, we fix it. Walk-in
-                or courier nationwide.
-              </p>
+              <p className="sub">{t('devices.sub')}</p>
             </div>
 
             <div className="promo-grid reveal stagger">
-              {PROMO_CARDS.map((card) => (
-                <div className={card.className} key={card.title}>
-                  <h3>{card.title}</h3>
-                  <p className="promo-sub">{card.sub}</p>
+              {DEVICE_CARDS.map((card) => (
+                <div className={card.className} key={card.key} data-testid="device-card">
+                  <h3>{t(`devices.items.${card.key}.title`)}</h3>
+                  <p className="promo-sub">{t(`devices.items.${card.key}.sub`)}</p>
                   <div className="promo-actions">
                     <a href="#booking" className="btn btn-primary btn-sm">
-                      Book a repair
+                      {t('devices.book')}
                     </a>
                     <a href="#quote" className="btn btn-secondary btn-sm">
-                      View pricing
+                      {t('devices.pricing')}
                     </a>
                   </div>
                   <div className="promo-media">
-                    <img src={card.img} alt={card.alt} loading="lazy" />
+                    <img src={card.img} alt={t(`devices.items.${card.key}.alt`)} loading="lazy" />
                   </div>
                 </div>
               ))}
@@ -378,23 +237,23 @@ export default async function HomePage({
         <section className="section">
           <div className="container">
             <div className="section-head reveal">
-              <p className="eyebrow">Why Apple Lab</p>
+              <p className="eyebrow">{t('why.eyebrow')}</p>
               <h2 className="h-xl">
-                Repairs you can trust.
+                {t('why.headline1')}
                 <br />
-                Every time.
+                {t('why.headline2')}
               </h2>
             </div>
             <div className="feature-grid reveal stagger">
-              {FEATURES.map((f) => (
-                <article className="feature-card" key={f.title}>
+              {(Object.keys(FEATURE_ICONS) as Array<keyof typeof FEATURE_ICONS>).map((key) => (
+                <article className="feature-card" key={key}>
                   <div className="icon-wrap">
                     <svg>
-                      <use href={`#${f.icon}`} />
+                      <use href={`#${FEATURE_ICONS[key]}`} />
                     </svg>
                   </div>
-                  <h3>{f.title}</h3>
-                  <p>{f.body}</p>
+                  <h3>{t(`why.items.${key}.title`)}</h3>
+                  <p>{t(`why.items.${key}.body`)}</p>
                 </article>
               ))}
             </div>
@@ -405,31 +264,29 @@ export default async function HomePage({
         <section className="section dark" id="how">
           <div className="container">
             <div className="section-head reveal">
-              <p className="eyebrow">Simple process</p>
-              <h2 className="h-xl" style={{ color: '#fff' }}>
-                From broken to like-new
+              <p className="eyebrow">{t('steps.eyebrow')}</p>
+              <h2 className="h-xl on-dark">
+                {t('steps.headline1')}
                 <br />
-                in four steps.
+                {t('steps.headline2')}
               </h2>
-              <p className="sub bright">
-                Engineered to be predictable. No surprises, no hidden costs, no time wasted.
-              </p>
+              <p className="sub bright">{t('steps.sub')}</p>
             </div>
 
             <div className="steps reveal stagger">
-              {STEPS.map((s) => (
-                <div className="step" key={s.num}>
-                  <div className="step-num">{s.num}</div>
-                  <h3>{s.title}</h3>
-                  <p>{s.body}</p>
+              {STEP_KEYS.map((key, index) => (
+                <div className="step" key={key}>
+                  <div className="step-num">{String(index + 1).padStart(2, '0')}</div>
+                  <h3>{t(`steps.items.${key}.title`)}</h3>
+                  <p>{t(`steps.items.${key}.body`)}</p>
                 </div>
               ))}
             </div>
 
             <div className="steps-cta reveal">
               <a href="#booking" className="btn btn-ghost-dark">
-                Book your repair{' '}
-                <svg style={{ width: 14, height: 14, stroke: '#fff', fill: 'none', strokeWidth: 2 }}>
+                {t('steps.cta')}{' '}
+                <svg className="btn-icon">
                   <use href="#i-arrow" />
                 </svg>
               </a>
@@ -440,38 +297,33 @@ export default async function HomePage({
         {/* ================= COMMON REPAIRS ================= */}
         <section className="section gray" id="quote">
           <div className="container">
-            <div className="section-head reveal" style={{ marginBottom: 48 }}>
-              <p className="eyebrow">Common repairs</p>
+            <div className="section-head reveal mb-48">
+              <p className="eyebrow">{t('repairs.eyebrow')}</p>
               <h2 className="h-xl">
-                Know your price
+                {t('repairs.headline1')}
                 <br />
-                before you visit.
+                {t('repairs.headline2')}
               </h2>
-              <p className="sub">
-                Starting prices for our most-booked services. Your final quote is fixed after free
-                diagnosis — no surprises.
-              </p>
+              <p className="sub">{t('repairs.sub')}</p>
             </div>
 
             <div className="repair-strip reveal" role="list">
-              {REPAIRS.map((r) => (
+              {repairs.map((r) => (
                 <div className="repair-pill" role="listitem" key={`${r.cat}-${r.name}`}>
                   <span className="repair-cat">{r.cat}</span>
                   <span className="repair-name">{r.name}</span>
                   <span className="repair-price">
-                    From <strong>{r.price}</strong>
+                    {t('repairs.from')} <strong>{r.price}</strong>
                   </span>
                 </div>
               ))}
             </div>
 
-            <div className="btn-row reveal" style={{ marginTop: 32 }}>
+            <div className="btn-row reveal mt-32">
               <a href="#" className="btn btn-primary">
-                Get an instant quote
+                {t('repairs.cta')}
               </a>
-              <span style={{ fontSize: 14, color: 'var(--text-tertiary)' }}>
-                Prices may vary after free diagnosis.
-              </span>
+              <span className="repair-note">{t('repairs.note')}</span>
             </div>
           </div>
         </section>
@@ -480,15 +332,13 @@ export default async function HomePage({
         <section className="section" id="tracker">
           <div className="container-narrow">
             <div className="section-head reveal">
-              <p className="eyebrow">Track your repair</p>
+              <p className="eyebrow">{t('tracker.eyebrow')}</p>
               <h2 className="h-xl">
-                Know exactly where
+                {t('tracker.headline1')}
                 <br />
-                your device is.
+                {t('tracker.headline2')}
               </h2>
-              <p className="sub">
-                Enter your ticket ID for real-time status updates — no phone calls, no waiting.
-              </p>
+              <p className="sub">{t('tracker.sub')}</p>
             </div>
 
             <RepairTracker />
@@ -496,39 +346,39 @@ export default async function HomePage({
         </section>
 
         {/* ================= TESTIMONIALS (DARK) ================= */}
-        <section className="section dark">
+        <section className="section dark" data-testid="testimonials-section">
           <div className="container">
             <div className="section-head reveal">
-              <p className="eyebrow">Customer stories</p>
-              <h2 className="h-xl" style={{ color: '#fff' }}>
-                Thousands of happy
+              <p className="eyebrow">{t('testimonials.eyebrow')}</p>
+              <h2 className="h-xl on-dark">
+                {t('testimonials.headline')}
                 <br />
-                <span className="gradient-text">Apple users.</span>
+                <span className="gradient-text">{t('testimonials.headlineAccent')}</span>
               </h2>
-              <p className="sub bright">Real reviews from customers across Bangladesh.</p>
+              <p className="sub bright">{t('testimonials.sub')}</p>
             </div>
 
             <div className="testimonial-row reveal stagger">
-              {TESTIMONIALS.map((t) => (
-                <article className="testimonial" key={t.name}>
-                  <div className="stars" aria-label="5 out of 5">
+              {testimonials.map((item) => (
+                <article className="testimonial" key={item.name}>
+                  <div className="stars" aria-label={t('testimonials.stars')}>
                     ★★★★★
                   </div>
-                  <blockquote>{t.quote}</blockquote>
+                  <blockquote>{item.quote}</blockquote>
                   <div className="testimonial-meta">
                     <div className="name">
-                      <strong>{t.name}</strong>
-                      <span>{t.place}</span>
+                      <strong>{item.name}</strong>
+                      <span>{item.place}</span>
                     </div>
-                    <span className="device-badge">{t.device}</span>
+                    <span className="device-badge">{item.device}</span>
                   </div>
                 </article>
               ))}
             </div>
 
-            <div className="center reveal" style={{ marginTop: 48 }}>
-              <a href="#" className="link" style={{ color: 'var(--brand-blue)' }}>
-                See all 600+ Google reviews
+            <div className="center reveal mt-48">
+              <a href="#" className="link brand">
+                {t('testimonials.reviewsLink')}
               </a>
             </div>
           </div>
@@ -539,22 +389,19 @@ export default async function HomePage({
           <div className="container">
             <div className="split">
               <div className="copy reveal">
-                <p className="eyebrow">For business</p>
+                <p className="eyebrow">{t('corporate.eyebrow')}</p>
                 <h2 className="h-lg">
-                  Apple fleet management,
+                  {t('corporate.headline1')}
                   <br />
-                  built for Dhaka&apos;s teams.
+                  {t('corporate.headline2')}
                 </h2>
-                <p className="sub">
-                  Priority repair, SLA contracts, bulk servicing, and monthly invoicing for
-                  companies running on Apple. From three-person studios to 500-seat enterprises.
-                </p>
-                <div className="btn-row left" style={{ marginTop: 32 }}>
+                <p className="sub">{t('corporate.sub')}</p>
+                <div className="btn-row left mt-32">
                   <a href="#" className="btn btn-primary">
-                    Talk to corporate
+                    {t('corporate.cta')}
                   </a>
                   <a href="#" className="btn btn-secondary">
-                    See plans
+                    {t('corporate.plans')}
                   </a>
                 </div>
               </div>
@@ -562,7 +409,7 @@ export default async function HomePage({
                 <img
                   className="split-media"
                   src="/applelab/hero-03.jpg"
-                  alt="Apple Lab engineer servicing a MacBook at the workbench"
+                  alt={t('corporate.imageAlt')}
                   loading="lazy"
                 />
               </div>
@@ -573,41 +420,30 @@ export default async function HomePage({
         {/* ================= BLOG ================= */}
         <section className="section" id="blog">
           <div className="container">
-            <div
-              className="section-head left reveal"
-              style={{
-                flexDirection: 'row',
-                justifyContent: 'space-between',
-                alignItems: 'flex-end',
-                maxWidth: 'none',
-                marginBottom: 48,
-              }}
-            >
+            <div className="section-head left row reveal">
               <div>
-                <p className="eyebrow">Tips &amp; guides</p>
-                <h2 className="h-lg" style={{ marginTop: 8 }}>
-                  From our repair experts.
-                </h2>
+                <p className="eyebrow">{t('blog.eyebrow')}</p>
+                <h2 className="h-lg mt-8">{t('blog.headline')}</h2>
               </div>
-              <a href="#" className="link" style={{ whiteSpace: 'nowrap' }}>
-                See all articles
+              <a href="#" className="link nowrap">
+                {t('blog.seeAll')}
               </a>
             </div>
 
             <div className="blog-grid reveal stagger">
-              {POSTS.map((p) => (
-                <a href="#" className="blog-card" key={p.title}>
-                  <img className="blog-media" src={p.img} alt={p.alt} loading="lazy" />
+              {posts.map((post, index) => (
+                <a href="#" className="blog-card" key={post.title}>
+                  <img className="blog-media" src={BLOG_IMAGES[index] ?? BLOG_IMAGES[0]} alt={post.alt} loading="lazy" />
                   <div className="body">
-                    <span className="cat">{p.cat}</span>
-                    <h3>{p.title}</h3>
-                    <p>{p.excerpt}</p>
+                    <span className="cat">{post.cat}</span>
+                    <h3>{post.title}</h3>
+                    <p>{post.excerpt}</p>
                     <div className="meta">
-                      <span>{p.author}</span>
+                      <span>{post.author}</span>
                       <span className="dot" />
-                      <span>{p.read}</span>
+                      <span>{post.read}</span>
                       <span className="dot" />
-                      <span>{p.date}</span>
+                      <span>{post.date}</span>
                     </div>
                   </div>
                 </a>
@@ -617,232 +453,187 @@ export default async function HomePage({
         </section>
 
         {/* ================= CONTACT / MAP ================= */}
-        <section className="section gray" id="contact">
+        <section className="section gray" id="contact" data-testid="contact-section">
           <div className="container">
             <div className="split">
               <div className="copy reveal">
-                <p className="eyebrow">Visit our lab</p>
+                <p className="eyebrow">{t('contact.eyebrow')}</p>
                 <h2 className="h-lg">
-                  Dhanmondi, Dhaka.
+                  {t('contact.headline1')}
                   <br />
-                  Open six days a week.
+                  {t('contact.headline2')}
                 </h2>
 
-                <div className="contact-info">
-                  <div className="contact-row">
-                    <div className="icon-wrap">
-                      <svg>
-                        <use href="#i-pin" />
-                      </svg>
-                    </div>
-                    <div>
-                      <div className="info-label">Address</div>
-                      <div className="info-value">
-                        ADC Empire Plaza, 183 Satmasjid Road
-                        <br />
-                        Dhanmondi, Dhaka 1205
+                <div className="contact-info" data-testid="contact-info">
+                  {config?.address ? (
+                    <div className="contact-row">
+                      <div className="icon-wrap"><svg><use href="#i-pin" /></svg></div>
+                      <div>
+                        <div className="info-label">{t('contact.address')}</div>
+                        <div className="info-value pre-line">{config.address}</div>
                       </div>
                     </div>
-                  </div>
-                  <div className="contact-row">
-                    <div className="icon-wrap">
-                      <svg>
-                        <use href="#i-phone" />
-                      </svg>
-                    </div>
-                    <div>
-                      <div className="info-label">Phone</div>
-                      <div className="info-value">
-                        <a href="tel:+8801603710044">01603-710044</a>
-                        &nbsp;·&nbsp;
-                        <a href="tel:+8801737292828">01737-292828</a>
+                  ) : null}
+                  {config?.phone_primary ? (
+                    <div className="contact-row">
+                      <div className="icon-wrap"><svg><use href="#i-phone" /></svg></div>
+                      <div>
+                        <div className="info-label">{t('contact.phone')}</div>
+                        <div className="info-value">
+                          <a href={telHref(config.phone_primary)}>{config.phone_primary}</a>
+                          {config.phone_secondary ? (
+                            <>
+                              &nbsp;·&nbsp;
+                              <a href={telHref(config.phone_secondary)}>{config.phone_secondary}</a>
+                            </>
+                          ) : null}
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="contact-row">
-                    <div className="icon-wrap">
-                      <svg>
-                        <use href="#i-mail" />
-                      </svg>
-                    </div>
-                    <div>
-                      <div className="info-label">Email</div>
-                      <div className="info-value">
-                        <a href="mailto:hello@applelab.com.bd">hello@applelab.com.bd</a>
+                  ) : null}
+                  {config?.email ? (
+                    <div className="contact-row">
+                      <div className="icon-wrap"><svg><use href="#i-mail" /></svg></div>
+                      <div>
+                        <div className="info-label">{t('contact.email')}</div>
+                        <div className="info-value">
+                          <a href={`mailto:${config.email}`}>{config.email}</a>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="contact-row">
-                    <div className="icon-wrap">
-                      <svg>
-                        <use href="#i-clock" />
-                      </svg>
-                    </div>
-                    <div>
-                      <div className="info-label">Hours</div>
-                      <div className="info-value">
-                        Saturday – Thursday · 10 AM – 9 PM
-                        <br />
-                        Closed on Fridays &amp; public holidays
+                  ) : null}
+                  {config?.hours ? (
+                    <div className="contact-row">
+                      <div className="icon-wrap"><svg><use href="#i-clock" /></svg></div>
+                      <div>
+                        <div className="info-label">{t('contact.hours')}</div>
+                        <div className="info-value pre-line">{config.hours}</div>
                       </div>
                     </div>
-                  </div>
+                  ) : null}
                 </div>
 
                 <div className="btn-row left">
-                  <a href="#" className="btn btn-primary">
-                    WhatsApp us
-                  </a>
-                  <a href="#" className="btn btn-secondary">
-                    Get directions
-                  </a>
+                  {whatsapp ? (
+                    <a href={whatsapp} target="_blank" rel="noreferrer" className="btn btn-primary" data-testid="whatsapp-link">
+                      {t('contact.whatsapp')}
+                    </a>
+                  ) : null}
+                  {directions ? (
+                    <a href={directions} target="_blank" rel="noreferrer" className="btn btn-secondary">
+                      {t('contact.directions')}
+                    </a>
+                  ) : null}
                 </div>
               </div>
 
-              <div className="visual reveal">
-                <iframe
-                  className="map-frame"
-                  title="Apple Lab, Dhanmondi, Dhaka"
-                  src="https://www.google.com/maps?q=ADC%20Empire%20Plaza%2C%20183%20Satmasjid%20Road%2C%20Dhanmondi%2C%20Dhaka%201205&output=embed"
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                />
-              </div>
+              {config?.maps_embed_url ? (
+                <div className="visual reveal">
+                  <iframe
+                    className="map-frame"
+                    title={t('contact.mapTitle')}
+                    src={config.maps_embed_url}
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    data-testid="map-iframe"
+                  />
+                </div>
+              ) : null}
             </div>
           </div>
         </section>
 
         {/* ================= FOOTER ================= */}
-        <footer className="footer">
+        <footer className="footer" data-testid="site-footer">
           <div className="container">
             <div className="footer-top">
               <div className="brand">
                 <img src="/applelab/icon-white.svg" alt="" />
-                <span className="wordmark">Apple Lab</span>
+                <span className="wordmark">{config?.site_name || 'Apple Lab'}</span>
               </div>
-              <div style={{ display: 'flex', gap: 14, alignItems: 'center' }}>
-                <span style={{ fontSize: 13, color: '#86868B' }}>Language:</span>
-                <a href="#" style={{ fontSize: 13, color: '#fff' }}>
-                  English
-                </a>
-                <span style={{ color: '#3A3A3C' }}>·</span>
-                <a href="#" style={{ fontSize: 13, color: '#86868B' }}>
-                  বাংলা
-                </a>
-              </div>
+              {LOCALES.length > 1 ? (
+                <div className="footer-lang" data-testid="footer-language">
+                  <span className="muted">{t('footer.language')}</span>
+                  {LOCALES.map((code, index) => (
+                    <span key={code} className="footer-lang-item">
+                      {index > 0 ? <span className="sep">·</span> : null}
+                      <Link
+                        href="/"
+                        locale={code}
+                        lang={code}
+                        className={code === locale ? 'active' : undefined}
+                        aria-current={code === locale ? 'true' : undefined}
+                      >
+                        {LOCALE_LABELS[code as AppLocale]}
+                      </Link>
+                    </span>
+                  ))}
+                </div>
+              ) : null}
             </div>
 
             <div className="footer-grid">
               <div className="footer-col">
-                <h4>Services</h4>
+                <h4>{t('footer.services')}</h4>
                 <ul>
-                  <li>
-                    <a href="#">MacBook Pro repair</a>
-                  </li>
-                  <li>
-                    <a href="#">MacBook Air repair</a>
-                  </li>
-                  <li>
-                    <a href="#">iPhone repair</a>
-                  </li>
-                  <li>
-                    <a href="#">iPad repair</a>
-                  </li>
-                  <li>
-                    <a href="#">iMac repair</a>
-                  </li>
-                  <li>
-                    <a href="#">Apple Watch repair</a>
-                  </li>
-                  <li>
-                    <a href="#">AirPods repair</a>
-                  </li>
+                  {serviceLinks.map((label) => (
+                    <li key={label}>
+                      <a href="#services">{label}</a>
+                    </li>
+                  ))}
                 </ul>
               </div>
               <div className="footer-col">
-                <h4>Quick links</h4>
+                <h4>{t('footer.quickLinks')}</h4>
                 <ul>
-                  <li>
-                    <a href="#booking">Book a repair</a>
-                  </li>
-                  <li>
-                    <a href="#tracker">Track repair</a>
-                  </li>
-                  <li>
-                    <a href="#quote">Get a quote</a>
-                  </li>
-                  <li>
-                    <a href="#corporate">Corporate services</a>
-                  </li>
-                  <li>
-                    <a href="#">Sell your Mac</a>
-                  </li>
-                  <li>
-                    <a href="#">FAQ</a>
-                  </li>
-                  <li>
-                    <a href="#">Warranty policy</a>
-                  </li>
+                  {QUICK_LINKS.map((link) => (
+                    <li key={link.key}>
+                      <a href={link.href}>{t(`footer.quick.${link.key}`)}</a>
+                    </li>
+                  ))}
                 </ul>
               </div>
               <div className="footer-col">
-                <h4>Contact</h4>
+                <h4>{t('footer.contact')}</h4>
                 <ul>
-                  <li>
-                    <a href="tel:+8801603710044">01603-710044</a>
-                  </li>
-                  <li>
-                    <a href="tel:+8801737292828">01737-292828</a>
-                  </li>
-                  <li>
-                    <a href="mailto:hello@applelab.com.bd">hello@applelab.com.bd</a>
-                  </li>
-                  <li style={{ color: '#86868B' }}>
-                    ADC Empire Plaza, 183 Satmasjid Rd, Dhanmondi, Dhaka 1205
-                  </li>
+                  {config?.phone_primary ? (
+                    <li><a href={telHref(config.phone_primary)}>{config.phone_primary}</a></li>
+                  ) : null}
+                  {config?.phone_secondary ? (
+                    <li><a href={telHref(config.phone_secondary)}>{config.phone_secondary}</a></li>
+                  ) : null}
+                  {config?.email ? (
+                    <li><a href={`mailto:${config.email}`}>{config.email}</a></li>
+                  ) : null}
+                  {config?.address ? (
+                    <li className="muted">{config.address.replace(/\n/g, ', ')}</li>
+                  ) : null}
                 </ul>
               </div>
               <div className="footer-col">
-                <h4>Follow</h4>
-                <div className="social-row">
-                  <a href="#" aria-label="Facebook">
-                    <svg>
-                      <use href="#i-fb" />
-                    </svg>
-                  </a>
-                  <a href="#" aria-label="Instagram">
-                    <svg>
-                      <use href="#i-ig" />
-                    </svg>
-                  </a>
-                  <a href="#" aria-label="YouTube">
-                    <svg>
-                      <use href="#i-yt" />
-                    </svg>
-                  </a>
-                  <a href="#" aria-label="LinkedIn">
-                    <svg>
-                      <use href="#i-in" />
-                    </svg>
-                  </a>
-                </div>
-                <ul style={{ marginTop: 24 }}>
-                  <li>
-                    <a href="#">Careers</a>
-                  </li>
-                  <li>
-                    <a href="#">Press</a>
-                  </li>
+                <h4>{t('footer.follow')}</h4>
+                {socials.length > 0 ? (
+                  <div className="social-row">
+                    {socials.map((s) => (
+                      <a key={s.key} href={config?.social[s.key]} target="_blank" rel="noreferrer" aria-label={s.label}>
+                        <svg><use href={`#${s.icon}`} /></svg>
+                      </a>
+                    ))}
+                  </div>
+                ) : null}
+                <ul className={socials.length > 0 ? 'mt-24' : undefined}>
+                  <li><a href="#">{t('footer.careers')}</a></li>
+                  <li><a href="#">{t('footer.press')}</a></li>
                 </ul>
               </div>
             </div>
 
             <div className="footer-bottom">
-              <span>© 2026 Apple Lab Bangladesh. All rights reserved.</span>
+              <span>{t('footer.rights', { year })}</span>
               <div className="legal-links">
-                <a href="#">Privacy</a>
-                <a href="#">Terms</a>
-                <a href="#">Sitemap</a>
+                <a href="#">{t('footer.privacy')}</a>
+                <a href="#">{t('footer.terms')}</a>
+                <a href="/sitemap.xml">{t('footer.sitemap')}</a>
               </div>
             </div>
           </div>

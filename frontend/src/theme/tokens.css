@@ -1,52 +1,46 @@
 /**
  * Apple Lab theme tokens — THE per-client theming entrypoint.
  *
- * Re-theming a client site touches ONLY:
- *   1. this file (token values),
- *   2. src/theme/preset.js only if a client needs new token *names* (rare),
- *   3. brand assets (logo, favicon, fonts).
+ * Values follow Design/uploads/AppleLab_Design_Plan.md §9 ("Apple Store —
+ * Repair Edition"): brand gradient #009BFF → #00FFF4 on Apple's exact neutral
+ * palette. Token NAMES are the template contract (see src/theme/preset.js);
+ * only the VALUES are AppleLab-specific.
  *
  * Rules:
- * - Color tokens are RGB triplets ("79 70 229") so Tailwind can apply alpha:
- *   rgb(var(--brand-500) / <alpha-value>). Composed tokens (gradients, shadows)
- *   are full CSS values.
- * - Generic site components (src/components/site/) may ONLY use these tokens
- *   (via the Tailwind preset). No hardcoded colors outside this file.
- * - This layer is per-client and build-time. It is unrelated to the runtime
- *   per-visitor accent picker (SiteThemeContext / --theme-*-rgb) used by the
- *   auth/admin screens.
- *
- * The token names mirror the client design-plan structure (brand scale, accent
- * scale, neutral shades, semantic surface/ink, status) so a client palette
- * drops in by changing values only. Neutral default: indigo + cyan on gray.
+ * - Color tokens are RGB triplets ("0 155 255") so Tailwind can apply alpha:
+ *   rgb(var(--brand-500) / <alpha-value>). Plain CSS uses rgb(var(--brand-500)).
+ * - Every site stylesheet (incl. app/[locale]/applelab-home.css) reads colors
+ *   and fonts from here. No hardcoded brand/neutral colors elsewhere.
+ * - Fonts: the font FILES are wired in src/theme/fonts.ts (Bengali) and
+ *   src/theme/fonts.css (brand wordmark face); this file only names the slots.
  */
 
 :root {
-  /* === BRAND SCALE (primary) === */
-  --brand-50: 238 242 255;
-  --brand-100: 224 231 255;
-  --brand-200: 199 210 254;
-  --brand-300: 165 180 252;
-  --brand-400: 129 140 248;
-  --brand-500: 99 102 241;
-  --brand-600: 79 70 229;
-  --brand-700: 67 56 202;
-  --brand-800: 55 48 163;
-  --brand-900: 49 46 129;
+  /* === BRAND SCALE — Apple Lab blue (#009BFF) === */
+  --brand-50: 230 246 255;
+  --brand-100: 179 226 255;
+  --brand-200: 128 205 255;
+  --brand-300: 77 185 255;
+  --brand-400: 26 166 255;
+  --brand-500: 0 155 255;
+  --brand-600: 0 127 212;
+  --brand-700: 0 99 169;
+  --brand-800: 0 72 128;
+  --brand-900: 0 46 87;
 
-  /* === BRAND ACCENT SCALE (secondary / gradient endpoint) === */
-  --brand-accent-50: 236 254 255;
-  --brand-accent-100: 207 250 254;
-  --brand-accent-200: 165 243 252;
-  --brand-accent-300: 103 232 249;
-  --brand-accent-400: 34 211 238;
-  --brand-accent-500: 6 182 212;
-  --brand-accent-600: 8 145 178;
-  --brand-accent-700: 14 116 144;
-  --brand-accent-800: 21 94 117;
-  --brand-accent-900: 22 78 99;
+  /* === BRAND ACCENT SCALE — Apple Lab cyan (#00FFF4), gradient endpoint === */
+  --brand-accent-50: 230 255 253;
+  --brand-accent-100: 179 255 249;
+  --brand-accent-200: 128 255 245;
+  --brand-accent-300: 77 255 242;
+  --brand-accent-400: 26 255 238;
+  --brand-accent-500: 0 255 244;
+  --brand-accent-600: 0 212 202;
+  --brand-accent-700: 0 169 159;
+  --brand-accent-800: 0 127 119;
+  --brand-accent-900: 0 84 80;
 
-  /* === NEUTRAL SHADES === */
+  /* === NEUTRAL SHADES — Apple's exact grays (#F5F5F7, #6E6E73, #1D1D1F) === */
   --shade-0: 255 255 255;
   --shade-50: 245 245 247;
   --shade-100: 232 232 237;
@@ -71,27 +65,31 @@
   --ink-secondary: var(--shade-500);
   --ink-tertiary: var(--shade-400);
   --ink-inverse: var(--shade-0);
-  --link: var(--brand-600);
+  --link: var(--brand-500);
 
-  /* === STATUS === */
-  --status-success: 34 197 94;
-  --status-warning: 245 158 11;
-  --status-error: 239 68 68;
+  /* === STATUS — iOS system colors === */
+  --status-success: 52 199 89;
+  --status-warning: 255 159 10;
+  --status-error: 255 59 48;
   --status-info: var(--brand-500);
 
   /* === GRADIENT === */
-  --gradient-brand: linear-gradient(90deg, rgb(var(--brand-500)) 0%, rgb(var(--brand-accent-400)) 100%);
-  --gradient-brand-diagonal: linear-gradient(135deg, rgb(var(--brand-500)) 0%, rgb(var(--brand-accent-400)) 100%);
+  --gradient-brand: linear-gradient(90deg, rgb(var(--brand-500)) 0%, rgb(var(--brand-accent-500)) 100%);
+  --gradient-brand-diagonal: linear-gradient(135deg, rgb(var(--brand-500)) 0%, rgb(var(--brand-accent-500)) 100%);
 
-  /* === TYPOGRAPHY — families === */
-  --font-display: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --font-text: var(--font-display);
-  --font-brand: var(--font-display); /* wordmark-only face; client supplies */
-  --font-alt-script: var(--font-text); /* non-Latin script slot (e.g. Bengali) */
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  /* === TYPOGRAPHY — families (SF Pro system stack, as apple.com) === */
+  --font-display: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue',
+    Helvetica, Arial, sans-serif;
+  --font-text: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue',
+    Helvetica, Arial, sans-serif;
+  /* Wordmark-only face (Design Plan §3.1). Loaded by src/theme/fonts.css when
+     the licensed file is present; falls back to the display stack. */
+  --font-brand: 'Geom Graphic', var(--font-display);
+  /* Bengali: Noto Sans Bengali, self-hosted via next/font (src/theme/fonts.ts). */
+  --font-alt-script: var(--font-noto-bengali), var(--font-text);
+  --font-mono: 'SF Mono', 'Fira Mono', 'Roboto Mono', ui-monospace, monospace;
 
-  /* === TYPOGRAPHY — scale (px) === */
+  /* === TYPOGRAPHY — scale (px), Apple-exact === */
   --text-hero: 80px;
   --text-hero-sm: 56px;
   --text-headline-xl: 56px;
@@ -116,7 +114,7 @@
   --section-py-desktop: 100px;
   --section-py-tablet: 80px;
   --section-py-mobile: 60px;
-  --nav-height: 56px;
+  --nav-height: 48px;
 
   /* === RADII === */
   --radius-sm: 8px;
@@ -127,14 +125,14 @@
   --radius-pill: 980px;
 
   /* === SHADOWS === */
-  --shadow-soft: 0 1px 4px rgb(var(--shade-black) / 0.08);
+  --shadow-soft: 0 1px 4px rgb(var(--shade-black) / 0.06);
   --shadow-card: 0 4px 24px rgb(var(--shade-black) / 0.06), 0 1px 4px rgb(var(--shade-black) / 0.04);
   --shadow-raised: 0 8px 32px rgb(var(--shade-black) / 0.1);
   --shadow-float: 0 20px 60px rgb(var(--shade-black) / 0.12);
-  --shadow-brand: 0 8px 24px rgb(var(--brand-500) / 0.25);
+  --shadow-brand: 0 8px 24px rgb(var(--brand-500) / 0.28);
   --shadow-card-hover: 0 20px 60px rgb(var(--brand-500) / 0.08), 0 4px 12px rgb(var(--shade-black) / 0.06);
 
-  /* === MOTION === */
+  /* === MOTION — Apple's eases === */
   --ease-standard: cubic-bezier(0.25, 0.1, 0.25, 1);
   --ease-decelerate: cubic-bezier(0, 0, 0.2, 1);
   --ease-accelerate: cubic-bezier(0.4, 0, 1, 1);

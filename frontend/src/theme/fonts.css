@@ -1,0 +1,19 @@
+/**
+ * Brand wordmark face — Geom Graphic SemiBold (Design Plan §3.1).
+ *
+ * The font is licensed and not part of the repo. To enable it:
+ *   1. place the file at  frontend/public/fonts/GeomGraphic-SemiBold.woff2
+ *   2. uncomment the @font-face below.
+ * Until then `--font-brand` (tokens.css) falls back to the display stack.
+ * Used ONLY for the logo wordmark — never for headings or body copy.
+ */
+
+/*
+@font-face {
+  font-family: 'Geom Graphic';
+  src: url('/fonts/GeomGraphic-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+*/
