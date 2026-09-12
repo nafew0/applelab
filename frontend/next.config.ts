@@ -44,9 +44,15 @@ const nextConfig: NextConfig = {
   },
   async rewrites() {
     return [
+      // Browser-facing API allowlist. Anything else under /api/ is NOT proxied
+      // (catalog page-data endpoints stay server-only — see lib/catalog.ts).
       {
-        source: '/api/:path*',
-        destination: `${backendUrl}/api/:path*/`,
+        source: '/api/:prefix(auth|admin|content|leads)/:path*',
+        destination: `${backendUrl}/api/:prefix/:path*/`,
+      },
+      {
+        source: '/api/catalog/:endpoint(families|years|models|issues)',
+        destination: `${backendUrl}/api/catalog/:endpoint/`,
       },
       {
         source: '/media/:path*',

@@ -513,6 +513,66 @@
         "Chassis closing back up",
         "MacBook reassembled"
       ]
+    },
+    "catalog": {
+      "home": "Home",
+      "services": "Services",
+      "faq": "Frequently asked questions",
+      "modelsCount": "{count, plural, =1 {1 model} other {# models}}",
+      "empty": "The catalog is being prepared — message us on WhatsApp for any Apple repair.",
+      "notListed": "Model not listed?",
+      "notListedCta": "Tell us about your device",
+      "from": "From",
+      "quoteOnly": "Free diagnosis · fixed quote",
+      "sameDay": "Same-day",
+      "hours": "{count, plural, =1 {1 hour} other {# hours}}",
+      "warranty": "{count}-day warranty",
+      "warrantyLabel": "Warranty",
+      "price": "Price",
+      "turnaround": "Turnaround",
+      "diagnosis": "Diagnosis",
+      "diagnosisFree": "Free",
+      "index": {
+        "eyebrow": "Repair services",
+        "headline": "Every Apple device. Every repair.",
+        "intro": "Choose your device to see every model we repair, the repairs we offer for it, and what to expect — genuine parts, free diagnosis and a 90-day warranty on all of it.",
+        "seoTitle": "Apple Repair Services in Dhaka — iPhone, MacBook, iPad & More | Apple Lab",
+        "seoDescription": "Apple Lab repairs every iPhone, iPad, MacBook, iMac, Mac mini, Mac Studio, Apple Watch and AirPods model in Dhanmondi, Dhaka. Genuine parts, free diagnosis, 90-day warranty."
+      },
+      "family": {
+        "eyebrow": "Repair services",
+        "headline": "{family} repair in Dhaka",
+        "commonRepairs": "Common repairs",
+        "chooseModel": "Choose your model",
+        "allModels": "All {family} models ({count})",
+        "jumpToYear": "Jump to year",
+        "otherYears": "Other",
+        "noModels": "Models for this device are being added."
+      },
+      "model": {
+        "headline": "{model} repair in Dhaka",
+        "intro": "Everything we repair on the {model} — with genuine parts, a free diagnosis and a 90-day warranty.",
+        "repairsEyebrow": "Repairs & prices",
+        "repairsHeadline": "{count, plural, =1 {1 repair} other {# repairs}} for this model",
+        "pricingNote": "Prices marked “from” are starting prices for the most common part grade. Your quote is fixed after the free diagnosis.",
+        "noRepairs": "Repairs for this model are being added — message us for a quote.",
+        "book": "Book a repair",
+        "backToFamily": "All {family} models",
+        "knownFaults": "Known faults on the {model}",
+        "related": "Related models"
+      },
+      "offering": {
+        "headline": "{model} {issue}",
+        "intro": "{issue} for the {model} at Apple Lab, Dhanmondi — how it works, what it costs and how long it takes.",
+        "book": "Book this repair",
+        "backToModel": "All repairs for this model",
+        "otherRepairs": "Other repairs for this model"
+      },
+      "cta": {
+        "title": "Not sure what’s wrong?",
+        "body": "Tell us the device and the symptom — diagnosis is free and we reply within 2 hours.",
+        "button": "Get a free diagnosis"
+      }
     }
   }
 }

@@ -1165,6 +1165,7 @@ h1, h2, h3, h4, h5, h6 {
 .stagger.is-visible > *:nth-child(7) { opacity: 1; transform: none; transition-delay: 440ms; }
 .stagger.is-visible > *:nth-child(8) { opacity: 1; transform: none; transition-delay: 500ms; }
 .stagger.is-visible > *:nth-child(9) { opacity: 1; transform: none; transition-delay: 560ms; }
+.stagger.is-visible > *:nth-child(n+10) { opacity: 1; transform: none; transition-delay: 600ms; }
 
 /* Section divider */
 .section-divider {

@@ -40,4 +40,15 @@ export const SITE = {
     whatsappDigits: '8801603710044',
     brand: 'Apple Lab',
   },
+
+  /** Device catalog (backend `seed_catalog`). */
+  catalog: {
+    familyCount: 10,
+    family: { slug: 'iphone', name: 'iPhone', nameBn: 'আইফোন', minModels: 30 },
+    model: { slug: '15-pro', name: 'iPhone 15 Pro', chip: 'A17 Pro', searchTerm: '15 Pro' },
+    issue: { slug: 'screen-replacement', name: 'Screen Replacement', adminName: 'Screen Replacement' },
+    /** Written and then cleared by the admin → public revalidation test. */
+    testPrice: '23456',
+    testPriceDisplay: '৳ 23,456',
+  },
 } as const

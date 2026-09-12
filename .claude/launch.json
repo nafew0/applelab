@@ -4,8 +4,23 @@
     {
       "name": "applelab-frontend",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["--prefix", "frontend", "run", "dev"],
+      "runtimeArgs": [
+        "--prefix",
+        "frontend",
+        "run",
+        "dev"
+      ],
       "port": 3000
+    },
+    {
+      "name": "applelab-backend",
+      "runtimeExecutable": "backend/venv/bin/python",
+      "runtimeArgs": [
+        "backend/manage.py",
+        "runserver",
+        "8000"
+      ],
+      "port": 8000
     }
   ]
 }

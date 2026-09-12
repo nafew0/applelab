@@ -12,6 +12,6 @@ export const config = {
    *   /profile, /auth, /forgot-password, /reset-password, /verify-email
    */
   matcher: [
-    '/((?!api|media|_next|_vercel|admin|auth|login|dashboard|profile|forgot-password|reset-password|verify-email|.*\\..*).*)',
+    '/((?!api|media|_next|_vercel|revalidate|admin|auth|login|dashboard|profile|forgot-password|reset-password|verify-email|.*\\..*).*)',
   ],
 }

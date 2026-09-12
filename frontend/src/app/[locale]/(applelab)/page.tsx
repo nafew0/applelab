@@ -1,18 +1,11 @@
 import type { Metadata } from 'next'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 
-import ChatWidget from '@/components/applelab/ChatWidget'
-import HomeEffects from '@/components/applelab/HomeEffects'
-import HomeNav from '@/components/applelab/HomeNav'
-import IconSprite from '@/components/applelab/IconSprite'
 import RepairTracker from '@/components/applelab/RepairTracker'
 import ScrollFilm from '@/components/applelab/ScrollFilm'
-import { LOCALES, LOCALE_LABELS, type AppLocale } from '@/i18n/config'
 import { Link } from '@/i18n/navigation'
 import { getSiteConfig, whatsappLink } from '@/lib/content'
 import { buildSiteMetadata, localBusinessJsonLd } from '@/lib/seo'
-
-import './applelab-home.css'
 
 export const revalidate = 60
 
@@ -32,17 +25,20 @@ export async function generateMetadata({
  * every human-readable string lives in messages/<locale>.json under `applelab`.
  * ------------------------------------------------------------------------- */
 
+/** `href` is the device-catalog page for that family (see /services). */
 const DEVICE_CARDS = [
-  { key: 'macbook-pro', img: '/applelab/device-macbook-pro.jpg', className: 'promo-card sky wide' },
-  { key: 'macbook-air', img: '/applelab/device-macbook-air.jpg', className: 'promo-card' },
-  { key: 'iphone', img: '/applelab/device-iphone.jpg', className: 'promo-card sky' },
-  { key: 'ipad', img: '/applelab/device-ipad.jpg', className: 'promo-card sky' },
-  { key: 'imac', img: '/applelab/device-imac.jpg', className: 'promo-card' },
-  { key: 'mac-mini', img: '/applelab/device-mac-mini.jpg', className: 'promo-card' },
-  { key: 'apple-watch', img: '/applelab/device-apple-watch.jpg', className: 'promo-card sky' },
-  { key: 'airpods', img: '/applelab/device-airpods.jpg', className: 'promo-card' },
-  { key: 'accessories', img: '/applelab/device-accessories.jpg', className: 'promo-card' },
+  { key: 'macbook-pro', href: '/services/macbook-pro', img: '/applelab/device-macbook-pro.jpg', className: 'promo-card sky wide' },
+  { key: 'macbook-air', href: '/services/macbook-air', img: '/applelab/device-macbook-air.jpg', className: 'promo-card' },
+  { key: 'iphone', href: '/services/iphone', img: '/applelab/device-iphone.jpg', className: 'promo-card sky' },
+  { key: 'ipad', href: '/services/ipad', img: '/applelab/device-ipad.jpg', className: 'promo-card sky' },
+  { key: 'imac', href: '/services/imac', img: '/applelab/device-imac.jpg', className: 'promo-card' },
+  { key: 'mac-mini', href: '/services/mac-mini', img: '/applelab/device-mac-mini.jpg', className: 'promo-card' },
+  { key: 'apple-watch', href: '/services/apple-watch', img: '/applelab/device-apple-watch.jpg', className: 'promo-card sky' },
+  { key: 'airpods', href: '/services/airpods', img: '/applelab/device-airpods.jpg', className: 'promo-card' },
+  { key: 'accessories', href: '/services', img: '/applelab/device-accessories.jpg', className: 'promo-card' },
 ] as const
+
+const BOOK_HREF = '/f/demo'
 
 const FEATURE_ICONS = {
   certified: 'i-badge',
@@ -57,22 +53,7 @@ const STEP_KEYS = ['1', '2', '3', '4'] as const
 
 const BLOG_IMAGES = ['/applelab/hero-11.jpg', '/applelab/hero-08.jpg', '/applelab/hero-14.jpg'] as const
 
-const QUICK_LINKS = [
-  { key: 'book', href: '#booking' },
-  { key: 'track', href: '#tracker' },
-  { key: 'quote', href: '#quote' },
-  { key: 'corporate', href: '#corporate' },
-  { key: 'sell', href: '#' },
-  { key: 'faq', href: '#' },
-  { key: 'warranty', href: '#' },
-] as const
 
-const SOCIALS = [
-  { key: 'facebook', icon: 'i-fb', label: 'Facebook' },
-  { key: 'instagram', icon: 'i-ig', label: 'Instagram' },
-  { key: 'youtube', icon: 'i-yt', label: 'YouTube' },
-  { key: 'linkedin', icon: 'i-in', label: 'LinkedIn' },
-] as const
 
 interface RepairItem { cat: string; name: string; price: string }
 interface TestimonialItem { quote: string; name: string; place: string; device: string }
@@ -104,16 +85,11 @@ export default async function HomePage({
   const repairs = t.raw('repairs.items') as RepairItem[]
   const testimonials = t.raw('testimonials.items') as TestimonialItem[]
   const posts = t.raw('blog.items') as PostItem[]
-  const serviceLinks = t.raw('footer.serviceLinks') as string[]
 
   const whatsapp = config ? whatsappLink(config.whatsapp_number) : null
   const directions = config?.address
     ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(config.address.replace(/\n/g, ', '))}`
     : null
-  const socials = config
-    ? SOCIALS.filter((s) => Boolean(config.social[s.key]))
-    : []
-  const year = new Date().getFullYear()
 
   return (
     <>
@@ -123,10 +99,6 @@ export default async function HomePage({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd(config, locale)) }}
         />
       ) : null}
-
-      <IconSprite />
-      <HomeEffects />
-      <HomeNav />
 
       <main id="top">
         <ScrollFilm />
@@ -151,12 +123,12 @@ export default async function HomePage({
               {t('hero.sub2')}
             </p>
             <div className="btn-row hero-cta reveal">
-              <a href="#booking" className="btn btn-primary" data-testid="hero-cta-primary">
+              <Link href={BOOK_HREF} className="btn btn-primary" data-testid="hero-cta-primary">
                 {t('hero.book')}
-              </a>
-              <a href="#quote" className="btn btn-secondary">
+              </Link>
+              <Link href="/services" className="btn btn-secondary">
                 {t('hero.quote')}
-              </a>
+              </Link>
             </div>
             <div className="hero-walkin reveal">
               <a href="#contact" className="link">
@@ -214,15 +186,19 @@ export default async function HomePage({
             <div className="promo-grid reveal stagger">
               {DEVICE_CARDS.map((card) => (
                 <div className={card.className} key={card.key} data-testid="device-card">
-                  <h3>{t(`devices.items.${card.key}.title`)}</h3>
+                  <h3>
+                    <Link href={card.href} className="promo-title-link" data-testid={`device-card-link-${card.key}`}>
+                      {t(`devices.items.${card.key}.title`)}
+                    </Link>
+                  </h3>
                   <p className="promo-sub">{t(`devices.items.${card.key}.sub`)}</p>
                   <div className="promo-actions">
-                    <a href="#booking" className="btn btn-primary btn-sm">
+                    <Link href={BOOK_HREF} className="btn btn-primary btn-sm">
                       {t('devices.book')}
-                    </a>
-                    <a href="#quote" className="btn btn-secondary btn-sm">
+                    </Link>
+                    <Link href={card.href} className="btn btn-secondary btn-sm">
                       {t('devices.pricing')}
-                    </a>
+                    </Link>
                   </div>
                   <div className="promo-media">
                     <img src={card.img} alt={t(`devices.items.${card.key}.alt`)} loading="lazy" />
@@ -284,12 +260,12 @@ export default async function HomePage({
             </div>
 
             <div className="steps-cta reveal">
-              <a href="#booking" className="btn btn-ghost-dark">
+              <Link href={BOOK_HREF} className="btn btn-ghost-dark">
                 {t('steps.cta')}{' '}
                 <svg className="btn-icon">
                   <use href="#i-arrow" />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -320,9 +296,9 @@ export default async function HomePage({
             </div>
 
             <div className="btn-row reveal mt-32">
-              <a href="#" className="btn btn-primary">
+              <Link href="/services" className="btn btn-primary" data-testid="repairs-cta">
                 {t('repairs.cta')}
-              </a>
+              </Link>
               <span className="repair-note">{t('repairs.note')}</span>
             </div>
           </div>
@@ -543,104 +519,7 @@ export default async function HomePage({
           </div>
         </section>
 
-        {/* ================= FOOTER ================= */}
-        <footer className="footer" data-testid="site-footer">
-          <div className="container">
-            <div className="footer-top">
-              <div className="brand">
-                <img src="/applelab/icon-white.svg" alt="" />
-                <span className="wordmark">{config?.site_name || 'Apple Lab'}</span>
-              </div>
-              {LOCALES.length > 1 ? (
-                <div className="footer-lang" data-testid="footer-language">
-                  <span className="muted">{t('footer.language')}</span>
-                  {LOCALES.map((code, index) => (
-                    <span key={code} className="footer-lang-item">
-                      {index > 0 ? <span className="sep">·</span> : null}
-                      <Link
-                        href="/"
-                        locale={code}
-                        lang={code}
-                        className={code === locale ? 'active' : undefined}
-                        aria-current={code === locale ? 'true' : undefined}
-                      >
-                        {LOCALE_LABELS[code as AppLocale]}
-                      </Link>
-                    </span>
-                  ))}
-                </div>
-              ) : null}
-            </div>
-
-            <div className="footer-grid">
-              <div className="footer-col">
-                <h4>{t('footer.services')}</h4>
-                <ul>
-                  {serviceLinks.map((label) => (
-                    <li key={label}>
-                      <a href="#services">{label}</a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="footer-col">
-                <h4>{t('footer.quickLinks')}</h4>
-                <ul>
-                  {QUICK_LINKS.map((link) => (
-                    <li key={link.key}>
-                      <a href={link.href}>{t(`footer.quick.${link.key}`)}</a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="footer-col">
-                <h4>{t('footer.contact')}</h4>
-                <ul>
-                  {config?.phone_primary ? (
-                    <li><a href={telHref(config.phone_primary)}>{config.phone_primary}</a></li>
-                  ) : null}
-                  {config?.phone_secondary ? (
-                    <li><a href={telHref(config.phone_secondary)}>{config.phone_secondary}</a></li>
-                  ) : null}
-                  {config?.email ? (
-                    <li><a href={`mailto:${config.email}`}>{config.email}</a></li>
-                  ) : null}
-                  {config?.address ? (
-                    <li className="muted">{config.address.replace(/\n/g, ', ')}</li>
-                  ) : null}
-                </ul>
-              </div>
-              <div className="footer-col">
-                <h4>{t('footer.follow')}</h4>
-                {socials.length > 0 ? (
-                  <div className="social-row">
-                    {socials.map((s) => (
-                      <a key={s.key} href={config?.social[s.key]} target="_blank" rel="noreferrer" aria-label={s.label}>
-                        <svg><use href={`#${s.icon}`} /></svg>
-                      </a>
-                    ))}
-                  </div>
-                ) : null}
-                <ul className={socials.length > 0 ? 'mt-24' : undefined}>
-                  <li><a href="#">{t('footer.careers')}</a></li>
-                  <li><a href="#">{t('footer.press')}</a></li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="footer-bottom">
-              <span>{t('footer.rights', { year })}</span>
-              <div className="legal-links">
-                <a href="#">{t('footer.privacy')}</a>
-                <a href="#">{t('footer.terms')}</a>
-                <a href="/sitemap.xml">{t('footer.sitemap')}</a>
-              </div>
-            </div>
-          </div>
-        </footer>
       </main>
-
-      <ChatWidget />
     </>
   )
 }

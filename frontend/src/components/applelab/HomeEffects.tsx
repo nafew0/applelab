@@ -1,5 +1,6 @@
 'use client'
 import { useEffect } from 'react'
+import { usePathname } from 'next/navigation'
 
 /**
  * Homepage scroll choreography: reveals `.reveal`/`.stagger` blocks as they
@@ -7,6 +8,7 @@ import { useEffect } from 'react'
  * Renders nothing — it only wires observers onto the already-rendered DOM.
  */
 export default function HomeEffects() {
+  const pathname = usePathname()
   useEffect(() => {
     const io = new IntersectionObserver(
       (entries) => {
@@ -50,7 +52,7 @@ export default function HomeEffects() {
       io.disconnect()
       countIO.disconnect()
     }
-  }, [])
+  }, [pathname])
 
   return null
 }

@@ -3,14 +3,14 @@ import { useEffect, useState } from 'react'
 import { useLocale, useTranslations } from 'next-intl'
 
 import { LOCALES, LOCALE_LABELS, type AppLocale } from '@/i18n/config'
-import { usePathname, useRouter } from '@/i18n/navigation'
+import { Link, usePathname, useRouter } from '@/i18n/navigation'
 
 const LINKS = [
-  { href: '#services', key: 'services' },
-  { href: '#how', key: 'how' },
-  { href: '#tracker', key: 'tracker' },
-  { href: '#corporate', key: 'corporate' },
-  { href: '#blog', key: 'blog' },
+  { href: '/services', key: 'services' },
+  { href: '/#how', key: 'how' },
+  { href: '/#tracker', key: 'tracker' },
+  { href: '/#corporate', key: 'corporate' },
+  { href: '/#blog', key: 'blog' },
 ] as const
 
 /**
@@ -62,24 +62,24 @@ export default function HomeNav() {
   return (
     <nav className="nav" aria-label={t('primary')} data-testid="site-navbar">
       <div className="nav-inner">
-        <a href="#top" className="nav-brand" aria-label={t('home')}>
+        <Link href="/" className="nav-brand" aria-label={t('home')}>
           <img src="/applelab/icon.svg" alt="" aria-hidden="true" />
           <span className="wordmark">Apple Lab</span>
-        </a>
+        </Link>
         <ul className="nav-links">
           {LINKS.map((link) => (
             <li key={link.href}>
-              <a href={link.href} className="nav-link">
+              <Link href={link.href} className="nav-link">
                 {t(link.key)}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
         <div className="nav-right" data-testid="navbar-desktop-actions">
           {languageButton()}
-          <a href="#booking" className="btn btn-primary btn-sm" data-testid="navbar-cta">
+          <Link href="/f/demo" className="btn btn-primary btn-sm" data-testid="navbar-cta">
             {t('book')}
-          </a>
+          </Link>
           <button
             className="nav-burger"
             type="button"
@@ -99,16 +99,16 @@ export default function HomeNav() {
         <ul>
           {LINKS.map((link) => (
             <li key={link.href}>
-              <a href={link.href} onClick={() => setOpen(false)}>
+              <Link href={link.href} onClick={() => setOpen(false)}>
                 {t(link.key)}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
         <div className="nav-drawer-actions">
-          <a href="#booking" className="btn btn-primary" onClick={() => setOpen(false)}>
+          <Link href="/f/demo" className="btn btn-primary" onClick={() => setOpen(false)}>
             {t('book')}
-          </a>
+          </Link>
           {languageButton(' drawer')}
         </div>
       </div>

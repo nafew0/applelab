@@ -145,6 +145,12 @@ FACEBOOK_OAUTH_CLIENT_ID=
 FACEBOOK_OAUTH_CLIENT_SECRET=
 GITHUB_OAUTH_CLIENT_ID=
 GITHUB_OAUTH_CLIENT_SECRET=
+
+# Catalog → Next.js page refresh after admin edits (same secret in frontend .env.production)
+NEXT_REVALIDATE_URL=http://127.0.0.1:3002/revalidate
+NEXT_REVALIDATE_SECRET=__CHANGE_ME__
+# Next → Django catalog page-data key (same value in frontend .env.production)
+CATALOG_PAGES_SECRET=__CHANGE_ME__
 ```
 
 > `USE_REDIS=True` matters in production: it makes rate limits shared across all Gunicorn workers.
@@ -156,14 +162,18 @@ python3 -c "import secrets; print(secrets.token_urlsafe(64))"
 # Run twice — once for DJANGO_SECRET_KEY, once for JWT_SIGNING_KEY
 ```
 
-### Migrate, collect static, create superuser
+### Migrate, collect static, seed, create superuser
 
 ```bash
 cd /opt/applelab/app/backend
 sudo -u applelab DOTENV_FILE=.env.production venv/bin/python manage.py migrate
 sudo -u applelab DOTENV_FILE=.env.production venv/bin/python manage.py collectstatic --noinput
+sudo -u applelab DOTENV_FILE=.env.production venv/bin/python manage.py seed_applelab
+sudo -u applelab DOTENV_FILE=.env.production venv/bin/python manage.py seed_catalog
 sudo -u applelab DOTENV_FILE=.env.production venv/bin/python manage.py createsuperuser
 ```
+
+`seed_catalog` loads the committed device catalog (`backend/repairs/seed/catalog.json`: families, models, repairs — no prices). It is safe to re-run on every deploy: it only adds missing rows and never overwrites what the owner edited in the admin. Prices are set by the owner in **Admin → Catalog**.
 
 Static files land in `/opt/applelab/app/backend/staticfiles/`, uploads in `/opt/applelab/app/backend/media/`.
 
@@ -202,6 +212,9 @@ NEXT_PUBLIC_DJANGO_ADMIN_URL=https://applelab.bd/admin
 NEXT_PUBLIC_SITE_URL=https://applelab.bd
 # Styleguide route is dev/QA only — leave at 0 in production
 NEXT_PUBLIC_ENABLE_STYLEGUIDE=0
+# Must equal the backend's NEXT_REVALIDATE_SECRET / CATALOG_PAGES_SECRET
+NEXT_REVALIDATE_SECRET=__CHANGE_ME__
+CATALOG_PAGES_SECRET=__CHANGE_ME__
 ```
 
 > `BACKEND_URL` is server-side only, so it points straight at loopback `8002` and skips the Nginx round trip. `NEXT_PUBLIC_API_URL=/api` keeps browser calls same-origin.
@@ -304,6 +317,11 @@ server {
         alias /opt/applelab/app/backend/media/;
     }
 
+    # Catalog page data is server-to-server only (Next renders it); never public.
+    location /api/catalog/pages/ {
+        return 404;
+    }
+
     # Django API
     location /api/ {
         proxy_pass http://127.0.0.1:8002;
@@ -389,6 +407,7 @@ cd backend
 sudo -u applelab venv/bin/pip install -r requirements.txt
 sudo -u applelab DOTENV_FILE=.env.production venv/bin/python manage.py migrate
 sudo -u applelab DOTENV_FILE=.env.production venv/bin/python manage.py collectstatic --noinput
+sudo -u applelab DOTENV_FILE=.env.production venv/bin/python manage.py seed_catalog
 
 # Frontend: deps + rebuild
 cd ../frontend
