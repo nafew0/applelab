@@ -97,7 +97,6 @@ interface ModelDraft {
   release_label: string
   model_numbers: string
   apple_identifier: string
-  image: string
   display_order: string
   is_active: boolean
   is_featured: boolean
@@ -115,7 +114,6 @@ const EMPTY_MODEL_DRAFT: ModelDraft = {
   release_label: '',
   model_numbers: '',
   apple_identifier: '',
-  image: '',
   display_order: '0',
   is_active: true,
   is_featured: false,
@@ -157,7 +155,6 @@ function ModelCreateForm({
       release_label: draft.release_label.trim(),
       model_numbers: parseModelNumbers(draft.model_numbers),
       apple_identifier: draft.apple_identifier.trim(),
-      image: draft.image.trim(),
       display_order: parseOptionalInt(draft.display_order) ?? 0,
       is_active: draft.is_active,
       is_featured: draft.is_featured,
@@ -233,9 +230,6 @@ function ModelCreateForm({
             placeholder="A2848, A3101, A3102"
             data-testid="model-numbers"
           />
-        </Field>
-        <Field label="Image URL" error={errors.image}>
-          <Input value={draft.image} onChange={(event) => patch({ image: event.target.value })} placeholder="https://…" />
         </Field>
         <div className="grid gap-3 sm:grid-cols-2">
           <div className="flex items-center justify-between rounded-xl bg-white/60 px-3 py-2">
@@ -489,8 +483,17 @@ function ModelsTab({ family }: { family: FamilyAdmin }) {
                         onClick={() => router.push(`/admin/catalog/models/${model.id}`)}
                       >
                         <td className="py-3 pr-4 align-middle">
-                          <p className="font-medium text-foreground">{model.name_en}</p>
-                          <p className="font-mono text-[11px] text-muted-foreground">{model.slug}</p>
+                          <div className="flex items-center gap-3">
+                            <div className="flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-xl bg-white/70">
+                              {model.image ? (
+                                <img src={model.image} alt="" className="max-h-full max-w-full object-contain" loading="lazy" />
+                              ) : null}
+                            </div>
+                            <div>
+                              <p className="font-medium text-foreground">{model.name_en}</p>
+                              <p className="font-mono text-[11px] text-muted-foreground">{model.slug}</p>
+                            </div>
+                          </div>
                         </td>
                         <td className="py-3 pr-4 align-middle">{model.chip || '—'}</td>
                         <td className="py-3 pr-4 align-middle">{model.release_label || model.release_year || '—'}</td>

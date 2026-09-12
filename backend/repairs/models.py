@@ -14,6 +14,10 @@ from decimal import Decimal
 from django.core.validators import MinValueValidator
 from django.db import models
 
+# Catalog images are stored as WebP by `repairs.images` (admin uploads and the
+# `import_catalog_images` command); one file may back many rows (repair icons).
+IMAGE_MAX_LENGTH = 255
+
 
 class DeviceFamily(models.Model):
     class Kind(models.TextChoices):
@@ -30,7 +34,7 @@ class DeviceFamily(models.Model):
     name_bn = models.CharField(max_length=100, blank=True)
     kind = models.CharField(max_length=20, choices=Kind.choices, default=Kind.PHONE)
     icon = models.CharField(max_length=50, blank=True)  # curated icon key
-    hero_image = models.CharField(max_length=300, blank=True)  # /public path or URL
+    image = models.ImageField(upload_to="catalog/families/", max_length=IMAGE_MAX_LENGTH, blank=True)
     display_order = models.PositiveIntegerField(default=0)
     is_active = models.BooleanField(default=True)
 
@@ -74,7 +78,7 @@ class DeviceModel(models.Model):
     model_numbers = models.JSONField(default=list, blank=True)  # ["A3449"]
     apple_identifier = models.CharField(max_length=40, blank=True)
 
-    image = models.CharField(max_length=300, blank=True)
+    image = models.ImageField(upload_to="catalog/models/", max_length=IMAGE_MAX_LENGTH, blank=True)
     display_order = models.PositiveIntegerField(default=0)
     is_active = models.BooleanField(default=True)
     is_featured = models.BooleanField(default=False)
@@ -126,6 +130,9 @@ class Issue(models.Model):
     name_bn = models.CharField(max_length=100, blank=True)
     category = models.CharField(max_length=20, choices=Category.choices, default=Category.OTHER)
     icon = models.CharField(max_length=50, blank=True)
+    image = models.ImageField(  # default icon when an offering has none of its own
+        upload_to="catalog/issues/", max_length=IMAGE_MAX_LENGTH, blank=True
+    )
     applies_to = models.ManyToManyField(DeviceFamily, blank=True, related_name="issues")
     display_order = models.PositiveIntegerField(default=0)
     is_active = models.BooleanField(default=True)
@@ -174,6 +181,9 @@ class ModelIssue(models.Model):
     )
     turnaround_hours = models.PositiveIntegerField(null=True, blank=True)
     warranty_days = models.PositiveIntegerField(default=90)
+    image = models.ImageField(  # device-specific repair icon; blank → issue.image
+        upload_to="catalog/issues/", max_length=IMAGE_MAX_LENGTH, blank=True
+    )
 
     content_en = models.TextField(blank=True)  # override; blank → issue default template
     content_bn = models.TextField(blank=True)
@@ -194,6 +204,10 @@ class ModelIssue(models.Model):
 
     def __str__(self):
         return f"{self.model} — {self.issue}"
+
+    @property
+    def display_image(self):
+        return self.image or self.issue.image
 
     @property
     def unique_words(self) -> int:

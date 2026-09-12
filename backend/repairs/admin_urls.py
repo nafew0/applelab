@@ -17,4 +17,9 @@ urlpatterns = [
     path("catalog/issues/", v.IssueListCreateView.as_view(), name="issues"),
     path("catalog/issues/<int:issue_id>/", v.IssueDetailView.as_view(), name="issue-detail"),
     path("catalog/matrix/", v.MatrixView.as_view(), name="matrix"),
+    path(
+        "catalog/<str:kind>/<int:pk>/image/",
+        v.CatalogImageView.as_view(),
+        name="image",
+    ),
 ]

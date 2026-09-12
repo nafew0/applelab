@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 
 import Breadcrumbs from '@/components/applelab/catalog/Breadcrumbs'
+import CatalogImage from '@/components/applelab/catalog/CatalogImage'
 import FaqList from '@/components/applelab/catalog/FaqList'
 import ModelCard from '@/components/applelab/catalog/ModelCard'
 import { Link } from '@/i18n/navigation'
@@ -28,6 +29,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     path: `/services/${family}`,
     title: data.family.seo.title,
     description: data.family.seo.description,
+    image: data.family.image,
   })
 }
 
@@ -71,6 +73,7 @@ export default async function FamilyPage({ params }: { params: Params }) {
             name: data.family.seo.title.split(' | ')[0],
             description: data.family.seo.description,
             config,
+            image: data.family.image,
           }),
         ]}
       />
@@ -79,10 +82,13 @@ export default async function FamilyPage({ params }: { params: Params }) {
           <Breadcrumbs
             items={[{ href: '/', label: t('home') }, { href: '/services', label: t('services') }, { label: data.family.name }]}
           />
-          <div className="section-head left reveal">
-            <p className="eyebrow">{t('family.eyebrow')}</p>
-            <h1 className="h-xl" data-testid="family-headline">{t('family.headline', { family: data.family.name })}</h1>
-            {data.family.intro ? <p className="sub">{data.family.intro}</p> : null}
+          <div className={`cat-hero-grid${data.family.image ? ' has-media' : ''}`}>
+            <div className="section-head left reveal">
+              <p className="eyebrow">{t('family.eyebrow')}</p>
+              <h1 className="h-xl" data-testid="family-headline">{t('family.headline', { family: data.family.name })}</h1>
+              {data.family.intro ? <p className="sub">{data.family.intro}</p> : null}
+            </div>
+            <CatalogImage src={data.family.image} alt={data.family.name} className="cat-hero-media family" priority testId="family-image" />
           </div>
 
           {data.issues.length > 0 ? (

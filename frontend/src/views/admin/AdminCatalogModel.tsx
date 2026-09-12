@@ -72,6 +72,7 @@ import {
   PriceOptionsEditor,
   SectionHeading,
   SeoPair,
+  CatalogImageField,
 } from './catalog-shared'
 
 // ---------------------------------------------------------------- Model edit form
@@ -89,7 +90,6 @@ interface ModelDraft {
   release_label: string
   model_numbers: string
   apple_identifier: string
-  image: string
   display_order: string
   is_active: boolean
   is_featured: boolean
@@ -119,7 +119,6 @@ function draftFromModel(model: ModelAdmin): ModelDraft {
     release_label: model.release_label ?? '',
     model_numbers: (model.model_numbers ?? []).join(', '),
     apple_identifier: model.apple_identifier ?? '',
-    image: model.image ?? '',
     display_order: String(model.display_order ?? 0),
     is_active: model.is_active !== false,
     is_featured: !!model.is_featured,
@@ -150,7 +149,6 @@ function payloadFromDraft(draft: ModelDraft): ModelPayload {
     release_label: draft.release_label.trim(),
     model_numbers: parseModelNumbers(draft.model_numbers),
     apple_identifier: draft.apple_identifier.trim(),
-    image: draft.image.trim(),
     display_order: parseOptionalInt(draft.display_order) ?? 0,
     is_active: draft.is_active,
     is_featured: draft.is_featured,
@@ -169,6 +167,8 @@ function payloadFromDraft(draft: ModelDraft): ModelPayload {
 
 function ModelEditForm({ model, onSaved }: { model: ModelAdmin; onSaved: (saved: ModelAdmin) => void }) {
   const { toast } = useToast()
+  const queryClient = useQueryClient()
+  const [image, setImage] = useState(model.image ?? '')
   const [draft, setDraft] = useState<ModelDraft>(() => draftFromModel(model))
   const [errors, setErrors] = useState<FieldErrors>({})
   const [saving, setSaving] = useState(false)
@@ -255,10 +255,19 @@ function ModelEditForm({ model, onSaved }: { model: ModelAdmin; onSaved: (saved:
         <Field label="Reference source" error={errors.reference_source} hint="Where the facts were checked (URL or note).">
           <Input value={draft.reference_source} onChange={(event) => patch({ reference_source: event.target.value })} />
         </Field>
-        <Field label="Image URL" error={errors.image}>
-          <Input value={draft.image} onChange={(event) => patch({ image: event.target.value })} />
-        </Field>
       </div>
+      <CatalogImageField
+        kind="models"
+        id={model.id}
+        value={image}
+        onChange={(url) => {
+          setImage(url)
+          queryClient.invalidateQueries({ queryKey: ['admin-catalog-models'] })
+        }}
+        label="Model photo"
+        hint="Product photo on the model, repair and family pages. Transparent PNG/WebP looks best."
+        testId="model-image"
+      />
       <Field label="Model numbers (A-numbers)" error={errors.model_numbers} hint="Comma-separated.">
         <Input value={draft.model_numbers} onChange={(event) => patch({ model_numbers: event.target.value })} data-testid="model-edit-numbers" />
       </Field>
@@ -389,12 +398,15 @@ function OfferingForm({
   offering,
   onSaved,
   onCancel,
+  onImageChange,
 }: {
   offering: OfferingAdmin
   onSaved: (saved: OfferingAdmin) => void
   onCancel: () => void
+  onImageChange: () => void
 }) {
   const { toast } = useToast()
+  const [image, setImage] = useState(offering.image ?? '')
   const [draft, setDraft] = useState<OfferingDraft>(() => draftFromOffering(offering))
   const [errors, setErrors] = useState<FieldErrors>({})
   const [saving, setSaving] = useState(false)
@@ -432,6 +444,19 @@ function OfferingForm({
   return (
     <form onSubmit={submit} className="space-y-4" data-testid="offering-form">
       <div className="max-h-[65vh] space-y-4 overflow-y-auto pr-1">
+        <CatalogImageField
+          kind="offerings"
+          id={offering.id}
+          value={image}
+          fallback={offering.issue_image}
+          onChange={(url) => {
+            setImage(url)
+            onImageChange()
+          }}
+          label="Repair icon"
+          hint="Only for this model. Empty = the repair type's default icon."
+          testId="offering-image"
+        />
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           <Field label="Price from" error={errors.price_from} hint="Blank = quote on request.">
             <Input
@@ -719,8 +744,22 @@ function OfferingsSection({ model }: { model: ModelAdmin }) {
                         )}
                       >
                         <td className="py-3 pr-4 align-middle">
-                          <p className="font-medium text-foreground">{offering.issue.name_en}</p>
-                          <p className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">{offering.issue.category}</p>
+                          <div className="flex items-center gap-3">
+                            <div className="flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-lg bg-white/70">
+                              {offering.image || offering.issue_image ? (
+                                <img
+                                  src={offering.image || offering.issue_image}
+                                  alt=""
+                                  className={cn('max-h-full max-w-full object-contain', !offering.image && 'opacity-50')}
+                                  loading="lazy"
+                                />
+                              ) : null}
+                            </div>
+                            <div>
+                              <p className="font-medium text-foreground">{offering.issue.name_en}</p>
+                              <p className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">{offering.issue.category}</p>
+                            </div>
+                          </div>
                         </td>
                         <td className="py-3 pr-4 align-middle">
                           <ActiveBadge active={offering.is_active} />
@@ -793,6 +832,7 @@ function OfferingsSection({ model }: { model: ModelAdmin }) {
                 await refresh()
               }}
               onCancel={() => setEditing(null)}
+              onImageChange={refresh}
             />
           ) : null}
         </DialogContent>
@@ -965,7 +1005,7 @@ export default function AdminCatalogModel() {
             <Button variant="outline" className="rounded-xl" onClick={() => setDeleteOpen(false)} disabled={deleting}>
               Cancel
             </Button>
-            <Button variant="destructive" className="rounded-xl" onClick={handleDelete} disabled={deleting}>
+            <Button variant="destructive" className="rounded-xl" onClick={handleDelete} disabled={deleting} data-testid="model-delete-confirm">
               {deleting ? 'Deleting...' : 'Delete model'}
             </Button>
           </DialogFooter>

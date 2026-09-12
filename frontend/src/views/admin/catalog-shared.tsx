@@ -1,12 +1,14 @@
 'use client'
-import { Plus, Trash2 } from 'lucide-react'
+import { useRef, useState } from 'react'
+import { ImagePlus, Loader2, Plus, Trash2 } from 'lucide-react'
 
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
-import type { ContentStatus, FaqItem, OfferingAdmin, PriceOption } from '@/services/adminCatalog'
-import { getErrorStatus } from '@/services/adminCatalog'
+import { useToast } from '@/hooks/useToast'
+import type { CatalogImageKind, ContentStatus, FaqItem, OfferingAdmin, PriceOption } from '@/services/adminCatalog'
+import { getErrorDetail, getErrorStatus, removeCatalogImage, uploadCatalogImage } from '@/services/adminCatalog'
 import { cn } from '@/lib/utils'
 
 export type FieldErrors = Record<string, string>
@@ -580,3 +582,120 @@ export function TemplateVariablesHelp() {
     </div>
   )
 }
+
+// ---------------------------------------------------------------- Images
+
+/**
+ * Preview + upload/replace/remove for one catalog image. Saves immediately
+ * (its own endpoint), independent of the surrounding form's Save button.
+ * `fallback` is what the public site shows while this image is empty.
+ */
+export function CatalogImageField({
+  kind,
+  id,
+  value,
+  onChange,
+  label = 'Image',
+  hint,
+  fallback,
+  testId,
+}: {
+  kind: CatalogImageKind
+  id: number | null
+  value: string
+  onChange: (url: string) => void
+  label?: string
+  hint?: string
+  fallback?: string
+  testId?: string
+}) {
+  const { toast } = useToast()
+  const input = useRef<HTMLInputElement>(null)
+  const [busy, setBusy] = useState(false)
+  const shown = value || fallback || ''
+
+  const upload = async (file: File | undefined) => {
+    if (!file || id === null) return
+    setBusy(true)
+    try {
+      const url = await uploadCatalogImage(kind, id, file)
+      onChange(url)
+      toast({ title: 'Image saved', variant: 'success' })
+    } catch (err: unknown) {
+      toast({ title: 'Upload failed', description: getErrorDetail(err, 'Could not save this image.'), variant: 'error' })
+    } finally {
+      setBusy(false)
+      if (input.current) input.current.value = ''
+    }
+  }
+
+  const remove = async () => {
+    if (id === null) return
+    setBusy(true)
+    try {
+      await removeCatalogImage(kind, id)
+      onChange('')
+      toast({ title: 'Image removed', variant: 'success' })
+    } catch (err: unknown) {
+      toast({ title: 'Remove failed', description: getErrorDetail(err, 'Could not remove this image.'), variant: 'error' })
+    } finally {
+      setBusy(false)
+    }
+  }
+
+  return (
+    <div className="space-y-2" data-testid={testId}>
+      <FieldLabel>{label}</FieldLabel>
+      <div className="flex items-center gap-4">
+        <div className="flex h-24 w-24 shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-[rgb(var(--theme-border-rgb)/0.7)] bg-white/60">
+          {shown ? (
+            <img
+              src={shown}
+              alt=""
+              className={cn('max-h-full max-w-full object-contain', !value && 'opacity-40')}
+              data-testid={testId ? `${testId}-preview` : undefined}
+            />
+          ) : (
+            <ImagePlus className="h-6 w-6 text-muted-foreground" />
+          )}
+        </div>
+        <div className="space-y-2">
+          <input
+            ref={input}
+            type="file"
+            accept="image/png,image/jpeg,image/webp,image/gif"
+            className="hidden"
+            onChange={(event) => upload(event.target.files?.[0])}
+            data-testid={testId ? `${testId}-input` : undefined}
+          />
+          <div className="flex flex-wrap gap-2">
+            <Button
+              type="button"
+              variant="outline"
+              size="sm"
+              className="rounded-xl"
+              disabled={busy || id === null}
+              onClick={() => input.current?.click()}
+            >
+              {busy ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : <ImagePlus className="mr-2 h-4 w-4" />}
+              {value ? 'Replace' : 'Upload'}
+            </Button>
+            {value ? (
+              <Button type="button" variant="outline" size="sm" className="rounded-xl text-rose-600" disabled={busy} onClick={remove}>
+                <Trash2 className="mr-2 h-4 w-4" />
+                Remove
+              </Button>
+            ) : null}
+          </div>
+          <p className="text-[11px] text-muted-foreground">
+            {id === null
+              ? 'Save first, then add an image.'
+              : hint ?? 'PNG, JPEG, WebP or GIF up to 5 MB — stored as WebP.'}
+            {!value && fallback ? ' Faded preview = what the site shows now.' : ''}
+          </p>
+        </div>
+      </div>
+    </div>
+  )
+}
+

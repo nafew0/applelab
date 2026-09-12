@@ -13,7 +13,8 @@ export interface FamilyBrief {
   name: string
   kind: string
   icon: string
-  hero_image: string
+  /** Site-relative /media/… URL, '' when none */
+  image: string
   model_count: number
   intro: string
 }
@@ -48,10 +49,13 @@ export interface IssueBrief {
   name: string
   category: string
   icon: string
+  image: string
 }
 
 export interface OfferingCard {
   issue: IssueBrief
+  /** This model's repair icon, falling back to the repair type's icon */
+  image: string
   price_from: string | null
   price_from_display: string
   price_options: { label: string; price: string | number; warranty_days?: number }[]

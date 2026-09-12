@@ -3,6 +3,7 @@ from django.db.models import Count, Q
 
 from content.localize import pick
 
+from .images import url_of
 from .models import DeviceModel, Issue, ModelIssue
 from .rendering import build_context, format_bdt, render, render_faq, substitute
 
@@ -66,7 +67,7 @@ def family_brief(family, lang, model_count=None):
         "name": pick(family, "name", lang),
         "kind": family.kind,
         "icon": family.icon,
-        "hero_image": family.hero_image,
+        "image": url_of(family.image),
         "model_count": (
             model_count
             if model_count is not None
@@ -88,7 +89,7 @@ def model_brief(model, lang):
         "release_year": model.release_year,
         "release_label": model.release_label,
         "model_numbers": model.model_numbers or [],
-        "image": model.image,
+        "image": url_of(model.image),
         "is_featured": model.is_featured,
     }
 
@@ -99,12 +100,14 @@ def issue_brief(issue, lang):
         "name": pick(issue, "name", lang),
         "category": issue.category,
         "icon": issue.icon,
+        "image": url_of(issue.image),
     }
 
 
 def offering_card(offering, lang):
     return {
         "issue": issue_brief(offering.issue, lang),
+        "image": url_of(offering.display_image),
         "price_from": str(offering.price_from) if offering.price_from is not None else None,
         "price_from_display": format_bdt(offering.price_from),
         "price_options": offering.price_options or [],

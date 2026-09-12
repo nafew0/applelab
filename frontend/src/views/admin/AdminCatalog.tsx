@@ -58,6 +58,7 @@ import {
   SectionHeading,
   SeoPair,
   TemplateVariablesHelp,
+  CatalogImageField,
 } from './catalog-shared'
 
 export const FAMILIES_QUERY_KEY = ['admin-catalog-families']
@@ -65,7 +66,7 @@ export const ISSUES_QUERY_KEY = ['admin-catalog-issues']
 
 // ---------------------------------------------------------------- Family form
 
-type FamilyDraft = Omit<FamilyAdmin, 'id' | 'model_count' | 'updated_at'>
+type FamilyDraft = Omit<FamilyAdmin, 'id' | 'image' | 'model_count' | 'updated_at'>
 
 function emptyFamilyDraft(): FamilyDraft {
   return {
@@ -74,7 +75,6 @@ function emptyFamilyDraft(): FamilyDraft {
     name_bn: '',
     kind: 'phone',
     icon: '',
-    hero_image: '',
     display_order: 0,
     is_active: true,
     intro_en: '',
@@ -96,7 +96,6 @@ function draftFromFamily(family: FamilyAdmin): FamilyDraft {
     name_bn: family.name_bn ?? '',
     kind: family.kind ?? 'phone',
     icon: family.icon ?? '',
-    hero_image: family.hero_image ?? '',
     display_order: family.display_order ?? 0,
     is_active: family.is_active !== false,
     intro_en: family.intro_en ?? '',
@@ -121,7 +120,9 @@ function FamilyForm({
   onCancel: () => void
 }) {
   const { toast } = useToast()
+  const queryClient = useQueryClient()
   const [draft, setDraft] = useState<FamilyDraft>(() => (family ? draftFromFamily(family) : emptyFamilyDraft()))
+  const [image, setImage] = useState(family?.image ?? '')
   const [errors, setErrors] = useState<FieldErrors>({})
   const [saving, setSaving] = useState(false)
 
@@ -195,9 +196,18 @@ function FamilyForm({
           </Field>
         </div>
         <div className="grid gap-3 sm:grid-cols-[1fr_auto]">
-          <Field label="Hero image URL" error={errors.hero_image}>
-            <Input value={draft.hero_image} onChange={(event) => patch({ hero_image: event.target.value })} placeholder="https://…" />
-          </Field>
+          <CatalogImageField
+            kind="families"
+            id={family?.id ?? null}
+            value={image}
+            onChange={(url) => {
+              setImage(url)
+              queryClient.invalidateQueries({ queryKey: FAMILIES_QUERY_KEY })
+            }}
+            label="Family image"
+            hint="Shown on /services and the family page."
+            testId="family-image"
+          />
           <Field label="Active" error={errors.is_active}>
             <div className="flex h-10 items-center">
               <Switch checked={draft.is_active} onCheckedChange={(checked) => patch({ is_active: checked })} />
@@ -525,7 +535,7 @@ function FamiliesTab() {
 
 // ---------------------------------------------------------------- Issue form
 
-type IssueDraft = Omit<IssueAdmin, 'id' | 'offering_count' | 'updated_at'>
+type IssueDraft = Omit<IssueAdmin, 'id' | 'image' | 'offering_count' | 'updated_at'>
 
 function emptyIssueDraft(): IssueDraft {
   return {
@@ -571,7 +581,9 @@ function IssueForm({
   onCancel: () => void
 }) {
   const { toast } = useToast()
+  const queryClient = useQueryClient()
   const [draft, setDraft] = useState<IssueDraft>(() => (issue ? draftFromIssue(issue) : emptyIssueDraft()))
+  const [image, setImage] = useState(issue?.image ?? '')
   const [errors, setErrors] = useState<FieldErrors>({})
   const [saving, setSaving] = useState(false)
 
@@ -659,6 +671,18 @@ function IssueForm({
             </div>
           </Field>
         </div>
+        <CatalogImageField
+          kind="issues"
+          id={issue?.id ?? null}
+          value={image}
+          onChange={(url) => {
+            setImage(url)
+            queryClient.invalidateQueries({ queryKey: ISSUES_QUERY_KEY })
+          }}
+          label="Default icon"
+          hint="Used for every model unless that model's repair has its own icon."
+          testId="issue-image"
+        />
 
         <Field
           label="Applies to families"

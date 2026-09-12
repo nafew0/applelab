@@ -72,7 +72,8 @@ export interface FamilyAdmin {
   name_bn: string
   kind: FamilyKind
   icon: string
-  hero_image: string
+  /** Site-relative URL (/media/…) or ''; change it with uploadCatalogImage. */
+  image: string
   display_order: number
   is_active: boolean
   intro_en: string
@@ -89,7 +90,7 @@ export interface FamilyAdmin {
 }
 
 export type FamilyPayload = Partial<
-  Omit<FamilyAdmin, 'id' | 'model_count' | 'updated_at'>
+  Omit<FamilyAdmin, 'id' | 'image' | 'model_count' | 'updated_at'>
 >
 
 export async function getFamilies(): Promise<FamilyAdmin[]> {
@@ -162,7 +163,7 @@ export interface ModelAdmin {
 }
 
 export type ModelPayload = Partial<
-  Omit<ModelAdmin, 'id' | 'family' | 'offering_count' | 'updated_at'>
+  Omit<ModelAdmin, 'id' | 'family' | 'image' | 'offering_count' | 'updated_at'>
 > & { family_id?: number }
 
 export interface ModelListParams {
@@ -275,6 +276,9 @@ export interface OfferingAdmin {
   content_status: ContentStatus
   unique_words: number
   is_indexable: boolean
+  /** This model's own repair icon ('' → the repair type's icon, issue_image, is used). */
+  image: string
+  issue_image: string
   updated_at: string
 }
 
@@ -319,6 +323,7 @@ export interface IssueAdmin {
   name_bn: string
   category: IssueCategory
   icon: string
+  image: string
   applies_to: number[]
   display_order: number
   is_active: boolean
@@ -329,7 +334,7 @@ export interface IssueAdmin {
   updated_at: string
 }
 
-export type IssuePayload = Partial<Omit<IssueAdmin, 'id' | 'offering_count' | 'updated_at'>>
+export type IssuePayload = Partial<Omit<IssueAdmin, 'id' | 'image' | 'offering_count' | 'updated_at'>>
 
 export async function getIssues(): Promise<IssueAdmin[]> {
   const response = await api.get(`${BASE}/issues/`)
@@ -456,4 +461,22 @@ export function getErrorDetail(error: unknown, fallback: string): string {
   }
   if (Array.isArray(data) && data.length) return data.map(String).join(' ')
   return fallback
+}
+
+// ---------- Images ----------
+
+export type CatalogImageKind = 'families' | 'models' | 'issues' | 'offerings'
+
+/** Upload (or replace) a catalog image; the server stores it as WebP. Returns the new URL. */
+export async function uploadCatalogImage(kind: CatalogImageKind, id: number, file: File): Promise<string> {
+  const form = new FormData()
+  form.append('image', file)
+  const response = await api.post(`${BASE}/${kind}/${id}/image/`, form, {
+    headers: { 'Content-Type': 'multipart/form-data' },
+  })
+  return response.data?.image ?? ''
+}
+
+export async function removeCatalogImage(kind: CatalogImageKind, id: number): Promise<void> {
+  await api.delete(`${BASE}/${kind}/${id}/image/`)
 }

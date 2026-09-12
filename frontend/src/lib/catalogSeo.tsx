@@ -11,6 +11,7 @@ export function catalogMetadata({
   description,
   indexable = true,
   canonicalPath,
+  image,
 }: {
   locale: string
   path: string
@@ -18,6 +19,8 @@ export function catalogMetadata({
   description: string
   indexable?: boolean
   canonicalPath?: string
+  /** Site-relative /media/… URL */
+  image?: string
 }): Metadata {
   const base = getBaseUrl()
   const alternates = localeAlternates(locale, path)
@@ -29,7 +32,13 @@ export function catalogMetadata({
     description,
     alternates,
     robots: indexable ? undefined : { index: false, follow: true },
-    openGraph: { title, description, type: 'website', url: `${base}/${locale}${path}` },
+    openGraph: {
+      title,
+      description,
+      type: 'website',
+      url: `${base}/${locale}${path}`,
+      images: image ? [{ url: `${base}${image}`, alt: title }] : undefined,
+    },
   }
 }
 
@@ -54,6 +63,7 @@ export function serviceJsonLd({
   description,
   config,
   price,
+  image,
 }: {
   locale: string
   path: string
@@ -61,6 +71,7 @@ export function serviceJsonLd({
   description: string
   config: SiteConfigData | null
   price?: string | null
+  image?: string
 }) {
   const base = getBaseUrl()
   const jsonLd: Record<string, unknown> = {
@@ -70,6 +81,7 @@ export function serviceJsonLd({
     description,
     serviceType: name,
     url: `${base}/${locale}${path}`,
+    image: image ? `${base}${image}` : undefined,
     areaServed: [{ '@type': 'City', name: 'Dhaka' }, { '@type': 'Country', name: 'Bangladesh' }],
     provider: {
       '@type': 'LocalBusiness',

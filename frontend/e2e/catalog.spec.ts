@@ -9,6 +9,12 @@ import { SITE } from './site.config'
  */
 const C = SITE.catalog
 
+/** 48×48 solid PNG, generated for the tests (not a product photo). */
+const TEST_PNG = Buffer.from(
+  'iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAaElEQVR4nNXOURUAEADAwFkGsUXUhRA+vF2CG3PtQ5jESZzESZzESZzESZzESZzESZzESZzESZzESZzESZzESZzESZzESZzESZzESZzESZzESZzESZzESZzESZzESZzESZzESZzESZy/A68uriQC27jPoXgAAAAASUVORK5CYII=',
+  'base64'
+)
+
 test.describe('Device catalog — public pages', () => {
   test('services index lists every family and links to it', async ({ page }) => {
     await page.goto('/en/services')
@@ -161,6 +167,44 @@ test.describe('Device catalog — admin', () => {
       await visitor.close()
       await page.goto(adminModelUrl)
       await setOfferingPrice(page, '')
+    }
+  })
+
+  test('owner uploads a model photo and it shows on the public model page', async ({ page, browser }) => {
+    const slug = `e2e-photo-${Date.now()}`
+    await loginAsAdmin(page)
+    await page.goto(`/admin/catalog/families/${C.family.slug}`)
+    await page.getByTestId('model-create-button').click()
+    await page.getByTestId('model-name-en').fill('E2E Photo Phone')
+    await page.getByTestId('model-form').getByPlaceholder('iphone-15-pro').fill(slug)
+    await page.getByTestId('model-save').click()
+    await expect(page.getByTestId('model-heading')).toContainText('E2E Photo Phone')
+    const adminModelUrl = page.url()
+    try {
+      await page.getByTestId('model-image-input').setInputFiles({ name: 'photo.png', mimeType: 'image/png', buffer: TEST_PNG })
+      await expect(page.getByTestId('model-image-preview')).toHaveAttribute('src', /\/media\/catalog\/models\/.+\.webp$/)
+
+      const visitor = await browser.newContext()
+      const publicPage = await visitor.newPage()
+      const photo = publicPage.getByTestId('model-image')
+      await expect
+        .poll(
+          async () => {
+            await publicPage.goto(`/en/services/${C.family.slug}/${slug}`)
+            return (await photo.count()) ? await photo.getAttribute('src') : ''
+          },
+          { timeout: 15_000, intervals: [500, 1000, 2000] }
+        )
+        .toMatch(/^\/media\/catalog\/models\/.+\.webp$/)
+      const file = await publicPage.request.get((await photo.getAttribute('src')) ?? '')
+      expect(file.status()).toBe(200)
+      expect(file.headers()['content-type']).toContain('image/webp')
+      await visitor.close()
+    } finally {
+      await page.goto(adminModelUrl)
+      await page.getByTestId('model-delete-button').click()
+      await page.getByTestId('model-delete-confirm').click()
+      await expect(page).toHaveURL(/\/admin\/catalog\/families\//)
     }
   })
 })

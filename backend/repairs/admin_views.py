@@ -3,23 +3,26 @@ from decimal import Decimal, InvalidOperation
 
 from django.db import transaction
 from django.db.models import Count, Q
+from django.http import Http404
 from django.shortcuts import get_object_or_404
 from django.utils.text import slugify
 from rest_framework import status
+from rest_framework.parsers import FormParser, MultiPartParser
 from rest_framework.response import Response
 
 from accounts.admin_views import AdminAPIView, AdminPagination
 
+from .images import MAX_UPLOAD_BYTES, InvalidImage, clear_image, image_stem, set_image, url_of
 from .models import DeviceFamily, DeviceModel, Issue, ModelIssue
 
 FAMILY_FIELDS = [
-    "slug", "name_en", "name_bn", "kind", "icon", "hero_image", "display_order", "is_active",
+    "slug", "name_en", "name_bn", "kind", "icon", "display_order", "is_active",
     "intro_en", "intro_bn", "content_en", "content_bn", "faq",
     "seo_title_en", "seo_title_bn", "seo_description_en", "seo_description_bn",
 ]
 MODEL_FIELDS = [
     "slug", "name_en", "name_bn", "line", "size_label", "chip", "generation", "release_year",
-    "release_label", "model_numbers", "apple_identifier", "image", "display_order", "is_active",
+    "release_label", "model_numbers", "apple_identifier", "display_order", "is_active",
     "is_featured", "notes_en", "notes_bn", "content_en", "content_bn", "faq",
     "seo_title_en", "seo_title_bn", "seo_description_en", "seo_description_bn", "reference_source",
 ]
@@ -114,6 +117,7 @@ def family_admin_payload(f, model_count=None):
     payload.update(
         {
             "id": f.id,
+            "image": url_of(f.image),
             "model_count": model_count if model_count is not None else f.device_models.count(),
             "updated_at": f.updated_at.isoformat(),
         }
@@ -126,6 +130,7 @@ def model_admin_payload(m, offering_count=None):
     payload.update(
         {
             "id": m.id,
+            "image": url_of(m.image),
             "family": {"id": m.family_id, "slug": m.family.slug, "name_en": m.family.name_en},
             "offering_count": offering_count if offering_count is not None else m.offerings.count(),
             "updated_at": m.updated_at.isoformat(),
@@ -139,6 +144,7 @@ def issue_admin_payload(i, offering_count=None):
     payload.update(
         {
             "id": i.id,
+            "image": url_of(i.image),
             "applies_to": list(i.applies_to.values_list("id", flat=True)),
             "offering_count": offering_count if offering_count is not None else i.offerings.count(),
             "updated_at": i.updated_at.isoformat(),
@@ -154,6 +160,8 @@ def offering_admin_payload(o):
     payload.update(
         {
             "id": o.id,
+            "image": url_of(o.image),
+            "issue_image": url_of(o.issue.image),
             "model_id": o.model_id,
             "issue": {
                 "id": o.issue_id, "slug": o.issue.slug, "name_en": o.issue.name_en,
@@ -318,6 +326,7 @@ class ModelDuplicateView(AdminAPIView):
             data["name_en"] = f"{source.name_en} (copy)"
         data["is_active"] = cleaned.get("is_active", False)
         data["reference_source"] = f"duplicate of #{source.pk}"
+        data["image"] = source.image.name  # shared file; released only when unreferenced
         if DeviceModel.objects.filter(family=source.family, slug=data["slug"]).exists():
             return Response({"slug": ["A model with this slug already exists in this family."]}, status=400)
         with transaction.atomic():
@@ -328,6 +337,7 @@ class ModelDuplicateView(AdminAPIView):
                     price_from=o.price_from, price_options=o.price_options,
                     reference_price=o.reference_price, turnaround_hours=o.turnaround_hours,
                     warranty_days=o.warranty_days, content_status=ModelIssue.ContentStatus.DRAFT,
+                    image=o.image.name,
                 )
         return Response(model_admin_payload(new), status=status.HTTP_201_CREATED)
 
@@ -479,3 +489,43 @@ class MatrixView(AdminAPIView):
                 created += int(was_created)
                 updated += int(not was_created)
         return Response({"created": created, "updated": updated})
+
+
+# --------------------------------------------------------------- images
+IMAGE_TARGETS = {
+    "families": (DeviceFamily.objects.all(), "families"),
+    "models": (DeviceModel.objects.select_related("family"), "models"),
+    "issues": (Issue.objects.all(), "issues"),
+    "offerings": (ModelIssue.objects.select_related("model__family", "issue"), "issues"),
+}
+
+
+class CatalogImageView(AdminAPIView):
+    """POST multipart `image` to set/replace, DELETE to remove. Stored as WebP."""
+
+    parser_classes = [MultiPartParser, FormParser]
+
+    def _target(self, kind, pk):
+        if kind not in IMAGE_TARGETS:
+            raise Http404
+        queryset, folder = IMAGE_TARGETS[kind]
+        return get_object_or_404(queryset, pk=pk), folder
+
+    def post(self, request, kind, pk):
+        instance, folder = self._target(kind, pk)
+        upload = request.FILES.get("image")
+        if upload is None:
+            return Response({"image": ["Choose an image file."]}, status=status.HTTP_400_BAD_REQUEST)
+        if upload.size > MAX_UPLOAD_BYTES:
+            return Response({"image": ["Images must be 5 MB or smaller."]}, status=status.HTTP_400_BAD_REQUEST)
+        try:
+            set_image(instance, folder, image_stem(instance), upload.read())
+        except InvalidImage as exc:
+            return Response({"image": [str(exc)]}, status=status.HTTP_400_BAD_REQUEST)
+        return Response({"image": url_of(instance.image)})
+
+    def delete(self, request, kind, pk):
+        instance, _ = self._target(kind, pk)
+        clear_image(instance)
+        return Response({"image": ""})
+

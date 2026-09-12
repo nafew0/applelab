@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 
 import Breadcrumbs from '@/components/applelab/catalog/Breadcrumbs'
+import CatalogImage from '@/components/applelab/catalog/CatalogImage'
 import FaqList from '@/components/applelab/catalog/FaqList'
 import ModelCard from '@/components/applelab/catalog/ModelCard'
 import OfferingCard from '@/components/applelab/catalog/OfferingCard'
@@ -29,6 +30,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     path: `/services/${family}/${model}`,
     title: data.model.seo.title,
     description: data.model.seo.description,
+    image: data.model.image || data.family.image,
   })
 }
 
@@ -66,6 +68,7 @@ export default async function ModelPage({ params }: { params: Params }) {
           serviceJsonLd({
             locale, path, name: data.model.seo.title.split(' | ')[0],
             description: data.model.seo.description, config,
+            image: data.model.image,
           }),
         ]}
       />
@@ -79,19 +82,22 @@ export default async function ModelPage({ params }: { params: Params }) {
               { label: data.model.name },
             ]}
           />
-          <div className="section-head left reveal">
-            <p className="eyebrow">{data.family.name}</p>
-            <h1 className="h-xl" data-testid="model-headline">{t('model.headline', { model: data.model.name })}</h1>
-            <p className="sub">{t('model.intro', { model: data.model.name })}</p>
-            {facts.length || data.model.line ? (
-              <div className="facts" data-testid="model-facts">
-                {facts.map((fact) => (
-                  <span key={fact}>{fact}</span>
-                ))}
-                {data.model.size_label ? <span className="facts-line">{data.model.size_label}</span> : null}
-                {data.model.line && data.model.line !== 'standard' ? <span className="facts-line">{data.model.line}</span> : null}
-              </div>
-            ) : null}
+          <div className={`cat-hero-grid${data.model.image ? ' has-media' : ''}`}>
+            <div className="section-head left reveal">
+              <p className="eyebrow">{data.family.name}</p>
+              <h1 className="h-xl" data-testid="model-headline">{t('model.headline', { model: data.model.name })}</h1>
+              <p className="sub">{t('model.intro', { model: data.model.name })}</p>
+              {facts.length || data.model.line ? (
+                <div className="facts" data-testid="model-facts">
+                  {facts.map((fact) => (
+                    <span key={fact}>{fact}</span>
+                  ))}
+                  {data.model.size_label ? <span className="facts-line">{data.model.size_label}</span> : null}
+                  {data.model.line && data.model.line !== 'standard' ? <span className="facts-line">{data.model.line}</span> : null}
+                </div>
+              ) : null}
+            </div>
+            <CatalogImage src={data.model.image} alt={data.model.name} className="cat-hero-media" priority testId="model-image" />
           </div>
         </div>
       </section>

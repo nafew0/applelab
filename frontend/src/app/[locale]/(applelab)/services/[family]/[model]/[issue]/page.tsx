@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 
 import Breadcrumbs from '@/components/applelab/catalog/Breadcrumbs'
+import CatalogImage from '@/components/applelab/catalog/CatalogImage'
 import FaqList from '@/components/applelab/catalog/FaqList'
 import { Link } from '@/i18n/navigation'
 import { getOfferingPage } from '@/lib/catalog'
@@ -29,6 +30,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     description: data.offering.seo.description,
     indexable: data.offering.indexable,
     canonicalPath: `/services/${family}/${model}`,
+    image: data.model.image || data.offering.image,
   })
 }
 
@@ -60,6 +62,7 @@ export default async function OfferingPage({ params }: { params: Params }) {
           serviceJsonLd({
             locale, path, name: title, description: data.offering.seo.description, config,
             price: data.offering.price_from,
+            image: data.model.image,
           }),
         ]}
       />
@@ -74,10 +77,18 @@ export default async function OfferingPage({ params }: { params: Params }) {
               { label: data.issue.name },
             ]}
           />
-          <div className="section-head left reveal">
-            <p className="eyebrow">{data.model.name}</p>
-            <h1 className="h-xl" data-testid="offering-headline">{title}</h1>
-            <p className="sub">{t('offering.intro', { issue: data.issue.name, model: data.model.name })}</p>
+          <div className={`cat-hero-grid${data.model.image ? ' has-media' : ''}`}>
+            <div className="section-head left reveal">
+              <p className="eyebrow">{data.model.name}</p>
+              <h1 className="h-xl" data-testid="offering-headline">{title}</h1>
+              <p className="sub">{t('offering.intro', { issue: data.issue.name, model: data.model.name })}</p>
+            </div>
+            {data.model.image ? (
+              <div className="cat-hero-stack">
+                <CatalogImage src={data.model.image} alt={data.model.name} className="cat-hero-media" priority testId="model-image" />
+                <CatalogImage src={data.offering.image} alt="" className="cat-hero-badge" testId="offering-icon" />
+              </div>
+            ) : null}
           </div>
 
           <div className="price-box reveal" data-testid="price-box">

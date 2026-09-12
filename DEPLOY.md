@@ -175,6 +175,22 @@ sudo -u applelab DOTENV_FILE=.env.production venv/bin/python manage.py createsup
 
 `seed_catalog` loads the committed device catalog (`backend/repairs/seed/catalog.json`: families, models, repairs — no prices). It is safe to re-run on every deploy: it only adds missing rows and never overwrites what the owner edited in the admin. Prices are set by the owner in **Admin → Catalog**.
 
+### Catalog images (one-time, then whenever the image set changes)
+
+The catalog pictures (family, model photos, repair icons) are **not in git** — they live in the local research folder `research/ifixit-crawl/images/`, together with `catalog_images.json`, which maps every file to our own family/model/repair slugs. Copy that folder to the server and attach it:
+
+```bash
+# from your machine
+rsync -av research/ifixit-crawl/images/ applelab@<server>:/opt/applelab/catalog-images/
+
+# on the server (after seed_catalog)
+cd /opt/applelab/app/backend
+sudo -u applelab DOTENV_FILE=.env.production venv/bin/python manage.py import_catalog_images --images-dir /opt/applelab/catalog-images --dry-run
+sudo -u applelab DOTENV_FILE=.env.production venv/bin/python manage.py import_catalog_images --images-dir /opt/applelab/catalog-images
+```
+
+Images are converted to WebP into `backend/media/catalog/` (served by the `/media/` nginx block). Re-running only fills empty images — anything the owner uploaded in **Admin → Catalog** is kept; add `--overwrite` to replace them. Include `backend/media/` in your backups.
+
 Static files land in `/opt/applelab/app/backend/staticfiles/`, uploads in `/opt/applelab/app/backend/media/`.
 
 ---

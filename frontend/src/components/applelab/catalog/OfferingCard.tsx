@@ -1,6 +1,8 @@
 import { Link } from '@/i18n/navigation'
 import type { OfferingCard as OfferingCardData } from '@/lib/catalog'
 
+import CatalogImage from './CatalogImage'
+
 export default function OfferingCard({
   offering,
   family,
@@ -18,7 +20,10 @@ export default function OfferingCard({
       className="offer-card"
       data-testid="offering-card"
     >
-      <span className="offer-cat">{offering.issue.category}</span>
+      <div className="offer-head">
+        <CatalogImage src={offering.image} alt="" className="offer-icon" />
+        <span className="offer-cat">{offering.issue.category}</span>
+      </div>
       <h4>{offering.issue.name}</h4>
       {offering.price_from ? (
         <span className="offer-price">
