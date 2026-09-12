@@ -40,7 +40,7 @@ export default async function ServicesIndexPage({ params }: { params: Promise<{ 
       <section className="section cat-hero" data-testid="services-index">
         <div className="container">
           <Breadcrumbs items={[{ href: '/', label: t('home') }, { label: t('services') }]} />
-          <div className="section-head left reveal">
+          <div className="section-head left wide reveal">
             <p className="eyebrow">{t('index.eyebrow')}</p>
             <h1 className="h-xl">{t('index.headline')}</h1>
             <p className="sub">{t('index.intro')}</p>
