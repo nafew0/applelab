@@ -7,6 +7,8 @@
 Design/*.zip
 .thumbnail
 
-# Competitor research crawl — local only, never published (the committed
-# catalog seed is backend/repairs/seed/catalog.json)
-research/ifixit-crawl/
+# Research inputs — local only, never published: the competitor crawl (the
+# committed catalog seed is backend/repairs/seed/catalog.json) and the hero-film
+# keyframes and clips (the site ships the frames built from them in
+# frontend/public/applelab/film/)
+research/
