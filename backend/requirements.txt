@@ -49,3 +49,7 @@ cryptography>=42.0.0
 
 # OAuth client integrations
 authlib==1.5.2
+
+# Catalog content rendering (Markdown → sanitized HTML)
+markdown>=3.6
+nh3>=0.2.17

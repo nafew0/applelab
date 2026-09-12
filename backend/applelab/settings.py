@@ -273,6 +273,12 @@ REST_FRAMEWORK = {
 
 # Leads / documents
 ADMIN_API_THROTTLE_RATE = os.environ.get("ADMIN_API_THROTTLE_RATE", "1000/hour").strip() or "1000/hour"
+# Catalog → Next.js on-demand ISR revalidation (blank = disabled)
+NEXT_REVALIDATE_URL = os.environ.get("NEXT_REVALIDATE_URL", "").strip()
+NEXT_REVALIDATE_SECRET = os.environ.get("NEXT_REVALIDATE_SECRET", "").strip()
+# Next → Django page-data key (repairs.views.HasCatalogKey); blank only works with DEBUG
+CATALOG_PAGES_SECRET = os.environ.get("CATALOG_PAGES_SECRET", "").strip()
+
 LEADS_REFERENCE_PREFIX = os.environ.get("LEADS_REFERENCE_PREFIX", "LD").strip() or "LD"
 
 # Simple JWT

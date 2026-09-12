@@ -13,6 +13,8 @@ urlpatterns = [
     path("api/admin/", include("leads.admin_urls")),
     path("api/content/", include("content.urls")),
     path("api/leads/", include("leads.urls")),
+    path("api/catalog/", include("repairs.urls")),
+    path("api/admin/", include("repairs.admin_urls")),
     # Add your app URLs here:
     # path("api/", include("myapp.urls")),
 ]
