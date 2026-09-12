@@ -1,0 +1,725 @@
+{
+ "success": true,
+ "message": "successful",
+ "data": [
+  {
+   "_id": "68fde3c17495d2cd03283508",
+   "title": "Display Replacement",
+   "order_no": 1,
+   "image": {
+    "public_id": "service/apple-watch-display-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-display-replacement.png"
+   },
+   "model_id": [
+    "68a869f555f5cfa31e2abb50"
+   ],
+   "device_id": "68a8640d55f5cfa31e2abad2",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68fde3c17495d2cd03283509"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Display Replacement",
+     "image_alt_text": "Apple Watch Generation Series 3-38mm Display Replacement",
+     "repair_image": {
+      "public_id": "service/apple-watch-display-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-display-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 0,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68fcc97e7495d2cd03283185",
+     "product_variation_id": "68fcc97e7495d2cd03283188",
+     "_id": "6a620e14d93f2e3d1c05b8ec",
+     "product_data": {
+      "_id": "68fcc97e7495d2cd03283185",
+      "product_id": "p360",
+      "name": "Apple Watch Series 3-38mm Display",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f1caed11479fdf2f3c1",
+      "device_id": "68a8640d55f5cfa31e2abad2",
+      "model_id": "68a869f555f5cfa31e2abb50",
+      "attachable_models": [
+       "68a869f555f5cfa31e2abb50"
+      ],
+      "price": null,
+      "warranty": 0,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-25T12:58:38.274Z",
+      "updated_at": "2026-02-19T06:00:31.140Z",
+      "__v": 0,
+      "endpoint": "/product/apple-watch-series-3-38mm-display",
+      "warranty_note": "",
+      "website_name": "Apple Watch Series 3-38mm Display"
+     },
+     "product_variation_data": {
+      "_id": "68fcc97e7495d2cd03283188",
+      "name": "Display",
+      "quality": "Standard After Market",
+      "product_id": "68fcc97e7495d2cd03283185",
+      "price": 6500,
+      "base_price": 5000,
+      "images": [
+       {
+        "public_id": "product/Apple-Watch-Series-3--38mm-display.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/Apple-Watch-Series-3--38mm-display.png",
+        "_id": "695bad1826358c8899ab9e9d"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-25T12:58:38.755Z",
+      "updated_at": "2026-01-05T12:22:48.672Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-26T09:02:57.095Z",
+   "updated_at": "2026-07-23T12:50:28.763Z",
+   "endpoints": [
+    {
+     "model_id": "68a869f555f5cfa31e2abb50",
+     "endpoint": "/services/apple-watch-generation/series-3-38mm/display-replacement",
+     "_id": "6a620e14d93f2e3d1c05b8ea"
+    }
+   ],
+   "meta_description": "Need display replacement for your Apple Watch Series 3 (38mm)? iFixit offers genuine OEM parts, certified technicians and full warranty in Dhaka –...",
+   "meta_keywords": "",
+   "meta_title": "Apple Watch Series 3 (38mm) Display Replacement | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Apple Watch Generation",
+     "image": {
+      "public_id": "device/Apple-Watch-Generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/Apple-Watch-Generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Apple Watch Series 3-38mm",
+     "image": {
+      "public_id": "model/Apple-Watch-series-3-38mm.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Apple-Watch-series-3-38mm.png"
+     },
+     "endpoint": "series-3-38mm",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Apple Watch Series 3-38mm Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "68fde4737495d2cd03283573",
+   "title": "Speaker Replacement",
+   "order_no": 4,
+   "image": {
+    "public_id": "service/apple-watch-speaker-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-speaker-replacement.png"
+   },
+   "model_id": [
+    "68a869f555f5cfa31e2abb50"
+   ],
+   "device_id": "68a8640d55f5cfa31e2abad2",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68fde4737495d2cd03283574"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Speaker Replacement",
+     "website_name": "Speaker Replacement",
+     "image_alt_text": "Apple Watch Generation Series 3-38mm Speaker Replacement",
+     "repair_image": {
+      "public_id": "service/apple-watch-speaker-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-speaker-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a620ec6d93f2e3d1c05bac6"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-26T09:05:55.173Z",
+   "updated_at": "2026-07-23T12:53:26.743Z",
+   "endpoints": [
+    {
+     "model_id": "68a869f555f5cfa31e2abb50",
+     "endpoint": "/services/apple-watch-generation/series-3-38mm/speaker-replacement",
+     "_id": "6a620ec6d93f2e3d1c05bac4"
+    }
+   ],
+   "meta_description": "Looking for reliable speaker replacement for your Apple Watch Series 3 (38mm)? iFixit, Bangladesh's Authentic Apple Service Center, delivers expert...",
+   "meta_keywords": "",
+   "meta_title": "Apple Watch Series 3 (38mm) Speaker Replacement | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Apple Watch Generation",
+     "image": {
+      "public_id": "device/Apple-Watch-Generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/Apple-Watch-Generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Apple Watch Series 3-38mm",
+     "image": {
+      "public_id": "model/Apple-Watch-series-3-38mm.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Apple-Watch-series-3-38mm.png"
+     },
+     "endpoint": "series-3-38mm",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Apple Watch Series 3-38mm Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "68fde4aa7495d2cd03283596",
+   "title": "Software Issue",
+   "order_no": 5,
+   "image": {
+    "public_id": "service/apple-watch-software-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-software-issue.png"
+   },
+   "model_id": [
+    "68a869f555f5cfa31e2abb50"
+   ],
+   "device_id": "68a8640d55f5cfa31e2abad2",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68fde4aa7495d2cd03283597"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Software Issue",
+     "website_name": "Software Issue",
+     "image_alt_text": "Apple Watch Generation Series 3-38mm Software Issue",
+     "repair_image": {
+      "public_id": "service/apple-watch-software-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-software-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a620efcd93f2e3d1c05bb07"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-26T09:06:50.315Z",
+   "updated_at": "2026-07-23T12:54:20.327Z",
+   "endpoints": [
+    {
+     "model_id": "68a869f555f5cfa31e2abb50",
+     "endpoint": "/services/apple-watch-generation/series-3-38mm/software-issue",
+     "_id": "6a620efcd93f2e3d1c05bb05"
+    }
+   ],
+   "meta_description": "Need software troubleshooting for your Apple Watch Series 3 (38mm)? Get expert diagnosis and precise repair at iFixit, Bangladesh's Authentic Apple...",
+   "meta_keywords": "",
+   "meta_title": "Apple Watch Series 3 (38mm) Software Issue in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Apple Watch Generation",
+     "image": {
+      "public_id": "device/Apple-Watch-Generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/Apple-Watch-Generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Apple Watch Series 3-38mm",
+     "image": {
+      "public_id": "model/Apple-Watch-series-3-38mm.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Apple-Watch-series-3-38mm.png"
+     },
+     "endpoint": "series-3-38mm",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Apple Watch Series 3-38mm Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "68fde4397495d2cd0328354f",
+   "title": "Upper Glass Replacement",
+   "order_no": 3,
+   "image": {
+    "public_id": "service/apple-watch-upper-glass-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-upper-glass-replacement.png"
+   },
+   "model_id": [
+    "68a869f555f5cfa31e2abb50"
+   ],
+   "device_id": "68a8640d55f5cfa31e2abad2",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68fde4397495d2cd03283550"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Upper Glass Replacement",
+     "website_name": "Upper Glass Replacement",
+     "image_alt_text": "Apple Watch Generation Series 3-38mm Upper Glass Replacement",
+     "repair_image": {
+      "public_id": "service/apple-watch-upper-glass-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-upper-glass-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a620e93d93f2e3d1c05ba7d"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-26T09:04:57.345Z",
+   "updated_at": "2026-07-23T12:52:35.528Z",
+   "endpoints": [
+    {
+     "model_id": "68a869f555f5cfa31e2abb50",
+     "endpoint": "/services/apple-watch-generation/series-3-38mm/upper-glass-replacement",
+     "_id": "6a620e93d93f2e3d1c05ba7b"
+    }
+   ],
+   "meta_description": "Trust iFixit, Bangladesh's Authentic Apple Service Center, for Apple Watch Series 3 (38mm) upper glass replacement in Dhaka. Genuine OEM parts...",
+   "meta_keywords": "",
+   "meta_title": "Apple Watch Series 3 (38mm) Upper Glass Replacement | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Apple Watch Generation",
+     "image": {
+      "public_id": "device/Apple-Watch-Generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/Apple-Watch-Generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Apple Watch Series 3-38mm",
+     "image": {
+      "public_id": "model/Apple-Watch-series-3-38mm.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Apple-Watch-series-3-38mm.png"
+     },
+     "endpoint": "series-3-38mm",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Apple Watch Series 3-38mm Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "68fde3fb7495d2cd0328352d",
+   "title": "Battery Replacement",
+   "order_no": 2,
+   "image": {
+    "public_id": "service/apple-watch-battery-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-battery-replacement.png"
+   },
+   "model_id": [
+    "68a869f555f5cfa31e2abb50"
+   ],
+   "device_id": "68a8640d55f5cfa31e2abad2",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68fde3fb7495d2cd0328352e"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Battery Replacement",
+     "image_alt_text": "Apple Watch Generation Series 3-38mm Battery Replacement",
+     "repair_image": {
+      "public_id": "service/apple-watch-battery-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-battery-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 0,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68fccb687495d2cd032831ad",
+     "product_variation_id": "68fccb687495d2cd032831b0",
+     "_id": "6a620e51d93f2e3d1c05b94f",
+     "product_data": {
+      "_id": "68fccb687495d2cd032831ad",
+      "product_id": "p361",
+      "name": "Apple Watch Series 3-38mm Battery",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f28aed11479fdf2f3ca",
+      "device_id": "68a8640d55f5cfa31e2abad2",
+      "model_id": "68a869f555f5cfa31e2abb50",
+      "attachable_models": [
+       "68a869f555f5cfa31e2abb50"
+      ],
+      "price": null,
+      "warranty": 0,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-25T13:06:48.254Z",
+      "updated_at": "2026-02-19T06:00:08.651Z",
+      "__v": 0,
+      "endpoint": "/product/apple-watch-series-3-38mm-battery",
+      "warranty_note": "",
+      "website_name": "Apple Watch Series 3-38mm Battery"
+     },
+     "product_variation_data": {
+      "_id": "68fccb687495d2cd032831b0",
+      "name": "Battery",
+      "quality": "Standard After Market",
+      "product_id": "68fccb687495d2cd032831ad",
+      "price": 3000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/Apple-Watch-series-3--38m-battery.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/Apple-Watch-series-3--38m-battery.png",
+        "_id": "695bad1126358c8899ab9e95"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-25T13:06:48.746Z",
+      "updated_at": "2026-05-07T09:22:18.638Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-26T09:03:55.119Z",
+   "updated_at": "2026-07-23T12:51:29.679Z",
+   "endpoints": [
+    {
+     "model_id": "68a869f555f5cfa31e2abb50",
+     "endpoint": "/services/apple-watch-generation/series-3-38mm/battery-replacement",
+     "_id": "6a620e51d93f2e3d1c05b94d"
+    }
+   ],
+   "meta_description": "Get professional battery replacement for Apple Watch Series 3 (38mm) at iFixit, Dhaka – Bangladesh's Authentic Apple Service Center. 100% genuine OEM...",
+   "meta_keywords": "",
+   "meta_title": "Apple Watch Series 3 (38mm) Battery Replacement | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Apple Watch Generation",
+     "image": {
+      "public_id": "device/Apple-Watch-Generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/Apple-Watch-Generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Apple Watch Series 3-38mm",
+     "image": {
+      "public_id": "model/Apple-Watch-series-3-38mm.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Apple-Watch-series-3-38mm.png"
+     },
+     "endpoint": "series-3-38mm",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Apple Watch Series 3-38mm Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  }
+ ],
+ "totalData": 5
+}

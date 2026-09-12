@@ -1,0 +1,47 @@
+{
+ "message": "success",
+ "status": 200,
+ "data": [
+  {
+   "image": {
+    "public_id": "model/Mac-Studio-(2025).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-Studio-(2025).png"
+   },
+   "_id": "68b3f1f5f4016bd30fe5ee81",
+   "name": "Mac Studio (2025)",
+   "order_no": 368,
+   "endpoint": "2025"
+  },
+  {
+   "image": {
+    "public_id": "model/Mac-Studio-(2023).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-Studio-(2023).png"
+   },
+   "_id": "68b3f1dbf4016bd30fe5ee78",
+   "name": "Mac Studio (2023)",
+   "order_no": 367,
+   "endpoint": "2023"
+  },
+  {
+   "image": {
+    "public_id": "model/Mac-Studio-(2022).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-Studio-(2022).png"
+   },
+   "_id": "68b3f1c4f4016bd30fe5ee6f",
+   "name": "Mac Studio (2022)",
+   "order_no": 366,
+   "endpoint": "2022"
+  }
+ ],
+ "childDevice": false,
+ "device": {
+  "_id": "685e62d884877e225d242f10",
+  "name": "Mac Studio",
+  "meta_description": "Searching for trusted Mac Studio repair services in Dhaka? At iFixit BD, we specialize in expert Mac Studio, providing fast and efficient fix.\r\n",
+  "meta_keywords": "undefined",
+  "meta_title": "Best Mac Studio Repair Center in Dhaka, Bangladesh - iFixit BD",
+  "page_description": "<h2>Leading Mac Studio Repair Center in Bangladesh</h2><p>Owning a Mac Studio reflects a commitment to serious performance, designed for professionals who depend on speed, stability, and precision. In Bangladesh, maintaining such a high-end Apple device demands more than routine servicing; it requires technical depth, discipline, and respect for Apple’s engineering standards. iFixit BD has earned its position as a trusted Apple repair center by focusing on that exact standard. The team handles Mac Studio systems with a methodical, Apple-aligned approach, addressing complex concerns such as power irregularities, SSD failures, thermal stress, chip-level faults, and performance degradation. Each repair begins with a structured evaluation, followed by targeted solutions that prioritize long-term reliability rather than short-term fixes. Certified technicians and controlled repair processes, ensuring the integrity of the device remains intact. Turnaround times are streamlined to minimize disruption, allowing creative and professional workflows to resume without unnecessary delays.<br/></p><h2>Our Mac Studio Repair Services</h2><p>Dependable repair is not a convenience, it is a strategic necessity. Choosing a service center that values precision, accountability, and engineering rigor protects both the device and the work it powers.<br/><br/>Our Mac Studio  repair services include:</p><ul><li>Mac Studio connectivity issues (Thunderbolt, USB, Ethernet), </li><li>Mac Studio performance/ stability problem (overheating, crashes) </li><li>Mac Studio display issues</li><li>Mac Studio power/ startup failures</li></ul><p><br/>Expert technicians apply targeted, methodical solutions to restore Mac Studio performance, safeguarding reliability and maximizing operational longevity.<br/></p>",
+  "page_title": "Mac Studio Repair Services",
+  "page_title_description": "Mac Studio maintenance at iFixit BD is guided by  expert professionals who deliver precise solutions that sustain both performance and durability\r\n"
+ }
+}

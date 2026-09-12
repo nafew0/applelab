@@ -1,0 +1,1098 @@
+{
+ "success": true,
+ "message": "successful",
+ "data": [
+  {
+   "_id": "686b9b7f19055242d5b9361b",
+   "title": "Button Issue",
+   "order_no": 3,
+   "image": {
+    "public_id": "service/ipad-air-11-inch-6th-generation-2024-button-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-11-inch-6th-generation-2024-button-issue.png"
+   },
+   "model_id": [
+    "680b58dba0d70a0f278d9dab"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "686b9b7f19055242d5b9361c"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Button Issue",
+     "website_name": "Button Issue",
+     "image_alt_text": "iPad Air 11 Inch 6th Generation 2024 Button Issue",
+     "repair_image": {
+      "public_id": "service/ipad-air-11-inch-6th-generation-2024-button-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-11-inch-6th-generation-2024-button-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 8000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a66faa1bf41443db66b5e9f"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-07T10:03:43.790Z",
+   "updated_at": "2026-07-27T06:28:49.656Z",
+   "endpoints": [
+    {
+     "model_id": "680b58dba0d70a0f278d9dab",
+     "endpoint": "/services/ipad-air/6th-11-2024/button-issue",
+     "_id": "6a66faa1bf41443db66b5e9d"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 11 Inch 6th Gen (2024)",
+     "image": {
+      "public_id": "model/iPad-Air-11-Inch-6th-Gen-(2024).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-11-Inch-6th-Gen-(2024).png"
+     },
+     "endpoint": "6th-11-2024",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 11 Inch 6th Gen (2024) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 11 Inch 6th Gen (2024) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "694007a8e3cb8bf613c30c46",
+   "title": "Motherboard Repair",
+   "order_no": 4,
+   "endpoints": [
+    {
+     "model_id": "680b58dba0d70a0f278d9dab",
+     "endpoint": "/services/ipad-air/6th-11-2024/motherboard-repair",
+     "_id": "6a66fbacbf41443db66b5ff7"
+    }
+   ],
+   "image": {
+    "public_id": "service/ipad-air-11-inch-6th-generation-2024-motherboard-repair.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-11-inch-6th-generation-2024-motherboard-repair.png"
+   },
+   "model_id": [
+    "680b58dba0d70a0f278d9dab"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "694007a8e3cb8bf613c30c48"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Motherboard Repair",
+     "website_name": "Motherboard Repair",
+     "image_alt_text": "iPad Air 11 Inch 6th Generation 2024 Motherboard Repair",
+     "repair_image": {
+      "public_id": "service/ipad-air-11-inch-6th-generation-2024-motherboard-repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-11-inch-6th-generation-2024-motherboard-repair.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 15000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a66fbacbf41443db66b5ff9"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-15T13:05:44.574Z",
+   "updated_at": "2026-07-27T06:33:16.289Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 11 Inch 6th Gen (2024)",
+     "image": {
+      "public_id": "model/iPad-Air-11-Inch-6th-Gen-(2024).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-11-Inch-6th-Gen-(2024).png"
+     },
+     "endpoint": "6th-11-2024",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 11 Inch 6th Gen (2024) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 11 Inch 6th Gen (2024) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68fc67587495d2cd0328246d",
+   "title": "Display Replacement",
+   "order_no": 2,
+   "image": {
+    "public_id": "service/display-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/display-replacement.png"
+   },
+   "model_id": [
+    "680b58dba0d70a0f278d9dab"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68fc67587495d2cd0328246e"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Display Replacement",
+     "image_alt_text": "iPad Air 6th Gen 11 Inch Display Replacement",
+     "repair_image": {
+      "public_id": "service/display-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/display-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68fb649d7495d2cd0328184d",
+     "product_variation_id": "68fb649d7495d2cd03281850",
+     "_id": "6a12af98173a1ff5384ab49c",
+     "product_data": {
+      "_id": "68fb649d7495d2cd0328184d",
+      "product_id": "p311",
+      "name": "iPad Air 6th Gen 11 Inch 2024 Display",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f1caed11479fdf2f3c1",
+      "device_id": "680a2fc0a0d70a0f278d98b4",
+      "model_id": "680b58dba0d70a0f278d9dab",
+      "attachable_models": [
+       "680b58dba0d70a0f278d9dab"
+      ],
+      "price": null,
+      "warranty": 0,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T11:35:57.235Z",
+      "updated_at": "2026-02-14T08:24:55.578Z",
+      "__v": 0,
+      "endpoint": "/product/ipad-air-6th-gen-11-inch-display",
+      "warranty_note": "",
+      "website_name": "iPad Air 6th Gen 11 Inch 2024 Display"
+     },
+     "product_variation_data": {
+      "_id": "68fb649d7495d2cd03281850",
+      "name": "Display",
+      "quality": "Standard After Market",
+      "product_id": "68fb649d7495d2cd0328184d",
+      "price": 32000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/ipad-air-4,-5-&-6-display.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/ipad-air-4,-5-&-6-display.png",
+        "_id": "694e72f18a888ed233595e58"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T11:35:57.759Z",
+      "updated_at": "2026-05-05T13:50:55.109Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-25T05:59:52.883Z",
+   "updated_at": "2026-05-24T07:58:16.877Z",
+   "endpoints": [
+    {
+     "model_id": "680b58dba0d70a0f278d9dab",
+     "endpoint": "/services/ipad-air/6th-11-2024/display-replacement",
+     "_id": "6a12af98173a1ff5384ab49a"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 11 Inch 6th Gen (2024)",
+     "image": {
+      "public_id": "model/iPad-Air-11-Inch-6th-Gen-(2024).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-11-Inch-6th-Gen-(2024).png"
+     },
+     "endpoint": "6th-11-2024",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 11 Inch 6th Gen (2024) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 11 Inch 6th Gen (2024) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68691e0819055242d5b92d4a",
+   "title": "Software Issue",
+   "order_no": 9,
+   "image": {
+    "public_id": "service/ipad-air-11-inch-6th-generation-2024-software-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-11-inch-6th-generation-2024-software-issue.png"
+   },
+   "model_id": [
+    "680b58dba0d70a0f278d9dab"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68691e0819055242d5b92d4b"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Software Issue",
+     "website_name": "Software Issue",
+     "image_alt_text": "iPad Air 11 Inch 6th Generation 2024 Software Issue",
+     "repair_image": {
+      "public_id": "service/ipad-air-11-inch-6th-generation-2024-software-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-11-inch-6th-generation-2024-software-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a671e8ebf41443db6849111"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-05T12:43:52.029Z",
+   "updated_at": "2026-07-27T09:02:06.946Z",
+   "endpoints": [
+    {
+     "model_id": "680b58dba0d70a0f278d9dab",
+     "endpoint": "/services/ipad-air/6th-11-2024/software-issues",
+     "_id": "6a671e8ebf41443db684910f"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 11 Inch 6th Gen (2024)",
+     "image": {
+      "public_id": "model/iPad-Air-11-Inch-6th-Gen-(2024).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-11-Inch-6th-Gen-(2024).png"
+     },
+     "endpoint": "6th-11-2024",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 11 Inch 6th Gen (2024) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 11 Inch 6th Gen (2024) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68691b1319055242d5b92cb9",
+   "title": "Liquid Damage",
+   "order_no": 8,
+   "image": {
+    "public_id": "service/ipad-air-11-inch-6th-generation-2024-liquid-damage.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-11-inch-6th-generation-2024-liquid-damage.png"
+   },
+   "model_id": [
+    "680b58dba0d70a0f278d9dab"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68691b1319055242d5b92cba"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Liquid Damage",
+     "website_name": "Liquid Damage",
+     "image_alt_text": "iPad Air 11 Inch 6th Generation 2024 Liquid Damage",
+     "repair_image": {
+      "public_id": "service/ipad-air-11-inch-6th-generation-2024-liquid-damage.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-11-inch-6th-generation-2024-liquid-damage.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 8000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a670bfcbf41443db677476a"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-05T12:31:15.837Z",
+   "updated_at": "2026-07-27T07:42:52.325Z",
+   "endpoints": [
+    {
+     "model_id": "680b58dba0d70a0f278d9dab",
+     "endpoint": "/services/ipad-air/6th-11-2024/liquid-damage",
+     "_id": "6a670bfcbf41443db6774768"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 11 Inch 6th Gen (2024)",
+     "image": {
+      "public_id": "model/iPad-Air-11-Inch-6th-Gen-(2024).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-11-Inch-6th-Gen-(2024).png"
+     },
+     "endpoint": "6th-11-2024",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 11 Inch 6th Gen (2024) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 11 Inch 6th Gen (2024) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "686b9e6619055242d5b936a3",
+   "title": "Speaker Replacement",
+   "order_no": 6,
+   "image": {
+    "public_id": "service/ipad-air-11-inch-6th-generation-2024-speaker-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-11-inch-6th-generation-2024-speaker-replacement.png"
+   },
+   "model_id": [
+    "680b58dba0d70a0f278d9dab"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "686b9e6619055242d5b936a4"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Speaker Replacement",
+     "website_name": "Speaker Replacement",
+     "image_alt_text": "iPad Air 11 Inch 6th Generation 2024 Speaker Replacement",
+     "repair_image": {
+      "public_id": "service/ipad-air-11-inch-6th-generation-2024-speaker-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-11-inch-6th-generation-2024-speaker-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 4000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a6708afbf41443db6749a0d"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-07T10:16:06.391Z",
+   "updated_at": "2026-07-27T07:28:47.506Z",
+   "endpoints": [
+    {
+     "model_id": "680b58dba0d70a0f278d9dab",
+     "endpoint": "/services/ipad-air/6th-11-2024/speaker-replacement",
+     "_id": "6a6708afbf41443db6749a0b"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 11 Inch 6th Gen (2024)",
+     "image": {
+      "public_id": "model/iPad-Air-11-Inch-6th-Gen-(2024).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-11-Inch-6th-Gen-(2024).png"
+     },
+     "endpoint": "6th-11-2024",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 11 Inch 6th Gen (2024) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 11 Inch 6th Gen (2024) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68fc66af7495d2cd032823d5",
+   "title": "Battery Replacement",
+   "order_no": 2,
+   "image": {
+    "public_id": "service/battery-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/battery-issue.png"
+   },
+   "model_id": [
+    "680b58dba0d70a0f278d9dab"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68fc66af7495d2cd032823d6"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Battery Replacement",
+     "image_alt_text": "iPad Air 6th Gen 11 Inch Battery Replacement",
+     "repair_image": {
+      "public_id": "service/battery-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/battery-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68fb6d927495d2cd03281984",
+     "product_variation_id": "68fb6d937495d2cd03281987",
+     "_id": "6a12afa9173a1ff5384ab4b1",
+     "product_data": {
+      "_id": "68fb6d927495d2cd03281984",
+      "product_id": "p320",
+      "name": "iPad Air 6th Gen 11 Inch 2024 Battery",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f28aed11479fdf2f3ca",
+      "device_id": "680a2fc0a0d70a0f278d98b4",
+      "model_id": "680b58dba0d70a0f278d9dab",
+      "attachable_models": [
+       "680b58dba0d70a0f278d9dab"
+      ],
+      "price": null,
+      "warranty": 0,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T12:14:10.662Z",
+      "updated_at": "2026-02-14T08:25:14.471Z",
+      "__v": 0,
+      "endpoint": "/product/ipad-air-6th-gen-11-inch-battery",
+      "warranty_note": "",
+      "website_name": "iPad Air 6th Gen 11 Inch 2024 Battery"
+     },
+     "product_variation_data": {
+      "_id": "68fb6d937495d2cd03281987",
+      "name": "Battery",
+      "quality": "Standard After Market",
+      "product_id": "68fb6d927495d2cd03281984",
+      "price": 6000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/ipad-air-4,-5,-6-&-7-battery.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/ipad-air-4,-5,-6-&-7-battery.png",
+        "_id": "694e72eb8a888ed233595e50"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T12:14:11.225Z",
+      "updated_at": "2026-05-05T13:51:54.944Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-25T05:57:03.475Z",
+   "updated_at": "2026-05-24T07:58:33.529Z",
+   "endpoints": [
+    {
+     "model_id": "680b58dba0d70a0f278d9dab",
+     "endpoint": "/services/ipad-air/6th-11-2024/battery-replacement",
+     "_id": "6a12afa9173a1ff5384ab4af"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 11 Inch 6th Gen (2024)",
+     "image": {
+      "public_id": "model/iPad-Air-11-Inch-6th-Gen-(2024).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-11-Inch-6th-Gen-(2024).png"
+     },
+     "endpoint": "6th-11-2024",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 11 Inch 6th Gen (2024) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 11 Inch 6th Gen (2024) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68691c8119055242d5b92d06",
+   "title": "Camera Replacement",
+   "order_no": 7,
+   "image": {
+    "public_id": "service/ipad-air-11-inch-6th-generation-2024-camera-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-11-inch-6th-generation-2024-camera-replacement.png"
+   },
+   "model_id": [
+    "680b58dba0d70a0f278d9dab"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68691c8119055242d5b92d07"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Camera Replacement",
+     "website_name": "Camera Replacement",
+     "image_alt_text": "iPad Air 11 Inch 6th Generation 2024 Camera Replacement",
+     "repair_image": {
+      "public_id": "service/ipad-air-11-inch-6th-generation-2024-camera-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-11-inch-6th-generation-2024-camera-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 8000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a670a28bf41443db6749bf6"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-05T12:37:21.013Z",
+   "updated_at": "2026-07-27T07:35:04.464Z",
+   "endpoints": [
+    {
+     "model_id": "680b58dba0d70a0f278d9dab",
+     "endpoint": "/services/ipad-air/6th-11-2024/camera-replacement",
+     "_id": "6a670a28bf41443db6749bf4"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 11 Inch 6th Gen (2024)",
+     "image": {
+      "public_id": "model/iPad-Air-11-Inch-6th-Gen-(2024).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-11-Inch-6th-Gen-(2024).png"
+     },
+     "endpoint": "6th-11-2024",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 11 Inch 6th Gen (2024) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 11 Inch 6th Gen (2024) from iFixit BD"
+    }
+   ]
+  }
+ ],
+ "totalData": 8
+}

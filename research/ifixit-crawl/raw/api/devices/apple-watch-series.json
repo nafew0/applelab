@@ -1,0 +1,65 @@
+{
+ "message": "success",
+ "status": 200,
+ "data": [
+  {
+   "image": {
+    "public_id": "device/Apple-Watch-Generation.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/Apple-Watch-Generation.png"
+   },
+   "_id": "68a8640d55f5cfa31e2abad2",
+   "name": "Apple Watch Generation",
+   "order_no": 21,
+   "endpoint": "/services/apple-watch-generation",
+   "meta_description": "Searching  for trusted Apple Watch Generation repair services in Dhaka? At iFixit BD, we specialize in expert Apple Watch Generation, providing fast and efficient fix.\r\n",
+   "meta_keywords": "undefined",
+   "meta_title": "Authentic Apple Watch Generation Repair Center in Dhaka - iFixit BD",
+   "page_description": "<h2>Trusted Apple Watch Generation Repair Service in BD</h2><p>The Apple Watch, from the first generation to the latest, shapes daily routines, monitors health metrics, and sustains connectivity. A damaged screen, deteriorating battery, or software malfunction interrupts not just timekeeping but productivity and workflow. iFixit BD approaches these challenges with precision and depth. Our technicians apply rigorous diagnostics and repair each device using genuine components, ensuring performance consistency and longevity. In Bangladesh, authentic Apple Watch service remains limited; our practice establishes a reliable standard. Through a methodical repair process tailored to each generation, devices regain full functionality while preserving design integrity. The outcome is a watch that operates fluidly, maintains its visual appeal, and supports the demands of modern life, reinforcing trust in both technology and the user experience.<br/></p><h2>Our Apple Watch Generation Repair Services</h2><p>Apple Watch functions best when serviced with attention to detail, combining technical expertise and authentic parts for longevity.<br/><br/>Our Apple Watch Generation repair services include:</p><ul><li>Apple Watch Generation screen replacement </li><li>Apple Watch Generation battery replacement </li><li>Apple Watch Generation water damage repair </li><li>Apple Watch generation software solutions</li></ul>",
+   "page_title": "Apple Watch Generation Repair Services",
+   "page_title_description": "iFixit BD ensures Apple Watch Generation receives professional, precise maintenance that upholds superior functionality and long-term resilience.\r\n"
+  },
+  {
+   "image": {
+    "public_id": "device/apple-watch-se-.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/apple-watch-se-.png"
+   },
+   "_id": "68a864c355f5cfa31e2abadd",
+   "name": "Apple Watch SE",
+   "order_no": 22,
+   "endpoint": "/services/apple-watch-se",
+   "meta_description": "Searching  for trusted Apple Watch SE repair services in Dhaka? At iFixit BD, we specialize in expert Apple Watch, providing fast and efficient fix.\r\n",
+   "meta_keywords": "undefined",
+   "meta_title": "Authentic Apple Watch SE Repair Center in Dhaka - iFixit BD",
+   "page_description": "<h1>Trusted Apple Watch SE Repair Service in BD</h1><p>The Apple Watch SE, integrates into daily life, managing health monitoring, notifications, and connectivity with precision. Damage to the screen, battery wear, or software issues interrupts workflow, reducing efficiency and usability. iFixit BD addresses these challenges through structured diagnostics and meticulous repair, using authentic components to restore function and extend device life. In Bangladesh, genuine Apple Watch service options are limited; our approach sets a reliable benchmark. Each repair is tailored to the watch’s generation, preserving design integrity while ensuring operational consistency. The result is a fully functional device that maintains visual refinement, supports daily demands, and reinforces trust in technology. By combining technical rigor with methodical care, we enable users to depend on their Apple Watch SE for both productivity and personal well-being.<br/></p><h1>Our Apple Watch SE Repair Services</h1><p>Apple Watch SE functions best when serviced with attention to detail, combining technical expertise and authentic parts for longevity.<br/><br/>Our Apple Watch SE repair services include:</p><ul><li>Apple Watch SE screen repair</li><li>Apple Watch SE battery replacement </li><li>Apple Watch SE water damage repair </li><li>Apple Watch SE software solutions<br/></li></ul>",
+   "page_title": "Apple Watch SE Repair Services",
+   "page_title_description": "Expert maintenance at iFixit BD ensures the Apple Watch SE operates flawlessly while retaining durability over time.\r\n\r\n"
+  },
+  {
+   "image": {
+    "public_id": "device/apple-watch-ultra.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/apple-watch-ultra.png"
+   },
+   "_id": "68a864dc55f5cfa31e2abae8",
+   "name": "Apple Watch Ultra",
+   "order_no": 23,
+   "endpoint": "/services/apple-watch-ultra",
+   "meta_description": "Searching  for trusted Apple Watch ultra repair services in Dhaka? At iFixit BD, we specialize in expert Apple Watch, providing fast and efficient fix.\r\n",
+   "meta_keywords": "undefined",
+   "meta_title": "Authentic Apple Watch Ultra Repair Center in Bangladesh - iFixit BD",
+   "page_description": "<h1>Leading Apple Watch Ultra Repair Service in BD</h1><p>The Apple Watch Ultra enhances daily routines, tracks health metrics, and keeps you connected. A cracked screen, worn battery, or software issue can disrupt not only timekeeping but also productivity and workflow. At iFixit BD, we address these challenges with precision and expertise. Our technicians perform thorough diagnostics and repair each device using genuine components, ensuring consistent performance and long-term reliability. With authentic Apple Watch service still limited in Bangladesh, we set a trusted standard. Through a meticulous, generation-specific repair process, every device regains full functionality while preserving its sleek design. The result is a watch that runs seamlessly, retains its visual elegance, and meets the demands of modern life, reinforcing confidence in both the technology and the user experience.<br/></p><h1>Our Apple Watch Ultra Repair Services</h1><p>Apple Watch functions best when serviced with attention to detail, combining technical expertise and authentic parts for longevity.<br/></p><p>Our Apple Watch Ultra repair services include:</p><ul><li>Apple Watch Ultra screen repair</li><li>Apple Watch Ultra battery replacement </li><li>Apple Watch Ultra Water damage repair </li><li>Apple Watch Ultra software solutions</li></ul>",
+   "page_title": "Apple Watch Ultra Repair Services",
+   "page_title_description": "iFixit BD delivers precise, professional care for the Apple Watch Ultra, ensuring optimal performance and enduring reliability.\r\n"
+  }
+ ],
+ "childDevice": true,
+ "device": {
+  "_id": "685e625984877e225d242edf",
+  "name": "Apple Watch Series",
+  "meta_description": "Searching for best Apple Watch repair services in Dhaka, Bangladesh? At iFixit BD, we specialize in expert Apple Watch repair, providing fast and efficient fix.\r\n",
+  "meta_keywords": "undefined",
+  "meta_title": "Trusted Apple Watch Repair Center in Bangladesh - iFixit BD",
+  "page_description": "<h2>Apple Watch Repair Service in BD</h2><p>The Apple Watch is more than a device; it orchestrates daily life, tracks fitness, and keeps you connected. A malfunction, whether a cracked screen, battery decline, or software glitch, disrupts more than just time, it interrupts productivity and routine. iFixit BD addresses these challenges with expertise. Our skilled technicians restore each watch using genuine OEM parts, applying proven repair methods that ensure reliability and longevity. In Bangladesh, authentic Apple Watch service is rare, and our mission is to provide a trusted solution. By combining technical mastery with an adapted approach, we return devices to optimal performance while maintaining their aesthetic integrity. The result is a watch that functions seamlessly, looks impeccable, and keeps users on track, restoring confidence in both the technology and the experience.<br/></p><h2>Our Apple Watch Repair Services</h2><p>Apple Watch deserves the best care to stay in perfect working condition. Our expert team handles every issue with precision and genuine OEM parts.<br/></p><p>Our Apple Watch repair services include:</p><ul><li>Apple Watch display replacement </li><li>Apple Watch battery replacement </li><li>Apple Watch water damage repair </li><li>Apple Watch Software solutions<br/></li></ul><p>We ensure reliable hardware and software solutions that last. Trust us to bring your device back to peak. <br/></p>",
+  "page_title": "Apple Watch Repair Services",
+  "page_title_description": "iFixit BD ensures Apple Watch receives professional, precise maintenance that upholds superior functionality and long-term resilience.\r\n\r\n"
+ }
+}

@@ -1,0 +1,1221 @@
+{
+ "success": true,
+ "message": "successful",
+ "data": [
+  {
+   "_id": "68fc9d107495d2cd03282b91",
+   "title": "Display Replacement",
+   "order_no": 1,
+   "image": {
+    "public_id": "service/display-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/display-replacement.png"
+   },
+   "model_id": [
+    "680b476aa0d70a0f278d9cbf"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68fc9d107495d2cd03282b92"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Display Replacement",
+     "image_alt_text": "iPad Pro 12.9 Inch 6th Gen Display Replacement",
+     "repair_image": {
+      "public_id": "service/display-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/display-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68fb7b617495d2cd03281c3b",
+     "product_variation_id": "68fb7b617495d2cd03281c3e",
+     "_id": "6a12cae7921f2574d9b5d4bf",
+     "product_data": {
+      "_id": "68fb7b617495d2cd03281c3b",
+      "product_id": "p338",
+      "name": "iPad Pro 12.9 Inch 6th Gen 2022 Display",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f1caed11479fdf2f3c1",
+      "device_id": "680a2fd4a0d70a0f278d98bf",
+      "model_id": "680b476aa0d70a0f278d9cbf",
+      "attachable_models": [
+       "680b476aa0d70a0f278d9cbf"
+      ],
+      "price": null,
+      "warranty": 0,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T13:13:05.046Z",
+      "updated_at": "2026-02-14T13:34:11.225Z",
+      "__v": 0,
+      "endpoint": "/product/ipad-pro-6th-gen-12-inch-display",
+      "warranty_note": "",
+      "website_name": "iPad Pro 12.9 Inch 6th Gen 2022 Display"
+     },
+     "product_variation_data": {
+      "_id": "68fb7b617495d2cd03281c3e",
+      "name": "Display",
+      "quality": "Standard After Market",
+      "product_id": "68fb7b617495d2cd03281c3b",
+      "price": 40000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/ipad-pro-12.9-5th-&-6th-gen-display.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/ipad-pro-12.9-5th-&-6th-gen-display.png",
+        "_id": "694e859f8a888ed233599143"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T13:13:05.419Z",
+      "updated_at": "2026-05-05T13:53:38.715Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-25T09:49:04.988Z",
+   "updated_at": "2026-05-24T09:54:47.450Z",
+   "endpoints": [
+    {
+     "model_id": "680b476aa0d70a0f278d9cbf",
+     "endpoint": "/services/ipad-pro/6th-gen-12-9-inch/display-replacement",
+     "_id": "6a12cae7921f2574d9b5d4bd"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 12.9 Inch 6th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Pro-12.9-Inch-6th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-6th-Gen-(2022).png"
+     },
+     "endpoint": "6th-gen-12-9-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 12.9 Inch 6th Gen (2022) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 12.9 Inch 6th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "6867b7cd84877e225d24534b",
+   "title": "Liquid Damage",
+   "order_no": 8,
+   "image": {
+    "public_id": "service/ipad-pro-12.9-inch-6th-generation-2022-liquid-damage.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-6th-generation-2022-liquid-damage.png"
+   },
+   "model_id": [
+    "680b476aa0d70a0f278d9cbf"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "6867b7cd84877e225d24534c"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Liquid Damage",
+     "website_name": "Liquid Damage",
+     "image_alt_text": "iPad Pro 12.9 Inch 6th Generation 2022 Liquid Damage",
+     "repair_image": {
+      "public_id": "service/ipad-pro-12.9-inch-6th-generation-2022-liquid-damage.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-6th-generation-2022-liquid-damage.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a685499bf41443db6b47b7d"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-04T11:15:25.061Z",
+   "updated_at": "2026-07-28T07:04:57.446Z",
+   "endpoints": [
+    {
+     "model_id": "680b476aa0d70a0f278d9cbf",
+     "endpoint": "/services/ipad-pro/6th-gen-12-9-inch/liquid-damage",
+     "_id": "6a685499bf41443db6b47b7b"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 12.9 Inch 6th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Pro-12.9-Inch-6th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-6th-Gen-(2022).png"
+     },
+     "endpoint": "6th-gen-12-9-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 12.9 Inch 6th Gen (2022) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 12.9 Inch 6th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68679fb784877e225d2451d2",
+   "title": "Camera Replacement",
+   "order_no": 7,
+   "image": {
+    "public_id": "service/ipad-pro-12.9-inch-6th-generation-2022-camera-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-6th-generation-2022-camera-replacement.png"
+   },
+   "model_id": [
+    "680b476aa0d70a0f278d9cbf"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68679fb784877e225d2451d3"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Camera Replacement",
+     "website_name": "Camera Replacement",
+     "image_alt_text": "iPad Pro 12.9 Inch 6th Generation 2022 Camera Replacement",
+     "repair_image": {
+      "public_id": "service/ipad-pro-12.9-inch-6th-generation-2022-camera-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-6th-generation-2022-camera-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 6000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a684e99bf41443db6b46abd"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-04T09:32:39.834Z",
+   "updated_at": "2026-07-28T06:39:21.231Z",
+   "endpoints": [
+    {
+     "model_id": "680b476aa0d70a0f278d9cbf",
+     "endpoint": "/services/ipad-pro/6th-gen-12-9-inch/camera-replacement",
+     "_id": "6a684e99bf41443db6b46abb"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 12.9 Inch 6th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Pro-12.9-Inch-6th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-6th-Gen-(2022).png"
+     },
+     "endpoint": "6th-gen-12-9-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 12.9 Inch 6th Gen (2022) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 12.9 Inch 6th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "6867b89384877e225d24536d",
+   "title": "Software Issue",
+   "order_no": 9,
+   "image": {
+    "public_id": "service/ipad-pro-12.9-inch-6th-generation-2022-software-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-6th-generation-2022-software-issue.png"
+   },
+   "model_id": [
+    "680b476aa0d70a0f278d9cbf"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "6867b89384877e225d24536e"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Software Issue",
+     "website_name": "Software Issue",
+     "image_alt_text": "iPad Pro 12.9 Inch 6th Generation 2022 Software Issue",
+     "repair_image": {
+      "public_id": "service/ipad-pro-12.9-inch-6th-generation-2022-software-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-6th-generation-2022-software-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a685529bf41443db6b71f7a"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-04T11:18:43.017Z",
+   "updated_at": "2026-07-28T07:07:21.641Z",
+   "endpoints": [
+    {
+     "model_id": "680b476aa0d70a0f278d9cbf",
+     "endpoint": "/services/ipad-pro/6th-gen-12-9-inch/software-issue",
+     "_id": "6a685529bf41443db6b71f78"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 12.9 Inch 6th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Pro-12.9-Inch-6th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-6th-Gen-(2022).png"
+     },
+     "endpoint": "6th-gen-12-9-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 12.9 Inch 6th Gen (2022) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 12.9 Inch 6th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68678e1784877e225d24511a",
+   "title": "Button Issue",
+   "order_no": 3,
+   "image": {
+    "public_id": "service/ipad-pro-12.9-inch-6th-generation-2022-button-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-6th-generation-2022-button-issue.png"
+   },
+   "model_id": [
+    "680b476aa0d70a0f278d9cbf"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68678e1784877e225d24511b"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Button Issue",
+     "website_name": "Button Issue",
+     "image_alt_text": "iPad Pro 12.9 Inch 6th Generation 2022 Button Issue",
+     "repair_image": {
+      "public_id": "service/ipad-pro-12.9-inch-6th-generation-2022-button-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-6th-generation-2022-button-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 8000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a676221bf41443db6a5ee01"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-04T08:17:27.592Z",
+   "updated_at": "2026-07-27T13:50:25.524Z",
+   "endpoints": [
+    {
+     "model_id": "680b476aa0d70a0f278d9cbf",
+     "endpoint": "/services/ipad-pro/6th-gen-12-9-inch/button-issue",
+     "_id": "6a676221bf41443db6a5edff"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 12.9 Inch 6th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Pro-12.9-Inch-6th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-6th-Gen-(2022).png"
+     },
+     "endpoint": "6th-gen-12-9-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 12.9 Inch 6th Gen (2022) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 12.9 Inch 6th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68678ee784877e225d24513c",
+   "title": "Speaker Replacement",
+   "order_no": 6,
+   "image": {
+    "public_id": "service/ipad-pro-12.9-inch-6th-generation-speaker-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-6th-generation-speaker-replacement.png"
+   },
+   "model_id": [
+    "680b476aa0d70a0f278d9cbf"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68678ee784877e225d24513d"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Speaker Replacement",
+     "website_name": "Speaker Replacement",
+     "image_alt_text": "iPad Pro 12.9 Inch 6th Generation Speaker Replacement",
+     "repair_image": {
+      "public_id": "service/ipad-pro-12.9-inch-6th-generation-speaker-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-6th-generation-speaker-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 4000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a684de8bf41443db6b317c8"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-04T08:20:55.087Z",
+   "updated_at": "2026-07-28T06:36:24.320Z",
+   "endpoints": [
+    {
+     "model_id": "680b476aa0d70a0f278d9cbf",
+     "endpoint": "/services/ipad-pro/6th-gen-12-9-inch/speaker-replacement",
+     "_id": "6a684de8bf41443db6b317c6"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 12.9 Inch 6th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Pro-12.9-Inch-6th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-6th-Gen-(2022).png"
+     },
+     "endpoint": "6th-gen-12-9-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 12.9 Inch 6th Gen (2022) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 12.9 Inch 6th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "6867a38484877e225d245216",
+   "title": "Touch Replacement",
+   "order_no": 5,
+   "image": {
+    "public_id": "service/ipad-pro-12.9-inch-6th-generation-2022-touch-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-6th-generation-2022-touch-replacement.png"
+   },
+   "model_id": [
+    "680b476aa0d70a0f278d9cbf"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "6867a38484877e225d245217"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Touch Replacement",
+     "website_name": "Touch Replacement",
+     "image_alt_text": "iPad Pro 12.9 Inch 6th Generation 2022 Touch Replacement",
+     "repair_image": {
+      "public_id": "service/ipad-pro-12.9-inch-6th-generation-2022-touch-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-6th-generation-2022-touch-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 12000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a684d13bf41443db6b1c579"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-04T09:48:52.880Z",
+   "updated_at": "2026-07-28T06:32:51.695Z",
+   "endpoints": [
+    {
+     "model_id": "680b476aa0d70a0f278d9cbf",
+     "endpoint": "/services/ipad-pro/6th-gen-12-9-inch/touch-replacement",
+     "_id": "6a684d13bf41443db6b1c577"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 12.9 Inch 6th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Pro-12.9-Inch-6th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-6th-Gen-(2022).png"
+     },
+     "endpoint": "6th-gen-12-9-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 12.9 Inch 6th Gen (2022) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 12.9 Inch 6th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "6867b32384877e225d2452c3",
+   "title": "Motherboard Repair",
+   "order_no": 4,
+   "image": {
+    "public_id": "service/error-solution.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/error-solution.png"
+   },
+   "model_id": [
+    "680b476aa0d70a0f278d9cbf"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "6867b32384877e225d2452c4"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Motherboard Repair",
+     "website_name": "Motherboard Repair",
+     "image_alt_text": "iPad Pro 12.9 Inch 6th Generation 2022 Motherboard Repair",
+     "repair_image": {
+      "public_id": "service/6b860a70-0f85-4a7e-86ec-7fee2a70b1dc.png",
+      "url": "https://my-invento.s3.ap-southeast-1.amazonaws.com/service/6b860a70-0f85-4a7e-86ec-7fee2a70b1dc.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 15000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a676560bf41443db6a743aa"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-04T10:55:31.644Z",
+   "updated_at": "2026-07-27T14:04:16.710Z",
+   "endpoints": [
+    {
+     "model_id": "680b476aa0d70a0f278d9cbf",
+     "endpoint": "/services/ipad-pro/6th-gen-12-9-inch/motherboard-repair",
+     "_id": "6a676560bf41443db6a743a8"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 12.9 Inch 6th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Pro-12.9-Inch-6th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-6th-Gen-(2022).png"
+     },
+     "endpoint": "6th-gen-12-9-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 12.9 Inch 6th Gen (2022) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 12.9 Inch 6th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68fc9d657495d2cd03282bc1",
+   "title": "Battery Replacement",
+   "order_no": 2,
+   "image": {
+    "public_id": "service/battery-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/battery-issue.png"
+   },
+   "model_id": [
+    "680b476aa0d70a0f278d9cbf"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68fc9d657495d2cd03282bc2"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Battery Replacement",
+     "image_alt_text": "iPad Pro 12.9 Inch 6th Gen Battery Replacement",
+     "repair_image": {
+      "public_id": "service/battery-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/battery-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68fb89397495d2cd03281daf",
+     "product_variation_id": "68fb893a7495d2cd03281db2",
+     "_id": "6a12cad2921f2574d9b5d47b",
+     "product_data": {
+      "_id": "68fb89397495d2cd03281daf",
+      "product_id": "p350",
+      "name": "iPad Pro 12.9 Inch 6th Gen 2022 Battery",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f28aed11479fdf2f3ca",
+      "device_id": "680a2fd4a0d70a0f278d98bf",
+      "model_id": "680b476aa0d70a0f278d9cbf",
+      "attachable_models": [
+       "680b476aa0d70a0f278d9cbf"
+      ],
+      "price": null,
+      "warranty": 0,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T14:12:09.535Z",
+      "updated_at": "2026-02-14T13:33:51.471Z",
+      "__v": 0,
+      "endpoint": "/product/ipad-pro-6th-gen-12-inch-battery",
+      "warranty_note": "",
+      "website_name": "iPad Pro 12.9 Inch 6th Gen 2022 Battery"
+     },
+     "product_variation_data": {
+      "_id": "68fb893a7495d2cd03281db2",
+      "name": "Battery",
+      "quality": "Standard After Market",
+      "product_id": "68fb89397495d2cd03281daf",
+      "price": 7000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/ipad-pro-12.9-5th-&-6th-gen-battery.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/ipad-pro-12.9-5th-&-6th-gen-battery.png",
+        "_id": "694e85988a888ed23359913b"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T14:12:10.096Z",
+      "updated_at": "2026-05-05T13:55:06.984Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-25T09:50:29.241Z",
+   "updated_at": "2026-05-24T09:54:26.864Z",
+   "endpoints": [
+    {
+     "model_id": "680b476aa0d70a0f278d9cbf",
+     "endpoint": "/services/ipad-pro/6th-gen-12-9-inch/battery-replacement",
+     "_id": "6a12cad2921f2574d9b5d479"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 12.9 Inch 6th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Pro-12.9-Inch-6th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-6th-Gen-(2022).png"
+     },
+     "endpoint": "6th-gen-12-9-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 12.9 Inch 6th Gen (2022) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 12.9 Inch 6th Gen (2022) from iFixit BD"
+    }
+   ]
+  }
+ ],
+ "totalData": 9
+}

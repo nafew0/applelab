@@ -1,0 +1,1510 @@
+{
+ "success": true,
+ "message": "successful",
+ "data": [
+  {
+   "_id": "694e56e08a888ed233595101",
+   "title": "Battery Replacement",
+   "order_no": 2,
+   "endpoints": [
+    {
+     "model_id": "680a2551a0d70a0f278d97d4",
+     "endpoint": "/services/ipad-mini/1st-gen/battery-replacement",
+     "_id": "6a12e284921f2574d9bfad77"
+    }
+   ],
+   "image": {
+    "public_id": "service/battery-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/battery-issue.png"
+   },
+   "model_id": [
+    "680a2551a0d70a0f278d97d4"
+   ],
+   "device_id": "680a29eea0d70a0f278d983f",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "694e56e08a888ed233595103"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Battery Replacement",
+     "image_alt_text": "iPad Mini 1st Gen Battery Replacement",
+     "repair_image": {
+      "public_id": "service/battery-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/battery-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68f33b707495d2cd0328103b",
+     "product_variation_id": "68f33b717495d2cd0328103e",
+     "_id": "6a12e284921f2574d9bfad79",
+     "product_data": {
+      "_id": "68f33b707495d2cd0328103b",
+      "product_id": "p285",
+      "name": "iPad Mini 1st Gen 2012 Battery",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f28aed11479fdf2f3ca",
+      "device_id": "680a29eea0d70a0f278d983f",
+      "model_id": "680a2551a0d70a0f278d97d4",
+      "attachable_models": [
+       "680a2551a0d70a0f278d97d4"
+      ],
+      "price": null,
+      "warranty": 0,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-18T07:02:08.382Z",
+      "updated_at": "2026-02-13T11:15:41.719Z",
+      "__v": 0,
+      "endpoint": "/product/ipad-mini-1st-gen-battery",
+      "warranty_note": "",
+      "website_name": "iPad Mini 1st Gen 2012 Battery"
+     },
+     "product_variation_data": {
+      "_id": "68f33b717495d2cd0328103e",
+      "name": "Battery",
+      "quality": "Standard After Market",
+      "product_id": "68f33b707495d2cd0328103b",
+      "price": 3500,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/ipad-mini-1st-gen-battery.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/ipad-mini-1st-gen-battery.png",
+        "_id": "694e54648a888ed233594f73"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-18T07:02:09.107Z",
+      "updated_at": "2026-05-05T13:47:38.091Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-26T09:35:28.050Z",
+   "updated_at": "2026-05-24T11:35:32.441Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Mini",
+     "image": {
+      "public_id": "device/ipad-mini.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-mini.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Mini 1st Gen 2012",
+     "image": {
+      "public_id": "model/iPad-Mini-1st-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-1st-generation.png"
+     },
+     "endpoint": "1st-gen",
+     "allservice_meta_description": "iPad Mini 1st Gen 2012 repair service in Bangladesh with skilled technicians, quality workmanship and competitive pricing. Book now.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 1st Gen 2012 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 1st Gen 2012 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 1st Gen 2012 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68bc252ff4016bd30fe62096",
+   "title": "Software Issue",
+   "order_no": 9,
+   "image": {
+    "public_id": "service/software-issues.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/software-issues.png"
+   },
+   "model_id": [
+    "680a2551a0d70a0f278d97d4",
+    "680a2639a0d70a0f278d97e8",
+    "680a26f8a0d70a0f278d9802"
+   ],
+   "device_id": "680a29eea0d70a0f278d983f",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bc252ff4016bd30fe62097"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Software Issue",
+     "website_name": "Software Issue",
+     "image_alt_text": "iPad Mini 1st Gen,2nd and 3rd Gen Software Issue",
+     "repair_image": {
+      "public_id": "service/software-issues.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/software-issues.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 500,
+     "guaranty": "30 days money-back guarantee",
+     "warranty": "",
+     "_id": "6a35231af66f32eefa64279e"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-06T12:12:31.124Z",
+   "updated_at": "2026-06-19T11:08:10.601Z",
+   "endpoints": [
+    {
+     "model_id": "680a2551a0d70a0f278d97d4",
+     "endpoint": "/services/ipad-mini/1st-gen/software-issues",
+     "_id": "6a35231af66f32eefa64279a"
+    },
+    {
+     "model_id": "680a2639a0d70a0f278d97e8",
+     "endpoint": "/services/ipad-mini/2nd-gen/software-issues",
+     "_id": "6a35231af66f32eefa64279b"
+    },
+    {
+     "model_id": "680a26f8a0d70a0f278d9802",
+     "endpoint": "/services/ipad-mini/3rd-gen/software-issues",
+     "_id": "6a35231af66f32eefa64279c"
+    }
+   ],
+   "meta_description": "Need software troubleshooting for your iPad Mini 4th Gen 2015? Get expert diagnosis and precise repair at iFixit, Bangladesh's Authentic Apple Service...",
+   "meta_keywords": "",
+   "meta_title": "iPad Mini 4th Gen 2015 Software Issue in Dhaka - iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Mini",
+     "image": {
+      "public_id": "device/ipad-mini.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-mini.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Mini 2nd Gen 2013",
+     "image": {
+      "public_id": "model/iPad-Mini-2nd-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-2nd-gen.png"
+     },
+     "endpoint": "2nd-gen",
+     "allservice_meta_description": "iPad Mini 2nd Gen 2013 repair service in Bangladesh with experienced technicians, dependable repairs and fair pricing. Book now.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 2nd Gen 2013 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 2nd Gen 2013 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 2nd Gen 2013 from iFixit BD"
+    },
+    {
+     "name": "iPad Mini 1st Gen 2012",
+     "image": {
+      "public_id": "model/iPad-Mini-1st-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-1st-generation.png"
+     },
+     "endpoint": "1st-gen",
+     "allservice_meta_description": "iPad Mini 1st Gen 2012 repair service in Bangladesh with skilled technicians, quality workmanship and competitive pricing. Book now.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 1st Gen 2012 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 1st Gen 2012 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 1st Gen 2012 from iFixit BD"
+    },
+    {
+     "name": "iPad Mini 3rd Gen 2014",
+     "image": {
+      "public_id": "model/iPad-Mini-3rd-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-3rd-gen.png"
+     },
+     "endpoint": "3rd-gen",
+     "allservice_meta_description": "iPad Mini 3rd Gen 2014 repair service in Bangladesh with trusted technicians, quality parts and transparent pricing. Get a quote today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 3rd Gen 2014 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 3rd Gen 2014 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 3rd Gen 2014 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68bc245af4016bd30fe62027",
+   "title": "Speaker Replacement",
+   "order_no": 6,
+   "image": {
+    "public_id": "service/loud-speaker-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/loud-speaker-replacement.png"
+   },
+   "model_id": [
+    "680a2551a0d70a0f278d97d4",
+    "680a2639a0d70a0f278d97e8",
+    "680a26f8a0d70a0f278d9802"
+   ],
+   "device_id": "680a29eea0d70a0f278d983f",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bc245af4016bd30fe62028"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Speaker Replacement",
+     "website_name": "Speaker Replacement",
+     "image_alt_text": "iPad Mini 1st Gen, 2nd and 3rd Gen Speaker Replacement",
+     "repair_image": {
+      "public_id": "service/loud-speaker-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/loud-speaker-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a352289f66f32eefa6425f2"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-06T12:08:58.604Z",
+   "updated_at": "2026-06-19T11:05:45.927Z",
+   "endpoints": [
+    {
+     "model_id": "680a2551a0d70a0f278d97d4",
+     "endpoint": "/services/ipad-mini/1st-gen/speaker-replacement",
+     "_id": "6a352289f66f32eefa6425ee"
+    },
+    {
+     "model_id": "680a2639a0d70a0f278d97e8",
+     "endpoint": "/services/ipad-mini/2nd-gen/speaker-replacement",
+     "_id": "6a352289f66f32eefa6425ef"
+    },
+    {
+     "model_id": "680a26f8a0d70a0f278d9802",
+     "endpoint": "/services/ipad-mini/3rd-gen/speaker-replacement",
+     "_id": "6a352289f66f32eefa6425f0"
+    }
+   ],
+   "meta_description": "Trust iFixit, Bangladesh's Authentic Apple Service Center, for iPad Mini 4th Gen 2015 speaker replacement in Dhaka. Genuine OEM parts, certified...",
+   "meta_keywords": "",
+   "meta_title": "iPad Mini 4th Gen 2015 Speaker Replacement in Dhaka - iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Mini",
+     "image": {
+      "public_id": "device/ipad-mini.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-mini.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Mini 2nd Gen 2013",
+     "image": {
+      "public_id": "model/iPad-Mini-2nd-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-2nd-gen.png"
+     },
+     "endpoint": "2nd-gen",
+     "allservice_meta_description": "iPad Mini 2nd Gen 2013 repair service in Bangladesh with experienced technicians, dependable repairs and fair pricing. Book now.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 2nd Gen 2013 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 2nd Gen 2013 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 2nd Gen 2013 from iFixit BD"
+    },
+    {
+     "name": "iPad Mini 1st Gen 2012",
+     "image": {
+      "public_id": "model/iPad-Mini-1st-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-1st-generation.png"
+     },
+     "endpoint": "1st-gen",
+     "allservice_meta_description": "iPad Mini 1st Gen 2012 repair service in Bangladesh with skilled technicians, quality workmanship and competitive pricing. Book now.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 1st Gen 2012 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 1st Gen 2012 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 1st Gen 2012 from iFixit BD"
+    },
+    {
+     "name": "iPad Mini 3rd Gen 2014",
+     "image": {
+      "public_id": "model/iPad-Mini-3rd-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-3rd-gen.png"
+     },
+     "endpoint": "3rd-gen",
+     "allservice_meta_description": "iPad Mini 3rd Gen 2014 repair service in Bangladesh with trusted technicians, quality parts and transparent pricing. Get a quote today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 3rd Gen 2014 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 3rd Gen 2014 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 3rd Gen 2014 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "694e563c8a888ed233595075",
+   "title": "Display Replacement",
+   "order_no": 1,
+   "endpoints": [
+    {
+     "model_id": "680a2551a0d70a0f278d97d4",
+     "endpoint": "/services/ipad-mini/1st-gen/display-replacement",
+     "_id": "6a12e26f921f2574d9bfacfc"
+    }
+   ],
+   "image": {
+    "public_id": "service/display-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/display-replacement.png"
+   },
+   "model_id": [
+    "680a2551a0d70a0f278d97d4"
+   ],
+   "device_id": "680a29eea0d70a0f278d983f",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "694e563c8a888ed233595077"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Display Replacement",
+     "image_alt_text": "iPad Mini 1st Gen Display Replacement",
+     "repair_image": {
+      "public_id": "service/display-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/display-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68f3299b7495d2cd03280f15",
+     "product_variation_id": "68f3299b7495d2cd03280f18",
+     "_id": "6a12e26f921f2574d9bfacfe",
+     "product_data": {
+      "_id": "68f3299b7495d2cd03280f15",
+      "product_id": "p278",
+      "name": "iPad Mini 1st Gen 2012 Display",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f1caed11479fdf2f3c1",
+      "device_id": "680a29eea0d70a0f278d983f",
+      "model_id": "680a2551a0d70a0f278d97d4",
+      "attachable_models": [
+       "680a2551a0d70a0f278d97d4"
+      ],
+      "price": null,
+      "warranty": 0,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-18T05:46:03.109Z",
+      "updated_at": "2026-05-24T12:30:55.706Z",
+      "__v": 0,
+      "endpoint": "/product/ipad-mini-1st-gen-display",
+      "warranty_note": "",
+      "website_name": "iPad Mini 1st Gen 2012 Display",
+      "description2": "<p></p>",
+      "meta_description": "undefined",
+      "meta_keywords": "undefined",
+      "meta_title": "undefined",
+      "page_description": "<p></p>",
+      "page_title": "undefined",
+      "page_title_description": "undefined"
+     },
+     "product_variation_data": {
+      "_id": "68f3299b7495d2cd03280f18",
+      "name": "Display",
+      "quality": "Standard After Market",
+      "product_id": "68f3299b7495d2cd03280f15",
+      "price": 5000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/iPad-Mini-1,-2-and-3rd-display.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/iPad-Mini-1,-2-and-3rd-display.png",
+        "_id": "694e54738a888ed233594f7d"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-18T05:46:03.525Z",
+      "updated_at": "2026-05-05T13:46:02.192Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-26T09:32:44.691Z",
+   "updated_at": "2026-05-24T11:35:11.790Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Mini",
+     "image": {
+      "public_id": "device/ipad-mini.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-mini.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Mini 1st Gen 2012",
+     "image": {
+      "public_id": "model/iPad-Mini-1st-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-1st-generation.png"
+     },
+     "endpoint": "1st-gen",
+     "allservice_meta_description": "iPad Mini 1st Gen 2012 repair service in Bangladesh with skilled technicians, quality workmanship and competitive pricing. Book now.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 1st Gen 2012 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 1st Gen 2012 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 1st Gen 2012 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68bc22ddf4016bd30fe61f40",
+   "title": "Button Issue",
+   "order_no": 3,
+   "image": {
+    "public_id": "service/button-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/button-issue.png"
+   },
+   "model_id": [
+    "680a2551a0d70a0f278d97d4",
+    "680a2639a0d70a0f278d97e8",
+    "680a26f8a0d70a0f278d9802"
+   ],
+   "device_id": "680a29eea0d70a0f278d983f",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bc22ddf4016bd30fe61f41"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Button Issue",
+     "website_name": "Button Issue",
+     "image_alt_text": "iPad Mini 1st, 2nd & 3rd Gen Button Issue",
+     "repair_image": {
+      "public_id": "service/button-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/button-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a12e240921f2574d9bfac8e"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-06T12:02:37.260Z",
+   "updated_at": "2026-05-24T11:34:24.139Z",
+   "endpoints": [
+    {
+     "model_id": "680a2551a0d70a0f278d97d4",
+     "endpoint": "/services/ipad-mini/1st-gen/button-issue",
+     "_id": "6a12e240921f2574d9bfac8a"
+    },
+    {
+     "model_id": "680a2639a0d70a0f278d97e8",
+     "endpoint": "/services/ipad-mini/2nd-gen/button-issue",
+     "_id": "6a12e240921f2574d9bfac8b"
+    },
+    {
+     "model_id": "680a26f8a0d70a0f278d9802",
+     "endpoint": "/services/ipad-mini/3rd-gen/button-issue",
+     "_id": "6a12e240921f2574d9bfac8c"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Mini",
+     "image": {
+      "public_id": "device/ipad-mini.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-mini.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Mini 2nd Gen 2013",
+     "image": {
+      "public_id": "model/iPad-Mini-2nd-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-2nd-gen.png"
+     },
+     "endpoint": "2nd-gen",
+     "allservice_meta_description": "iPad Mini 2nd Gen 2013 repair service in Bangladesh with experienced technicians, dependable repairs and fair pricing. Book now.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 2nd Gen 2013 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 2nd Gen 2013 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 2nd Gen 2013 from iFixit BD"
+    },
+    {
+     "name": "iPad Mini 1st Gen 2012",
+     "image": {
+      "public_id": "model/iPad-Mini-1st-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-1st-generation.png"
+     },
+     "endpoint": "1st-gen",
+     "allservice_meta_description": "iPad Mini 1st Gen 2012 repair service in Bangladesh with skilled technicians, quality workmanship and competitive pricing. Book now.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 1st Gen 2012 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 1st Gen 2012 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 1st Gen 2012 from iFixit BD"
+    },
+    {
+     "name": "iPad Mini 3rd Gen 2014",
+     "image": {
+      "public_id": "model/iPad-Mini-3rd-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-3rd-gen.png"
+     },
+     "endpoint": "3rd-gen",
+     "allservice_meta_description": "iPad Mini 3rd Gen 2014 repair service in Bangladesh with trusted technicians, quality parts and transparent pricing. Get a quote today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 3rd Gen 2014 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 3rd Gen 2014 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 3rd Gen 2014 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68bc23b9f4016bd30fe61fdd",
+   "title": "Motherboard Repair",
+   "order_no": 4,
+   "image": {
+    "public_id": "service/ipad-motherboard-repair.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-motherboard-repair.png"
+   },
+   "model_id": [
+    "680a2551a0d70a0f278d97d4",
+    "680a2639a0d70a0f278d97e8",
+    "680a26f8a0d70a0f278d9802"
+   ],
+   "device_id": "680a29eea0d70a0f278d983f",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bc23b9f4016bd30fe61fde"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Motherboard Repair",
+     "website_name": "Motherboard Repair",
+     "image_alt_text": "iPad Mini 1st, 2nd & 3rd Gen Motherboard Repair",
+     "repair_image": {
+      "public_id": "service/ipad-motherboard-repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-motherboard-repair.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 4000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a12e265921f2574d9bface6"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-06T12:06:17.517Z",
+   "updated_at": "2026-05-24T11:35:01.555Z",
+   "endpoints": [
+    {
+     "model_id": "680a2551a0d70a0f278d97d4",
+     "endpoint": "/services/ipad-mini/1st-gen/motherboard-repair",
+     "_id": "6a12e265921f2574d9bface2"
+    },
+    {
+     "model_id": "680a2639a0d70a0f278d97e8",
+     "endpoint": "/services/ipad-mini/2nd-gen/motherboard-repair",
+     "_id": "6a12e265921f2574d9bface3"
+    },
+    {
+     "model_id": "680a26f8a0d70a0f278d9802",
+     "endpoint": "/services/ipad-mini/3rd-gen/motherboard-repair",
+     "_id": "6a12e265921f2574d9bface4"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Mini",
+     "image": {
+      "public_id": "device/ipad-mini.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-mini.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Mini 2nd Gen 2013",
+     "image": {
+      "public_id": "model/iPad-Mini-2nd-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-2nd-gen.png"
+     },
+     "endpoint": "2nd-gen",
+     "allservice_meta_description": "iPad Mini 2nd Gen 2013 repair service in Bangladesh with experienced technicians, dependable repairs and fair pricing. Book now.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 2nd Gen 2013 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 2nd Gen 2013 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 2nd Gen 2013 from iFixit BD"
+    },
+    {
+     "name": "iPad Mini 1st Gen 2012",
+     "image": {
+      "public_id": "model/iPad-Mini-1st-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-1st-generation.png"
+     },
+     "endpoint": "1st-gen",
+     "allservice_meta_description": "iPad Mini 1st Gen 2012 repair service in Bangladesh with skilled technicians, quality workmanship and competitive pricing. Book now.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 1st Gen 2012 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 1st Gen 2012 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 1st Gen 2012 from iFixit BD"
+    },
+    {
+     "name": "iPad Mini 3rd Gen 2014",
+     "image": {
+      "public_id": "model/iPad-Mini-3rd-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-3rd-gen.png"
+     },
+     "endpoint": "3rd-gen",
+     "allservice_meta_description": "iPad Mini 3rd Gen 2014 repair service in Bangladesh with trusted technicians, quality parts and transparent pricing. Get a quote today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 3rd Gen 2014 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 3rd Gen 2014 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 3rd Gen 2014 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68bc241cf4016bd30fe62002",
+   "title": "Touch Replacement",
+   "order_no": 5,
+   "image": {
+    "public_id": "service/touch-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/touch-replacement.png"
+   },
+   "model_id": [
+    "680a2551a0d70a0f278d97d4",
+    "680a2639a0d70a0f278d97e8",
+    "680a26f8a0d70a0f278d9802"
+   ],
+   "device_id": "680a29eea0d70a0f278d983f",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bc241cf4016bd30fe62003"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Touch Replacement",
+     "website_name": "Touch Replacement",
+     "image_alt_text": "iPad Mini 1st, 2nd & 3rd Gen Touch Replacement",
+     "repair_image": {
+      "public_id": "service/touch-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/touch-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "30 days money-back guarantee",
+     "warranty": "",
+     "_id": "6a352260f66f32eefa6425b0"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-06T12:07:56.614Z",
+   "updated_at": "2026-06-19T11:05:04.797Z",
+   "endpoints": [
+    {
+     "model_id": "680a2551a0d70a0f278d97d4",
+     "endpoint": "/services/ipad-mini/1st-gen/touch-replacement",
+     "_id": "6a352260f66f32eefa6425ac"
+    },
+    {
+     "model_id": "680a2639a0d70a0f278d97e8",
+     "endpoint": "/services/ipad-mini/2nd-gen/touch-replacement",
+     "_id": "6a352260f66f32eefa6425ad"
+    },
+    {
+     "model_id": "680a26f8a0d70a0f278d9802",
+     "endpoint": "/services/ipad-mini/3rd-gen/touch-replacement",
+     "_id": "6a352260f66f32eefa6425ae"
+    }
+   ],
+   "meta_description": "Get professional touch replacement for iPad Mini 4th Gen 2015 at iFixit, Dhaka – Bangladesh's Authentic Apple Service Center. 100% genuine OEM parts...",
+   "meta_keywords": "",
+   "meta_title": "iPad Mini 4th Gen 2015 Touch Replacement in Dhaka - iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Mini",
+     "image": {
+      "public_id": "device/ipad-mini.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-mini.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Mini 2nd Gen 2013",
+     "image": {
+      "public_id": "model/iPad-Mini-2nd-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-2nd-gen.png"
+     },
+     "endpoint": "2nd-gen",
+     "allservice_meta_description": "iPad Mini 2nd Gen 2013 repair service in Bangladesh with experienced technicians, dependable repairs and fair pricing. Book now.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 2nd Gen 2013 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 2nd Gen 2013 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 2nd Gen 2013 from iFixit BD"
+    },
+    {
+     "name": "iPad Mini 1st Gen 2012",
+     "image": {
+      "public_id": "model/iPad-Mini-1st-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-1st-generation.png"
+     },
+     "endpoint": "1st-gen",
+     "allservice_meta_description": "iPad Mini 1st Gen 2012 repair service in Bangladesh with skilled technicians, quality workmanship and competitive pricing. Book now.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 1st Gen 2012 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 1st Gen 2012 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 1st Gen 2012 from iFixit BD"
+    },
+    {
+     "name": "iPad Mini 3rd Gen 2014",
+     "image": {
+      "public_id": "model/iPad-Mini-3rd-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-3rd-gen.png"
+     },
+     "endpoint": "3rd-gen",
+     "allservice_meta_description": "iPad Mini 3rd Gen 2014 repair service in Bangladesh with trusted technicians, quality parts and transparent pricing. Get a quote today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 3rd Gen 2014 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 3rd Gen 2014 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 3rd Gen 2014 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68bc24ecf4016bd30fe62071",
+   "title": "Liquid Damage",
+   "order_no": 8,
+   "image": {
+    "public_id": "service/liquid-damage-1.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/liquid-damage-1.png"
+   },
+   "model_id": [
+    "680a2551a0d70a0f278d97d4",
+    "680a2639a0d70a0f278d97e8",
+    "680a26f8a0d70a0f278d9802"
+   ],
+   "device_id": "680a29eea0d70a0f278d983f",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bc24ecf4016bd30fe62072"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Liquid Damage",
+     "website_name": "Liquid Damage",
+     "image_alt_text": "iPad Mini 1st, 2nd and 3rd Liquid Damage",
+     "repair_image": {
+      "public_id": "service/liquid-damage-1.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/liquid-damage-1.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "30 days money-back guarantee",
+     "warranty": "",
+     "_id": "6a3522f0f66f32eefa642751"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-06T12:11:24.781Z",
+   "updated_at": "2026-06-19T11:07:28.057Z",
+   "endpoints": [
+    {
+     "model_id": "680a2551a0d70a0f278d97d4",
+     "endpoint": "/services/ipad-mini/1st-gen/liquid-damage",
+     "_id": "6a3522f0f66f32eefa64274d"
+    },
+    {
+     "model_id": "680a2639a0d70a0f278d97e8",
+     "endpoint": "/services/ipad-mini/2nd-gen/liquid-damage",
+     "_id": "6a3522f0f66f32eefa64274e"
+    },
+    {
+     "model_id": "680a26f8a0d70a0f278d9802",
+     "endpoint": "/services/ipad-mini/3rd-gen/liquid-damage",
+     "_id": "6a3522f0f66f32eefa64274f"
+    }
+   ],
+   "meta_description": "Facing liquid damage with your iPad Mini 4th Gen 2015? iFixit, Bangladesh's Authentic Apple Service Center in Dhaka, offers expert care, genuine OEM...",
+   "meta_keywords": "",
+   "meta_title": "iPad Mini 4th Gen 2015 Liquid Damage in Dhaka - iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Mini",
+     "image": {
+      "public_id": "device/ipad-mini.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-mini.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Mini 2nd Gen 2013",
+     "image": {
+      "public_id": "model/iPad-Mini-2nd-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-2nd-gen.png"
+     },
+     "endpoint": "2nd-gen",
+     "allservice_meta_description": "iPad Mini 2nd Gen 2013 repair service in Bangladesh with experienced technicians, dependable repairs and fair pricing. Book now.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 2nd Gen 2013 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 2nd Gen 2013 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 2nd Gen 2013 from iFixit BD"
+    },
+    {
+     "name": "iPad Mini 1st Gen 2012",
+     "image": {
+      "public_id": "model/iPad-Mini-1st-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-1st-generation.png"
+     },
+     "endpoint": "1st-gen",
+     "allservice_meta_description": "iPad Mini 1st Gen 2012 repair service in Bangladesh with skilled technicians, quality workmanship and competitive pricing. Book now.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 1st Gen 2012 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 1st Gen 2012 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 1st Gen 2012 from iFixit BD"
+    },
+    {
+     "name": "iPad Mini 3rd Gen 2014",
+     "image": {
+      "public_id": "model/iPad-Mini-3rd-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-3rd-gen.png"
+     },
+     "endpoint": "3rd-gen",
+     "allservice_meta_description": "iPad Mini 3rd Gen 2014 repair service in Bangladesh with trusted technicians, quality parts and transparent pricing. Get a quote today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 3rd Gen 2014 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 3rd Gen 2014 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 3rd Gen 2014 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68bc24a9f4016bd30fe6204c",
+   "title": "Camera Replacement",
+   "order_no": 7,
+   "image": {
+    "public_id": "service/camera-issues.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/camera-issues.png"
+   },
+   "model_id": [
+    "680a2551a0d70a0f278d97d4",
+    "680a2639a0d70a0f278d97e8",
+    "680a26f8a0d70a0f278d9802"
+   ],
+   "device_id": "680a29eea0d70a0f278d983f",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bc24a9f4016bd30fe6204d"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Camera Replacement",
+     "website_name": "Camera Replacement",
+     "image_alt_text": "iPad Mini 1st, 2nd & 3rd Gen Camera Replacement",
+     "repair_image": {
+      "public_id": "service/camera-issues.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/camera-issues.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a3522b7f66f32eefa6426f9"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-06T12:10:17.584Z",
+   "updated_at": "2026-06-19T11:06:31.070Z",
+   "endpoints": [
+    {
+     "model_id": "680a2551a0d70a0f278d97d4",
+     "endpoint": "/services/ipad-mini/1st-gen/camera-replacement",
+     "_id": "6a3522b7f66f32eefa6426f5"
+    },
+    {
+     "model_id": "680a2639a0d70a0f278d97e8",
+     "endpoint": "/services/ipad-mini/2nd-gen/camera-replacement",
+     "_id": "6a3522b7f66f32eefa6426f6"
+    },
+    {
+     "model_id": "680a26f8a0d70a0f278d9802",
+     "endpoint": "/services/ipad-mini/3rd-gen/camera-replacement",
+     "_id": "6a3522b7f66f32eefa6426f7"
+    }
+   ],
+   "meta_description": "Looking for reliable camera replacement for your iPad Mini 4th Gen 2015? iFixit, Bangladesh's Authentic Apple Service Center, delivers expert camera...",
+   "meta_keywords": "",
+   "meta_title": "iPad Mini 4th Gen 2015 Camera Replacement in Dhaka - iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Mini",
+     "image": {
+      "public_id": "device/ipad-mini.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-mini.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Mini 2nd Gen 2013",
+     "image": {
+      "public_id": "model/iPad-Mini-2nd-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-2nd-gen.png"
+     },
+     "endpoint": "2nd-gen",
+     "allservice_meta_description": "iPad Mini 2nd Gen 2013 repair service in Bangladesh with experienced technicians, dependable repairs and fair pricing. Book now.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 2nd Gen 2013 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 2nd Gen 2013 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 2nd Gen 2013 from iFixit BD"
+    },
+    {
+     "name": "iPad Mini 1st Gen 2012",
+     "image": {
+      "public_id": "model/iPad-Mini-1st-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-1st-generation.png"
+     },
+     "endpoint": "1st-gen",
+     "allservice_meta_description": "iPad Mini 1st Gen 2012 repair service in Bangladesh with skilled technicians, quality workmanship and competitive pricing. Book now.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 1st Gen 2012 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 1st Gen 2012 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 1st Gen 2012 from iFixit BD"
+    },
+    {
+     "name": "iPad Mini 3rd Gen 2014",
+     "image": {
+      "public_id": "model/iPad-Mini-3rd-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-3rd-gen.png"
+     },
+     "endpoint": "3rd-gen",
+     "allservice_meta_description": "iPad Mini 3rd Gen 2014 repair service in Bangladesh with trusted technicians, quality parts and transparent pricing. Get a quote today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 3rd Gen 2014 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 3rd Gen 2014 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 3rd Gen 2014 from iFixit BD"
+    }
+   ]
+  }
+ ],
+ "totalData": 9
+}

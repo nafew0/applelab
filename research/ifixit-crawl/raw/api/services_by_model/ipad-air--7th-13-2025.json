@@ -1,0 +1,1222 @@
+{
+ "success": true,
+ "message": "successful",
+ "data": [
+  {
+   "_id": "687230d419055242d5b93b4c",
+   "title": "Camera Replacement",
+   "order_no": 7,
+   "image": {
+    "public_id": "service/ipad-air-13-inch-7th-generation-2025-camera-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-13-inch-7th-generation-2025-camera-replacement.png"
+   },
+   "model_id": [
+    "680b5bcaa0d70a0f278d9df6"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "687230d419055242d5b93b4d"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Camera Replacement",
+     "website_name": "Camera Replacement",
+     "image_alt_text": "iPad Air 13 Inch 7th Generation 2025 Camera Replacement",
+     "repair_image": {
+      "public_id": "service/ipad-air-13-inch-7th-generation-2025-camera-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-13-inch-7th-generation-2025-camera-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 8000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a717e17bf41443db6919333"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-12T09:54:28.910Z",
+   "updated_at": "2026-08-04T05:52:23.171Z",
+   "endpoints": [
+    {
+     "model_id": "680b5bcaa0d70a0f278d9df6",
+     "endpoint": "/services/ipad-air/7th-13-2025/camera-replacement",
+     "_id": "6a717e17bf41443db6919331"
+    }
+   ],
+   "meta_description": "Trust iFixit, Bangladesh's Authentic Apple Service Center, for iPad Air 13 Inch 7th Gen (2025) camera replacement in Dhaka. Genuine OEM parts...",
+   "meta_keywords": "",
+   "meta_title": "iPad Air 13 Inch 7th Gen (2025) Camera Replacement | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 13 Inch 7th Gen (2025)",
+     "image": {
+      "public_id": "model/iPad-Air-13-Inch-7th-Gen-(2025).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-13-Inch-7th-Gen-(2025).png"
+     },
+     "endpoint": "7th-13-2025",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 13 Inch 7th Gen (2025) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 13 Inch 7th Gen (2025) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68fc68a77495d2cd032825be",
+   "title": "Battery Replacement",
+   "order_no": 2,
+   "image": {
+    "public_id": "service/battery-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/battery-issue.png"
+   },
+   "model_id": [
+    "680b5bcaa0d70a0f278d9df6"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68fc68a77495d2cd032825bf"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Battery Replacement",
+     "image_alt_text": "iPad Air 7th Gen 13 Inch Battery Replacement",
+     "repair_image": {
+      "public_id": "service/battery-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/battery-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68fb70627495d2cd03281a16",
+     "product_variation_id": "68fb70637495d2cd03281a19",
+     "_id": "6a717ca8bf41443db6919076",
+     "product_data": {
+      "_id": "68fb70627495d2cd03281a16",
+      "product_id": "p323",
+      "name": "iPad Air 7th Gen 13 Inch 2025 Battery",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f28aed11479fdf2f3ca",
+      "device_id": "680a2fc0a0d70a0f278d98b4",
+      "model_id": "680b5bcaa0d70a0f278d9df6",
+      "attachable_models": [
+       "680b5bcaa0d70a0f278d9df6"
+      ],
+      "price": null,
+      "warranty": 0,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T12:26:10.878Z",
+      "updated_at": "2026-02-14T09:25:14.171Z",
+      "__v": 0,
+      "endpoint": "/product/ipad-air-7th-gen-13-inch-battery",
+      "warranty_note": "",
+      "website_name": "iPad Air 7th Gen 13 Inch 2025 Battery"
+     },
+     "product_variation_data": {
+      "_id": "68fb70637495d2cd03281a19",
+      "name": "Battery",
+      "quality": "Standard After Market",
+      "product_id": "68fb70627495d2cd03281a16",
+      "price": 6000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/iPad-Air-13-Inch-7th-Gen-(2025).png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/iPad-Air-13-Inch-7th-Gen-(2025).png",
+        "_id": "69f99b137754c4eb0b252f1f"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T12:26:11.587Z",
+      "updated_at": "2026-05-05T13:52:09.731Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-25T06:05:27.479Z",
+   "updated_at": "2026-08-04T05:46:16.776Z",
+   "endpoints": [
+    {
+     "model_id": "680b5bcaa0d70a0f278d9df6",
+     "endpoint": "/services/ipad-air/7th-13-2025/battery-replacement",
+     "_id": "6a717ca8bf41443db6919074"
+    }
+   ],
+   "meta_description": "Looking for reliable battery replacement for your iPad Air 13 Inch 7th Gen (2025)? iFixit, Bangladesh's Authentic Apple Service Center, delivers expert...",
+   "meta_keywords": "",
+   "meta_title": "iPad Air 13 Inch 7th Gen (2025) Battery Replacement | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 13 Inch 7th Gen (2025)",
+     "image": {
+      "public_id": "model/iPad-Air-13-Inch-7th-Gen-(2025).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-13-Inch-7th-Gen-(2025).png"
+     },
+     "endpoint": "7th-13-2025",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 13 Inch 7th Gen (2025) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 13 Inch 7th Gen (2025) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "694009ebe3cb8bf613c30d53",
+   "title": "Button Issue",
+   "order_no": 3,
+   "endpoints": [
+    {
+     "model_id": "680b5bcaa0d70a0f278d9df6",
+     "endpoint": "/services/ipad-air/7th-13-2025/button-issue",
+     "_id": "6a717ce5bf41443db69190c2"
+    }
+   ],
+   "image": {
+    "public_id": "service/ipad-air-13-inch-7th-generation-2025-button-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-13-inch-7th-generation-2025-button-issue.png"
+   },
+   "model_id": [
+    "680b5bcaa0d70a0f278d9df6"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "694009ebe3cb8bf613c30d55"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Button Issue",
+     "website_name": "Button Issue",
+     "image_alt_text": "iPad Air 13 Inch 7th Generation 2025 Button Issue",
+     "repair_image": {
+      "public_id": "service/ipad-air-13-inch-7th-generation-2025-button-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-13-inch-7th-generation-2025-button-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 8000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a717ce5bf41443db69190c4"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-15T13:15:23.407Z",
+   "updated_at": "2026-08-04T05:47:17.708Z",
+   "meta_description": "Facing a button issue with your iPad Air 13 Inch 7th Gen (2025)? iFixit, Bangladesh's Authentic Apple Service Center in Dhaka, offers expert care...",
+   "meta_keywords": "",
+   "meta_title": "iPad Air 13 Inch 7th Gen (2025) Button Issue | iFixit Dhaka",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 13 Inch 7th Gen (2025)",
+     "image": {
+      "public_id": "model/iPad-Air-13-Inch-7th-Gen-(2025).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-13-Inch-7th-Gen-(2025).png"
+     },
+     "endpoint": "7th-13-2025",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 13 Inch 7th Gen (2025) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 13 Inch 7th Gen (2025) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "6872147619055242d5b93a7e",
+   "title": "Software Issue",
+   "order_no": 9,
+   "image": {
+    "public_id": "service/ipad-air-13-inch-7th-generation-2025-software-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-13-inch-7th-generation-2025-software-issue.png"
+   },
+   "model_id": [
+    "680b5bcaa0d70a0f278d9df6"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "6872147619055242d5b93a7f"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Software Issue",
+     "website_name": "iPad Air 13 Inch 7th Generation 2025 Software Issue",
+     "image_alt_text": "iPad Air 13 Inch 7th Generation 2025 Software Issue",
+     "repair_image": {
+      "public_id": "service/ipad-air-13-inch-7th-generation-2025-software-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-13-inch-7th-generation-2025-software-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a718106bf41443db6945a18"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-12T07:53:26.720Z",
+   "updated_at": "2026-08-04T06:04:54.362Z",
+   "endpoints": [
+    {
+     "model_id": "680b5bcaa0d70a0f278d9df6",
+     "endpoint": "/services/ipad-air/7th-13-2025/software-issues",
+     "_id": "6a718106bf41443db6945a16"
+    }
+   ],
+   "meta_description": "Need software troubleshooting for your iPad Air 13 Inch 7th Gen (2025)? Get expert diagnosis and precise repair at iFixit, Bangladesh's Authentic Apple...",
+   "meta_keywords": "",
+   "meta_title": "iPad Air 13 Inch 7th Gen (2025) Software Issue | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 13 Inch 7th Gen (2025)",
+     "image": {
+      "public_id": "model/iPad-Air-13-Inch-7th-Gen-(2025).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-13-Inch-7th-Gen-(2025).png"
+     },
+     "endpoint": "7th-13-2025",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 13 Inch 7th Gen (2025) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 13 Inch 7th Gen (2025) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "687231c019055242d5b93bb2",
+   "title": "Liquid Damage",
+   "order_no": 8,
+   "image": {
+    "public_id": "service/ipad-air-13-inch-7th-generation-2025-liquid-damage.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-13-inch-7th-generation-2025-liquid-damage.png"
+   },
+   "model_id": [
+    "680b5bcaa0d70a0f278d9df6"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "687231c019055242d5b93bb3"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Liquid Damage",
+     "website_name": "Liquid Damage",
+     "image_alt_text": "iPad Air 13 Inch 7th Generation 2025 Liquid Damage",
+     "repair_image": {
+      "public_id": "service/ipad-air-13-inch-7th-generation-2025-liquid-damage.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-13-inch-7th-generation-2025-liquid-damage.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a717e63bf41443db691946e"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-12T09:58:24.547Z",
+   "updated_at": "2026-08-04T05:53:39.765Z",
+   "endpoints": [
+    {
+     "model_id": "680b5bcaa0d70a0f278d9df6",
+     "endpoint": "/services/ipad-air/7th-13-2025/liquid-damage",
+     "_id": "6a717e63bf41443db691946c"
+    }
+   ],
+   "meta_description": "Facing liquid damage with your iPad Air 13 Inch 7th Gen (2025)? iFixit, Bangladesh's Authentic Apple Service Center in Dhaka, offers expert care...",
+   "meta_keywords": "",
+   "meta_title": "iPad Air 13 Inch 7th Gen (2025) Liquid Damage | iFixit Dhaka",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 13 Inch 7th Gen (2025)",
+     "image": {
+      "public_id": "model/iPad-Air-13-Inch-7th-Gen-(2025).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-13-Inch-7th-Gen-(2025).png"
+     },
+     "endpoint": "7th-13-2025",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 13 Inch 7th Gen (2025) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 13 Inch 7th Gen (2025) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68fc687c7495d2cd03282591",
+   "title": "Display Replacement",
+   "order_no": 1,
+   "image": {
+    "public_id": "service/display-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/display-replacement.png"
+   },
+   "model_id": [
+    "680b5bcaa0d70a0f278d9df6"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68fc687c7495d2cd03282592"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Display Replacement",
+     "image_alt_text": "iPad Air 7th Gen 13 Inch Display Replacement",
+     "repair_image": {
+      "public_id": "service/display-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/display-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68fb6b6d7495d2cd032818d6",
+     "product_variation_id": "68fb6b6d7495d2cd032818d9",
+     "_id": "6a717c6bbf41443db6919040",
+     "product_data": {
+      "_id": "68fb6b6d7495d2cd032818d6",
+      "product_id": "p314",
+      "name": "iPad Air 7th Gen 13 Inch 2025 Display",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f1caed11479fdf2f3c1",
+      "device_id": "680a2fc0a0d70a0f278d98b4",
+      "model_id": "680b5bcaa0d70a0f278d9df6",
+      "attachable_models": [
+       "680b5bcaa0d70a0f278d9df6"
+      ],
+      "price": null,
+      "warranty": 0,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T12:05:01.055Z",
+      "updated_at": "2026-02-14T09:24:52.267Z",
+      "__v": 0,
+      "endpoint": "/product/ipad-air-7th-gen-13-inch-display",
+      "warranty_note": "",
+      "website_name": "iPad Air 7th Gen 13 Inch 2025 Display"
+     },
+     "product_variation_data": {
+      "_id": "68fb6b6d7495d2cd032818d9",
+      "name": "Display",
+      "quality": "Standard After Market",
+      "product_id": "68fb6b6d7495d2cd032818d6",
+      "price": 38000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/iPad-Air-7th-Gen-13-Inch-2025-Display.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/iPad-Air-7th-Gen-13-Inch-2025-Display.png",
+        "_id": "69f99c2f7754c4eb0b25ecc6"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T12:05:01.423Z",
+      "updated_at": "2026-05-05T13:51:10.107Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-25T06:04:44.466Z",
+   "updated_at": "2026-08-04T05:45:15.251Z",
+   "endpoints": [
+    {
+     "model_id": "680b5bcaa0d70a0f278d9df6",
+     "endpoint": "/services/ipad-air/7th-13-2025/display-replacement",
+     "_id": "6a717c6bbf41443db691903e"
+    }
+   ],
+   "meta_description": "Trust iFixit, Bangladesh's Authentic Apple Service Center, for iPad Air 13 Inch 7th Gen (2025) display replacement in Dhaka. Genuine OEM parts...",
+   "meta_keywords": "",
+   "meta_title": "iPad Air 13 Inch 7th Gen (2025) Display Replacement | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 13 Inch 7th Gen (2025)",
+     "image": {
+      "public_id": "model/iPad-Air-13-Inch-7th-Gen-(2025).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-13-Inch-7th-Gen-(2025).png"
+     },
+     "endpoint": "7th-13-2025",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 13 Inch 7th Gen (2025) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 13 Inch 7th Gen (2025) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68722ef519055242d5b93b06",
+   "title": "Speaker Replacement",
+   "order_no": 6,
+   "image": {
+    "public_id": "service/ipad-air-13-inch-7th-generation-2025-speaker-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-13-inch-7th-generation-2025-speaker-replacement.png"
+   },
+   "model_id": [
+    "680b5bcaa0d70a0f278d9df6"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68722ef519055242d5b93b07"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Speaker Replacement",
+     "website_name": "Speaker Replacement",
+     "image_alt_text": "iPad Air 13 Inch 7th Generation 2025 Speaker Replacement",
+     "repair_image": {
+      "public_id": "service/ipad-air-13-inch-7th-generation-2025-speaker-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-13-inch-7th-generation-2025-speaker-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 4000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a717db2bf41443db69192c6"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-12T09:46:29.287Z",
+   "updated_at": "2026-08-04T05:50:42.702Z",
+   "endpoints": [
+    {
+     "model_id": "680b5bcaa0d70a0f278d9df6",
+     "endpoint": "/services/ipad-air/7th-13-2025/speaker-replacement",
+     "_id": "6a717db2bf41443db69192c4"
+    }
+   ],
+   "meta_description": "Get professional speaker replacement for iPad Air 13 Inch 7th Gen (2025) at iFixit, Dhaka – Bangladesh's Authentic Apple Service Center. 100% genuine...",
+   "meta_keywords": "",
+   "meta_title": "iPad Air 13 Inch 7th Gen (2025) Speaker Replacement | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 13 Inch 7th Gen (2025)",
+     "image": {
+      "public_id": "model/iPad-Air-13-Inch-7th-Gen-(2025).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-13-Inch-7th-Gen-(2025).png"
+     },
+     "endpoint": "7th-13-2025",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 13 Inch 7th Gen (2025) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 13 Inch 7th Gen (2025) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "6872310619055242d5b93b6e",
+   "title": "Motherboard Repair",
+   "order_no": 4,
+   "image": {
+    "public_id": "service/ipad-air-13-inch-7th-generation-2025-motherboard-repair.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-13-inch-7th-generation-2025-motherboard-repair.png"
+   },
+   "model_id": [
+    "680b5bcaa0d70a0f278d9df6"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "6872310619055242d5b93b6f"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Motherboard Repair",
+     "website_name": "Motherboard Repair",
+     "image_alt_text": "iPad Air 13 Inch 7th Generation 2025 Motherboard Repair",
+     "repair_image": {
+      "public_id": "service/ipad-air-13-inch-7th-generation-2025-motherboard-repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-13-inch-7th-generation-2025-motherboard-repair.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 15000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a717d39bf41443db69191f1"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-12T09:55:18.958Z",
+   "updated_at": "2026-08-04T05:48:41.250Z",
+   "endpoints": [
+    {
+     "model_id": "680b5bcaa0d70a0f278d9df6",
+     "endpoint": "/services/ipad-air/7th-13-2025/motherboard-repair",
+     "_id": "6a717d39bf41443db69191ef"
+    }
+   ],
+   "meta_description": "Need motherboard repair for your iPad Air 13 Inch 7th Gen (2025)? Get expert diagnosis and precise repair at iFixit, Bangladesh's Authentic Apple...",
+   "meta_keywords": "",
+   "meta_title": "iPad Air 13 Inch 7th Gen (2025) Motherboard Repair | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 13 Inch 7th Gen (2025)",
+     "image": {
+      "public_id": "model/iPad-Air-13-Inch-7th-Gen-(2025).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-13-Inch-7th-Gen-(2025).png"
+     },
+     "endpoint": "7th-13-2025",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 13 Inch 7th Gen (2025) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 13 Inch 7th Gen (2025) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68da8bad7495d2cd0327ee56",
+   "title": "Touch Replacement",
+   "order_no": 5,
+   "image": {
+    "public_id": "service/ipad-air-13-inch-7th-generation-2025-touch-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-13-inch-7th-generation-2025-touch-replacement.png"
+   },
+   "model_id": [
+    "680b5bcaa0d70a0f278d9df6"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68da8bad7495d2cd0327ee57"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Touch Replacement",
+     "website_name": "Touch Replacement",
+     "image_alt_text": "iPad Air 13 Inch 7th Generation 2025 Touch Replacement",
+     "repair_image": {
+      "public_id": "service/ipad-air-13-inch-7th-generation-2025-touch-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-13-inch-7th-generation-2025-touch-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 12000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a717d78bf41443db691926e"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-29T13:37:49.655Z",
+   "updated_at": "2026-08-04T05:49:44.489Z",
+   "endpoints": [
+    {
+     "model_id": "680b5bcaa0d70a0f278d9df6",
+     "endpoint": "/services/ipad-air/7th-13-2025/touch-replacement",
+     "_id": "6a717d78bf41443db691926c"
+    }
+   ],
+   "meta_description": "Need touch replacement for your iPad Air 13 Inch 7th Gen (2025)? iFixit offers genuine OEM parts, certified technicians and full warranty in Dhaka –...",
+   "meta_keywords": "",
+   "meta_title": "iPad Air 13 Inch 7th Gen (2025) Touch Replacement | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 13 Inch 7th Gen (2025)",
+     "image": {
+      "public_id": "model/iPad-Air-13-Inch-7th-Gen-(2025).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-13-Inch-7th-Gen-(2025).png"
+     },
+     "endpoint": "7th-13-2025",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 13 Inch 7th Gen (2025) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 13 Inch 7th Gen (2025) from iFixit BD"
+    }
+   ]
+  }
+ ],
+ "totalData": 9
+}

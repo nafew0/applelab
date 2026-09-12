@@ -1,0 +1,725 @@
+{
+ "success": true,
+ "message": "successful",
+ "data": [
+  {
+   "_id": "68ff67b17495d2cd03283fd7",
+   "title": "Speaker Replacement",
+   "order_no": 4,
+   "image": {
+    "public_id": "service/4c517202-562c-4a20-ae7d-31e675fc74af.png",
+    "url": "https://my-invento.s3.ap-southeast-1.amazonaws.com/service/4c517202-562c-4a20-ae7d-31e675fc74af.png"
+   },
+   "model_id": [
+    "68a8706b55f5cfa31e2abbda"
+   ],
+   "device_id": "68a8640d55f5cfa31e2abad2",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68ff67b17495d2cd03283fd8"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Speaker Replacement",
+     "website_name": "Software Issue",
+     "image_alt_text": "Apple Watch Generation Series 9-41mm Software Issue",
+     "repair_image": {
+      "public_id": "service/cc8a3d13-d3e4-4481-834a-b02e4f8969e3.png",
+      "url": "https://my-invento.s3.ap-southeast-1.amazonaws.com/service/cc8a3d13-d3e4-4481-834a-b02e4f8969e3.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a5f4b262b6ad2269db76a83"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-27T12:38:09.438Z",
+   "updated_at": "2026-07-21T10:34:14.659Z",
+   "endpoints": [
+    {
+     "model_id": "68a8706b55f5cfa31e2abbda",
+     "endpoint": "/services/apple-watch-generation/series-9-41mm/software-issue",
+     "_id": "6a5f4b262b6ad2269db76a81"
+    }
+   ],
+   "meta_description": "Looking for reliable speaker replacement for your Apple Watch Series 9 (41mm)? iFixit, Bangladesh's Authentic Apple Service Center, delivers expert...",
+   "meta_keywords": "",
+   "meta_title": "Apple Watch Series 9 (41mm) Speaker Replacement | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Apple Watch Generation",
+     "image": {
+      "public_id": "device/Apple-Watch-Generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/Apple-Watch-Generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Apple Watch Series 9-41mm",
+     "image": {
+      "public_id": "model/_Apple-Watch-Series-9-41mm.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/_Apple-Watch-Series-9-41mm.png"
+     },
+     "endpoint": "series-9-41mm",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Apple Watch Series 9-41mm Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "68ff73c67495d2cd032840ef",
+   "title": "Software Issue",
+   "order_no": 5,
+   "image": {
+    "public_id": "service/apple-watch-software-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-software-issue.png"
+   },
+   "model_id": [
+    "68a8706b55f5cfa31e2abbda"
+   ],
+   "device_id": "68a8640d55f5cfa31e2abad2",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68ff73c67495d2cd032840f0"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Software Issue",
+     "website_name": "Software Issue",
+     "image_alt_text": "Apple Watch Generation Series 9-41mm Software Issue",
+     "repair_image": {
+      "public_id": "service/apple-watch-software-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-software-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a5f4b752b6ad2269db76b12"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-27T13:29:42.645Z",
+   "updated_at": "2026-07-21T10:35:33.134Z",
+   "endpoints": [
+    {
+     "model_id": "68a8706b55f5cfa31e2abbda",
+     "endpoint": "/services/apple-watch-generation/series-9-41mm/software-issue",
+     "_id": "6a5f4b752b6ad2269db76b10"
+    }
+   ],
+   "meta_description": "Need software troubleshooting for your Apple Watch Series 9 (41mm)? Get expert diagnosis and precise repair at iFixit, Bangladesh's Authentic Apple...",
+   "meta_keywords": "",
+   "meta_title": "Apple Watch Series 9 (41mm) Software Issue in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Apple Watch Generation",
+     "image": {
+      "public_id": "device/Apple-Watch-Generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/Apple-Watch-Generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Apple Watch Series 9-41mm",
+     "image": {
+      "public_id": "model/_Apple-Watch-Series-9-41mm.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/_Apple-Watch-Series-9-41mm.png"
+     },
+     "endpoint": "series-9-41mm",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Apple Watch Series 9-41mm Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "68ff67167495d2cd03283f6b",
+   "title": "Display Replacement",
+   "order_no": 1,
+   "image": {
+    "public_id": "service/apple-watch-display-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-display-replacement.png"
+   },
+   "model_id": [
+    "68a8706b55f5cfa31e2abbda"
+   ],
+   "device_id": "68a8640d55f5cfa31e2abad2",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68ff67167495d2cd03283f6c"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Display Replacement",
+     "image_alt_text": "Apple Watch Generation Series 9-41mm Display Replacement",
+     "repair_image": {
+      "public_id": "service/apple-watch-display-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-display-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 0,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "695bc4dd26358c8899abc5eb",
+     "product_variation_id": "695bc4dd26358c8899abc5ee",
+     "_id": "6a5f4a2c2b6ad2269db76899",
+     "product_data": {
+      "_id": "695bc4dd26358c8899abc5eb",
+      "product_id": "p406",
+      "name": "Apple Watch Series 9-41mm Display",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f1caed11479fdf2f3c1",
+      "device_id": "68a8640d55f5cfa31e2abad2",
+      "model_id": "68a8706b55f5cfa31e2abbda",
+      "attachable_models": [
+       "68a8706b55f5cfa31e2abbda"
+      ],
+      "price": null,
+      "warranty": null,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2026-01-05T14:04:13.089Z",
+      "updated_at": "2026-02-19T06:43:28.681Z",
+      "__v": 0,
+      "endpoint": "/product/apple-watch-series-9-41mm-display",
+      "warranty_note": "",
+      "website_name": "Apple Watch Series 9-41mm Display"
+     },
+     "product_variation_data": {
+      "_id": "695bc4dd26358c8899abc5ee",
+      "name": "Display",
+      "quality": "Standard After Market",
+      "product_id": "695bc4dd26358c8899abc5eb",
+      "price": 12000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/Apple-Watch-Series-9--41mm-display.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/Apple-Watch-Series-9--41mm-display.png",
+        "_id": "695bc4dd26358c8899abc5ef"
+       }
+      ],
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2026-01-05T14:04:13.870Z",
+      "updated_at": "2026-05-07T07:23:13.163Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-27T12:35:34.049Z",
+   "updated_at": "2026-07-21T10:30:04.926Z",
+   "endpoints": [
+    {
+     "model_id": "68a8706b55f5cfa31e2abbda",
+     "endpoint": "/services/apple-watch-generation/series-9-41mm/display-replacement",
+     "_id": "6a5f4a2c2b6ad2269db76897"
+    }
+   ],
+   "meta_description": "Need display replacement for your Apple Watch Series 9 (41mm)? iFixit offers genuine OEM parts, certified technicians and full warranty in Dhaka –...",
+   "meta_keywords": "",
+   "meta_title": "Apple Watch Series 9 (41mm) Display Replacement | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Apple Watch Generation",
+     "image": {
+      "public_id": "device/Apple-Watch-Generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/Apple-Watch-Generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Apple Watch Series 9-41mm",
+     "image": {
+      "public_id": "model/_Apple-Watch-Series-9-41mm.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/_Apple-Watch-Series-9-41mm.png"
+     },
+     "endpoint": "series-9-41mm",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Apple Watch Series 9-41mm Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "68ff674e7495d2cd03283f90",
+   "title": "Battery Replacement",
+   "order_no": 2,
+   "image": {
+    "public_id": "service/apple-watch-battery-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-battery-replacement.png"
+   },
+   "model_id": [
+    "68a8706b55f5cfa31e2abbda"
+   ],
+   "device_id": "68a8640d55f5cfa31e2abad2",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68ff674e7495d2cd03283f91"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Battery Replacement",
+     "image_alt_text": "Apple Watch Generation Series 9-41mm Battery Replacement",
+     "repair_image": {
+      "public_id": "service/apple-watch-battery-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-battery-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 0,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "695bc5a926358c8899abc632",
+     "product_variation_id": "695bc5aa26358c8899abc635",
+     "_id": "6a5f4a892b6ad2269db7699e",
+     "product_data": {
+      "_id": "695bc5a926358c8899abc632",
+      "product_id": "p408",
+      "name": "Apple Watch Series 9-41mm Battery",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f28aed11479fdf2f3ca",
+      "device_id": "68a8640d55f5cfa31e2abad2",
+      "model_id": "68a8706b55f5cfa31e2abbda",
+      "attachable_models": [
+       "68a8706b55f5cfa31e2abbda"
+      ],
+      "price": null,
+      "warranty": null,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2026-01-05T14:07:37.103Z",
+      "updated_at": "2026-02-19T06:43:58.272Z",
+      "__v": 0,
+      "endpoint": "/product/apple-watch-series-9-41mm-battery",
+      "warranty_note": "",
+      "website_name": "Apple Watch Series 9-41mm Battery"
+     },
+     "product_variation_data": {
+      "_id": "695bc5aa26358c8899abc635",
+      "name": "Battery",
+      "quality": "Standard After Market",
+      "product_id": "695bc5a926358c8899abc632",
+      "price": 4000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/Apple-Watch-Series-9--41mm-battery.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/Apple-Watch-Series-9--41mm-battery.png",
+        "_id": "695bc5aa26358c8899abc636"
+       }
+      ],
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2026-01-05T14:07:38.007Z",
+      "updated_at": "2026-05-07T09:24:46.883Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-27T12:36:30.298Z",
+   "updated_at": "2026-07-21T10:31:37.560Z",
+   "endpoints": [
+    {
+     "model_id": "68a8706b55f5cfa31e2abbda",
+     "endpoint": "/services/apple-watch-generation/series-9-41mm/battery-replacement",
+     "_id": "6a5f4a892b6ad2269db7699c"
+    }
+   ],
+   "meta_description": "Get professional battery replacement for Apple Watch Series 9 (41mm) at iFixit, Dhaka – Bangladesh's Authentic Apple Service Center. 100% genuine OEM...",
+   "meta_keywords": "",
+   "meta_title": "Apple Watch Series 9 (41mm) Battery Replacement | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Apple Watch Generation",
+     "image": {
+      "public_id": "device/Apple-Watch-Generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/Apple-Watch-Generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Apple Watch Series 9-41mm",
+     "image": {
+      "public_id": "model/_Apple-Watch-Series-9-41mm.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/_Apple-Watch-Series-9-41mm.png"
+     },
+     "endpoint": "series-9-41mm",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Apple Watch Series 9-41mm Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "68ff67837495d2cd03283fb2",
+   "title": "Upper Glass Replacement",
+   "order_no": 3,
+   "image": {
+    "public_id": "service/apple-watch-upper-glass-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-upper-glass-replacement.png"
+   },
+   "model_id": [
+    "68a8706b55f5cfa31e2abbda"
+   ],
+   "device_id": "68a8640d55f5cfa31e2abad2",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68ff67837495d2cd03283fb3"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Upper Glass Replacement",
+     "website_name": "Upper Glass Replacement",
+     "image_alt_text": "Apple Watch Generation Series 9-41mm Upper Glass Replacement",
+     "repair_image": {
+      "public_id": "service/apple-watch-upper-glass-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-upper-glass-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 6000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a5f4ae22b6ad2269db769e0"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-27T12:37:23.776Z",
+   "updated_at": "2026-07-21T10:33:06.036Z",
+   "endpoints": [
+    {
+     "model_id": "68a8706b55f5cfa31e2abbda",
+     "endpoint": "/services/apple-watch-generation/series-9-41mm/upper-glass-replacement",
+     "_id": "6a5f4ae22b6ad2269db769de"
+    }
+   ],
+   "meta_description": "Trust iFixit, Bangladesh's Authentic Apple Service Center, for Apple Watch Series 9 (41mm) upper glass replacement in Dhaka. Genuine OEM parts...",
+   "meta_keywords": "",
+   "meta_title": "Apple Watch Series 9 (41mm) Upper Glass Replacement | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Apple Watch Generation",
+     "image": {
+      "public_id": "device/Apple-Watch-Generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/Apple-Watch-Generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Apple Watch Series 9-41mm",
+     "image": {
+      "public_id": "model/_Apple-Watch-Series-9-41mm.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/_Apple-Watch-Series-9-41mm.png"
+     },
+     "endpoint": "series-9-41mm",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Apple Watch Series 9-41mm Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  }
+ ],
+ "totalData": 5
+}

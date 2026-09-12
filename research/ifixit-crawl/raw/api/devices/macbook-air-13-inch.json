@@ -1,0 +1,147 @@
+{
+ "message": "success",
+ "status": 200,
+ "data": [
+  {
+   "image": {
+    "public_id": "model/MacBook-Air-13-inch-M5-(A3449).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Air-13-inch-M5-(A3449).png"
+   },
+   "_id": "6a464664d67fa863513b6e0d",
+   "name": "MacBook Air 13\" M5 (A3449)",
+   "endpoint": "a3449-m5",
+   "order_no": 386
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Air-13-Inch-M4-(A3240).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Air-13-Inch-M4-(A3240).png"
+   },
+   "_id": "6886023c19055242d5b975d9",
+   "name": "MacBook Air 13\" M4 (A3240)",
+   "order_no": 139,
+   "endpoint": "a3240-m4"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Air-13-Inch-M3.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Air-13-Inch-M3.png"
+   },
+   "_id": "6886020f19055242d5b975d0",
+   "name": "MacBook Air 13\" M3 (A3113)",
+   "order_no": 138,
+   "endpoint": "a3113-m3"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Air-13-Inch-M2-(A2681).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Air-13-Inch-M2-(A2681).png"
+   },
+   "_id": "688601ef19055242d5b975c7",
+   "name": "MacBook Air 13\" M2 (A2681)",
+   "order_no": 137,
+   "endpoint": "a2681-m2"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Air-13-Inch-Retina-Late-2020-M1.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Air-13-Inch-Retina-Late-2020-M1.png"
+   },
+   "_id": "688601ad19055242d5b975bd",
+   "name": "MacBook Air 13\" M1 (A2337)",
+   "order_no": 136,
+   "endpoint": "a2337-m1"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Air-13-Inch-Retina-Early-2020-Intel---A2179.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Air-13-Inch-Retina-Early-2020-Intel---A2179.png"
+   },
+   "_id": "6885f3f919055242d5b973e1",
+   "name": "MacBook Air 13\" 2020 Intel (A2179)",
+   "order_no": 135,
+   "endpoint": "a2179-early-2020"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Air-13-Inch-Retina-2018.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Air-13-Inch-Retina-2018.png"
+   },
+   "_id": "6885f42019055242d5b973ec",
+   "name": "MacBook Air 13\" 2018 (A1932)",
+   "order_no": 84,
+   "endpoint": "a1932-retina-2018"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Air-13-Inch-Retina-2019.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Air-13-Inch-Retina-2019.png"
+   },
+   "_id": "68a70ab855f5cfa31e2ab4ec",
+   "name": "MacBook Air 13\" 2019 (A1932)",
+   "order_no": 83,
+   "endpoint": "a1932-retina-2019"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Air-13-Inch-Early-2017.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Air-13-Inch-Early-2017.png"
+   },
+   "_id": "68a70a4155f5cfa31e2ab4d5",
+   "name": "MacBook Air 13\" 2017 (A1466)",
+   "order_no": 82,
+   "endpoint": "a1466-early-2017"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Air-13-Early-2015.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Air-13-Early-2015.png"
+   },
+   "_id": "68a7098655f5cfa31e2ab4cc",
+   "name": "MacBook Air 13\" 2015 (A1466)",
+   "order_no": 81,
+   "endpoint": "a1466-early-2015"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Air-13-Inch-Early-2014.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Air-13-Inch-Early-2014.png"
+   },
+   "_id": "68a708ed55f5cfa31e2ab4c1",
+   "name": "MacBook Air 13\" 2014  (A1466)",
+   "order_no": 79,
+   "endpoint": "a1466-early-2014"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Air-13-Inch-Mid-2013.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Air-13-Inch-Mid-2013.png"
+   },
+   "_id": "68a7085f55f5cfa31e2ab4ac",
+   "name": "MacBook Air 13\" 2013 (A1466)",
+   "order_no": 78,
+   "endpoint": "a1466-mid-2013"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Air-13-Inch-Mid-2012.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Air-13-Inch-Mid-2012.png"
+   },
+   "_id": "6885f44e19055242d5b973fa",
+   "name": "MacBook Air 13\" 2012 (A1466)",
+   "order_no": 77,
+   "endpoint": "a1466-mid-2012"
+  }
+ ],
+ "childDevice": false,
+ "device": {
+  "_id": "6885f35419055242d5b973a3",
+  "name": "Macbook Air 13\"",
+  "meta_description": "Looking for a reliable MacBook Air 13 Inch repair service in Dhaka? iFixit BD offers expert repairs with genuine parts, fast service, and trusted  technicians.",
+  "meta_keywords": "undefined",
+  "meta_title": "MacBook Air 13 Inch Repair Center in Dhaka, Bangladesh - iFixit BD",
+  "page_description": "<h2>Leading Macbook Air 13 Inch Repair Service Center in Dhaka, Bangladesh</h2><p>A MacBook Air 13-inch is designed to support daily work, study, and creative focus, yet even premium devices experience wear over time. A damaged display,  fault battery, or unresponsive keyboard can quickly interrupt productivity. In those moments, effective repair is not about temporary fixes, but about restoring long-term reliability. At iFixit BD, MacBook Air repairs follow a disciplined, professional approach. From M1 screen replacements and battery renewals to keyboard servicing and advanced logic board diagnostics, every solution is completed with genuine components to protect performance and durability. Skilled technicians assess each device in detail, resolving underlying issues instead of surface symptoms. The repair experience remains clear and efficient, with transparent guidance on costs and timelines. MacBook Air display replacement to battery health evaluation, iFixit BD focuses on returning your device to dependable, like-new performance—so your MacBook continues to support your work without interruption.</p><h2>Our MacBook Air 13 Inch Repair Service</h2><p>Each MacBook Air 13-inch repair underscores reliability, with experienced technicians ensuring results that endure.</p><p>Here are some of the MacBook Air 13 Inch repair services we offer:</p><ul><li>MacBook Air 13 Inch display Replacement</li><li>MacBook Air 13 Inch battery Replacement</li><li>MacBook Air 13 Inch cleaning Service</li><li>MacBook Air 13 Inch motherboard Repair</li><li>MacBook Air 13 Inch keyboard Replacement</li><li>MacBook Air 13 Inch charging Port Issue</li><li>MacBook Air 13 Inch keyboard Replacement</li><li>MacBook Air 13 Inch speaker Replacement</li><li>MacBook Air 13 Inch trackpad Issue</li></ul>",
+  "page_title": "Macbook Air 13 Inch Repair Services",
+  "page_title_description": "Keep your MacBook Air 13 inch running like new. Our technicians at iFixit BD handle every repair with skill and attention."
+ }
+}

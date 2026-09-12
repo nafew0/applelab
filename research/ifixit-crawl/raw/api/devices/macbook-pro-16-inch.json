@@ -1,0 +1,87 @@
+{
+ "message": "success",
+ "status": 200,
+ "data": [
+  {
+   "image": {
+    "public_id": "model/MacBook-Pro-16-inch-M5-Pro-M5-Max-(A3428).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-inch-M5-Pro-M5-Max-(A3428).png"
+   },
+   "_id": "6a4ce4656409e4026e12e0b1",
+   "name": "MacBook Pro 16\" M5 Pro/M5 Max (A3428)",
+   "endpoint": "a3428-m5-pro-max",
+   "order_no": 392
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Pro-16-Inch-2024-(M4).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-Inch-2024-(M4).png"
+   },
+   "_id": "68a8536b55f5cfa31e2ab9c0",
+   "name": "MacBook Pro 16\" M4 Max (A3186)",
+   "order_no": 391,
+   "endpoint": "a3186-2024-m4"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Pro-16-Inch-M4-Pro-Repair-List-at-iFixit-BD.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-Inch-M4-Pro-Repair-List-at-iFixit-BD.png"
+   },
+   "_id": "6a4ca1d06409e4026e01e06b",
+   "name": "MacBook Pro 16\" M4 Pro (A3403)",
+   "endpoint": "a3403-m4-pro",
+   "order_no": 390
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Pro-16-Inch-Late-2023.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-Inch-Late-2023.png"
+   },
+   "_id": "68a853b755f5cfa31e2ab9d2",
+   "name": "MacBook Pro 16\" M3 Pro / M3 Max (A2991)",
+   "order_no": 274,
+   "endpoint": "a2991-late-2023"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Pro-16-Inch-Early-2023.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-Inch-Early-2023.png"
+   },
+   "_id": "68a8538d55f5cfa31e2ab9c9",
+   "name": "MacBook Pro 16\" M2 Pro / M2 Max (A2780)",
+   "order_no": 273,
+   "endpoint": "a2780-early-2023"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Pro-16-Inch-2021-.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-Inch-2021-.png"
+   },
+   "_id": "68a8534455f5cfa31e2ab9b7",
+   "name": "MacBook Pro 16\" M1 Pro / M1 Max (A2485)",
+   "order_no": 272,
+   "endpoint": "a2485-2021"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Pro-16-Inch-2019.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-Inch-2019.png"
+   },
+   "_id": "68a8531f55f5cfa31e2ab9ae",
+   "name": "MacBook Pro 16\" 2019 (A2141)",
+   "order_no": 271,
+   "endpoint": "a2141-2019"
+  }
+ ],
+ "childDevice": false,
+ "device": {
+  "_id": "6885f9f319055242d5b9750d",
+  "name": "MacBook Pro 16\"",
+  "meta_description": "Looking for a reliable MacBook Pro 16 Inch repair service in Dhaka? iFixit BD offers expert repairs with genuine parts, fast service, and certified technicians.\r\n",
+  "meta_keywords": "undefined",
+  "meta_title": "MacBook Pro 16 Inch Repair Center in Dhaka, Bangladesh - iFixit BD",
+  "page_description": "<h2>Best MacBook Pro 16 Inch Repair Service Center in Dhaka, Bangladesh</h2><p>Every MacBook Pro 16 inch that arrives at iFixit BD carries a visible record of intensive use: worn keyboards, drained batteries, and cracked or scratched screens. Each device is subjected to a meticulous diagnostic process, enabling certified technicians to pinpoint problems with precision. Repairs are executed using genuine components, ensuring that performance, reliability, and longevity are fully restored. The service model emphasizes efficiency without compromising transparency—structured workflows, clear updates, and delivery make the repair experience smooth and predictable. By the time a MacBook leaves the facility, it is fully revitalized, ready to handle demanding professional workloads, creative projects, and high-stakes tasks, reflecting the standards of both Apple engineering and iFixit BD’s operational rigor.<br/></p><h3>Our MacBook Pro 16 Inch Repair Service</h3><p>In the hands of iFixit BD, the MacBook Pro 16-inch is restored with care, each repair a quiet commitment to reliability.</p><p>Here are some of the MacBook Pro 16 Inch repair services we offer:</p><p>MacBook Pro 16 Inch display replacement</p><p>MacBook Pro 16 Inch battery replacement</p><p>MacBook Pro 16 Inch cleaning service</p><p>MacBook Pro 16 Inch motherboard repair</p><p>MacBook Pro 16 Inch keyboard replacement</p><p>MacBook Pro 16 Inch charging port issue</p><p>MacBook Pro 16 Inch keyboard replacement</p><p>MacBook Pro 16 Inch speaker replacement</p><p>MacBook Pro 16 Inch trackpad issue</p><p>MacBook Pro 16 Inch Os installation</p>",
+  "page_title": "MacBook Pro 16 Inch Repair Services",
+  "page_title_description": "The MacBook Pro 16 inch finds its rhythm once more at iFixit BD, restored through deliberate repair  and thoughtful attention.\r\n"
+ }
+}

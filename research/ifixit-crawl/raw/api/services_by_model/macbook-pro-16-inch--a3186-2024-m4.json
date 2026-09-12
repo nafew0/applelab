@@ -1,0 +1,1314 @@
+{
+ "success": true,
+ "message": "successful",
+ "data": [
+  {
+   "_id": "6a79c164bf41443db6d0c7ca",
+   "title": "SSD Upgrade",
+   "order_no": 11,
+   "endpoints": [
+    {
+     "model_id": "68a8536b55f5cfa31e2ab9c0",
+     "endpoint": "/services/macbook-pro-16-inch/a3186-2024-m4/ssd-upgrade",
+     "_id": "6a79c164bf41443db6d0c7cb"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-pro-16-inch-m4-max-(a3186)-ssd-upgrade.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16-inch-m4-max-(a3186)-ssd-upgrade.png"
+   },
+   "model_id": [
+    "68a8536b55f5cfa31e2ab9c0"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "6a79c164bf41443db6d0c7cc"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "SSD Upgrade",
+     "website_name": "SSD Upgrade",
+     "image_alt_text": "MacBook Pro 16 Inch M4 Max (a3186) ssd upgrade",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16-inch-m4-max-(a3186)-ssd-upgrade.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16-inch-m4-max-(a3186)-ssd-upgrade.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 0,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a79c164bf41443db6d0c7cd"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "meta_title": "",
+   "meta_description": "",
+   "meta_keywords": "",
+   "page_title": "",
+   "page_title_description": "",
+   "page_description": "<p></p>",
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "N/A",
+   "created_at": "2026-08-10T12:17:40.423Z",
+   "updated_at": "2026-08-10T12:17:40.423Z",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M4 Max (A3186)",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-Inch-2024-(M4).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-Inch-2024-(M4).png"
+     },
+     "endpoint": "a3186-2024-m4",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 16\" M4 Max (A3186) Repair Service",
+     "allservice_page_title_description": "Choose the right service for your MacBook Pro 16\" M4 Max (A3186)"
+    }
+   ]
+  },
+  {
+   "_id": "6a79b1b7bf41443db6cc55db",
+   "title": "Motherboard Repair",
+   "order_no": 3,
+   "endpoints": [
+    {
+     "model_id": "68a8536b55f5cfa31e2ab9c0",
+     "endpoint": "/services/macbook-pro-16-inch/a3186-2024-m4/motherboard-repair",
+     "_id": "6a79b1b7bf41443db6cc55dc"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-pro-16-inch-m4-max-(a3185)-motherboard-repair.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16-inch-m4-max-(a3185)-motherboard-repair.png"
+   },
+   "model_id": [
+    "68a8536b55f5cfa31e2ab9c0"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "6a79b1b7bf41443db6cc55dd"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Motherboard Repair",
+     "website_name": "Motherboard Repair",
+     "image_alt_text": "MacBook Pro 16 Inch M4 Max (a3185) motherboard repair",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16-inch-m4-max-(a3185)-motherboard-repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16-inch-m4-max-(a3185)-motherboard-repair.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 18000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a79b1b7bf41443db6cc55de"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "meta_title": "",
+   "meta_description": "",
+   "meta_keywords": "",
+   "page_title": "",
+   "page_title_description": "",
+   "page_description": "<p></p>",
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "N/A",
+   "created_at": "2026-08-10T11:10:47.902Z",
+   "updated_at": "2026-08-10T11:10:47.902Z",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M4 Max (A3186)",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-Inch-2024-(M4).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-Inch-2024-(M4).png"
+     },
+     "endpoint": "a3186-2024-m4",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 16\" M4 Max (A3186) Repair Service",
+     "allservice_page_title_description": "Choose the right service for your MacBook Pro 16\" M4 Max (A3186)"
+    }
+   ]
+  },
+  {
+   "_id": "6a79b763bf41443db6cdce38",
+   "title": "Trackpad Issue",
+   "order_no": 7,
+   "endpoints": [
+    {
+     "model_id": "68a8536b55f5cfa31e2ab9c0",
+     "endpoint": "/services/macbook-pro-16-inch/a3186-2024-m4/trackpad-issue",
+     "_id": "6a79b763bf41443db6cdce39"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-pro-16-inch-m4-max-(a3186)-trackpad-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16-inch-m4-max-(a3186)-trackpad-issue.png"
+   },
+   "model_id": [
+    "68a8536b55f5cfa31e2ab9c0"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "6a79b763bf41443db6cdce3a"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Trackpad Issue",
+     "website_name": "Trackpad Issue",
+     "image_alt_text": "MacBook Pro 16 Inch M4 Max (a3186) Trackpad Issue",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16-inch-m4-max-(a3186)-trackpad-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16-inch-m4-max-(a3186)-trackpad-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 14000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a79b763bf41443db6cdce3b"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "meta_title": "",
+   "meta_description": "",
+   "meta_keywords": "",
+   "page_title": "",
+   "page_title_description": "",
+   "page_description": "<p></p>",
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "N/A",
+   "created_at": "2026-08-10T11:34:59.061Z",
+   "updated_at": "2026-08-10T11:34:59.061Z",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M4 Max (A3186)",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-Inch-2024-(M4).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-Inch-2024-(M4).png"
+     },
+     "endpoint": "a3186-2024-m4",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 16\" M4 Max (A3186) Repair Service",
+     "allservice_page_title_description": "Choose the right service for your MacBook Pro 16\" M4 Max (A3186)"
+    }
+   ]
+  },
+  {
+   "_id": "694a29438a888ed233588bed",
+   "title": "Display Replacement",
+   "order_no": 1,
+   "endpoints": [
+    {
+     "model_id": "68a8536b55f5cfa31e2ab9c0",
+     "endpoint": "/services/macbook-pro-16-inch/a3186-2024-m4/display-replacement",
+     "_id": "6a4fa8bb6409e4026e7edbb2"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-display-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-display-replacement.png"
+   },
+   "model_id": [
+    "68a8536b55f5cfa31e2ab9c0"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "694a29438a888ed233588bef"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "MacBook Pro 16 Inch 2024 M4 Display Replacement",
+     "image_alt_text": "MacBook Pro 16 Inch 2024 M4 Display Replacement",
+     "repair_image": {
+      "public_id": "service/macbook-display-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-display-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "6a3e57e696eb520b02927483",
+     "product_variation_id": "6a3e57e796eb520b02927486",
+     "_id": "6a4fa8bb6409e4026e7edbb4",
+     "product_data": {
+      "_id": "6a3e57e696eb520b02927483",
+      "product_id": "p443",
+      "name": "MacBook Pro 16\" 2024 M4 Max Display Assembly",
+      "website_name": "MacBook Pro 16\" 2024 M4 Max Display Assembly",
+      "endpoint": "/product/macbook-pro-16-inch-display-assembly-m4-max",
+      "brand_id": "680a09e8a0d70a0f278d94ae",
+      "category_id": "68282f1caed11479fdf2f3c1",
+      "device_id": "6885f9f319055242d5b9750d",
+      "model_id": "68a8536b55f5cfa31e2ab9c0",
+      "attachable_models": [
+       "68a8536b55f5cfa31e2ab9c0"
+      ],
+      "price": null,
+      "warranty": null,
+      "warranty_note": "",
+      "description": "<p></p>",
+      "description2": "<p></p>",
+      "images": [],
+      "meta_title": "",
+      "meta_description": "",
+      "meta_keywords": "",
+      "page_title": "",
+      "page_title_description": "",
+      "page_description": "<p></p>",
+      "remarks": "",
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2026-06-26T10:43:50.695Z",
+      "updated_at": "2026-07-09T13:53:48.801Z",
+      "__v": 0
+     },
+     "product_variation_data": {
+      "_id": "6a3e57e796eb520b02927486",
+      "name": "Silver",
+      "quality": "Disassembled From MacBook",
+      "product_id": "6a3e57e696eb520b02927483",
+      "price": 80000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/MacBook-Pro-16-2024-M4-Max-Display-Assembly-Silver.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/MacBook-Pro-16-2024-M4-Max-Display-Assembly-Silver.png",
+        "_id": "6a8d3c98cccffc6747eb0427"
+       }
+      ],
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2026-06-26T10:43:51.388Z",
+      "updated_at": "2026-08-25T06:56:24.006Z",
+      "__v": 0
+     }
+    },
+    {
+     "name": "Assemble Charge",
+     "website_name": "Display Replacement",
+     "image_alt_text": "MacBook Pro 16 Inch 2024 M4 Display Replacement",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16\"-2024-m4-max-display-lcd.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-2024-m4-max-display-lcd.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "6a4fa8546409e4026e7daac2",
+     "product_variation_id": "6a4fa8546409e4026e7daac5",
+     "_id": "6a4fa8bb6409e4026e7edbb5",
+     "product_data": {
+      "_id": "6a4fa8546409e4026e7daac2",
+      "product_id": "p449",
+      "name": "MacBook Pro 16\" 2024 M4 Max Display Lcd",
+      "website_name": "MacBook Pro 16\" 2024 M4 Max Display Lcd",
+      "endpoint": "/product/macbook-pro-16-inch-display-lcd-m4-max",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f1caed11479fdf2f3c1",
+      "device_id": "6885f9f319055242d5b9750d",
+      "model_id": "68a8536b55f5cfa31e2ab9c0",
+      "attachable_models": [
+       "68a8536b55f5cfa31e2ab9c0"
+      ],
+      "price": null,
+      "warranty": null,
+      "warranty_note": "",
+      "description": "<p></p>",
+      "description2": "<p></p>",
+      "images": [],
+      "meta_title": "",
+      "meta_description": "",
+      "meta_keywords": "",
+      "page_title": "",
+      "page_title_description": "",
+      "page_description": "<p></p>",
+      "remarks": "",
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "N/A",
+      "created_at": "2026-07-09T13:55:32.165Z",
+      "updated_at": "2026-07-09T13:55:32.165Z",
+      "__v": 0
+     },
+     "product_variation_data": {
+      "_id": "6a4fa8546409e4026e7daac5",
+      "name": "LCD",
+      "quality": "Standard After Market",
+      "product_id": "6a4fa8546409e4026e7daac2",
+      "price": 56000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/MacBook-Pro-16-inch-2024-M4-Max-Display-Lcd.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/MacBook-Pro-16-inch-2024-M4-Max-Display-Lcd.png",
+        "_id": "6a4fa8546409e4026e7daac6"
+       }
+      ],
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2026-07-09T13:55:32.933Z",
+      "updated_at": "2026-07-09T13:59:54.075Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-23T05:31:47.277Z",
+   "updated_at": "2026-07-09T13:57:15.120Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "MacBook Pro 16 Inch 2024 M4 Display Replacement",
+   "page_title_description": "Choose the right display for your MacBook Pro 16 Inch 2024 M4",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M4 Max (A3186)",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-Inch-2024-(M4).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-Inch-2024-(M4).png"
+     },
+     "endpoint": "a3186-2024-m4",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 16\" M4 Max (A3186) Repair Service",
+     "allservice_page_title_description": "Choose the right service for your MacBook Pro 16\" M4 Max (A3186)"
+    }
+   ]
+  },
+  {
+   "_id": "6a79bf50bf41443db6cf537a",
+   "title": "Liquid Clean",
+   "order_no": 9,
+   "endpoints": [
+    {
+     "model_id": "68a8536b55f5cfa31e2ab9c0",
+     "endpoint": "/services/macbook-pro-16-inch/a3186-2024-m4/liquid-clean",
+     "_id": "6a79bf50bf41443db6cf537b"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-pro-16-inch-m4-max-(a3186)-speaker-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16-inch-m4-max-(a3186)-speaker-replacement.png"
+   },
+   "model_id": [
+    "68a8536b55f5cfa31e2ab9c0"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "6a79bf50bf41443db6cf537c"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Liquid Clean",
+     "website_name": "Liquid Clean",
+     "image_alt_text": "MacBook Pro 16 Inch M4 Max (a3186) Liquid Clean",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16-inch-m4-max-(a3186)-liquid-clean.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16-inch-m4-max-(a3186)-liquid-clean.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a79bf50bf41443db6cf537d"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "meta_title": "",
+   "meta_description": "",
+   "meta_keywords": "",
+   "page_title": "",
+   "page_title_description": "",
+   "page_description": "<p></p>",
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "N/A",
+   "created_at": "2026-08-10T12:08:48.973Z",
+   "updated_at": "2026-08-10T12:08:48.973Z",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M4 Max (A3186)",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-Inch-2024-(M4).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-Inch-2024-(M4).png"
+     },
+     "endpoint": "a3186-2024-m4",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 16\" M4 Max (A3186) Repair Service",
+     "allservice_page_title_description": "Choose the right service for your MacBook Pro 16\" M4 Max (A3186)"
+    }
+   ]
+  },
+  {
+   "_id": "6a79b43fbf41443db6cdcb8d",
+   "title": "Speaker Replacement",
+   "order_no": 6,
+   "endpoints": [
+    {
+     "model_id": "68a8536b55f5cfa31e2ab9c0",
+     "endpoint": "/services/macbook-pro-16-inch/a3186-2024-m4/speaker-replacement",
+     "_id": "6a79b43fbf41443db6cdcb8e"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-pro-16-inch-m4-max-(a3186)-speaker-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16-inch-m4-max-(a3186)-speaker-replacement.png"
+   },
+   "model_id": [
+    "68a8536b55f5cfa31e2ab9c0"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "6a79b43fbf41443db6cdcb8f"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Speaker Replacement",
+     "website_name": "Speaker Replacement",
+     "image_alt_text": "MacBook Pro 16 Inch M4 Max (a3186) speaker replacement",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16-inch-m4-max-(a3186)-speaker-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16-inch-m4-max-(a3186)-speaker-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 8000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a79b43fbf41443db6cdcb90"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "meta_title": "",
+   "meta_description": "",
+   "meta_keywords": "",
+   "page_title": "",
+   "page_title_description": "",
+   "page_description": "<p></p>",
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "N/A",
+   "created_at": "2026-08-10T11:21:35.274Z",
+   "updated_at": "2026-08-10T11:21:35.274Z",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M4 Max (A3186)",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-Inch-2024-(M4).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-Inch-2024-(M4).png"
+     },
+     "endpoint": "a3186-2024-m4",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 16\" M4 Max (A3186) Repair Service",
+     "allservice_page_title_description": "Choose the right service for your MacBook Pro 16\" M4 Max (A3186)"
+    }
+   ]
+  },
+  {
+   "_id": "6a79b26bbf41443db6cc5670",
+   "title": "Charging Port Replacement",
+   "order_no": 4,
+   "endpoints": [
+    {
+     "model_id": "68a8536b55f5cfa31e2ab9c0",
+     "endpoint": "/services/macbook-pro-16-inch/a3186-2024-m4/charging-port-replacement",
+     "_id": "6a79b26bbf41443db6cc5671"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-pro-16-inch-m4-max-(a3186)-charging-port-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16-inch-m4-max-(a3186)-charging-port-replacement.png"
+   },
+   "model_id": [
+    "68a8536b55f5cfa31e2ab9c0"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "6a79b26bbf41443db6cc5672"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Charging Port Replacement",
+     "website_name": "Charging Port Replacement",
+     "image_alt_text": "MacBook Pro 16 Inch M4 Max (a3186) Charging Port Replacement",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16-inch-m4-max-(a3186)-charging-port-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16-inch-m4-max-(a3186)-charging-port-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 6000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a79b26bbf41443db6cc5673"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "meta_title": "",
+   "meta_description": "",
+   "meta_keywords": "",
+   "page_title": "",
+   "page_title_description": "",
+   "page_description": "<p></p>",
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "N/A",
+   "created_at": "2026-08-10T11:13:47.066Z",
+   "updated_at": "2026-08-10T11:13:47.066Z",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M4 Max (A3186)",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-Inch-2024-(M4).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-Inch-2024-(M4).png"
+     },
+     "endpoint": "a3186-2024-m4",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 16\" M4 Max (A3186) Repair Service",
+     "allservice_page_title_description": "Choose the right service for your MacBook Pro 16\" M4 Max (A3186)"
+    }
+   ]
+  },
+  {
+   "_id": "6a79c0fcbf41443db6d0c6e4",
+   "title": "Os Installation",
+   "order_no": 11,
+   "endpoints": [
+    {
+     "model_id": "68a8536b55f5cfa31e2ab9c0",
+     "endpoint": "/services/macbook-pro-16-inch/a3186-2024-m4/os-installation",
+     "_id": "6a79c0fcbf41443db6d0c6e5"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-pro-16-inch-m4-max-(a3186)-os-installation.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16-inch-m4-max-(a3186)-os-installation.png"
+   },
+   "model_id": [
+    "68a8536b55f5cfa31e2ab9c0"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "6a79c0fcbf41443db6d0c6e6"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Os Installation",
+     "website_name": "Os Installation",
+     "image_alt_text": "MacBook Pro 16 Inch M4 Max (a3186) Os Installation",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16-inch-m4-max-(a3186)-os-installation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16-inch-m4-max-(a3186)-os-installation.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a79c0fcbf41443db6d0c6e7"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "meta_title": "",
+   "meta_description": "",
+   "meta_keywords": "",
+   "page_title": "",
+   "page_title_description": "",
+   "page_description": "<p></p>",
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "N/A",
+   "created_at": "2026-08-10T12:15:56.416Z",
+   "updated_at": "2026-08-10T12:15:56.416Z",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M4 Max (A3186)",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-Inch-2024-(M4).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-Inch-2024-(M4).png"
+     },
+     "endpoint": "a3186-2024-m4",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 16\" M4 Max (A3186) Repair Service",
+     "allservice_page_title_description": "Choose the right service for your MacBook Pro 16\" M4 Max (A3186)"
+    }
+   ]
+  },
+  {
+   "_id": "694a29868a888ed233588c10",
+   "title": "Battery Replacement",
+   "order_no": 2,
+   "endpoints": [
+    {
+     "model_id": "68a8536b55f5cfa31e2ab9c0",
+     "endpoint": "/services/macbook-pro-16-inch/a3186-2024-m4/battery-replacement",
+     "_id": "6a3e75fd96eb520b02a1bd73"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-battery-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-battery-replacement.png"
+   },
+   "model_id": [
+    "68a8536b55f5cfa31e2ab9c0"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "694a29868a888ed233588c12"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "MacBook Pro 16 Inch 2024 Battery Replacement",
+     "image_alt_text": "MacBook Pro 16 Inch 2024 Battery Replacement",
+     "repair_image": {
+      "public_id": "service/macbook-battery-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-battery-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "6a3e75e296eb520b02a0a5ea",
+     "product_variation_id": "6a3e75e696eb520b02a1bd24",
+     "_id": "6a3e75fd96eb520b02a1bd75",
+     "product_data": {
+      "_id": "6a3e75e296eb520b02a0a5ea",
+      "product_id": "p444",
+      "name": "MacBook Pro 16 Inch M4 Max Battery",
+      "website_name": "MacBook Pro 16 Inch M4 Max Battery",
+      "endpoint": "/product/macbook-pro-16-inch-m4-max-a3186-battery",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f28aed11479fdf2f3ca",
+      "device_id": "6885f9f319055242d5b9750d",
+      "model_id": "68a8536b55f5cfa31e2ab9c0",
+      "attachable_models": [
+       "68a8536b55f5cfa31e2ab9c0"
+      ],
+      "price": null,
+      "warranty": null,
+      "warranty_note": "",
+      "description": "<p></p>",
+      "description2": "<p></p>",
+      "images": [],
+      "meta_title": "",
+      "meta_description": "",
+      "meta_keywords": "",
+      "page_title": "",
+      "page_title_description": "",
+      "page_description": "<p></p>",
+      "remarks": "",
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "N/A",
+      "created_at": "2026-06-26T12:51:46.495Z",
+      "updated_at": "2026-06-26T12:51:46.495Z",
+      "__v": 0
+     },
+     "product_variation_data": {
+      "_id": "6a3e75e696eb520b02a1bd24",
+      "name": "Battery Replacement",
+      "quality": "Standard After Market",
+      "product_id": "6a3e75e296eb520b02a0a5ea",
+      "price": 18000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/m4_16_inch_battery-m4-max-battery-.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/m4_16_inch_battery-m4-max-battery-.png",
+        "_id": "6a3e764a96eb520b02a1bdb4"
+       }
+      ],
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2026-06-26T12:51:50.382Z",
+      "updated_at": "2026-06-26T12:53:30.912Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-23T05:32:54.436Z",
+   "updated_at": "2026-06-26T12:52:13.052Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "MacBook Pro 16 Inch 2024 Battery Replacement",
+   "page_title_description": "Change the weak battery for you MacBook Pro 16 Inch 2024",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M4 Max (A3186)",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-Inch-2024-(M4).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-Inch-2024-(M4).png"
+     },
+     "endpoint": "a3186-2024-m4",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 16\" M4 Max (A3186) Repair Service",
+     "allservice_page_title_description": "Choose the right service for your MacBook Pro 16\" M4 Max (A3186)"
+    }
+   ]
+  }
+ ],
+ "totalData": 9
+}

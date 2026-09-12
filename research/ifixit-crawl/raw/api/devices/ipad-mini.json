@@ -1,0 +1,87 @@
+{
+ "message": "success",
+ "status": 200,
+ "data": [
+  {
+   "image": {
+    "public_id": "model/ipad-mini-7th-gen.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/ipad-mini-7th-gen.png"
+   },
+   "_id": "680a3750a0d70a0f278d9943",
+   "name": "iPad Mini 7th Gen 2024",
+   "order_no": 45,
+   "endpoint": "7th-gen"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Mini-6th-gen.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-6th-gen.png"
+   },
+   "_id": "680a3708a0d70a0f278d9939",
+   "name": "iPad Mini 6th Gen 2021",
+   "order_no": 44,
+   "endpoint": "6th-gen"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-mini-5th-gen.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-mini-5th-gen.png"
+   },
+   "_id": "680a35c5a0d70a0f278d9928",
+   "name": "iPad Mini 5th Gen 2019",
+   "order_no": 43,
+   "endpoint": "5th-gen"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Mini-4th-gen.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-4th-gen.png"
+   },
+   "_id": "680a2781a0d70a0f278d980e",
+   "name": "iPad Mini 4th Gen 2015",
+   "order_no": 42,
+   "endpoint": "4th-gen"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Mini-3rd-gen.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-3rd-gen.png"
+   },
+   "_id": "680a26f8a0d70a0f278d9802",
+   "name": "iPad Mini 3rd Gen 2014",
+   "order_no": 41,
+   "endpoint": "3rd-gen"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Mini-2nd-gen.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-2nd-gen.png"
+   },
+   "_id": "680a2639a0d70a0f278d97e8",
+   "name": "iPad Mini 2nd Gen 2013",
+   "order_no": 40,
+   "endpoint": "2nd-gen"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Mini-1st-generation.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-1st-generation.png"
+   },
+   "_id": "680a2551a0d70a0f278d97d4",
+   "name": "iPad Mini 1st Gen 2012",
+   "order_no": 39,
+   "endpoint": "1st-gen"
+  }
+ ],
+ "childDevice": false,
+ "device": {
+  "_id": "680a29eea0d70a0f278d983f",
+  "name": "iPad Mini",
+  "meta_description": "Searching for trusted iPad Mini repair services in Dhaka? At iFixit BD, we specialize in expert iPad Mini repairs, providing fast and efficient fix.\r\n",
+  "meta_keywords": "",
+  "meta_title": "Authentic iPad Mini Repair Center in Bangladesh - iFixit BD",
+  "page_description": "<h2>Top iPad Mini Repair Center in Dhaka, Bangladesh</h2><p>A malfunctioning iPad Mini quickly turns everyday tasks into sources of frustration. From streaming videos to managing work emails or helping with assignments, a broken display, drained battery, or unresponsive touch can pause everything. In Dhaka, users turn to a reliable iPad Mini repair shop for expert fixes that restore full functionality. Technicians encounter these issues most often:  cracked screen from drops, touch panels that ignore swipes, batteries that lose charge too soon, and LCD displays showing lines or dark spots. Each device goes through a careful diagnostic process. Experts use genuine parts to replace damaged components. This ensures the repair matches Apple standards and delivers responsive performance once again.The repair workflow prioritizes both speed and precision. Most repairs move quickly without sacrificing quality. Screen replacements, battery swaps, and LCD fixes typically complete within one to three hours.  Technicians test every function thoroughly before handover, so the iPad Mini returns ready for immediate use without lingering problems.</p><h2>Our iPad Mini Repair Services</h2><p>Careful checks, expert repairs, and long-lasting results define every iPad mini service offered by the top-tier Apple Device Care. Customers across the country rely on this trusted repair destination for its consistent focus on quality and dependable repair. Here are some of the iPad Mini repair services we offer:</p><ul><li>iPad Mini display replacement</li><li>iPad Mini Battery replacement</li><li>iPad Mini iPad water damage repair</li><li>iPad Mini Motherboard repair</li><li>iPad Mini Software solutions</li></ul>",
+  "page_title": "iPad Mini Repair Services",
+  "page_title_description": "Reliable iPad mini repair in Dhaka with skilled technicians, accurate diagnostics, and genuine parts—bringing back full performance, durability, and peace of mind."
+ }
+}

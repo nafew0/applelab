@@ -2,3 +2,7 @@
 *.swp
 .idea/
 .vscode/
+
+# Design bundles / Finder artifacts
+Design/*.zip
+.thumbnail

@@ -1,0 +1,1007 @@
+{
+ "success": true,
+ "message": "successful",
+ "data": [
+  {
+   "_id": "693d6b1ce3cb8bf613c2c264",
+   "title": "Os Installation",
+   "order_no": 8,
+   "endpoints": [
+    {
+     "model_id": "6a4ce4656409e4026e12e0b1",
+     "endpoint": "/services/macbook-pro-16-inch/a3428-m5-pro-max/os-installation",
+     "_id": "6a4cfebe6409e4026e1a4d1d"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-pro-16\"-m5-pro-and-m5-max-os-installation.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m5-pro-and-m5-max-os-installation.png"
+   },
+   "model_id": [
+    "6a4ce4656409e4026e12e0b1"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693d6b1ce3cb8bf613c2c266"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Os Installation",
+     "website_name": "Os Installation",
+     "image_alt_text": "MacBook Pro 16\" M5 Pro and M5 Max Os Installation",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16\"-m5-pro-and-m5-max-os-installation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m5-pro-and-m5-max-os-installation.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a4cfebe6409e4026e1a4d1f"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-13T13:33:16.511Z",
+   "updated_at": "2026-07-07T13:27:26.162Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M5 Pro/M5 Max (A3428)",
+     "endpoint": "a3428-m5-pro-max",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-inch-M5-Pro-M5-Max-(A3428).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-inch-M5-Pro-M5-Max-(A3428).png"
+     },
+     "allservice_meta_title": "",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_page_title": "MacBook Pro 16\" M5 Pro/M5 Max Repair Service List",
+     "allservice_page_title_description": "Choose the right repair service for you MacBook Pro 16\" M5 Pro/M5 Max (A3428) from iFixit BD",
+     "allservice_page_description": "<p></p>"
+    }
+   ]
+  },
+  {
+   "_id": "693d646fe3cb8bf613c2bfc5",
+   "title": "Charging Port Replacement",
+   "order_no": 4,
+   "endpoints": [
+    {
+     "model_id": "6a4ce4656409e4026e12e0b1",
+     "endpoint": "/services/macbook-pro-16-inch/a3428-m5-pro-max/charging-port-replacement",
+     "_id": "6a4cf82b6409e4026e1a31b5"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-pro-16\"-m5-pro-and-m5-pro-max-charging-port-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m5-pro-and-m5-pro-max-charging-port-replacement.png"
+   },
+   "model_id": [
+    "6a4ce4656409e4026e12e0b1"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693d646fe3cb8bf613c2bfc7"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Charging Port Replacement",
+     "website_name": "Charging Port Replacement",
+     "image_alt_text": "MacBook Pro 16\" M5 Pro and M5 Pro Max Charging Port Replacement",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16\"-m5-pro-and-m5-pro-max-charging-port-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m5-pro-and-m5-pro-max-charging-port-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 6000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a4cf82b6409e4026e1a31b7"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-13T13:04:47.841Z",
+   "updated_at": "2026-07-07T12:59:23.175Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M5 Pro/M5 Max (A3428)",
+     "endpoint": "a3428-m5-pro-max",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-inch-M5-Pro-M5-Max-(A3428).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-inch-M5-Pro-M5-Max-(A3428).png"
+     },
+     "allservice_meta_title": "",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_page_title": "MacBook Pro 16\" M5 Pro/M5 Max Repair Service List",
+     "allservice_page_title_description": "Choose the right repair service for you MacBook Pro 16\" M5 Pro/M5 Max (A3428) from iFixit BD",
+     "allservice_page_description": "<p></p>"
+    }
+   ]
+  },
+  {
+   "_id": "693d640be3cb8bf613c2bfa1",
+   "title": "Speaker Replacement",
+   "order_no": 5,
+   "endpoints": [
+    {
+     "model_id": "6a4ce4656409e4026e12e0b1",
+     "endpoint": "/services/macbook-pro-16-inch/a3428-m5-pro-max/speaker-replacement",
+     "_id": "6a4cf8c26409e4026e1a3269"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-pro-16\"-m5-pro-and-m5-pro-max-speaker-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m5-pro-and-m5-pro-max-speaker-replacement.png"
+   },
+   "model_id": [
+    "6a4ce4656409e4026e12e0b1"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693d640be3cb8bf613c2bfa3"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Speaker Replacement",
+     "website_name": "Speaker Replacement",
+     "image_alt_text": "MacBook Pro 16\" M5 Pro and M5 Pro Max Speaker Replacement",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16\"-m5-pro-and-m5-pro-max-speaker-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m5-pro-and-m5-pro-max-speaker-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 8000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a4cf8c26409e4026e1a326b"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-13T13:03:07.791Z",
+   "updated_at": "2026-07-07T13:01:54.796Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M5 Pro/M5 Max (A3428)",
+     "endpoint": "a3428-m5-pro-max",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-inch-M5-Pro-M5-Max-(A3428).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-inch-M5-Pro-M5-Max-(A3428).png"
+     },
+     "allservice_meta_title": "",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_page_title": "MacBook Pro 16\" M5 Pro/M5 Max Repair Service List",
+     "allservice_page_title_description": "Choose the right repair service for you MacBook Pro 16\" M5 Pro/M5 Max (A3428) from iFixit BD",
+     "allservice_page_description": "<p></p>"
+    }
+   ]
+  },
+  {
+   "_id": "693d627be3cb8bf613c2befe",
+   "title": "Display Replacement",
+   "order_no": 1,
+   "endpoints": [
+    {
+     "model_id": "6a4ce4656409e4026e12e0b1",
+     "endpoint": "/services/macbook-pro-16-inch/a3428-m5-pro-max/display-replacement",
+     "_id": "6a4cec826409e4026e155e62"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-pro-16-inch-m5-pro-and-m5-pro-max-display-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16-inch-m5-pro-and-m5-pro-max-display-replacement.png"
+   },
+   "model_id": [
+    "6a4ce4656409e4026e12e0b1"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693d627be3cb8bf613c2bf00"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Display Replacement",
+     "image_alt_text": "MacBook Pro 16 Inch M5 Pro and M5 Pro Max Display Replacement",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16-inch-m5-pro-and-m5-pro-max-display-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16-inch-m5-pro-and-m5-pro-max-display-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a4cec826409e4026e155e64"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-13T12:56:27.878Z",
+   "updated_at": "2026-07-07T12:09:38.962Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M5 Pro/M5 Max (A3428)",
+     "endpoint": "a3428-m5-pro-max",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-inch-M5-Pro-M5-Max-(A3428).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-inch-M5-Pro-M5-Max-(A3428).png"
+     },
+     "allservice_meta_title": "",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_page_title": "MacBook Pro 16\" M5 Pro/M5 Max Repair Service List",
+     "allservice_page_title_description": "Choose the right repair service for you MacBook Pro 16\" M5 Pro/M5 Max (A3428) from iFixit BD",
+     "allservice_page_description": "<p></p>"
+    }
+   ]
+  },
+  {
+   "_id": "693d6a7fe3cb8bf613c2c216",
+   "title": "Liquid Clean",
+   "order_no": 7,
+   "endpoints": [
+    {
+     "model_id": "6a4ce4656409e4026e12e0b1",
+     "endpoint": "/services/macbook-pro-16-inch/a3428-m5-pro-max/liquid-clean",
+     "_id": "6a4cfe296409e4026e1a4c7a"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-pro-16\"-m5-pro-and-m5-max-liquid-clean.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m5-pro-and-m5-max-liquid-clean.png"
+   },
+   "model_id": [
+    "6a4ce4656409e4026e12e0b1"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693d6a7fe3cb8bf613c2c218"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Liquid Clean",
+     "website_name": "Liquid Clean",
+     "image_alt_text": "MacBook Pro 16\" M5 Pro and M5 Max Liquid Clean",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16\"-m5-pro-and-m5-max-liquid-clean.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m5-pro-and-m5-max-liquid-clean.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a4cfe296409e4026e1a4c7c"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-13T13:30:39.772Z",
+   "updated_at": "2026-07-07T13:24:57.490Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M5 Pro/M5 Max (A3428)",
+     "endpoint": "a3428-m5-pro-max",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-inch-M5-Pro-M5-Max-(A3428).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-inch-M5-Pro-M5-Max-(A3428).png"
+     },
+     "allservice_meta_title": "",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_page_title": "MacBook Pro 16\" M5 Pro/M5 Max Repair Service List",
+     "allservice_page_title_description": "Choose the right repair service for you MacBook Pro 16\" M5 Pro/M5 Max (A3428) from iFixit BD",
+     "allservice_page_description": "<p></p>"
+    }
+   ]
+  },
+  {
+   "_id": "693d6503e3cb8bf613c2c00d",
+   "title": "Battery Replacement",
+   "order_no": 2,
+   "endpoints": [
+    {
+     "model_id": "6a4ce4656409e4026e12e0b1",
+     "endpoint": "/services/macbook-pro-16-inch/a3428-m5-pro-max/battery-replacement",
+     "_id": "6a4cefb76409e4026e168f94"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-pro-16\"-m5-pro-and-m5-pro-max-battery-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m5-pro-and-m5-pro-max-battery-replacement.png"
+   },
+   "model_id": [
+    "6a4ce4656409e4026e12e0b1"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693d6503e3cb8bf613c2c00f"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Battery Replacement",
+     "image_alt_text": "MacBook Pro 16\" M5 Pro and M5 Pro Max Battery Replacement",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16\"-m5-pro-and-m5-pro-max-battery-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m5-pro-and-m5-pro-max-battery-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a4cefb76409e4026e168f96"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-13T13:07:15.256Z",
+   "updated_at": "2026-07-07T12:23:19.525Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M5 Pro/M5 Max (A3428)",
+     "endpoint": "a3428-m5-pro-max",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-inch-M5-Pro-M5-Max-(A3428).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-inch-M5-Pro-M5-Max-(A3428).png"
+     },
+     "allservice_meta_title": "",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_page_title": "MacBook Pro 16\" M5 Pro/M5 Max Repair Service List",
+     "allservice_page_title_description": "Choose the right repair service for you MacBook Pro 16\" M5 Pro/M5 Max (A3428) from iFixit BD",
+     "allservice_page_description": "<p></p>"
+    }
+   ]
+  },
+  {
+   "_id": "693d6396e3cb8bf613c2bf7d",
+   "title": "Motherboard Repair",
+   "order_no": 3,
+   "endpoints": [
+    {
+     "model_id": "6a4ce4656409e4026e12e0b1",
+     "endpoint": "/services/macbook-pro-16-inch/a3428-m5-pro-max/motherboard-repair",
+     "_id": "6a4cf7866409e4026e19036d"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-pro-16\"-m5-pro-and-m5-pro-max-motherboard-repair.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m5-pro-and-m5-pro-max-motherboard-repair.png"
+   },
+   "model_id": [
+    "6a4ce4656409e4026e12e0b1"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693d6396e3cb8bf613c2bf7f"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Motherboard Repair",
+     "website_name": "Motherboard Repair",
+     "image_alt_text": "MacBook Pro 16\" M5 Pro and M5 Pro Max Motherboard Repair",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16\"-m5-pro-and-m5-pro-max-motherboard-repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m5-pro-and-m5-pro-max-motherboard-repair.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 18000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a4cf7866409e4026e19036f"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-13T13:01:10.242Z",
+   "updated_at": "2026-07-07T12:56:38.829Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M5 Pro/M5 Max (A3428)",
+     "endpoint": "a3428-m5-pro-max",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-inch-M5-Pro-M5-Max-(A3428).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-inch-M5-Pro-M5-Max-(A3428).png"
+     },
+     "allservice_meta_title": "",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_page_title": "MacBook Pro 16\" M5 Pro/M5 Max Repair Service List",
+     "allservice_page_title_description": "Choose the right repair service for you MacBook Pro 16\" M5 Pro/M5 Max (A3428) from iFixit BD",
+     "allservice_page_description": "<p></p>"
+    }
+   ]
+  },
+  {
+   "_id": "693d6b68e3cb8bf613c2c287",
+   "title": "Trackpad Issue",
+   "order_no": 6,
+   "endpoints": [
+    {
+     "model_id": "6a4ce4656409e4026e12e0b1",
+     "endpoint": "/services/macbook-pro-16-inch/a3428-m5-pro-max/trackpad-issue",
+     "_id": "6a4cfd5f6409e4026e1a4b8d"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-pro-16\"-m5-pro-and-m5-pro-max-trackpad-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m5-pro-and-m5-pro-max-trackpad-issue.png"
+   },
+   "model_id": [
+    "6a4ce4656409e4026e12e0b1"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693d6b68e3cb8bf613c2c289"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Trackpad Issue",
+     "website_name": "MacBook Pro 16\" M5 Pro and M5 Pro Max Trackpad Issue",
+     "image_alt_text": "MacBook Pro 16\" M5 Pro and M5 Pro Max Trackpad Issue",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16\"-m5-pro-and-m5-pro-max-trackpad-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m5-pro-and-m5-pro-max-trackpad-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 14000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a4cfd5f6409e4026e1a4b8f"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-13T13:34:32.339Z",
+   "updated_at": "2026-07-07T13:21:35.505Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M5 Pro/M5 Max (A3428)",
+     "endpoint": "a3428-m5-pro-max",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-inch-M5-Pro-M5-Max-(A3428).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-inch-M5-Pro-M5-Max-(A3428).png"
+     },
+     "allservice_meta_title": "",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_page_title": "MacBook Pro 16\" M5 Pro/M5 Max Repair Service List",
+     "allservice_page_title_description": "Choose the right repair service for you MacBook Pro 16\" M5 Pro/M5 Max (A3428) from iFixit BD",
+     "allservice_page_description": "<p></p>"
+    }
+   ]
+  }
+ ],
+ "totalData": 8
+}

@@ -1,0 +1,57 @@
+{
+ "message": "success",
+ "status": 200,
+ "data": [
+  {
+   "image": {
+    "public_id": "model/Apple-Watch-Series-SE-2nd-gen.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Apple-Watch-Series-SE-2nd-gen.png"
+   },
+   "_id": "68a8730155f5cfa31e2abc3e",
+   "name": "Apple Watch Series SE 2nd gen-44mm",
+   "order_no": 344,
+   "endpoint": "2nd-gen-44mm"
+  },
+  {
+   "image": {
+    "public_id": "model/Apple-Watch-Series-SE-2nd-gen.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Apple-Watch-Series-SE-2nd-gen.png"
+   },
+   "_id": "68a872f155f5cfa31e2abc35",
+   "name": "Apple Watch Series SE 2nd gen-40mm",
+   "order_no": 343,
+   "endpoint": "2nd-gen-40mm"
+  },
+  {
+   "image": {
+    "public_id": "model/Apple-Watch-Series-SE-1st-gen.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Apple-Watch-Series-SE-1st-gen.png"
+   },
+   "_id": "68a8729e55f5cfa31e2abc20",
+   "name": "Apple Watch Series SE 1st gen-44mm",
+   "order_no": 342,
+   "endpoint": "1st-gen-44mm"
+  },
+  {
+   "image": {
+    "public_id": "model/Apple-Watch-Series-SE-1st-gen.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Apple-Watch-Series-SE-1st-gen.png"
+   },
+   "_id": "68a8728755f5cfa31e2abc17",
+   "name": "Apple Watch Series SE 1st gen-40mm",
+   "order_no": 341,
+   "endpoint": "1st-gen-40mm"
+  }
+ ],
+ "childDevice": false,
+ "device": {
+  "_id": "68a864c355f5cfa31e2abadd",
+  "name": "Apple Watch SE",
+  "meta_description": "Searching  for trusted Apple Watch SE repair services in Dhaka? At iFixit BD, we specialize in expert Apple Watch, providing fast and efficient fix.\r\n",
+  "meta_keywords": "undefined",
+  "meta_title": "Authentic Apple Watch SE Repair Center in Dhaka - iFixit BD",
+  "page_description": "<h1>Trusted Apple Watch SE Repair Service in BD</h1><p>The Apple Watch SE, integrates into daily life, managing health monitoring, notifications, and connectivity with precision. Damage to the screen, battery wear, or software issues interrupts workflow, reducing efficiency and usability. iFixit BD addresses these challenges through structured diagnostics and meticulous repair, using authentic components to restore function and extend device life. In Bangladesh, genuine Apple Watch service options are limited; our approach sets a reliable benchmark. Each repair is tailored to the watch’s generation, preserving design integrity while ensuring operational consistency. The result is a fully functional device that maintains visual refinement, supports daily demands, and reinforces trust in technology. By combining technical rigor with methodical care, we enable users to depend on their Apple Watch SE for both productivity and personal well-being.<br/></p><h1>Our Apple Watch SE Repair Services</h1><p>Apple Watch SE functions best when serviced with attention to detail, combining technical expertise and authentic parts for longevity.<br/><br/>Our Apple Watch SE repair services include:</p><ul><li>Apple Watch SE screen repair</li><li>Apple Watch SE battery replacement </li><li>Apple Watch SE water damage repair </li><li>Apple Watch SE software solutions<br/></li></ul>",
+  "page_title": "Apple Watch SE Repair Services",
+  "page_title_description": "Expert maintenance at iFixit BD ensures the Apple Watch SE operates flawlessly while retaining durability over time.\r\n\r\n"
+ }
+}

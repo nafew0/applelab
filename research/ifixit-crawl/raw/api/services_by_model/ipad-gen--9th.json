@@ -1,0 +1,1221 @@
+{
+ "success": true,
+ "message": "successful",
+ "data": [
+  {
+   "_id": "68760e8519055242d5b94329",
+   "title": "Motherboard Repair",
+   "order_no": 4,
+   "image": {
+    "public_id": "service/ipad-9th-generation-2021-motherboard-repair.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-9th-generation-2021-motherboard-repair.png"
+   },
+   "model_id": [
+    "680b2700a0d70a0f278d9b08"
+   ],
+   "device_id": "680a2faea0d70a0f278d98a9",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68760e8519055242d5b9432a"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Motherboard Repair",
+     "website_name": "Motherboard Repair",
+     "image_alt_text": "iPad 9th Generation 2021 Motherboard Repair",
+     "repair_image": {
+      "public_id": "service/ipad-9th-generation-2021-motherboard-repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-9th-generation-2021-motherboard-repair.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 8000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a704960bf41443db65e5604"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-15T08:17:09.642Z",
+   "updated_at": "2026-08-03T07:55:12.022Z",
+   "endpoints": [
+    {
+     "model_id": "680b2700a0d70a0f278d9b08",
+     "endpoint": "/services/ipad-gen/9th/motherboard-repair",
+     "_id": "6a704960bf41443db65e5602"
+    }
+   ],
+   "meta_description": "Need motherboard repair for your iPad 9th Gen 2021? Get expert diagnosis and precise repair at iFixit, Bangladesh's Authentic Apple Service Center in...",
+   "meta_keywords": "",
+   "meta_title": "iPad 9th Gen 2021 Motherboard Repair in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Generation",
+     "image": {
+      "public_id": "device/ipad-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad 9th Gen 2021",
+     "image": {
+      "public_id": "model/iPad-9th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-9th-gen.png"
+     },
+     "endpoint": "9th",
+     "allservice_meta_description": "iPad 9th Gen 2021 repair service in Dhaka with trusted Apple iPad repairs, transparent pricing and quick turnaround. Book today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad 9th Gen 2021 Repair Service - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad 9th Gen 2021 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad 9th Gen 2021 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68762c6619055242d5b94489",
+   "title": "Camera Replacement",
+   "order_no": 7,
+   "image": {
+    "public_id": "service/ipad-9th-generation-2021-camera-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-9th-generation-2021-camera-replacement.png"
+   },
+   "model_id": [
+    "680b2700a0d70a0f278d9b08"
+   ],
+   "device_id": "680a2faea0d70a0f278d98a9",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68762c6619055242d5b9448a"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Camera Replacement",
+     "website_name": "Camera Replacement",
+     "image_alt_text": "iPad 9th Generation 2021 Camera Replacement",
+     "repair_image": {
+      "public_id": "service/ipad-9th-generation-2021-camera-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-9th-generation-2021-camera-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a70676bbf41443db66f08f2"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-15T10:24:38.110Z",
+   "updated_at": "2026-08-03T10:03:23.609Z",
+   "endpoints": [
+    {
+     "model_id": "680b2700a0d70a0f278d9b08",
+     "endpoint": "/services/ipad-gen/9th/camera-replacement",
+     "_id": "6a70676bbf41443db66f08f0"
+    }
+   ],
+   "meta_description": "Get professional camera replacement for iPad 9th Gen 2021 at iFixit, Dhaka – Bangladesh's Authentic Apple Service Center. 100% genuine OEM parts with...",
+   "meta_keywords": "",
+   "meta_title": "iPad 9th Gen 2021 Camera Replacement in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Generation",
+     "image": {
+      "public_id": "device/ipad-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad 9th Gen 2021",
+     "image": {
+      "public_id": "model/iPad-9th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-9th-gen.png"
+     },
+     "endpoint": "9th",
+     "allservice_meta_description": "iPad 9th Gen 2021 repair service in Dhaka with trusted Apple iPad repairs, transparent pricing and quick turnaround. Book today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad 9th Gen 2021 Repair Service - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad 9th Gen 2021 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad 9th Gen 2021 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68762e1d19055242d5b944cd",
+   "title": "Software Issue",
+   "order_no": 9,
+   "image": {
+    "public_id": "service/ipad-9th-generation-2021-button-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-9th-generation-2021-button-issue.png"
+   },
+   "model_id": [
+    "680b2700a0d70a0f278d9b08"
+   ],
+   "device_id": "680a2faea0d70a0f278d98a9",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68762e1d19055242d5b944ce"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Software Issue",
+     "website_name": "Software Issue",
+     "image_alt_text": "iPad 9th Generation 2021 Software Issue",
+     "repair_image": {
+      "public_id": "service/ipad-9th-generation-2021-software-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-9th-generation-2021-software-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 500,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a7067f9bf41443db671cab0"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-15T10:31:57.251Z",
+   "updated_at": "2026-08-03T10:05:45.798Z",
+   "endpoints": [
+    {
+     "model_id": "680b2700a0d70a0f278d9b08",
+     "endpoint": "/services/ipad-gen/9th/software-issues",
+     "_id": "6a7067f9bf41443db671caae"
+    }
+   ],
+   "meta_description": "Need software troubleshooting for your iPad 9th Gen 2021? Get expert diagnosis and precise repair at iFixit, Bangladesh's Authentic Apple Service...",
+   "meta_keywords": "",
+   "meta_title": "iPad 9th Gen 2021 Software Issue in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Generation",
+     "image": {
+      "public_id": "device/ipad-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad 9th Gen 2021",
+     "image": {
+      "public_id": "model/iPad-9th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-9th-gen.png"
+     },
+     "endpoint": "9th",
+     "allservice_meta_description": "iPad 9th Gen 2021 repair service in Dhaka with trusted Apple iPad repairs, transparent pricing and quick turnaround. Book today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad 9th Gen 2021 Repair Service - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad 9th Gen 2021 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad 9th Gen 2021 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68761dbc19055242d5b94401",
+   "title": "Touch Replacement",
+   "order_no": 5,
+   "image": {
+    "public_id": "service/ipad-9th-generation-2021-touch-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-9th-generation-2021-touch-replacement.png"
+   },
+   "model_id": [
+    "680b2700a0d70a0f278d9b08"
+   ],
+   "device_id": "680a2faea0d70a0f278d98a9",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68761dbc19055242d5b94402"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Touch Replacement",
+     "website_name": "Touch Replacement",
+     "image_alt_text": "iPad 9th Generation 2021 Touch Replacement",
+     "repair_image": {
+      "public_id": "service/ipad-9th-generation-2021-touch-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-9th-generation-2021-touch-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 6000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a7049a1bf41443db65e567c"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-15T09:22:04.382Z",
+   "updated_at": "2026-08-03T07:56:17.276Z",
+   "endpoints": [
+    {
+     "model_id": "680b2700a0d70a0f278d9b08",
+     "endpoint": "/services/ipad-gen/9th/touch-replacement",
+     "_id": "6a7049a1bf41443db65e567a"
+    }
+   ],
+   "meta_description": "Looking for reliable touch replacement for your iPad 9th Gen 2021? iFixit, Bangladesh's Authentic Apple Service Center, delivers expert touch...",
+   "meta_keywords": "",
+   "meta_title": "iPad 9th Gen 2021 Touch Replacement in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Generation",
+     "image": {
+      "public_id": "device/ipad-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad 9th Gen 2021",
+     "image": {
+      "public_id": "model/iPad-9th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-9th-gen.png"
+     },
+     "endpoint": "9th",
+     "allservice_meta_description": "iPad 9th Gen 2021 repair service in Dhaka with trusted Apple iPad repairs, transparent pricing and quick turnaround. Book today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad 9th Gen 2021 Repair Service - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad 9th Gen 2021 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad 9th Gen 2021 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68761dfc19055242d5b94423",
+   "title": "Speaker Replacement",
+   "order_no": 6,
+   "image": {
+    "public_id": "service/ipad-9th-generation-2021-speaker-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-9th-generation-2021-speaker-replacement.png"
+   },
+   "model_id": [
+    "680b2700a0d70a0f278d9b08"
+   ],
+   "device_id": "680a2faea0d70a0f278d98a9",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68761dfc19055242d5b94424"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Speaker Replacement",
+     "website_name": "Speaker Replacement",
+     "image_alt_text": "iPad 9th Generation 2021 Speaker Replacement",
+     "repair_image": {
+      "public_id": "service/ipad-9th-generation-2021-speaker-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-9th-generation-2021-speaker-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a706726bf41443db66f07ff"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-15T09:23:08.826Z",
+   "updated_at": "2026-08-03T10:02:14.515Z",
+   "endpoints": [
+    {
+     "model_id": "680b2700a0d70a0f278d9b08",
+     "endpoint": "/services/ipad-gen/9th/speaker-replacement",
+     "_id": "6a706726bf41443db66f07fd"
+    }
+   ],
+   "meta_description": "Need speaker replacement for your iPad 9th Gen 2021? iFixit offers genuine OEM parts, certified technicians and full warranty in Dhaka – Bangladesh's...",
+   "meta_keywords": "",
+   "meta_title": "iPad 9th Gen 2021 Speaker Replacement in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Generation",
+     "image": {
+      "public_id": "device/ipad-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad 9th Gen 2021",
+     "image": {
+      "public_id": "model/iPad-9th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-9th-gen.png"
+     },
+     "endpoint": "9th",
+     "allservice_meta_description": "iPad 9th Gen 2021 repair service in Dhaka with trusted Apple iPad repairs, transparent pricing and quick turnaround. Book today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad 9th Gen 2021 Repair Service - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad 9th Gen 2021 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad 9th Gen 2021 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68fc60ca7495d2cd03281fc7",
+   "title": "Battery Replacement",
+   "order_no": 2,
+   "image": {
+    "public_id": "service/battery-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/battery-issue.png"
+   },
+   "model_id": [
+    "680b2700a0d70a0f278d9b08"
+   ],
+   "device_id": "680a2faea0d70a0f278d98a9",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68fc60ca7495d2cd03281fc8"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Battery Replacement",
+     "image_alt_text": "iPad Generation 9th Battery Replacement",
+     "repair_image": {
+      "public_id": "service/battery-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/battery-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68fb4b357495d2cd03281754",
+     "product_variation_id": "68fb4b357495d2cd03281757",
+     "_id": "6a7036d7bf41443db650806a",
+     "product_data": {
+      "_id": "68fb4b357495d2cd03281754",
+      "product_id": "p303",
+      "name": "iPad 9th Gen 2021 Battery",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f28aed11479fdf2f3ca",
+      "device_id": "680a2faea0d70a0f278d98a9",
+      "model_id": "680b2700a0d70a0f278d9b08",
+      "attachable_models": [
+       "680b2700a0d70a0f278d9b08"
+      ],
+      "price": null,
+      "warranty": 0,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T09:47:33.167Z",
+      "updated_at": "2026-02-13T13:03:57.376Z",
+      "__v": 0,
+      "endpoint": "/product/ipad-9th-gen-battery",
+      "warranty_note": "",
+      "website_name": "iPad 9th Gen 2021 Battery"
+     },
+     "product_variation_data": {
+      "_id": "68fb4b357495d2cd03281757",
+      "name": "Battery",
+      "quality": "Standard After Market",
+      "product_id": "68fb4b357495d2cd03281754",
+      "price": 6000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/ipad-5,-6-,7,8-&-9-battery.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/ipad-5,-6-,7,8-&-9-battery.png",
+        "_id": "694e68d58a888ed233595aa0"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T09:47:33.620Z",
+      "updated_at": "2026-05-05T13:49:31.810Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-25T05:31:54.477Z",
+   "updated_at": "2026-08-03T06:36:07.022Z",
+   "endpoints": [
+    {
+     "model_id": "680b2700a0d70a0f278d9b08",
+     "endpoint": "/services/ipad-gen/9th/battery-replacement",
+     "_id": "6a7036d7bf41443db6508068"
+    }
+   ],
+   "meta_description": "Trust iFixit, Bangladesh's Authentic Apple Service Center, for iPad 9th Gen 2021 battery replacement in Dhaka. Genuine OEM parts, certified...",
+   "meta_keywords": "",
+   "meta_title": "iPad 9th Gen 2021 Battery Replacement in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Generation",
+     "image": {
+      "public_id": "device/ipad-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad 9th Gen 2021",
+     "image": {
+      "public_id": "model/iPad-9th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-9th-gen.png"
+     },
+     "endpoint": "9th",
+     "allservice_meta_description": "iPad 9th Gen 2021 repair service in Dhaka with trusted Apple iPad repairs, transparent pricing and quick turnaround. Book today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad 9th Gen 2021 Repair Service - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad 9th Gen 2021 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad 9th Gen 2021 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68fc60787495d2cd03281f92",
+   "title": "Display Replacement",
+   "order_no": 1,
+   "image": {
+    "public_id": "service/display-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/display-replacement.png"
+   },
+   "model_id": [
+    "680b2700a0d70a0f278d9b08"
+   ],
+   "device_id": "680a2faea0d70a0f278d98a9",
+   "brand_id": "68b3fc02f4016bd30fe5f01b",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68fc60787495d2cd03281f93"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Display Replacement",
+     "image_alt_text": "iPad Generation 9th Display Replacement",
+     "repair_image": {
+      "public_id": "service/display-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/display-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68f5e7507495d2cd032815e5",
+     "product_variation_id": "68f5e7517495d2cd032815e8",
+     "_id": "6a70367ebf41443db6507fd0",
+     "product_data": {
+      "_id": "68f5e7507495d2cd032815e5",
+      "product_id": "p296",
+      "name": "Used iPad 9th Gen 2021 Display",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f1caed11479fdf2f3c1",
+      "device_id": "680a2faea0d70a0f278d98a9",
+      "model_id": "680b2700a0d70a0f278d9b08",
+      "attachable_models": [
+       "680b2700a0d70a0f278d9b08"
+      ],
+      "price": null,
+      "warranty": 0,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-20T07:40:00.732Z",
+      "updated_at": "2026-02-13T13:04:46.926Z",
+      "__v": 0,
+      "endpoint": "/product/ipad-9th-gen-display",
+      "warranty_note": "",
+      "website_name": "iPad 9th Gen 2021 Display"
+     },
+     "product_variation_data": {
+      "_id": "68f5e7517495d2cd032815e8",
+      "name": "Display",
+      "quality": "Standard After Market",
+      "product_id": "68f5e7507495d2cd032815e5",
+      "price": 14000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/ipad-7,8-and-9-display.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/ipad-7,8-and-9-display.png",
+        "_id": "694e68dd8a888ed233595aa8"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-20T07:40:01.289Z",
+      "updated_at": "2026-05-05T13:48:16.761Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-25T05:30:32.160Z",
+   "updated_at": "2026-08-03T06:34:38.649Z",
+   "endpoints": [
+    {
+     "model_id": "680b2700a0d70a0f278d9b08",
+     "endpoint": "/services/ipad-gen/9th/display-replacement",
+     "_id": "6a70367ebf41443db6507fce"
+    }
+   ],
+   "meta_description": "Get professional display replacement for iPad 9th Gen 2021 at iFixit, Dhaka – Bangladesh's Authentic Apple Service Center. 100% genuine OEM parts with...",
+   "meta_keywords": "",
+   "meta_title": "iPad 9th Gen 2021 Display Replacement in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Generation",
+     "image": {
+      "public_id": "device/ipad-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Unknown"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad 9th Gen 2021",
+     "image": {
+      "public_id": "model/iPad-9th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-9th-gen.png"
+     },
+     "endpoint": "9th",
+     "allservice_meta_description": "iPad 9th Gen 2021 repair service in Dhaka with trusted Apple iPad repairs, transparent pricing and quick turnaround. Book today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad 9th Gen 2021 Repair Service - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad 9th Gen 2021 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad 9th Gen 2021 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "687607fb19055242d5b942e1",
+   "title": "Button Issue",
+   "order_no": 3,
+   "image": {
+    "public_id": "service/ipad-9th-generation-2021-button-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-9th-generation-2021-button-issue.png"
+   },
+   "model_id": [
+    "680b2700a0d70a0f278d9b08"
+   ],
+   "device_id": "680a2faea0d70a0f278d98a9",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "687607fb19055242d5b942e2"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Button Issue",
+     "website_name": "Button Issue",
+     "image_alt_text": "iPad 9th Generation 2021 Button Issue",
+     "repair_image": {
+      "public_id": "service/ipad-9th-generation-2021-button-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-9th-generation-2021-button-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 4000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a70370ebf41443db65080d3"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-15T07:49:15.185Z",
+   "updated_at": "2026-08-03T06:37:02.477Z",
+   "endpoints": [
+    {
+     "model_id": "680b2700a0d70a0f278d9b08",
+     "endpoint": "/services/ipad-gen/9th/button-issue",
+     "_id": "6a70370ebf41443db65080d1"
+    }
+   ],
+   "meta_description": "Facing a button issue with your iPad 9th Gen 2021? iFixit, Bangladesh's Authentic Apple Service Center in Dhaka, offers expert care, genuine OEM parts...",
+   "meta_keywords": "",
+   "meta_title": "iPad 9th Gen 2021 Button Issue in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Generation",
+     "image": {
+      "public_id": "device/ipad-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad 9th Gen 2021",
+     "image": {
+      "public_id": "model/iPad-9th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-9th-gen.png"
+     },
+     "endpoint": "9th",
+     "allservice_meta_description": "iPad 9th Gen 2021 repair service in Dhaka with trusted Apple iPad repairs, transparent pricing and quick turnaround. Book today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad 9th Gen 2021 Repair Service - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad 9th Gen 2021 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad 9th Gen 2021 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "687605a219055242d5b942bf",
+   "title": "Liquid Damage",
+   "order_no": 8,
+   "image": {
+    "public_id": "service/ipad-9th-generation-2021-liquid-damage.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-9th-generation-2021-liquid-damage.png"
+   },
+   "model_id": [
+    "680b2700a0d70a0f278d9b08"
+   ],
+   "device_id": "680a2faea0d70a0f278d98a9",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "687605a219055242d5b942c0"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Liquid Damage",
+     "website_name": "Liquid Damage",
+     "image_alt_text": "iPad 9th Generation 2021 Liquid Damage",
+     "repair_image": {
+      "public_id": "service/ipad-9th-generation-2021-liquid-damage.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-9th-generation-2021-liquid-damage.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2500,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a7067b7bf41443db67069c2"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-15T07:39:14.807Z",
+   "updated_at": "2026-08-03T10:04:39.344Z",
+   "endpoints": [
+    {
+     "model_id": "680b2700a0d70a0f278d9b08",
+     "endpoint": "/services/ipad-gen/9th/liquid-damage",
+     "_id": "6a7067b7bf41443db67069c0"
+    }
+   ],
+   "meta_description": "Facing liquid damage with your iPad 9th Gen 2021? iFixit, Bangladesh's Authentic Apple Service Center in Dhaka, offers expert care, genuine OEM parts...",
+   "meta_keywords": "",
+   "meta_title": "iPad 9th Gen 2021 Liquid Damage in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Generation",
+     "image": {
+      "public_id": "device/ipad-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad 9th Gen 2021",
+     "image": {
+      "public_id": "model/iPad-9th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-9th-gen.png"
+     },
+     "endpoint": "9th",
+     "allservice_meta_description": "iPad 9th Gen 2021 repair service in Dhaka with trusted Apple iPad repairs, transparent pricing and quick turnaround. Book today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad 9th Gen 2021 Repair Service - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad 9th Gen 2021 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad 9th Gen 2021 from iFixit BD"
+    }
+   ]
+  }
+ ],
+ "totalData": 9
+}

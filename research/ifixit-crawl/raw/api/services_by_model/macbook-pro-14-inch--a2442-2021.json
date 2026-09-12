@@ -1,0 +1,1300 @@
+{
+ "success": true,
+ "message": "successful",
+ "data": [
+  {
+   "_id": "68b97942f4016bd30fe616c9",
+   "title": "Speaker Replacement",
+   "order_no": 5,
+   "image": {
+    "public_id": "service/macbook-speaker-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-speaker-replacement.png"
+   },
+   "model_id": [
+    "68a8113a55f5cfa31e2ab8b9"
+   ],
+   "device_id": "6885f96219055242d5b974f6",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b97942f4016bd30fe616ca"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Speaker Replacement",
+     "website_name": "Speaker Replacement",
+     "image_alt_text": "MacBook Pro 14 Inch 2021, Early & Late 2023, M3 Pro, Max, M4 Speaker Replacement",
+     "repair_image": {
+      "public_id": "service/macbook-speaker-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-speaker-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 8000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a770e90bf41443db624be34"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-04T11:34:26.851Z",
+   "updated_at": "2026-08-08T11:10:08.493Z",
+   "endpoints": [
+    {
+     "model_id": "68a8113a55f5cfa31e2ab8b9",
+     "endpoint": "/services/macbook-pro-14-inch/a2442-2021/speaker-replacement",
+     "_id": "6a770e90bf41443db624be32"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 14\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-14-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-14-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 14\" M1 Pro / M1 Max (A2442)",
+     "image": {
+      "public_id": "model/MacBook-Pro-14-Inch-2021.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-14-Inch-2021.png"
+     },
+     "endpoint": "a2442-2021",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 14 Inch 2021 Repair Service",
+     "allservice_page_title_description": "Choose the right service your MacBook Pro 14 Inch 2021"
+    }
+   ]
+  },
+  {
+   "_id": "68b97976f4016bd30fe616eb",
+   "title": "Trackpad Issue",
+   "order_no": 6,
+   "image": {
+    "public_id": "service/macbook-trackpad-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-trackpad-issue.png"
+   },
+   "model_id": [
+    "68a8113a55f5cfa31e2ab8b9"
+   ],
+   "device_id": "6885f96219055242d5b974f6",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b97976f4016bd30fe616ec"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Trackpad Issue",
+     "website_name": "Trackpad Issue",
+     "image_alt_text": "MacBook Pro 14 Inch 2021, Early & Late 2023, M3 Pro, Max, M4 Trackpad Issue",
+     "repair_image": {
+      "public_id": "service/macbook-trackpad-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-trackpad-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 14000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a77329bbf41443db6419c21"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-04T11:35:18.959Z",
+   "updated_at": "2026-08-08T13:43:55.060Z",
+   "endpoints": [
+    {
+     "model_id": "68a8113a55f5cfa31e2ab8b9",
+     "endpoint": "/services/macbook-pro-14-inch/a2442-2021/trackpad-issue",
+     "_id": "6a77329bbf41443db6419c1f"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 14\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-14-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-14-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 14\" M1 Pro / M1 Max (A2442)",
+     "image": {
+      "public_id": "model/MacBook-Pro-14-Inch-2021.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-14-Inch-2021.png"
+     },
+     "endpoint": "a2442-2021",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 14 Inch 2021 Repair Service",
+     "allservice_page_title_description": "Choose the right service your MacBook Pro 14 Inch 2021"
+    }
+   ]
+  },
+  {
+   "_id": "68b979c5f4016bd30fe6170d",
+   "title": "Os Installation",
+   "order_no": 8,
+   "image": {
+    "public_id": "service/macbook-os-installation.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-os-installation.png"
+   },
+   "model_id": [
+    "68a8113a55f5cfa31e2ab8b9"
+   ],
+   "device_id": "6885f96219055242d5b974f6",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b979c5f4016bd30fe6170e"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Os Installation",
+     "website_name": "Os Installation",
+     "image_alt_text": "MacBook Pro 14 Inch 2021, Early & Late 2023 M3, M4 Os Installation",
+     "repair_image": {
+      "public_id": "service/macbook-os-installation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-os-installation.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a77324dbf41443db6402d9c"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-04T11:36:37.763Z",
+   "updated_at": "2026-08-08T13:42:37.650Z",
+   "endpoints": [
+    {
+     "model_id": "68a8113a55f5cfa31e2ab8b9",
+     "endpoint": "/services/macbook-pro-14-inch/a2442-2021/os-installation",
+     "_id": "6a77324dbf41443db6402d9a"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 14\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-14-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-14-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 14\" M1 Pro / M1 Max (A2442)",
+     "image": {
+      "public_id": "model/MacBook-Pro-14-Inch-2021.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-14-Inch-2021.png"
+     },
+     "endpoint": "a2442-2021",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 14 Inch 2021 Repair Service",
+     "allservice_page_title_description": "Choose the right service your MacBook Pro 14 Inch 2021"
+    }
+   ]
+  },
+  {
+   "_id": "68b97910f4016bd30fe616a7",
+   "title": "Motherboard Repair",
+   "order_no": 3,
+   "image": {
+    "public_id": "service/macbook-motherboard-repair.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-motherboard-repair.png"
+   },
+   "model_id": [
+    "68a8113a55f5cfa31e2ab8b9"
+   ],
+   "device_id": "6885f96219055242d5b974f6",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b97910f4016bd30fe616a8"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Motherboard Repair",
+     "website_name": "Motherboard Repair",
+     "image_alt_text": "MacBook Pro 14 Inch 2021, Early & Late 2023 M3, Max, M4 Motherboard Repair",
+     "repair_image": {
+      "public_id": "service/macbook-motherboard-repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-motherboard-repair.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 15000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a76d5a4bf41443db6fc6067"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-04T11:33:36.537Z",
+   "updated_at": "2026-08-08T07:07:16.519Z",
+   "endpoints": [
+    {
+     "model_id": "68a8113a55f5cfa31e2ab8b9",
+     "endpoint": "/services/macbook-pro-14-inch/a2442-2021/motherboard-repair",
+     "_id": "6a76d5a4bf41443db6fc6065"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 14\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-14-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-14-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 14\" M1 Pro / M1 Max (A2442)",
+     "image": {
+      "public_id": "model/MacBook-Pro-14-Inch-2021.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-14-Inch-2021.png"
+     },
+     "endpoint": "a2442-2021",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 14 Inch 2021 Repair Service",
+     "allservice_page_title_description": "Choose the right service your MacBook Pro 14 Inch 2021"
+    }
+   ]
+  },
+  {
+   "_id": "68b97a4cf4016bd30fe61751",
+   "title": "Charging Port Replacement",
+   "order_no": 4,
+   "image": {
+    "public_id": "service/charging-port.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/charging-port.png"
+   },
+   "model_id": [
+    "68a8113a55f5cfa31e2ab8b9"
+   ],
+   "device_id": "6885f96219055242d5b974f6",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b97a4cf4016bd30fe61752"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Charging Port Replacement",
+     "website_name": "Charging Port Replacement",
+     "image_alt_text": "MacBook Pro 14 Inch 2021, Early & Late 2023, M3 Pro, Max, M4 Charging Port Replacement",
+     "repair_image": {
+      "public_id": "service/charging-port.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/charging-port.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 6000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a76e15ebf41443db60234d3"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-04T11:38:52.867Z",
+   "updated_at": "2026-08-08T07:57:18.990Z",
+   "endpoints": [
+    {
+     "model_id": "68a8113a55f5cfa31e2ab8b9",
+     "endpoint": "/services/macbook-pro-14-inch/a2442-2021/charging-port-replacement",
+     "_id": "6a76e15ebf41443db60234d1"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 14\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-14-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-14-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 14\" M1 Pro / M1 Max (A2442)",
+     "image": {
+      "public_id": "model/MacBook-Pro-14-Inch-2021.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-14-Inch-2021.png"
+     },
+     "endpoint": "a2442-2021",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 14 Inch 2021 Repair Service",
+     "allservice_page_title_description": "Choose the right service your MacBook Pro 14 Inch 2021"
+    }
+   ]
+  },
+  {
+   "_id": "68b97a6ef4016bd30fe61773",
+   "title": "SSD Upgrade",
+   "order_no": 9,
+   "image": {
+    "public_id": "service/ssd.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ssd.png"
+   },
+   "model_id": [
+    "68a8113a55f5cfa31e2ab8b9"
+   ],
+   "device_id": "6885f96219055242d5b974f6",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b97a6ef4016bd30fe61774"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "SSD Upgrade",
+     "website_name": "SSD Upgrade",
+     "image_alt_text": "MacBook Pro 14 Inch 2021, Early & Late 2023, M3 Pro, Max, M4 SSD Upgrade",
+     "repair_image": {
+      "public_id": "service/ssd.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ssd.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 0,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a773311bf41443db6419d1a"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-04T11:39:26.455Z",
+   "updated_at": "2026-08-08T13:45:53.467Z",
+   "endpoints": [
+    {
+     "model_id": "68a8113a55f5cfa31e2ab8b9",
+     "endpoint": "/services/macbook-pro-14-inch/a2442-2021/ssd-upgrade",
+     "_id": "6a773311bf41443db6419d18"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 14\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-14-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-14-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 14\" M1 Pro / M1 Max (A2442)",
+     "image": {
+      "public_id": "model/MacBook-Pro-14-Inch-2021.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-14-Inch-2021.png"
+     },
+     "endpoint": "a2442-2021",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 14 Inch 2021 Repair Service",
+     "allservice_page_title_description": "Choose the right service your MacBook Pro 14 Inch 2021"
+    }
+   ]
+  },
+  {
+   "_id": "68ea4c337495d2cd0328069b",
+   "title": "Display Replacement",
+   "order_no": 1,
+   "image": {
+    "public_id": "service/macbook-display-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-display-replacement.png"
+   },
+   "model_id": [
+    "68a8113a55f5cfa31e2ab8b9"
+   ],
+   "device_id": "6885f96219055242d5b974f6",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68ea4c337495d2cd0328069c"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "MacBook Pro 14 Inch 2021 Display Replacement",
+     "image_alt_text": "MacBook Pro 14 Inch 2021 Display Replacement",
+     "repair_image": {
+      "public_id": "service/macbook-display-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-display-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "",
+     "warranty": "12 Months Warranty",
+     "product_id": "68ea49047495d2cd03280591",
+     "product_variation_id": "68ea49047495d2cd03280594",
+     "_id": "6a3e44aa96eb520b02903f8d",
+     "product_data": {
+      "_id": "68ea49047495d2cd03280591",
+      "product_id": "p263",
+      "name": "MacBook Pro 14 Inch Display Assembly 2021",
+      "brand_id": "680a09e8a0d70a0f278d94ae",
+      "category_id": "68282f1caed11479fdf2f3c1",
+      "device_id": "6885f96219055242d5b974f6",
+      "model_id": "68a8113a55f5cfa31e2ab8b9",
+      "attachable_models": [
+       "68a8113a55f5cfa31e2ab8b9"
+      ],
+      "price": null,
+      "warranty": 0,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-11T12:09:40.401Z",
+      "updated_at": "2026-06-26T09:16:04.161Z",
+      "__v": 0,
+      "endpoint": "/product/macbook-pro-14-inch-2021-display-assembly",
+      "warranty_note": "",
+      "website_name": "MacBook Pro 14 Inch Display Assembly 2021",
+      "description2": "<p></p>",
+      "meta_description": "undefined",
+      "meta_keywords": "undefined",
+      "meta_title": "undefined",
+      "page_description": "<p></p>",
+      "page_title": "undefined",
+      "page_title_description": "undefined"
+     },
+     "product_variation_data": {
+      "_id": "68ea49047495d2cd03280594",
+      "name": "Display Assembly",
+      "quality": "Disassembled From MacBook",
+      "product_id": "68ea49047495d2cd03280591",
+      "price": 70000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/MacBook-Pro-14-Inch-Display-assembly-2021-.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/MacBook-Pro-14-Inch-Display-assembly-2021-.png",
+        "_id": "695273e685b753595bee3c5f"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-11T12:09:40.939Z",
+      "updated_at": "2026-05-05T13:32:46.093Z",
+      "__v": 0
+     }
+    },
+    {
+     "name": "Assemble Charge",
+     "website_name": "MacBook Pro 14 Inch 2021 Display Replacement",
+     "image_alt_text": "MacBook Pro 14 Inch 2021 Display Replacement",
+     "repair_image": {
+      "public_id": "service/2a1c0905-4112-4a9a-b16c-ebae52220df7.png",
+      "url": "https://my-invento.s3.ap-southeast-1.amazonaws.com/service/2a1c0905-4112-4a9a-b16c-ebae52220df7.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "6a3e447f96eb520b02903efb",
+     "product_variation_id": "6a3e448096eb520b02903efe",
+     "_id": "6a3e44aa96eb520b02903f8e",
+     "product_data": {
+      "_id": "6a3e447f96eb520b02903efb",
+      "product_id": "p439",
+      "name": "MacBook Pro 14 Inch Display Lcd 2021",
+      "website_name": "MacBook Pro 14 Inch Display Lcd 2021",
+      "endpoint": "/product/macbook-pro-14-inch-2021-a2442-display-lcd",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f1caed11479fdf2f3c1",
+      "device_id": "6885f96219055242d5b974f6",
+      "model_id": "68a8113a55f5cfa31e2ab8b9",
+      "attachable_models": [
+       "68a8113a55f5cfa31e2ab8b9"
+      ],
+      "price": null,
+      "warranty": null,
+      "warranty_note": "",
+      "description": "<p></p>",
+      "description2": "<p></p>",
+      "images": [],
+      "meta_title": "",
+      "meta_description": "",
+      "meta_keywords": "",
+      "page_title": "",
+      "page_title_description": "",
+      "page_description": "<p></p>",
+      "remarks": "",
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "N/A",
+      "created_at": "2026-06-26T09:21:03.210Z",
+      "updated_at": "2026-06-26T09:21:03.210Z",
+      "__v": 0
+     },
+     "product_variation_data": {
+      "_id": "6a3e448096eb520b02903efe",
+      "name": "LCD",
+      "quality": "Standard After Market",
+      "product_id": "6a3e447f96eb520b02903efb",
+      "price": 45000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/macbook-pro-14-inch-2021-display-assembly.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/macbook-pro-14-inch-2021-display-assembly.png",
+        "_id": "6a3e448096eb520b02903eff"
+       }
+      ],
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "N/A",
+      "created_at": "2026-06-26T09:21:04.003Z",
+      "updated_at": "2026-06-26T09:21:04.003Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-11T12:23:15.280Z",
+   "updated_at": "2026-06-26T09:21:46.081Z",
+   "endpoints": [
+    {
+     "model_id": "68a8113a55f5cfa31e2ab8b9",
+     "endpoint": "/services/macbook-pro-14-inch/a2442-2021/display-replacement",
+     "_id": "6a3e44aa96eb520b02903f8b"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "MacBook Pro 14 Inch 2021 Display Replacement",
+   "page_title_description": "Choose the right display for your MacBook Pro 14 Inch 2021",
+   "device_data": [
+    {
+     "name": "MacBook Pro 14\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-14-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-14-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 14\" M1 Pro / M1 Max (A2442)",
+     "image": {
+      "public_id": "model/MacBook-Pro-14-Inch-2021.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-14-Inch-2021.png"
+     },
+     "endpoint": "a2442-2021",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 14 Inch 2021 Repair Service",
+     "allservice_page_title_description": "Choose the right service your MacBook Pro 14 Inch 2021"
+    }
+   ]
+  },
+  {
+   "_id": "68ea4e1f7495d2cd0328076b",
+   "title": "Battery Replacement",
+   "order_no": 2,
+   "image": {
+    "public_id": "service/macbook-battery-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-battery-replacement.png"
+   },
+   "model_id": [
+    "68a8113a55f5cfa31e2ab8b9"
+   ],
+   "device_id": "6885f96219055242d5b974f6",
+   "brand_id": "68b3fc02f4016bd30fe5f01b",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68ea4e1f7495d2cd0328076c"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Battery Replacement",
+     "image_alt_text": "MacBook Pro 14 Inch 2021, Early & Late 2023 Battery Replacement",
+     "repair_image": {
+      "public_id": "service/macbook-battery-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-battery-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68ea4b817495d2cd03280636",
+     "product_variation_id": "68ea4b827495d2cd03280639",
+     "_id": "6a76d4b7bf41443db6fc5e7c",
+     "product_data": {
+      "_id": "68ea4b817495d2cd03280636",
+      "product_id": "p266",
+      "name": "MacBook Pro 14 Inch Battery 2021-Late 2023 (M3)",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f28aed11479fdf2f3ca",
+      "device_id": "6885f96219055242d5b974f6",
+      "model_id": "68a8113a55f5cfa31e2ab8b9",
+      "attachable_models": [
+       "68a8113a55f5cfa31e2ab8b9",
+       "68a8119455f5cfa31e2ab8c2",
+       "68ea4a777495d2cd032805ef"
+      ],
+      "price": null,
+      "warranty": 12,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "ifixitbd@gmail.com",
+      "created_at": "2025-10-11T12:20:17.565Z",
+      "updated_at": "2026-03-11T06:21:09.539Z",
+      "__v": 0,
+      "endpoint": "/product/macbook-pro-14-inch-2021-late-2023-battery",
+      "warranty_note": "",
+      "website_name": "MacBook Pro 14 Inch Battery 2021-Late 2023 (M3)"
+     },
+     "product_variation_data": {
+      "_id": "68ea4b827495d2cd03280639",
+      "name": "Battery Replacement",
+      "quality": "Standard After Market",
+      "product_id": "68ea4b817495d2cd03280636",
+      "price": 10000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/MacBook-Pro-14-Inch-Battery-2021-Late-2023-(M3).png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/MacBook-Pro-14-Inch-Battery-2021-Late-2023-(M3).png",
+        "_id": "6952758685b753595bee3cb9"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-11T12:20:18.318Z",
+      "updated_at": "2026-05-05T13:28:32.240Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-11T12:31:27.421Z",
+   "updated_at": "2026-08-08T07:03:19.090Z",
+   "endpoints": [
+    {
+     "model_id": "68a8113a55f5cfa31e2ab8b9",
+     "endpoint": "/services/macbook-pro-14-inch/a2442-2021/battery-replacement",
+     "_id": "6a76d4b7bf41443db6fc5e7a"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "MacBook Pro 14 Inch 2021, Early & Late 2023 Battery Replacement",
+   "page_title_description": "Choose the right battery for your MacBook",
+   "device_data": [
+    {
+     "name": "MacBook Pro 14\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-14-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-14-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Unknown"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 14\" M1 Pro / M1 Max (A2442)",
+     "image": {
+      "public_id": "model/MacBook-Pro-14-Inch-2021.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-14-Inch-2021.png"
+     },
+     "endpoint": "a2442-2021",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 14 Inch 2021 Repair Service",
+     "allservice_page_title_description": "Choose the right service your MacBook Pro 14 Inch 2021"
+    }
+   ]
+  },
+  {
+   "_id": "68b979f4f4016bd30fe6172f",
+   "title": "Liquid Clean",
+   "order_no": 7,
+   "image": {
+    "public_id": "service/liquid-damage.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/liquid-damage.png"
+   },
+   "model_id": [
+    "68a8113a55f5cfa31e2ab8b9"
+   ],
+   "device_id": "6885f96219055242d5b974f6",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b979f4f4016bd30fe61730"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Liquid Clean",
+     "website_name": "Liquid Clean",
+     "image_alt_text": "MacBook Pro 14 Inch 2021, Early 2023, Late 2023, M3 Pro, M3 Pro Max & M4 Liquid Clean",
+     "repair_image": {
+      "public_id": "service/liquid-damage.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/liquid-damage.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a7731e2bf41443db6402cca"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-04T11:37:24.880Z",
+   "updated_at": "2026-08-08T13:40:50.027Z",
+   "endpoints": [
+    {
+     "model_id": "68a8113a55f5cfa31e2ab8b9",
+     "endpoint": "/services/macbook-pro-14-inch/a2442-2021/liquid-clean",
+     "_id": "6a7731e2bf41443db6402cc8"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 14\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-14-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-14-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 14\" M1 Pro / M1 Max (A2442)",
+     "image": {
+      "public_id": "model/MacBook-Pro-14-Inch-2021.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-14-Inch-2021.png"
+     },
+     "endpoint": "a2442-2021",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 14 Inch 2021 Repair Service",
+     "allservice_page_title_description": "Choose the right service your MacBook Pro 14 Inch 2021"
+    }
+   ]
+  }
+ ],
+ "totalData": 9
+}

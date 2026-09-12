@@ -1,0 +1,728 @@
+{
+ "success": true,
+ "message": "successful",
+ "data": [
+  {
+   "_id": "68bbddedf4016bd30fe61d23",
+   "title": "Speaker Replacement",
+   "order_no": 3,
+   "image": {
+    "public_id": "service/macbook-speaker-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-speaker-replacement.png"
+   },
+   "model_id": [
+    "68b3f020f4016bd30fe5ee27",
+    "68b3f040f4016bd30fe5ee31"
+   ],
+   "device_id": "685e62cb84877e225d242f05",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bbddedf4016bd30fe61d24"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Speaker Replacement",
+     "website_name": "Speaker Replacement",
+     "image_alt_text": "Mac Mini Late 2014, 2018 Speaker Replacement",
+     "repair_image": {
+      "public_id": "service/macbook-speaker-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-speaker-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a27df57921f2574d9ae49cf"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-06T07:08:29.019Z",
+   "updated_at": "2026-06-09T09:39:35.574Z",
+   "endpoints": [
+    {
+     "model_id": "68b3f020f4016bd30fe5ee27",
+     "endpoint": "/services/mac-mini/late-2014/speaker-replacement",
+     "_id": "6a27df57921f2574d9ae49cc"
+    },
+    {
+     "model_id": "68b3f040f4016bd30fe5ee31",
+     "endpoint": "/services/mac-mini/late-2018/speaker-replacement",
+     "_id": "6a27df57921f2574d9ae49cd"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Mac Mini",
+     "image": {
+      "public_id": "device/552ea784-4413-4644-8d86-93a50721ac61.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/552ea784-4413-4644-8d86-93a50721ac61.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Mac Mini Late 2014",
+     "image": {
+      "public_id": "model/Mac-mini-Late-2014.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-Late-2014.png"
+     },
+     "endpoint": "late-2014",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini Late 2014 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "Mac Mini Late 2018",
+     "image": {
+      "public_id": "model/Mac-mini-Late-2018.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-Late-2018.png"
+     },
+     "endpoint": "late-2018",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini Late 2018 Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "68bbdd77f4016bd30fe61cc7",
+   "title": "Motherboard Repair",
+   "order_no": 1,
+   "image": {
+    "public_id": "service/macbook-motherboard-repair.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-motherboard-repair.png"
+   },
+   "model_id": [
+    "68b3f020f4016bd30fe5ee27",
+    "68b3f040f4016bd30fe5ee31"
+   ],
+   "device_id": "685e62cb84877e225d242f05",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bbdd77f4016bd30fe61cc8"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Motherboard Repair",
+     "website_name": "Motherboard Repair",
+     "image_alt_text": "Mac Mini Late 2014, 2018 Motherboard Repair",
+     "repair_image": {
+      "public_id": "service/macbook-motherboard-repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-motherboard-repair.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 8000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a27df5e921f2574d9ae49e7"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-06T07:06:31.537Z",
+   "updated_at": "2026-06-09T09:39:42.383Z",
+   "endpoints": [
+    {
+     "model_id": "68b3f020f4016bd30fe5ee27",
+     "endpoint": "/services/mac-mini/late-2014/motherboard-repair",
+     "_id": "6a27df5e921f2574d9ae49e4"
+    },
+    {
+     "model_id": "68b3f040f4016bd30fe5ee31",
+     "endpoint": "/services/mac-mini/late-2018/motherboard-repair",
+     "_id": "6a27df5e921f2574d9ae49e5"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Mac Mini",
+     "image": {
+      "public_id": "device/552ea784-4413-4644-8d86-93a50721ac61.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/552ea784-4413-4644-8d86-93a50721ac61.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Mac Mini Late 2014",
+     "image": {
+      "public_id": "model/Mac-mini-Late-2014.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-Late-2014.png"
+     },
+     "endpoint": "late-2014",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini Late 2014 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "Mac Mini Late 2018",
+     "image": {
+      "public_id": "model/Mac-mini-Late-2018.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-Late-2018.png"
+     },
+     "endpoint": "late-2018",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini Late 2018 Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "68bbde7df4016bd30fe61d79",
+   "title": "Os Installation",
+   "order_no": 4,
+   "image": {
+    "public_id": "service/macbook-os-installation.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-os-installation.png"
+   },
+   "model_id": [
+    "68b3f020f4016bd30fe5ee27",
+    "68b3f040f4016bd30fe5ee31"
+   ],
+   "device_id": "685e62cb84877e225d242f05",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bbde7df4016bd30fe61d7a"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Os Installation",
+     "website_name": "Os Installation",
+     "image_alt_text": "Mac Mini Late 2014, 2018 Os Installation",
+     "repair_image": {
+      "public_id": "service/macbook-os-installation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-os-installation.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a27df73921f2574d9ae4a69"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-06T07:10:53.393Z",
+   "updated_at": "2026-06-09T09:40:03.655Z",
+   "endpoints": [
+    {
+     "model_id": "68b3f020f4016bd30fe5ee27",
+     "endpoint": "/services/mac-mini/late-2014/os-installation",
+     "_id": "6a27df73921f2574d9ae4a66"
+    },
+    {
+     "model_id": "68b3f040f4016bd30fe5ee31",
+     "endpoint": "/services/mac-mini/late-2018/os-installation",
+     "_id": "6a27df73921f2574d9ae4a67"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Mac Mini",
+     "image": {
+      "public_id": "device/552ea784-4413-4644-8d86-93a50721ac61.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/552ea784-4413-4644-8d86-93a50721ac61.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Mac Mini Late 2014",
+     "image": {
+      "public_id": "model/Mac-mini-Late-2014.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-Late-2014.png"
+     },
+     "endpoint": "late-2014",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini Late 2014 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "Mac Mini Late 2018",
+     "image": {
+      "public_id": "model/Mac-mini-Late-2018.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-Late-2018.png"
+     },
+     "endpoint": "late-2018",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini Late 2018 Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "694a6e0f8a888ed23358b108",
+   "title": "Power Supply Replacement",
+   "order_no": 2,
+   "endpoints": [
+    {
+     "model_id": "68b3f020f4016bd30fe5ee27",
+     "endpoint": "/services/mac-mini/late-2014/power-supply-replacement",
+     "_id": "6a27df6b921f2574d9ae4a49"
+    },
+    {
+     "model_id": "68b3f040f4016bd30fe5ee31",
+     "endpoint": "/services/mac-mini/late-2018/power-supply-replacement",
+     "_id": "6a27df6b921f2574d9ae4a4a"
+    }
+   ],
+   "image": {
+    "public_id": "service/power-issues.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/power-issues.png"
+   },
+   "model_id": [
+    "68b3f020f4016bd30fe5ee27",
+    "68b3f040f4016bd30fe5ee31"
+   ],
+   "device_id": "685e62cb84877e225d242f05",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "694a6e0f8a888ed23358b10b"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Power Supply Replacement",
+     "website_name": "Power Supply Replacement",
+     "image_alt_text": "Mac Mini Late 2014, 2018 Power Supply Replacement",
+     "repair_image": {
+      "public_id": "service/power-issues.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/power-issues.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 8000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a27df6b921f2574d9ae4a4c"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-23T10:25:19.352Z",
+   "updated_at": "2026-06-09T09:39:55.960Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Mac Mini",
+     "image": {
+      "public_id": "device/552ea784-4413-4644-8d86-93a50721ac61.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/552ea784-4413-4644-8d86-93a50721ac61.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Mac Mini Late 2014",
+     "image": {
+      "public_id": "model/Mac-mini-Late-2014.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-Late-2014.png"
+     },
+     "endpoint": "late-2014",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini Late 2014 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "Mac Mini Late 2018",
+     "image": {
+      "public_id": "model/Mac-mini-Late-2018.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-Late-2018.png"
+     },
+     "endpoint": "late-2018",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini Late 2018 Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "68bbddc0f4016bd30fe61d01",
+   "title": "Cleaning Service",
+   "order_no": 5,
+   "image": {
+    "public_id": "service/cleaning-service.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/cleaning-service.png"
+   },
+   "model_id": [
+    "68b3f020f4016bd30fe5ee27",
+    "68b3f040f4016bd30fe5ee31"
+   ],
+   "device_id": "685e62cb84877e225d242f05",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bbddc0f4016bd30fe61d02"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Cleaning Service",
+     "website_name": "Cleaning Service",
+     "image_alt_text": "Mac Mini Late 2014, 2018 Cleaning Service",
+     "repair_image": {
+      "public_id": "service/cleaning-service.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/cleaning-service.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a27df64921f2574d9ae4a21"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-06T07:07:44.281Z",
+   "updated_at": "2026-06-09T09:39:48.442Z",
+   "endpoints": [
+    {
+     "model_id": "68b3f020f4016bd30fe5ee27",
+     "endpoint": "/services/mac-mini/late-2014/cleaning-service",
+     "_id": "6a27df64921f2574d9ae4a1e"
+    },
+    {
+     "model_id": "68b3f040f4016bd30fe5ee31",
+     "endpoint": "/services/mac-mini/late-2018/cleaning-service",
+     "_id": "6a27df64921f2574d9ae4a1f"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Mac Mini",
+     "image": {
+      "public_id": "device/552ea784-4413-4644-8d86-93a50721ac61.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/552ea784-4413-4644-8d86-93a50721ac61.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Mac Mini Late 2014",
+     "image": {
+      "public_id": "model/Mac-mini-Late-2014.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-Late-2014.png"
+     },
+     "endpoint": "late-2014",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini Late 2014 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "Mac Mini Late 2018",
+     "image": {
+      "public_id": "model/Mac-mini-Late-2018.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-Late-2018.png"
+     },
+     "endpoint": "late-2018",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini Late 2018 Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  }
+ ],
+ "totalData": 5
+}

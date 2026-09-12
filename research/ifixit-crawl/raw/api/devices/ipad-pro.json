@@ -1,0 +1,157 @@
+{
+ "message": "success",
+ "status": 200,
+ "data": [
+  {
+   "image": {
+    "public_id": "model/_iPad-Pro-13-Inch-1st-Gen-(2024).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/_iPad-Pro-13-Inch-1st-Gen-(2024).png"
+   },
+   "_id": "680b4944a0d70a0f278d9d01",
+   "name": "iPad Pro 13 Inch 1st Gen (2024)",
+   "order_no": 131,
+   "endpoint": "1st-gen-13-inch"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Pro-12.9-Inch-6th-Gen-(2022).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-6th-Gen-(2022).png"
+   },
+   "_id": "680b476aa0d70a0f278d9cbf",
+   "name": "iPad Pro 12.9 Inch 6th Gen (2022)",
+   "order_no": 116,
+   "endpoint": "6th-gen-12-9-inch"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Pro-12.9-Inch-5th-Gen-(2021).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-5th-Gen-(2021).png"
+   },
+   "_id": "680b45f1a0d70a0f278d9c98",
+   "name": "iPad Pro 12.9 Inch 5th Gen (2021)",
+   "order_no": 115,
+   "endpoint": "5th-gen-12-9-inch"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Pro-12.9-Inch-4th-Gen-(2020).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-4th-Gen-(2020).png"
+   },
+   "_id": "680b4367a0d70a0f278d9c5c",
+   "name": "iPad Pro 12.9 Inch 4th Gen (2020)",
+   "order_no": 114,
+   "endpoint": "4th-gen-12-9-inch"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Pro-12.9-Inch-3rd-Gen-(2018).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-3rd-Gen-(2018).png"
+   },
+   "_id": "680b4229a0d70a0f278d9c37",
+   "name": "iPad Pro 12.9 Inch 3rd Gen (2018)",
+   "order_no": 113,
+   "endpoint": "3rd-gen-12-9-inch"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Pro-12.9-Inch-2nd-Gen-(2017).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-2nd-Gen-(2017).png"
+   },
+   "_id": "680b3fb6a0d70a0f278d9bd8",
+   "name": "iPad Pro 12.9 Inch 2nd Gen (2017)",
+   "order_no": 112,
+   "endpoint": "2nd-gen-12-9-inch"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Pro-12.9-Inch-1st-Gen-(2015).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-1st-Gen-(2015).png"
+   },
+   "_id": "680b2f47a0d70a0f278d9ba4",
+   "name": "iPad Pro 12.9 Inch 1st Gen (2015)",
+   "order_no": 111,
+   "endpoint": "1st-gen-12-9-inch"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Pro-11-Inch-5th-Gen-(2024).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-11-Inch-5th-Gen-(2024).png"
+   },
+   "_id": "680b48cba0d70a0f278d9ced",
+   "name": "iPad Pro 11 Inch 5th Gen (2024)",
+   "order_no": 101,
+   "endpoint": "5th-gen-11-inch"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Pro-11-Inch-4th-Gen-(2022).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-11-Inch-4th-Gen-(2022).png"
+   },
+   "_id": "680b46eba0d70a0f278d9cb3",
+   "name": "iPad Pro 11 Inch 4th Gen (2022)",
+   "order_no": 100,
+   "endpoint": "4th-gen-11-inch"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Pro-11-Inch-3rd-Gen-(2021).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-11-Inch-3rd-Gen-(2021).png"
+   },
+   "_id": "680b455aa0d70a0f278d9c8e",
+   "name": "iPad Pro 11 Inch 3rd Gen (2021)",
+   "order_no": 99,
+   "endpoint": "3rd-gen-11-inch"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Pro-11-Inch-2nd-Gen-(2020).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-11-Inch-2nd-Gen-(2020).png"
+   },
+   "_id": "680b42b5a0d70a0f278d9c48",
+   "name": "iPad Pro 11 Inch 2nd Gen (2020)",
+   "order_no": 98,
+   "endpoint": "2nd-gen-11-inch"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Pro-11-Inch-1st-Gen-(2018).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-11-Inch-1st-Gen-(2018).png"
+   },
+   "_id": "680b4178a0d70a0f278d9c1f",
+   "name": "iPad Pro 11 Inch 1st Gen (2018)",
+   "order_no": 97,
+   "endpoint": "1st-gen-11-inch"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Pro-10.5-Inch-(2nd-Gen)-2017.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-10.5-Inch-(2nd-Gen)-2017.png"
+   },
+   "_id": "680b3010a0d70a0f278d9bbc",
+   "name": "iPad Pro 10.5 Inch (2nd Gen) 2017",
+   "order_no": 55,
+   "endpoint": "2nd-gen-10.5-inch"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Pro-9.7-Inch-(1st-Gen)-2016.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-9.7-Inch-(1st-Gen)-2016.png"
+   },
+   "_id": "680b2deaa0d70a0f278d9b89",
+   "name": "iPad Pro 9.7 Inch (1st Gen) 2016",
+   "order_no": 53,
+   "endpoint": "1st-gen-9-7-inch"
+  }
+ ],
+ "childDevice": false,
+ "device": {
+  "_id": "680a2fd4a0d70a0f278d98bf",
+  "name": "iPad Pro",
+  "meta_description": "Searching  for trusted iPad Pro repair services in Dhaka? At iFixit BD, we specialize in expert iPad Pro repairs, providing fast and efficient fix.\r\n",
+  "meta_keywords": "",
+  "meta_title": "Authentic iPad Pro Repair Center in Dhaka, Bangladesh - iFixit BD",
+  "page_description": "<h2>Leading iPad Pro Repair Center in Dhaka, Bangladesh</h2><p>Accidents rarely give warnings. A single slip from hand can crack an iPad Pro screen, weaken the battery, or cause charging problems that stop your work instantly. In those moments, clear solutions matter more than fast promises. At iFixit BD, every repair starts with careful inspection. Technicians focus on the real cause of the problem, not just the visible damage. Screen cracks, battery drain, water exposure, and charging faults are handled with steady hands and proven repair methods. For screen and battery jobs, only genuine OEM parts are used to protect long-term performance. Our secure repair lab and advanced tools allow precise work across all iPad Pro models. So your iPad Pro feels dependable again, not temporary.</p><h2>Our iPad Pro Repair Services</h2><p>Reliability, not speed alone, defines every iPad Pro repair, supported by careful inspections and experienced technical handling. Here are some of the iPad Pro repair services we offer:</p><ul><li>iPad Air display replacement</li><li>iPad Air battery replacement</li><li>iPad Air water damage repair</li><li>iPad Air motherboard repair</li><li>iPad Air software solutions</li></ul>",
+  "page_title": "iPad Pro Repair Services",
+  "page_title_description": "iPad Pro repairs at iFixit BD, carried out by experts who prioritize accuracy, reliability, and long-term device performance."
+ }
+}

@@ -1,0 +1,1224 @@
+{
+ "success": true,
+ "message": "successful",
+ "data": [
+  {
+   "_id": "68bebb67f4016bd30fe62f19",
+   "title": "Battery Replacement",
+   "order_no": 2,
+   "image": {
+    "public_id": "service/battery-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/battery-issue.png"
+   },
+   "model_id": [
+    "680b4367a0d70a0f278d9c5c"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bebb67f4016bd30fe62f1a"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Battery Replacement",
+     "image_alt_text": "iPad Pro 12.9 Inch 4th Gen Battery Replacement",
+     "repair_image": {
+      "public_id": "service/battery-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/battery-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68fb885a7495d2cd03281d7d",
+     "product_variation_id": "68fb885a7495d2cd03281d80",
+     "_id": "6a12c961921f2574d9b5d148",
+     "product_data": {
+      "_id": "68fb885a7495d2cd03281d7d",
+      "product_id": "p348",
+      "name": "iPad Pro 12.9 Inch 4th Gen 2020 Battery",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f28aed11479fdf2f3ca",
+      "device_id": "680a2fd4a0d70a0f278d98bf",
+      "model_id": "680b4367a0d70a0f278d9c5c",
+      "attachable_models": [
+       "680b4367a0d70a0f278d9c5c"
+      ],
+      "price": null,
+      "warranty": 0,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T14:08:26.285Z",
+      "updated_at": "2026-02-14T13:30:52.981Z",
+      "__v": 0,
+      "endpoint": "/product/ipad-pro-4th-gen-12-inch-battery",
+      "warranty_note": "",
+      "website_name": "iPad Pro 12.9 Inch 4th Gen 2020 Battery"
+     },
+     "product_variation_data": {
+      "_id": "68fb885a7495d2cd03281d80",
+      "name": "Battery",
+      "quality": "Standard After Market",
+      "product_id": "68fb885a7495d2cd03281d7d",
+      "price": 6000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/ipad-pro-12.9-3rd-&-4th-gen-battery.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/ipad-pro-12.9-3rd-&-4th-gen-battery.png",
+        "_id": "694e832a8a888ed23359910a"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T14:08:26.794Z",
+      "updated_at": "2026-05-05T13:54:58.107Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-08T11:17:59.875Z",
+   "updated_at": "2026-05-24T09:48:17.891Z",
+   "endpoints": [
+    {
+     "model_id": "680b4367a0d70a0f278d9c5c",
+     "endpoint": "/services/ipad-pro/4th-gen-12-9-inch/battery-replacement",
+     "_id": "6a12c961921f2574d9b5d146"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 12.9 Inch 4th Gen (2020)",
+     "image": {
+      "public_id": "model/iPad-Pro-12.9-Inch-4th-Gen-(2020).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-4th-Gen-(2020).png"
+     },
+     "endpoint": "4th-gen-12-9-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 12.9 Inch 4th Gen (2020) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 12.9 Inch 4th Gen (2020) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "686a5b9d19055242d5b930a0",
+   "title": "Motherboard Repair",
+   "order_no": 4,
+   "image": {
+    "public_id": "service/ipad-pro-12.9-inch-4th-generation-motherboard-repair.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-4th-generation-motherboard-repair.png"
+   },
+   "model_id": [
+    "680b4367a0d70a0f278d9c5c"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "686a5b9d19055242d5b930a1"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Motherboard Repair",
+     "website_name": "Motherboard Repair",
+     "image_alt_text": "iPad Pro 12.9 Inch 4th Generation Motherboard Repair",
+     "repair_image": {
+      "public_id": "service/ipad-pro-12.9-inch-4th-generation-motherboard-repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-4th-generation-motherboard-repair.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 15000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a674e04bf41443db69c93c7"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-06T11:18:53.228Z",
+   "updated_at": "2026-07-27T12:24:36.459Z",
+   "endpoints": [
+    {
+     "model_id": "680b4367a0d70a0f278d9c5c",
+     "endpoint": "/services/ipad-pro/4th-gen-12-9-inch/motherboard-repair",
+     "_id": "6a674e04bf41443db69c93c5"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 12.9 Inch 4th Gen (2020)",
+     "image": {
+      "public_id": "model/iPad-Pro-12.9-Inch-4th-Gen-(2020).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-4th-Gen-(2020).png"
+     },
+     "endpoint": "4th-gen-12-9-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 12.9 Inch 4th Gen (2020) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 12.9 Inch 4th Gen (2020) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "69400629e3cb8bf613c30b7a",
+   "title": "Software Issue",
+   "order_no": 9,
+   "endpoints": [
+    {
+     "model_id": "680b4367a0d70a0f278d9c5c",
+     "endpoint": "/services/ipad-pro/4th-gen-12-9-inch/software-issue",
+     "_id": "6a675c02bf41443db6a1e8b3"
+    }
+   ],
+   "image": {
+    "public_id": "service/ipad-pro-12.9-inch-4th-generation-software-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-4th-generation-software-issue.png"
+   },
+   "model_id": [
+    "680b4367a0d70a0f278d9c5c"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "69400629e3cb8bf613c30b7c"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Software Issue",
+     "website_name": "Software Issue",
+     "image_alt_text": "iPad Pro 12.9 Inch 4th Generation Software Issue",
+     "repair_image": {
+      "public_id": "service/ipad-pro-12.9-inch-4th-generation-software-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-4th-generation-software-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a675c02bf41443db6a1e8b5"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-15T12:59:21.083Z",
+   "updated_at": "2026-07-27T13:24:18.252Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 12.9 Inch 4th Gen (2020)",
+     "image": {
+      "public_id": "model/iPad-Pro-12.9-Inch-4th-Gen-(2020).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-4th-Gen-(2020).png"
+     },
+     "endpoint": "4th-gen-12-9-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 12.9 Inch 4th Gen (2020) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 12.9 Inch 4th Gen (2020) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "686a574d19055242d5b9303a",
+   "title": "Speaker Replacement",
+   "order_no": 6,
+   "image": {
+    "public_id": "service/ipad-pro-12.9-inch-4th-generation-2020-speaker-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-4th-generation-2020-speaker-replacement.png"
+   },
+   "model_id": [
+    "680b4367a0d70a0f278d9c5c"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "686a574d19055242d5b9303b"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Speaker Replacement",
+     "website_name": "Speaker Replacement",
+     "image_alt_text": "iPad Pro 12.9 Inch 4th Generation 2020 Speaker Replacement",
+     "repair_image": {
+      "public_id": "service/ipad-pro-12.9-inch-4th-generation-2020-speaker-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-4th-generation-2020-speaker-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 4000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a67512ebf41443db69de86c"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-06T11:00:29.791Z",
+   "updated_at": "2026-07-27T12:38:06.626Z",
+   "endpoints": [
+    {
+     "model_id": "680b4367a0d70a0f278d9c5c",
+     "endpoint": "/services/ipad-pro/4th-gen-12-9-inch/speaker-replacement",
+     "_id": "6a67512ebf41443db69de86a"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 12.9 Inch 4th Gen (2020)",
+     "image": {
+      "public_id": "model/iPad-Pro-12.9-Inch-4th-Gen-(2020).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-4th-Gen-(2020).png"
+     },
+     "endpoint": "4th-gen-12-9-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 12.9 Inch 4th Gen (2020) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 12.9 Inch 4th Gen (2020) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "6940059ee3cb8bf613c30b33",
+   "title": "Camera Replacement",
+   "order_no": 7,
+   "endpoints": [
+    {
+     "model_id": "680b4367a0d70a0f278d9c5c",
+     "endpoint": "/services/ipad-pro/4th-gen-12-9-inch/camera-replacement",
+     "_id": "6a6752ecbf41443db69deb2e"
+    }
+   ],
+   "image": {
+    "public_id": "service/ipad-pro-12.9-inch-4th-generation-2020-camera-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-4th-generation-2020-camera-replacement.png"
+   },
+   "model_id": [
+    "680b4367a0d70a0f278d9c5c"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "6940059ee3cb8bf613c30b35"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Camera Replacement",
+     "website_name": "Camera Replacement",
+     "image_alt_text": "iPad Pro 12.9 Inch 4th Generation 2020 Camera Replacement",
+     "repair_image": {
+      "public_id": "service/ipad-pro-12.9-inch-4th-generation-2020-camera-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-4th-generation-2020-camera-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 6000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a6752ecbf41443db69deb30"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-15T12:57:02.217Z",
+   "updated_at": "2026-07-27T12:45:32.554Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 12.9 Inch 4th Gen (2020)",
+     "image": {
+      "public_id": "model/iPad-Pro-12.9-Inch-4th-Gen-(2020).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-4th-Gen-(2020).png"
+     },
+     "endpoint": "4th-gen-12-9-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 12.9 Inch 4th Gen (2020) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 12.9 Inch 4th Gen (2020) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68beba93f4016bd30fe62ef7",
+   "title": "Display Replacement",
+   "order_no": 1,
+   "image": {
+    "public_id": "service/display-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/display-replacement.png"
+   },
+   "model_id": [
+    "680b4367a0d70a0f278d9c5c"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68beba93f4016bd30fe62ef8"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Display Replacement",
+     "image_alt_text": "iPad Pro 12.9 Inch 4th Gen Display Replacement",
+     "repair_image": {
+      "public_id": "service/display-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/display-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68fb7ae97495d2cd03281c09",
+     "product_variation_id": "68fb7ae97495d2cd03281c0c",
+     "_id": "6a12c8d1921f2574d9b5d112",
+     "product_data": {
+      "_id": "68fb7ae97495d2cd03281c09",
+      "product_id": "p336",
+      "name": "iPad Pro 12.9 Inch 4th Gen 2020 Display",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f1caed11479fdf2f3c1",
+      "device_id": "680a2fd4a0d70a0f278d98bf",
+      "model_id": "680b4367a0d70a0f278d9c5c",
+      "attachable_models": [
+       "680b4367a0d70a0f278d9c5c"
+      ],
+      "price": null,
+      "warranty": 0,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T13:11:05.437Z",
+      "updated_at": "2026-02-14T13:31:24.907Z",
+      "__v": 0,
+      "endpoint": "/product/ipad-pro-4th-gen-12-inch-display",
+      "warranty_note": "",
+      "website_name": "iPad Pro 12.9 Inch 4th Gen 2020 Display"
+     },
+     "product_variation_data": {
+      "_id": "68fb7ae97495d2cd03281c0c",
+      "name": "Display",
+      "quality": "Standard After Market",
+      "product_id": "68fb7ae97495d2cd03281c09",
+      "price": 35000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/ipad-pro-12.9-3rd-&-4th-gen-display.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/ipad-pro-12.9-3rd-&-4th-gen-display.png",
+        "_id": "694e83348a888ed233599112"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T13:11:05.900Z",
+      "updated_at": "2026-05-05T13:53:29.737Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-08T11:14:27.894Z",
+   "updated_at": "2026-05-24T09:45:53.946Z",
+   "endpoints": [
+    {
+     "model_id": "680b4367a0d70a0f278d9c5c",
+     "endpoint": "/services/ipad-pro/4th-gen-12-9-inch/display-replacement",
+     "_id": "6a12c8d1921f2574d9b5d110"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 12.9 Inch 4th Gen (2020)",
+     "image": {
+      "public_id": "model/iPad-Pro-12.9-Inch-4th-Gen-(2020).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-4th-Gen-(2020).png"
+     },
+     "endpoint": "4th-gen-12-9-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 12.9 Inch 4th Gen (2020) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 12.9 Inch 4th Gen (2020) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "686a5b6819055242d5b9307e",
+   "title": "Button Issue",
+   "order_no": 3,
+   "image": {
+    "public_id": "service/ipad-pro-12.9-inch-4th-generation-2020-button-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-4th-generation-2020-button-issue.png"
+   },
+   "model_id": [
+    "680b4367a0d70a0f278d9c5c"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "686a5b6819055242d5b9307f"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Button Issue",
+     "website_name": "Button Issue",
+     "image_alt_text": "iPad Pro 12.9 Inch 4th Generation 2020 Button Issue",
+     "repair_image": {
+      "public_id": "service/ipad-pro-12.9-inch-4th-generation-2020-button-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-4th-generation-2020-button-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 8000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a674cd1bf41443db69c91dc"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-06T11:18:00.579Z",
+   "updated_at": "2026-07-27T12:19:29.343Z",
+   "endpoints": [
+    {
+     "model_id": "680b4367a0d70a0f278d9c5c",
+     "endpoint": "/services/ipad-pro/4th-gen-12-9-inch/button-issue",
+     "_id": "6a674cd1bf41443db69c91da"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 12.9 Inch 4th Gen (2020)",
+     "image": {
+      "public_id": "model/iPad-Pro-12.9-Inch-4th-Gen-(2020).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-4th-Gen-(2020).png"
+     },
+     "endpoint": "4th-gen-12-9-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 12.9 Inch 4th Gen (2020) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 12.9 Inch 4th Gen (2020) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "69400664e3cb8bf613c30b9d",
+   "title": "Liquid Damage",
+   "order_no": 8,
+   "endpoints": [
+    {
+     "model_id": "680b4367a0d70a0f278d9c5c",
+     "endpoint": "/services/ipad-pro/4th-gen-12-9-inch/liquid-damage",
+     "_id": "6a675439bf41443db69f3e5e"
+    }
+   ],
+   "image": {
+    "public_id": "service/ipad-pro-12.9-inch-4th-generation-2020-liquid-damage.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-4th-generation-2020-liquid-damage.png"
+   },
+   "model_id": [
+    "680b4367a0d70a0f278d9c5c"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "69400664e3cb8bf613c30b9f"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Liquid Damage",
+     "website_name": "Liquid Damage",
+     "image_alt_text": "iPad Pro 12.9 Inch 4th Generation 2020 Liquid Damage",
+     "repair_image": {
+      "public_id": "service/ipad-pro-12.9-inch-4th-generation-2020-liquid-damage.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-4th-generation-2020-liquid-damage.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a675439bf41443db69f3e60"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-15T13:00:20.888Z",
+   "updated_at": "2026-07-27T12:51:05.313Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 12.9 Inch 4th Gen (2020)",
+     "image": {
+      "public_id": "model/iPad-Pro-12.9-Inch-4th-Gen-(2020).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-4th-Gen-(2020).png"
+     },
+     "endpoint": "4th-gen-12-9-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 12.9 Inch 4th Gen (2020) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 12.9 Inch 4th Gen (2020) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "686a5caf19055242d5b930e4",
+   "title": "Touch Replacement",
+   "order_no": 5,
+   "image": {
+    "public_id": "service/ipad-pro-12.9-inch-4th-generation-touch-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-4th-generation-touch-replacement.png"
+   },
+   "model_id": [
+    "680b4367a0d70a0f278d9c5c"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "686a5caf19055242d5b930e5"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Touch Replacement",
+     "website_name": "Touch Replacement",
+     "image_alt_text": "iPad Pro 12.9 Inch 4th Generation Touch Replacement",
+     "repair_image": {
+      "public_id": "service/ipad-pro-12.9-inch-4th-generation-touch-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-12.9-inch-4th-generation-touch-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 12000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a6750b9bf41443db69de76d"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-06T11:23:27.385Z",
+   "updated_at": "2026-07-27T12:36:09.224Z",
+   "endpoints": [
+    {
+     "model_id": "680b4367a0d70a0f278d9c5c",
+     "endpoint": "/services/ipad-pro/4th-gen-12-9-inch/touch-replacement",
+     "_id": "6a6750b9bf41443db69de76b"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 12.9 Inch 4th Gen (2020)",
+     "image": {
+      "public_id": "model/iPad-Pro-12.9-Inch-4th-Gen-(2020).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-12.9-Inch-4th-Gen-(2020).png"
+     },
+     "endpoint": "4th-gen-12-9-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 12.9 Inch 4th Gen (2020) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 12.9 Inch 4th Gen (2020) from iFixit BD"
+    }
+   ]
+  }
+ ],
+ "totalData": 9
+}

@@ -1,0 +1,1221 @@
+{
+ "success": true,
+ "message": "successful",
+ "data": [
+  {
+   "_id": "686a23eb19055242d5b92fb2",
+   "title": "Camera Replacement",
+   "order_no": 7,
+   "image": {
+    "public_id": "service/ipad-air-5th-generation-2022-camera-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-5th-generation-2022-camera-replacement.png"
+   },
+   "model_id": [
+    "680b581fa0d70a0f278d9d9a"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "686a23eb19055242d5b92fb3"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Camera Replacement",
+     "website_name": "Camera Replacement",
+     "image_alt_text": "iPad Air 5th Generation 2022 Camera Replacement",
+     "repair_image": {
+      "public_id": "service/ipad-air-5th-generation-2022-camera-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-5th-generation-2022-camera-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 8000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a6736a2bf41443db68f353e"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-06T07:21:15.195Z",
+   "updated_at": "2026-07-27T10:44:50.378Z",
+   "endpoints": [
+    {
+     "model_id": "680b581fa0d70a0f278d9d9a",
+     "endpoint": "/services/ipad-air/5th-2022/camera-replacement",
+     "_id": "6a6736a2bf41443db68f353c"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 5th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Air-5th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-5th-Gen-(2022).png"
+     },
+     "endpoint": "5th-2022",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 5th Gen (2022) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 5th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68fc66817495d2cd032823a8",
+   "title": "Display Replacement",
+   "order_no": 1,
+   "image": {
+    "public_id": "service/display-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/display-replacement.png"
+   },
+   "model_id": [
+    "680b581fa0d70a0f278d9d9a"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68fc66817495d2cd032823a9"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Display Replacement",
+     "image_alt_text": "iPad Air 5th Gen Display Replacement",
+     "repair_image": {
+      "public_id": "service/display-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/display-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68fb63327495d2cd03281834",
+     "product_variation_id": "68fb63327495d2cd03281837",
+     "_id": "6a674b47bf41443db69b3e98",
+     "product_data": {
+      "_id": "68fb63327495d2cd03281834",
+      "product_id": "p310",
+      "name": "iPad Air 5th Gen 2022 Display",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f1caed11479fdf2f3c1",
+      "device_id": "680a2fc0a0d70a0f278d98b4",
+      "model_id": "680b581fa0d70a0f278d9d9a",
+      "attachable_models": [
+       "680b581fa0d70a0f278d9d9a"
+      ],
+      "price": null,
+      "warranty": 0,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T11:29:54.138Z",
+      "updated_at": "2026-02-14T07:06:45.831Z",
+      "__v": 0,
+      "endpoint": "/product/ipad-air-5th-gen-display",
+      "warranty_note": "",
+      "website_name": "iPad Air 5th Gen 2022 Display"
+     },
+     "product_variation_data": {
+      "_id": "68fb63327495d2cd03281837",
+      "name": "Display",
+      "quality": "Standard After Market",
+      "product_id": "68fb63327495d2cd03281834",
+      "price": 32000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/ipad-air-4,-5-&-6-display.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/ipad-air-4,-5-&-6-display.png",
+        "_id": "694e723b8a888ed233595e41"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T11:29:54.572Z",
+      "updated_at": "2026-05-05T13:50:49.683Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-25T05:56:17.353Z",
+   "updated_at": "2026-07-27T12:12:55.230Z",
+   "endpoints": [
+    {
+     "model_id": "680b581fa0d70a0f278d9d9a",
+     "endpoint": "/services/ipad-air/5th-2022/display-replacement",
+     "_id": "6a674b47bf41443db69b3e96"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 5th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Air-5th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-5th-Gen-(2022).png"
+     },
+     "endpoint": "5th-2022",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 5th Gen (2022) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 5th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "686a218e19055242d5b92f4c",
+   "title": "Touch Replacement",
+   "order_no": 5,
+   "image": {
+    "public_id": "service/ipad-air-11-inch-5th-generation-2022-touch-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-11-inch-5th-generation-2022-touch-replacement.png"
+   },
+   "model_id": [
+    "680b581fa0d70a0f278d9d9a"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "686a218e19055242d5b92f4d"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Touch Replacement",
+     "website_name": "Touch Replacement",
+     "image_alt_text": "iPad Air 11 Inch 5th Generation 2022 Touch Replacement",
+     "repair_image": {
+      "public_id": "service/ipad-air-11-inch-5th-generation-2022-touch-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-11-inch-5th-generation-2022-touch-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 12000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a67296bbf41443db68b2d8e"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-06T07:11:10.992Z",
+   "updated_at": "2026-07-27T09:48:27.323Z",
+   "endpoints": [
+    {
+     "model_id": "680b581fa0d70a0f278d9d9a",
+     "endpoint": "/services/ipad-air/5th-2022/touch-replacement",
+     "_id": "6a67296bbf41443db68b2d8c"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 5th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Air-5th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-5th-Gen-(2022).png"
+     },
+     "endpoint": "5th-2022",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 5th Gen (2022) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 5th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "686a1fa319055242d5b92f2a",
+   "title": "Button Issue",
+   "order_no": 3,
+   "image": {
+    "public_id": "service/ipad-air-5th-generation-2022-button-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-5th-generation-2022-button-issue.png"
+   },
+   "model_id": [
+    "680b581fa0d70a0f278d9d9a"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "686a1fa319055242d5b92f2b"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Button Issue",
+     "website_name": "Button Issue",
+     "image_alt_text": "iPad Air 5th Generation 2022 Button Issue",
+     "repair_image": {
+      "public_id": "service/ipad-air-5th-generation-2022-button-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-5th-generation-2022-button-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 8000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a67213cbf41443db685e3dd"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-06T07:02:59.137Z",
+   "updated_at": "2026-07-27T09:13:32.806Z",
+   "endpoints": [
+    {
+     "model_id": "680b581fa0d70a0f278d9d9a",
+     "endpoint": "/services/ipad-air/5th-2022/button-issue",
+     "_id": "6a67213cbf41443db685e3db"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 5th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Air-5th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-5th-Gen-(2022).png"
+     },
+     "endpoint": "5th-2022",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 5th Gen (2022) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 5th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "686a5a4b19055242d5b9305c",
+   "title": "Software Issue",
+   "order_no": 9,
+   "image": {
+    "public_id": "service/ipad-air-5th-generation-2022-software-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-5th-generation-2022-software-issue.png"
+   },
+   "model_id": [
+    "680b581fa0d70a0f278d9d9a"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "686a5a4b19055242d5b9305d"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Software Issue",
+     "website_name": "Software Issue",
+     "image_alt_text": "iPad Air 5th Generation 2022 Software Issue",
+     "repair_image": {
+      "public_id": "service/ipad-air-5th-generation-2022-software-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-5th-generation-2022-software-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a674afcbf41443db69b3e2b"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-06T11:13:15.160Z",
+   "updated_at": "2026-07-27T12:11:40.676Z",
+   "endpoints": [
+    {
+     "model_id": "680b581fa0d70a0f278d9d9a",
+     "endpoint": "/services/ipad-air/5th-2022/software-issues",
+     "_id": "6a674afcbf41443db69b3e29"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 5th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Air-5th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-5th-Gen-(2022).png"
+     },
+     "endpoint": "5th-2022",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 5th Gen (2022) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 5th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68692abd19055242d5b92db0",
+   "title": "Liquid Damage",
+   "order_no": 8,
+   "image": {
+    "public_id": "service/error-solution.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/error-solution.png"
+   },
+   "model_id": [
+    "680b581fa0d70a0f278d9d9a"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68692abd19055242d5b92db1"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Liquid Damage",
+     "website_name": "Liquid Damage",
+     "image_alt_text": "iPad Air 5th Generation 2022 Liquid Damage",
+     "repair_image": {
+      "public_id": "service/f289bc10-615e-4f88-ba15-0f0f3c787306.png",
+      "url": "https://my-invento.s3.ap-southeast-1.amazonaws.com/service/f289bc10-615e-4f88-ba15-0f0f3c787306.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a673715bf41443db68f35ea"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-05T13:38:05.733Z",
+   "updated_at": "2026-07-27T10:46:45.015Z",
+   "endpoints": [
+    {
+     "model_id": "680b581fa0d70a0f278d9d9a",
+     "endpoint": "/services/ipad-air/5th-2022/liquid-damage",
+     "_id": "6a673715bf41443db68f35e8"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 5th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Air-5th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-5th-Gen-(2022).png"
+     },
+     "endpoint": "5th-2022",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 5th Gen (2022) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 5th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "686a229919055242d5b92f90",
+   "title": "Speaker Replacement",
+   "order_no": 6,
+   "image": {
+    "public_id": "service/ipad-air-11-inch-5th-generation-speaker-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-11-inch-5th-generation-speaker-replacement.png"
+   },
+   "model_id": [
+    "680b581fa0d70a0f278d9d9a"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "686a229919055242d5b92f91"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Speaker Replacement",
+     "website_name": "Speaker Replacement",
+     "image_alt_text": "iPad Air 11 Inch 5th Generation Speaker Replacement",
+     "repair_image": {
+      "public_id": "service/ipad-air-11-inch-5th-generation-speaker-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-11-inch-5th-generation-speaker-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 4000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a672cc5bf41443db68dd276"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-06T07:15:37.647Z",
+   "updated_at": "2026-07-27T10:02:45.969Z",
+   "endpoints": [
+    {
+     "model_id": "680b581fa0d70a0f278d9d9a",
+     "endpoint": "/services/ipad-air/5th-2022/speaker-replacement",
+     "_id": "6a672cc5bf41443db68dd274"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 5th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Air-5th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-5th-Gen-(2022).png"
+     },
+     "endpoint": "5th-2022",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 5th Gen (2022) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 5th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68fc670f7495d2cd03282437",
+   "title": "Battery Replacement",
+   "order_no": 2,
+   "image": {
+    "public_id": "service/battery-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/battery-issue.png"
+   },
+   "model_id": [
+    "680b581fa0d70a0f278d9d9a"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68fc670f7495d2cd03282438"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Battery Replacement",
+     "image_alt_text": "iPad Air 5th Gen Battery Replacement",
+     "repair_image": {
+      "public_id": "service/battery-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/battery-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68fb6d3c7495d2cd0328196b",
+     "product_variation_id": "68fb6d3c7495d2cd0328196e",
+     "_id": "6a12af4b173a1ff5384ab3be",
+     "product_data": {
+      "_id": "68fb6d3c7495d2cd0328196b",
+      "product_id": "p319",
+      "name": "iPad Air 5th Gen 2022 Battery",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f28aed11479fdf2f3ca",
+      "device_id": "680a2fc0a0d70a0f278d98b4",
+      "model_id": "680b581fa0d70a0f278d9d9a",
+      "attachable_models": [
+       "680b581fa0d70a0f278d9d9a"
+      ],
+      "price": null,
+      "warranty": 0,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T12:12:44.011Z",
+      "updated_at": "2026-02-14T07:06:25.910Z",
+      "__v": 0,
+      "endpoint": "/product/ipad-air-5th-gen-battery",
+      "warranty_note": "",
+      "website_name": "iPad Air 5th Gen 2022 Battery"
+     },
+     "product_variation_data": {
+      "_id": "68fb6d3c7495d2cd0328196e",
+      "name": "Battery",
+      "quality": "Standard After Market",
+      "product_id": "68fb6d3c7495d2cd0328196b",
+      "price": 6000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/ipad-air-4,-5,-6-&-7-battery.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/ipad-air-4,-5,-6-&-7-battery.png",
+        "_id": "694e72318a888ed233595e39"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T12:12:44.899Z",
+      "updated_at": "2026-05-05T13:51:50.178Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-25T05:58:39.118Z",
+   "updated_at": "2026-05-24T07:56:59.448Z",
+   "endpoints": [
+    {
+     "model_id": "680b581fa0d70a0f278d9d9a",
+     "endpoint": "/services/ipad-air/5th-2022/battery-replacement",
+     "_id": "6a12af4b173a1ff5384ab3bc"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 5th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Air-5th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-5th-Gen-(2022).png"
+     },
+     "endpoint": "5th-2022",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 5th Gen (2022) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 5th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "686a1ed219055242d5b92f06",
+   "title": "Motherboard Repair",
+   "order_no": 4,
+   "image": {
+    "public_id": "service/ipad-air-5th-generation-2022-motherboard-repair.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-5th-generation-2022-motherboard-repair.png"
+   },
+   "model_id": [
+    "680b581fa0d70a0f278d9d9a"
+   ],
+   "device_id": "680a2fc0a0d70a0f278d98b4",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "686a1ed219055242d5b92f07"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Motherboard Repair",
+     "website_name": "Motherboard Repair",
+     "image_alt_text": "iPad Air 5th Generation 2022 Motherboard Repair",
+     "repair_image": {
+      "public_id": "service/ipad-air-5th-generation-2022-motherboard-repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-air-5th-generation-2022-motherboard-repair.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 15000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a672207bf41443db685e539"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-06T06:59:30.498Z",
+   "updated_at": "2026-07-27T09:16:55.435Z",
+   "endpoints": [
+    {
+     "model_id": "680b581fa0d70a0f278d9d9a",
+     "endpoint": "/services/ipad-air/5th-2022/motherboard-repair",
+     "_id": "6a672207bf41443db685e537"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Air",
+     "image": {
+      "public_id": "device/ipad-air.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Air 5th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Air-5th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-5th-Gen-(2022).png"
+     },
+     "endpoint": "5th-2022",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Air 5th Gen (2022) Repair Service",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Air 5th Gen (2022) from iFixit BD"
+    }
+   ]
+  }
+ ],
+ "totalData": 9
+}

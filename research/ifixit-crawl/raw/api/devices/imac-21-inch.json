@@ -1,0 +1,77 @@
+{
+ "message": "success",
+ "status": 200,
+ "data": [
+  {
+   "image": {
+    "public_id": "model/iMac-Intel-21.5-Inch-Retina-4K-Display-2019.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-21.5-Inch-Retina-4K-Display-2019.png"
+   },
+   "_id": "68b2adec55f5cfa31e2acc85",
+   "name": "iMac Intel 21.5 Inch Retina 4K Display 2019",
+   "order_no": 352,
+   "endpoint": "retina-2019"
+  },
+  {
+   "image": {
+    "public_id": "model/iMac-Intel-21.5-Inch-Retina-4K-Display-2017.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-21.5-Inch-Retina-4K-Display-2017.png"
+   },
+   "_id": "68b2adcd55f5cfa31e2acc7c",
+   "name": "iMac Intel 21.5 Inch Retina 4K Display 2017",
+   "order_no": 351,
+   "endpoint": "4k-2017"
+  },
+  {
+   "image": {
+    "public_id": "model/iMac-Intel-21.5-Inch-Retina-4K-Display-2015.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-21.5-Inch-Retina-4K-Display-2015.png"
+   },
+   "_id": "68b2adb055f5cfa31e2acc73",
+   "name": "iMac Intel 21.5 Inch Retina 4K Display 2015",
+   "order_no": 350,
+   "endpoint": "retina-2015"
+  },
+  {
+   "image": {
+    "public_id": "model/iMac-Intel-21.5-Inch-EMC-3068-Repair.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-21.5-Inch-EMC-3068-Repair.png"
+   },
+   "_id": "68b2ad9255f5cfa31e2acc6a",
+   "name": "iMac Intel 21.5 Inch Repair 2017",
+   "order_no": 349,
+   "endpoint": "retina-2017"
+  },
+  {
+   "image": {
+    "public_id": "model/iMac-Intel-21.5-Inch-Late-2015.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-21.5-Inch-Late-2015.png"
+   },
+   "_id": "68b2a3cf55f5cfa31e2acbc7",
+   "name": "iMac Intel 21.5 Inch Late 2015",
+   "order_no": 348,
+   "endpoint": "late-2015"
+  },
+  {
+   "image": {
+    "public_id": "model/iMac-Intel-21.5-Inch-Mid-2014.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-21.5-Inch-Mid-2014.png"
+   },
+   "_id": "68b2a3a555f5cfa31e2acbbe",
+   "name": "iMac Intel 21.5 Inch Mid 2014",
+   "order_no": 347,
+   "endpoint": "2014-mid"
+  }
+ ],
+ "childDevice": false,
+ "device": {
+  "_id": "68b2a23a55f5cfa31e2acba1",
+  "name": "iMac Intel 21 Inch Repair",
+  "meta_description": "Looking for a reliable iMac Intel 21.5 Inch repair service in Dhaka? iFixit BD offers expert repairs with genuine OEM parts, fast service, and certified technicians. \r\n",
+  "meta_keywords": "undefined",
+  "meta_title": "iMac Intel 21.5 Inch Repair Center in Dhaka, Bangladesh - iFixit BD",
+  "page_description": "<h2>Best iMac Intel 21.5 Inch Repair Service Center in Dhaka, Bangladesh</h2><p>Every Intel-based iMac 21.5-inch entering iFixit BD reflects sustained operational strain,keyboards dulled by constant input, displays marked by cracks or abrasions. Each unit undergoes a disciplined diagnostic protocol designed to isolate faults with analytical accuracy. Technicians proceed with repairs using authentic components, restoring system stability, performance integrity, and long-term reliability. The service framework prioritizes operational efficiency while maintaining full visibility: defined repair stages, documented progress updates. By completion, the iMac is recalibrated for consistent output, capable of supporting intensive professional workflows, creative production, and mission-critical tasks. The result reflects a convergence of Apple’s engineering principles and iFixit BD’s process-driven execution, where technical rigor and predictable outcomes guide every repair decision.</p><h2>Our iMac Intel 21.5 Inch Repair Service</h2><p>In the hands of iFixit BD, the iMac Intel 21.5 Inch is restored with care, each repair a quiet commitment to reliability.</p><p>Here are some of the iMac Intel 21.5 Inch repair services we offer:</p><ul><li>iMac Intel 21.5 Inch display replacement</li><li>iMac Intel 21.5 Inch liquid damage</li><li>iMac Intel 21.5 Inch motherboard repair</li><li>iMac Intel 21.5 Inch power supply replacement</li><li>iMac Intel 21.5 Inch RAM Upgrade</li><li>iMac Intel 21.5 Inch Os installation</li><li>iMac Intel 21.5 Inch power supply replacement</li><li>iMac Intel 21.5 Inch SSD</li></ul>",
+  "page_title": "iMac Intel 21.5 Inch Repair Services",
+  "page_title_description": "At iFixit BD, the iMac Intel 21.5-inch is renewed through deliberate workmanship, where every repair reflects a disciplined commitment to long-term reliability."
+ }
+}

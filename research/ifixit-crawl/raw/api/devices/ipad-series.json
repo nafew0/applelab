@@ -1,0 +1,81 @@
+{
+ "message": "success",
+ "status": 200,
+ "data": [
+  {
+   "image": {
+    "public_id": "device/ipad-mini.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-mini.png"
+   },
+   "_id": "680a29eea0d70a0f278d983f",
+   "name": "iPad Mini",
+   "order_no": 3,
+   "endpoint": "/services/ipad-mini",
+   "meta_description": "Searching for trusted iPad Mini repair services in Dhaka? At iFixit BD, we specialize in expert iPad Mini repairs, providing fast and efficient fix.\r\n",
+   "meta_keywords": "",
+   "meta_title": "Authentic iPad Mini Repair Center in Bangladesh - iFixit BD",
+   "page_description": "<h2>Top iPad Mini Repair Center in Dhaka, Bangladesh</h2><p>A malfunctioning iPad Mini quickly turns everyday tasks into sources of frustration. From streaming videos to managing work emails or helping with assignments, a broken display, drained battery, or unresponsive touch can pause everything. In Dhaka, users turn to a reliable iPad Mini repair shop for expert fixes that restore full functionality. Technicians encounter these issues most often:  cracked screen from drops, touch panels that ignore swipes, batteries that lose charge too soon, and LCD displays showing lines or dark spots. Each device goes through a careful diagnostic process. Experts use genuine parts to replace damaged components. This ensures the repair matches Apple standards and delivers responsive performance once again.The repair workflow prioritizes both speed and precision. Most repairs move quickly without sacrificing quality. Screen replacements, battery swaps, and LCD fixes typically complete within one to three hours.  Technicians test every function thoroughly before handover, so the iPad Mini returns ready for immediate use without lingering problems.</p><h2>Our iPad Mini Repair Services</h2><p>Careful checks, expert repairs, and long-lasting results define every iPad mini service offered by the top-tier Apple Device Care. Customers across the country rely on this trusted repair destination for its consistent focus on quality and dependable repair. Here are some of the iPad Mini repair services we offer:</p><ul><li>iPad Mini display replacement</li><li>iPad Mini Battery replacement</li><li>iPad Mini iPad water damage repair</li><li>iPad Mini Motherboard repair</li><li>iPad Mini Software solutions</li></ul>",
+   "page_title": "iPad Mini Repair Services",
+   "page_title_description": "Reliable iPad mini repair in Dhaka with skilled technicians, accurate diagnostics, and genuine parts—bringing back full performance, durability, and peace of mind."
+  },
+  {
+   "image": {
+    "public_id": "device/ipad-generation.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-generation.png"
+   },
+   "_id": "680a2faea0d70a0f278d98a9",
+   "name": "iPad Generation",
+   "order_no": 4,
+   "endpoint": "/services/ipad-gen",
+   "meta_description": "Need professional iPad generation repair in Dhaka? iFixit BD offers reliable repair solutions for all iPad generations with expert diagnostics and efficient turnaround.\r\n",
+   "meta_keywords": "",
+   "meta_title": "Trusted iPad Repair Center in Bangladesh - iFixit BD",
+   "page_description": "<h2>Leading iPad Generation Repair Center in Dhaka, Bangladesh</h2><p>When an iPad generation stops working as expected, productivity and daily routines suffer immediately. From office communication and academic work to creative projects and entertainment, even minor hardware or software faults can interrupt usage. Users in Dhaka seek an iPad generation repair center capable of handling every generation with equal precision. Common repair cases include shattered glass from accidental drops, touchscreens that respond inconsistently, batteries that no longer retain charge, and LCD panels affected by lines, shadows, or brightness loss. Each iPad enters a structured diagnostic process designed to identify the root cause, not just the visible symptom. Replacement parts are selected to meet performance and durability standards suitable for long-term use. Efficiency remains central to the repair process. Screen replacements, battery changes, and display repairs are typically completed within one to three hours. Every repaired iPad undergoes function testing before return, ensuring stable performance and reliable day-to-day use.</p><h2>Our iPad Generation Repair Services</h2><p>Technical accuracy, skilled execution, and long-term reliability define the iPad generation repair experience trusted by customers nationwide.<br/></p><p>Here are some of the iPad Mini repair services we offer:</p><ul><li>iPad Generation screen and display replacement</li><li>iPad Generation battery replacement</li><li>iPad Generation liquid damage repair</li><li>iPad Generation logic board repair</li></ul>",
+   "page_title": "iPad Generation Repair Services",
+   "page_title_description": "Professional iPad repair in Dhaka supported by experienced technicians, methodical diagnostics, and dependable components—ensuring consistent performance across every iPad generation."
+  },
+  {
+   "image": {
+    "public_id": "device/ipad-air.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-air.png"
+   },
+   "_id": "680a2fc0a0d70a0f278d98b4",
+   "name": "iPad Air",
+   "order_no": 5,
+   "endpoint": "/services/ipad-air",
+   "meta_description": "Searching  for trusted iPad Air repair services in Dhaka? At iFixit BD, we specialize in expert iPad Air repairs, providing fast and efficient fix.",
+   "meta_keywords": "",
+   "meta_title": "Authentic iPad Air Repair Center in Dhaka, Bangladesh - iFixit BD",
+   "page_description": "<h2>Premium iPad Air Repair Center in Dhaka, Bangladesh</h2><p>A damaged iPad Air rarely fails at a convenient moment. A dark screen during a meeting, a battery collapsing midway through class, or a charging port that stops responding can interrupt an entire day. At iFixit BD, these situations are routine—and so is restoring order. The focus stays on clarity, precision, and results that last. Customers visit our shop with devices that matter deeply: a child’s study tablet, a professional’s work tool, or a long-used iPad Air that still has value. Screen failures, unstable displays, battery swelling, and charging faults are assessed through careful diagnostics, not guesswork. Each repair follows a clear sequence—identify the fault, explain the solution, replace with original-grade parts, then test for stability. Inside our iPad Air repair Shop Dhaka, technicians work with restraint and discipline, treating every device as essential, not disposable. The outcome is simple: an iPad Air that feels dependable again, backed by warranty and thoughtful workmanship.</p><h2>Our iPad Air Repair Services</h2><p>Careful checks, expert repairs, and long-lasting results define every iPad mini service offered by the top tier Apple Care. Customers across the country rely on this trusted repair destination for its consistent focus on quality and dependable repair. Here are some of the iPad Air repair services we offer:</p><ul><li>iPad Air display replacement</li><li>iPad Air battery replacement</li><li>iPad Air water damage repair</li><li>iPad Air motherboard repair</li><li>iPad Air software solutions</li></ul>",
+   "page_title": "iPad Air Repair Services",
+   "page_title_description": "From the first inspection to final testing, iPad Air repairs in Dhaka are done with care, clarity, and uncompromising standards."
+  },
+  {
+   "image": {
+    "public_id": "device/ipad-pro.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+   },
+   "_id": "680a2fd4a0d70a0f278d98bf",
+   "name": "iPad Pro",
+   "order_no": 6,
+   "endpoint": "/services/ipad-pro",
+   "meta_description": "Searching  for trusted iPad Pro repair services in Dhaka? At iFixit BD, we specialize in expert iPad Pro repairs, providing fast and efficient fix.\r\n",
+   "meta_keywords": "",
+   "meta_title": "Authentic iPad Pro Repair Center in Dhaka, Bangladesh - iFixit BD",
+   "page_description": "<h2>Leading iPad Pro Repair Center in Dhaka, Bangladesh</h2><p>Accidents rarely give warnings. A single slip from hand can crack an iPad Pro screen, weaken the battery, or cause charging problems that stop your work instantly. In those moments, clear solutions matter more than fast promises. At iFixit BD, every repair starts with careful inspection. Technicians focus on the real cause of the problem, not just the visible damage. Screen cracks, battery drain, water exposure, and charging faults are handled with steady hands and proven repair methods. For screen and battery jobs, only genuine OEM parts are used to protect long-term performance. Our secure repair lab and advanced tools allow precise work across all iPad Pro models. So your iPad Pro feels dependable again, not temporary.</p><h2>Our iPad Pro Repair Services</h2><p>Reliability, not speed alone, defines every iPad Pro repair, supported by careful inspections and experienced technical handling. Here are some of the iPad Pro repair services we offer:</p><ul><li>iPad Air display replacement</li><li>iPad Air battery replacement</li><li>iPad Air water damage repair</li><li>iPad Air motherboard repair</li><li>iPad Air software solutions</li></ul>",
+   "page_title": "iPad Pro Repair Services",
+   "page_title_description": "iPad Pro repairs at iFixit BD, carried out by experts who prioritize accuracy, reliability, and long-term device performance."
+  }
+ ],
+ "childDevice": true,
+ "device": {
+  "_id": "680a2423a0d70a0f278d97af",
+  "name": "iPad Series",
+  "meta_description": "Welcome to iFixit BD, leading iPad repair Service in Dhaka. It is a popular name in Apple iPad repair center in Bangladesh.",
+  "meta_keywords": "",
+  "meta_title": "Best iPad Repair Service center Bangladesh - iFixit BD ",
+  "page_description": "<h2>Dhaka’s Premier iPad Repair Service Center</h2><p>In an era where the iPad has evolved into an indispensable gadget for productivity, education, entertainment, and daily routines. But a malfunction in an iPad can disrupt everything. From a broken display or depleted battery to liquid damage. Suddenly, this essential tool becomes a significant obstacle, halting momentum at the worst possible moment. In those moments, what matters most is trusting the hands that repair it. That trust has made iFixit BD one of the <strong>top iPad care.</strong> Anchored in rigorous checkups, exacting protocols, and enduring outcomes, the service stands out for its steady commitment to quality. This approach preserves optimal functionality, reliability, and overall device longevity, eschewing any compromises that could undermine performance. For sharp users in search of superior caretaking for their iPad, iFixit BD offers professional excellence grounded in deep specialization, proper execution, and sustained dependability.</p><h2>Our iPad Repair Services: Fix for Every Problem</h2><p>At iFixit BD, the emphasis remains on careful checks, expert fixes, and results that last a long time. Discerning customers throughout the nation consistently select this establishment as their premier iPad repair hub. Because we always believe in delivering great quality. Our iPad repair services include:</p><ul><li>iPad display replacement</li><li>iPad battery replacement</li><li>iPad motherboard repair</li><li>iPad ipad water damage repair</li><li>iPad software solutions</li><li>iPad general Troubleshooting<br/></li></ul><p>From easy fixes like changing parts to tough jobs like fixing the main board, <strong>iFixit BD </strong>stays one of the best places in Dhaka to repair iPads with expert help and great care for every customer.<br/></p>",
+  "page_title": "iPad Repair Services",
+  "page_title_description": "Precision-led iPad repair backed by expert diagnostics, genuine components, and disciplined processes—designed to restore reliability, performance, and long-term device value.\r\n"
+ }
+}

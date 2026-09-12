@@ -1,0 +1,1848 @@
+{
+ "success": true,
+ "message": "successful",
+ "data": [
+  {
+   "_id": "68bbdfc6f4016bd30fe61e28",
+   "title": "Motherboard Repair",
+   "order_no": 2,
+   "image": {
+    "public_id": "service/macbook-motherboard-repair.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-motherboard-repair.png"
+   },
+   "model_id": [
+    "68b2ae8c55f5cfa31e2accc2",
+    "68b2aeb855f5cfa31e2acccb",
+    "68b2aecf55f5cfa31e2accd4",
+    "68b2af4b55f5cfa31e2acce7"
+   ],
+   "device_id": "68b2a26555f5cfa31e2acbac",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bbdfc6f4016bd30fe61e29"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Motherboard Repair",
+     "website_name": "Motherboard Repair",
+     "image_alt_text": "iMac 27 Inch Retina 5k Late 2014, 2015, Mid 2017, iMac Pro, 2019 & 2020 Motherboard Repair",
+     "repair_image": {
+      "public_id": "service/macbook-motherboard-repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-motherboard-repair.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 12000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a79d4e5bf41443db6dc7797"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-06T07:16:22.167Z",
+   "updated_at": "2026-08-10T13:40:53.561Z",
+   "endpoints": [
+    {
+     "model_id": "68b2ae8c55f5cfa31e2accc2",
+     "endpoint": "/services/imac-27-inch/late-2014-2015/motherboard-repair",
+     "_id": "6a79d4e5bf41443db6dc7792"
+    },
+    {
+     "model_id": "68b2aeb855f5cfa31e2acccb",
+     "endpoint": "/services/imac-27-inch/mid-2017/motherboard-repair",
+     "_id": "6a79d4e5bf41443db6dc7793"
+    },
+    {
+     "model_id": "68b2aecf55f5cfa31e2accd4",
+     "endpoint": "/services/imac-27-inch/5k-2019/motherboard-repair",
+     "_id": "6a79d4e5bf41443db6dc7794"
+    },
+    {
+     "model_id": "68b2af4b55f5cfa31e2acce7",
+     "endpoint": "/services/imac-27-inch/pro-late-2017/motherboard-repair",
+     "_id": "6a79d4e5bf41443db6dc7795"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iMac Intel 27 Inch Repair",
+     "image": {
+      "public_id": "device/iMac-Intel-27-Inch.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/iMac-Intel-27-Inch.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display (Late 2014 & 2015)",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-(Late-2014-&-2015).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-(Late-2014-&-2015).png"
+     },
+     "endpoint": "late-2014-2015",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display (Late 2014 & 2015) Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Pro Late 2017",
+     "image": {
+      "public_id": "model/iMac-Pro-Late-2017.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Pro-Late-2017.png"
+     },
+     "endpoint": "pro-late-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Pro Late 2017 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display 2019",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-2019.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-2019.png"
+     },
+     "endpoint": "5k-2019",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display 2019 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display (Mid 2017)",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-(Mid-2017).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-(Mid-2017).png"
+     },
+     "endpoint": "mid-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display (Mid 2017) Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "68baed93f4016bd30fe61c72",
+   "title": "Camera Replacement",
+   "order_no": 7,
+   "image": {
+    "public_id": "service/camera-issues.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/camera-issues.png"
+   },
+   "model_id": [
+    "68b2ae8c55f5cfa31e2accc2",
+    "68b2aeb855f5cfa31e2acccb",
+    "68b2aecf55f5cfa31e2accd4",
+    "68b2af4b55f5cfa31e2acce7"
+   ],
+   "device_id": "68b2a26555f5cfa31e2acbac",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68baed93f4016bd30fe61c73"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Camera Replacement",
+     "website_name": "Camera Replacement",
+     "image_alt_text": "iMac 27 Inch Retina 5k Late 2014, 2015, Mid 2017, iMac Pro, 2019 & 2020 Camera Replacement",
+     "repair_image": {
+      "public_id": "service/camera-issues.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/camera-issues.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 12000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a7ad13bbf41443db601fe4b"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-05T14:02:59.621Z",
+   "updated_at": "2026-08-11T07:37:31.502Z",
+   "endpoints": [
+    {
+     "model_id": "68b2ae8c55f5cfa31e2accc2",
+     "endpoint": "/services/imac-27-inch/late-2014-2015/camera-replacement",
+     "_id": "6a7ad13bbf41443db601fe46"
+    },
+    {
+     "model_id": "68b2aeb855f5cfa31e2acccb",
+     "endpoint": "/services/imac-27-inch/mid-2017/camera-replacement",
+     "_id": "6a7ad13bbf41443db601fe47"
+    },
+    {
+     "model_id": "68b2aecf55f5cfa31e2accd4",
+     "endpoint": "/services/imac-27-inch/5k-2019/camera-replacement",
+     "_id": "6a7ad13bbf41443db601fe48"
+    },
+    {
+     "model_id": "68b2af4b55f5cfa31e2acce7",
+     "endpoint": "/services/imac-27-inch/pro-late-2017/camera-replacement",
+     "_id": "6a7ad13bbf41443db601fe49"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iMac Intel 27 Inch Repair",
+     "image": {
+      "public_id": "device/iMac-Intel-27-Inch.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/iMac-Intel-27-Inch.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display (Late 2014 & 2015)",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-(Late-2014-&-2015).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-(Late-2014-&-2015).png"
+     },
+     "endpoint": "late-2014-2015",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display (Late 2014 & 2015) Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Pro Late 2017",
+     "image": {
+      "public_id": "model/iMac-Pro-Late-2017.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Pro-Late-2017.png"
+     },
+     "endpoint": "pro-late-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Pro Late 2017 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display 2019",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-2019.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-2019.png"
+     },
+     "endpoint": "5k-2019",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display 2019 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display (Mid 2017)",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-(Mid-2017).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-(Mid-2017).png"
+     },
+     "endpoint": "mid-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display (Mid 2017) Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "68baed32f4016bd30fe61c2b",
+   "title": "RAM Upgrade",
+   "order_no": 6,
+   "image": {
+    "public_id": "service/temperature-high-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/temperature-high-issue.png"
+   },
+   "model_id": [
+    "68b2ae8c55f5cfa31e2accc2",
+    "68b2aeb855f5cfa31e2acccb",
+    "68b2aecf55f5cfa31e2accd4",
+    "68b2af4b55f5cfa31e2acce7"
+   ],
+   "device_id": "68b2a26555f5cfa31e2acbac",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68baed32f4016bd30fe61c2c"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "RAM Upgrade",
+     "website_name": "RAM Upgrade",
+     "image_alt_text": "iMac 27 Inch Retina 5k Late 2014, 2015, Mid 2017, iMac Pro, 2019 & 2020 RAM Upgrade",
+     "repair_image": {
+      "public_id": "service/temperature-high-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/temperature-high-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 0,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a7acd71bf41443db6fc234a"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-05T14:01:22.519Z",
+   "updated_at": "2026-08-11T07:21:21.280Z",
+   "endpoints": [
+    {
+     "model_id": "68b2ae8c55f5cfa31e2accc2",
+     "endpoint": "/services/imac-27-inch/late-2014-2015/ram-upgrade",
+     "_id": "6a7acd71bf41443db6fc2345"
+    },
+    {
+     "model_id": "68b2aeb855f5cfa31e2acccb",
+     "endpoint": "/services/imac-27-inch/mid-2017/ram-upgrade",
+     "_id": "6a7acd71bf41443db6fc2346"
+    },
+    {
+     "model_id": "68b2aecf55f5cfa31e2accd4",
+     "endpoint": "/services/imac-27-inch/5k-2019/ram-upgrade",
+     "_id": "6a7acd71bf41443db6fc2347"
+    },
+    {
+     "model_id": "68b2af4b55f5cfa31e2acce7",
+     "endpoint": "/services/imac-27-inch/pro-late-2017/ram-upgrade",
+     "_id": "6a7acd71bf41443db6fc2348"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iMac Intel 27 Inch Repair",
+     "image": {
+      "public_id": "device/iMac-Intel-27-Inch.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/iMac-Intel-27-Inch.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display (Late 2014 & 2015)",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-(Late-2014-&-2015).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-(Late-2014-&-2015).png"
+     },
+     "endpoint": "late-2014-2015",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display (Late 2014 & 2015) Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Pro Late 2017",
+     "image": {
+      "public_id": "model/iMac-Pro-Late-2017.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Pro-Late-2017.png"
+     },
+     "endpoint": "pro-late-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Pro Late 2017 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display 2019",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-2019.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-2019.png"
+     },
+     "endpoint": "5k-2019",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display 2019 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display (Mid 2017)",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-(Mid-2017).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-(Mid-2017).png"
+     },
+     "endpoint": "mid-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display (Mid 2017) Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "68bbdf5ff4016bd30fe61de4",
+   "title": "Power Supply Replacement",
+   "order_no": 3,
+   "image": {
+    "public_id": "service/power-issues.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/power-issues.png"
+   },
+   "model_id": [
+    "68b2ae8c55f5cfa31e2accc2",
+    "68b2aeb855f5cfa31e2acccb",
+    "68b2aecf55f5cfa31e2accd4",
+    "68b2af4b55f5cfa31e2acce7"
+   ],
+   "device_id": "68b2a26555f5cfa31e2acbac",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bbdf5ff4016bd30fe61de5"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Power Supply Replacement",
+     "website_name": "Power Supply Replacement",
+     "image_alt_text": "iMac 27 Inch Retina 5k Late 2014, 2015, Mid 2017, iMac Pro, 2019 & 2020 Power Supply Replacement",
+     "repair_image": {
+      "public_id": "service/power-issues.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/power-issues.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 15000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a79d5dabf41443db6ddeaed"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-06T07:14:39.253Z",
+   "updated_at": "2026-08-10T13:44:58.380Z",
+   "endpoints": [
+    {
+     "model_id": "68b2ae8c55f5cfa31e2accc2",
+     "endpoint": "/services/imac-27-inch/late-2014-2015/power-supply-replacement",
+     "_id": "6a79d5dabf41443db6ddeae8"
+    },
+    {
+     "model_id": "68b2aeb855f5cfa31e2acccb",
+     "endpoint": "/services/imac-27-inch/mid-2017/power-supply-replacement",
+     "_id": "6a79d5dabf41443db6ddeae9"
+    },
+    {
+     "model_id": "68b2aecf55f5cfa31e2accd4",
+     "endpoint": "/services/imac-27-inch/5k-2019/power-supply-replacement",
+     "_id": "6a79d5dabf41443db6ddeaea"
+    },
+    {
+     "model_id": "68b2af4b55f5cfa31e2acce7",
+     "endpoint": "/services/imac-27-inch/pro-late-2017/power-supply-replacement",
+     "_id": "6a79d5dabf41443db6ddeaeb"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iMac Intel 27 Inch Repair",
+     "image": {
+      "public_id": "device/iMac-Intel-27-Inch.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/iMac-Intel-27-Inch.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display (Late 2014 & 2015)",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-(Late-2014-&-2015).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-(Late-2014-&-2015).png"
+     },
+     "endpoint": "late-2014-2015",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display (Late 2014 & 2015) Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Pro Late 2017",
+     "image": {
+      "public_id": "model/iMac-Pro-Late-2017.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Pro-Late-2017.png"
+     },
+     "endpoint": "pro-late-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Pro Late 2017 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display 2019",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-2019.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-2019.png"
+     },
+     "endpoint": "5k-2019",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display 2019 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display (Mid 2017)",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-(Mid-2017).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-(Mid-2017).png"
+     },
+     "endpoint": "mid-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display (Mid 2017) Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "694a4cdd8a888ed233589e49",
+   "title": "Wifi Issue",
+   "order_no": 8,
+   "endpoints": [
+    {
+     "model_id": "68b2ae8c55f5cfa31e2accc2",
+     "endpoint": "/services/imac-27-inch/late-2014-2015/wifi-issue",
+     "_id": "6a7ad2c2bf41443db6037487"
+    },
+    {
+     "model_id": "68b2aeb855f5cfa31e2acccb",
+     "endpoint": "/services/imac-27-inch/mid-2017/wifi-issue",
+     "_id": "6a7ad2c2bf41443db6037488"
+    },
+    {
+     "model_id": "68b2aecf55f5cfa31e2accd4",
+     "endpoint": "/services/imac-27-inch/5k-2019/wifi-issue",
+     "_id": "6a7ad2c2bf41443db6037489"
+    },
+    {
+     "model_id": "68b2af4b55f5cfa31e2acce7",
+     "endpoint": "/services/imac-27-inch/pro-late-2017/wifi-issue",
+     "_id": "6a7ad2c2bf41443db603748a"
+    }
+   ],
+   "image": {
+    "public_id": "service/wifi-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/wifi-issue.png"
+   },
+   "model_id": [
+    "68b2ae8c55f5cfa31e2accc2",
+    "68b2aeb855f5cfa31e2acccb",
+    "68b2aecf55f5cfa31e2accd4",
+    "68b2af4b55f5cfa31e2acce7"
+   ],
+   "device_id": "68b2a26555f5cfa31e2acbac",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "694a4cdd8a888ed233589e4f"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Wifi Issue",
+     "website_name": "Wifi Issue",
+     "image_alt_text": "iMac 27 Inch Retina 5k Late 2014, 2015, Mid 2017, iMac Pro, 2019 & 2020 Wifi Issue",
+     "repair_image": {
+      "public_id": "service/wifi-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/wifi-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 12000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a7ad2c2bf41443db603748c"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-23T08:03:41.657Z",
+   "updated_at": "2026-08-11T07:44:02.335Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iMac Intel 27 Inch Repair",
+     "image": {
+      "public_id": "device/iMac-Intel-27-Inch.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/iMac-Intel-27-Inch.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display (Late 2014 & 2015)",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-(Late-2014-&-2015).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-(Late-2014-&-2015).png"
+     },
+     "endpoint": "late-2014-2015",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display (Late 2014 & 2015) Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Pro Late 2017",
+     "image": {
+      "public_id": "model/iMac-Pro-Late-2017.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Pro-Late-2017.png"
+     },
+     "endpoint": "pro-late-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Pro Late 2017 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display 2019",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-2019.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-2019.png"
+     },
+     "endpoint": "5k-2019",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display 2019 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display (Mid 2017)",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-(Mid-2017).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-(Mid-2017).png"
+     },
+     "endpoint": "mid-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display (Mid 2017) Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "68bbdf29f4016bd30fe61dc2",
+   "title": "Speaker Replacement",
+   "order_no": 4,
+   "image": {
+    "public_id": "service/macbook-speaker-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-speaker-replacement.png"
+   },
+   "model_id": [
+    "68b2ae8c55f5cfa31e2accc2",
+    "68b2aeb855f5cfa31e2acccb",
+    "68b2aecf55f5cfa31e2accd4",
+    "68b2af4b55f5cfa31e2acce7"
+   ],
+   "device_id": "68b2a26555f5cfa31e2acbac",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bbdf29f4016bd30fe61dc3"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Speaker Replacement",
+     "website_name": "Speaker Replacement",
+     "image_alt_text": "iMac 27 Inch Retina 5k Late 2014, 2015, Mid 2017, iMac Pro, 2019 & 2020 Speaker Replacement",
+     "repair_image": {
+      "public_id": "service/macbook-speaker-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-speaker-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 6000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a79d64dbf41443db6df5e7f"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-06T07:13:45.774Z",
+   "updated_at": "2026-08-10T13:46:53.966Z",
+   "endpoints": [
+    {
+     "model_id": "68b2ae8c55f5cfa31e2accc2",
+     "endpoint": "/services/imac-27-inch/late-2014-2015/speaker-replacement",
+     "_id": "6a79d64dbf41443db6df5e7a"
+    },
+    {
+     "model_id": "68b2aeb855f5cfa31e2acccb",
+     "endpoint": "/services/imac-27-inch/mid-2017/speaker-replacement",
+     "_id": "6a79d64dbf41443db6df5e7b"
+    },
+    {
+     "model_id": "68b2aecf55f5cfa31e2accd4",
+     "endpoint": "/services/imac-27-inch/5k-2019/speaker-replacement",
+     "_id": "6a79d64dbf41443db6df5e7c"
+    },
+    {
+     "model_id": "68b2af4b55f5cfa31e2acce7",
+     "endpoint": "/services/imac-27-inch/pro-late-2017/speaker-replacement",
+     "_id": "6a79d64dbf41443db6df5e7d"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iMac Intel 27 Inch Repair",
+     "image": {
+      "public_id": "device/iMac-Intel-27-Inch.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/iMac-Intel-27-Inch.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display (Late 2014 & 2015)",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-(Late-2014-&-2015).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-(Late-2014-&-2015).png"
+     },
+     "endpoint": "late-2014-2015",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display (Late 2014 & 2015) Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Pro Late 2017",
+     "image": {
+      "public_id": "model/iMac-Pro-Late-2017.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Pro-Late-2017.png"
+     },
+     "endpoint": "pro-late-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Pro Late 2017 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display 2019",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-2019.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-2019.png"
+     },
+     "endpoint": "5k-2019",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display 2019 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display (Mid 2017)",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-(Mid-2017).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-(Mid-2017).png"
+     },
+     "endpoint": "mid-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display (Mid 2017) Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "68bbde47f4016bd30fe61d57",
+   "title": "SSD Upgrade",
+   "order_no": 10,
+   "image": {
+    "public_id": "service/ssd.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ssd.png"
+   },
+   "model_id": [
+    "68b2ae8c55f5cfa31e2accc2",
+    "68b2aeb855f5cfa31e2acccb",
+    "68b2aecf55f5cfa31e2accd4",
+    "68b2af4b55f5cfa31e2acce7"
+   ],
+   "device_id": "68b2a26555f5cfa31e2acbac",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bbde47f4016bd30fe61d58"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "SSD Upgrade",
+     "website_name": "SSD Upgrade",
+     "image_alt_text": "iMac 27 Inch Retina 5k Late 2014, 2015, Mid 2017, iMac Pro, 2019 & 2020 SSD Upgrade",
+     "repair_image": {
+      "public_id": "service/ssd.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ssd.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 0,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a7ad43fbf41443db607d10f"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-06T07:09:59.137Z",
+   "updated_at": "2026-08-11T07:50:23.184Z",
+   "endpoints": [
+    {
+     "model_id": "68b2ae8c55f5cfa31e2accc2",
+     "endpoint": "/services/imac-27-inch/late-2014-2015/ssd-upgrade",
+     "_id": "6a7ad43fbf41443db607d10a"
+    },
+    {
+     "model_id": "68b2aeb855f5cfa31e2acccb",
+     "endpoint": "/services/imac-27-inch/mid-2017/ssd-upgrade",
+     "_id": "6a7ad43fbf41443db607d10b"
+    },
+    {
+     "model_id": "68b2aecf55f5cfa31e2accd4",
+     "endpoint": "/services/imac-27-inch/5k-2019/ssd-upgrade",
+     "_id": "6a7ad43fbf41443db607d10c"
+    },
+    {
+     "model_id": "68b2af4b55f5cfa31e2acce7",
+     "endpoint": "/services/imac-27-inch/pro-late-2017/ssd-upgrade",
+     "_id": "6a7ad43fbf41443db607d10d"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iMac Intel 27 Inch Repair",
+     "image": {
+      "public_id": "device/iMac-Intel-27-Inch.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/iMac-Intel-27-Inch.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display (Late 2014 & 2015)",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-(Late-2014-&-2015).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-(Late-2014-&-2015).png"
+     },
+     "endpoint": "late-2014-2015",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display (Late 2014 & 2015) Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Pro Late 2017",
+     "image": {
+      "public_id": "model/iMac-Pro-Late-2017.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Pro-Late-2017.png"
+     },
+     "endpoint": "pro-late-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Pro Late 2017 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display 2019",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-2019.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-2019.png"
+     },
+     "endpoint": "5k-2019",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display 2019 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display (Mid 2017)",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-(Mid-2017).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-(Mid-2017).png"
+     },
+     "endpoint": "mid-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display (Mid 2017) Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "68bbdf96f4016bd30fe61e06",
+   "title": "Cleaning Service",
+   "order_no": 9,
+   "image": {
+    "public_id": "service/cleaning-service.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/cleaning-service.png"
+   },
+   "model_id": [
+    "68b2ae8c55f5cfa31e2accc2",
+    "68b2aeb855f5cfa31e2acccb",
+    "68b2aecf55f5cfa31e2accd4",
+    "68b2af4b55f5cfa31e2acce7"
+   ],
+   "device_id": "68b2a26555f5cfa31e2acbac",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bbdf96f4016bd30fe61e07"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Cleaning Service",
+     "website_name": "Cleaning Service",
+     "image_alt_text": "iMac 27 Inch Retina 5k Late 2014, 2015, Mid 2017, iMac Pro, 2019 & 2020 Cleaning Service",
+     "repair_image": {
+      "public_id": "service/cleaning-service.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/cleaning-service.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a7ad3d9bf41443db604e9de"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-06T07:15:34.930Z",
+   "updated_at": "2026-08-11T07:48:41.230Z",
+   "endpoints": [
+    {
+     "model_id": "68b2ae8c55f5cfa31e2accc2",
+     "endpoint": "/services/imac-27-inch/late-2014-2015/cleaning-service",
+     "_id": "6a7ad3d9bf41443db604e9d9"
+    },
+    {
+     "model_id": "68b2aeb855f5cfa31e2acccb",
+     "endpoint": "/services/imac-27-inch/mid-2017/cleaning-service",
+     "_id": "6a7ad3d9bf41443db604e9da"
+    },
+    {
+     "model_id": "68b2aecf55f5cfa31e2accd4",
+     "endpoint": "/services/imac-27-inch/5k-2019/cleaning-service",
+     "_id": "6a7ad3d9bf41443db604e9db"
+    },
+    {
+     "model_id": "68b2af4b55f5cfa31e2acce7",
+     "endpoint": "/services/imac-27-inch/pro-late-2017/cleaning-service",
+     "_id": "6a7ad3d9bf41443db604e9dc"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iMac Intel 27 Inch Repair",
+     "image": {
+      "public_id": "device/iMac-Intel-27-Inch.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/iMac-Intel-27-Inch.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display (Late 2014 & 2015)",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-(Late-2014-&-2015).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-(Late-2014-&-2015).png"
+     },
+     "endpoint": "late-2014-2015",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display (Late 2014 & 2015) Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Pro Late 2017",
+     "image": {
+      "public_id": "model/iMac-Pro-Late-2017.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Pro-Late-2017.png"
+     },
+     "endpoint": "pro-late-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Pro Late 2017 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display 2019",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-2019.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-2019.png"
+     },
+     "endpoint": "5k-2019",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display 2019 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display (Mid 2017)",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-(Mid-2017).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-(Mid-2017).png"
+     },
+     "endpoint": "mid-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display (Mid 2017) Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "68baed6ff4016bd30fe61c4d",
+   "title": "Os Installation",
+   "order_no": 5,
+   "image": {
+    "public_id": "service/macbook-os-installation.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-os-installation.png"
+   },
+   "model_id": [
+    "68b2ae8c55f5cfa31e2accc2",
+    "68b2aeb855f5cfa31e2acccb",
+    "68b2aecf55f5cfa31e2accd4",
+    "68b2af4b55f5cfa31e2acce7"
+   ],
+   "device_id": "68b2a26555f5cfa31e2acbac",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68baed6ff4016bd30fe61c4e"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Os Installation",
+     "website_name": "Os Installation",
+     "image_alt_text": "iMac 27 Inch Retina 5k Late 2014, 2015, 2017, 2019 & 2020 Os Installation",
+     "repair_image": {
+      "public_id": "service/macbook-os-installation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-os-installation.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a7acc27bf41443db6faae44"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-05T14:02:23.632Z",
+   "updated_at": "2026-08-11T07:15:51.397Z",
+   "endpoints": [
+    {
+     "model_id": "68b2ae8c55f5cfa31e2accc2",
+     "endpoint": "/services/imac-27-inch/late-2014-2015/os-installation",
+     "_id": "6a7acc27bf41443db6faae3f"
+    },
+    {
+     "model_id": "68b2aeb855f5cfa31e2acccb",
+     "endpoint": "/services/imac-27-inch/mid-2017/os-installation",
+     "_id": "6a7acc27bf41443db6faae40"
+    },
+    {
+     "model_id": "68b2aecf55f5cfa31e2accd4",
+     "endpoint": "/services/imac-27-inch/5k-2019/os-installation",
+     "_id": "6a7acc27bf41443db6faae41"
+    },
+    {
+     "model_id": "68b2af4b55f5cfa31e2acce7",
+     "endpoint": "/services/imac-27-inch/pro-late-2017/os-installation",
+     "_id": "6a7acc27bf41443db6faae42"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iMac Intel 27 Inch Repair",
+     "image": {
+      "public_id": "device/iMac-Intel-27-Inch.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/iMac-Intel-27-Inch.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display (Late 2014 & 2015)",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-(Late-2014-&-2015).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-(Late-2014-&-2015).png"
+     },
+     "endpoint": "late-2014-2015",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display (Late 2014 & 2015) Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Pro Late 2017",
+     "image": {
+      "public_id": "model/iMac-Pro-Late-2017.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Pro-Late-2017.png"
+     },
+     "endpoint": "pro-late-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Pro Late 2017 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display 2019",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-2019.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-2019.png"
+     },
+     "endpoint": "5k-2019",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display 2019 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display (Mid 2017)",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-(Mid-2017).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-(Mid-2017).png"
+     },
+     "endpoint": "mid-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display (Mid 2017) Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "68bbdef0f4016bd30fe61da0",
+   "title": "Display Replacement",
+   "order_no": 1,
+   "image": {
+    "public_id": "service/macbook-display-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-display-replacement.png"
+   },
+   "model_id": [
+    "68b2ae8c55f5cfa31e2accc2",
+    "68b2aeb855f5cfa31e2acccb",
+    "68b2aecf55f5cfa31e2accd4",
+    "68b2af4b55f5cfa31e2acce7"
+   ],
+   "device_id": "68b2a26555f5cfa31e2acbac",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bbdef0f4016bd30fe61da1"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Display Replacement",
+     "image_alt_text": "iMac 27 Inch Retina 5k Late 2014, 2015, Mid 2017, iMac Pro, 2019 & 2020 Display Replacement",
+     "repair_image": {
+      "public_id": "service/macbook-display-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-display-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a79d3f4bf41443db6dc75df"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-06T07:12:48.773Z",
+   "updated_at": "2026-08-10T13:36:52.231Z",
+   "endpoints": [
+    {
+     "model_id": "68b2ae8c55f5cfa31e2accc2",
+     "endpoint": "/services/imac-27-inch/late-2014-2015/display-replacement",
+     "_id": "6a79d3f4bf41443db6dc75da"
+    },
+    {
+     "model_id": "68b2aeb855f5cfa31e2acccb",
+     "endpoint": "/services/imac-27-inch/mid-2017/display-replacement",
+     "_id": "6a79d3f4bf41443db6dc75db"
+    },
+    {
+     "model_id": "68b2aecf55f5cfa31e2accd4",
+     "endpoint": "/services/imac-27-inch/5k-2019/display-replacement",
+     "_id": "6a79d3f4bf41443db6dc75dc"
+    },
+    {
+     "model_id": "68b2af4b55f5cfa31e2acce7",
+     "endpoint": "/services/imac-27-inch/pro-late-2017/display-replacement",
+     "_id": "6a79d3f4bf41443db6dc75dd"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iMac Intel 27 Inch Repair",
+     "image": {
+      "public_id": "device/iMac-Intel-27-Inch.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/iMac-Intel-27-Inch.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display (Late 2014 & 2015)",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-(Late-2014-&-2015).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-(Late-2014-&-2015).png"
+     },
+     "endpoint": "late-2014-2015",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display (Late 2014 & 2015) Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Pro Late 2017",
+     "image": {
+      "public_id": "model/iMac-Pro-Late-2017.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Pro-Late-2017.png"
+     },
+     "endpoint": "pro-late-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Pro Late 2017 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display 2019",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-2019.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-2019.png"
+     },
+     "endpoint": "5k-2019",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display 2019 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "iMac Intel 27 Inch Retina 5K Display (Mid 2017)",
+     "image": {
+      "public_id": "model/iMac-Intel-27-Inch-Retina-5K-Display-(Mid-2017).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iMac-Intel-27-Inch-Retina-5K-Display-(Mid-2017).png"
+     },
+     "endpoint": "mid-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iMac Intel 27 Inch Retina 5K Display (Mid 2017) Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  }
+ ],
+ "totalData": 10
+}

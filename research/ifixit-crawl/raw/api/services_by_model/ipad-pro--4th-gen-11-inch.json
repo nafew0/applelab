@@ -1,0 +1,1222 @@
+{
+ "success": true,
+ "message": "successful",
+ "data": [
+  {
+   "_id": "694002e2e3cb8bf613c30ab5",
+   "title": "Touch Replacement",
+   "order_no": 5,
+   "endpoints": [
+    {
+     "model_id": "680b46eba0d70a0f278d9cb3",
+     "endpoint": "/services/ipad-pro/4th-gen-11-inch/touch-replacement",
+     "_id": "6a688e3dbf41443db6cf5e5c"
+    }
+   ],
+   "image": {
+    "public_id": "service/ipad-pro-11-inch-4th-generation-2022-touch-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-11-inch-4th-generation-2022-touch-replacement.png"
+   },
+   "model_id": [
+    "680b46eba0d70a0f278d9cb3"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "694002e2e3cb8bf613c30ab7"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Touch Replacement",
+     "website_name": "Touch Replacement",
+     "image_alt_text": "iPad Pro 11 Inch 4th Generation 2022 Touch Replacement",
+     "repair_image": {
+      "public_id": "service/ipad-pro-11-inch-4th-generation-2022-touch-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-11-inch-4th-generation-2022-touch-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 14000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a688e3dbf41443db6cf5e5e"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-15T12:45:22.422Z",
+   "updated_at": "2026-07-28T11:10:53.360Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 11 Inch 4th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Pro-11-Inch-4th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-11-Inch-4th-Gen-(2022).png"
+     },
+     "endpoint": "4th-gen-11-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 11 Inch 4th Gen (2022) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 11 Inch 4th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68664d0d84877e225d244d40",
+   "title": "Camera Replacement",
+   "order_no": 7,
+   "image": {
+    "public_id": "service/ipad-pro-11-inch-4th-generation-2022-camera-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-11-inch-4th-generation-2022-camera-replacement.png"
+   },
+   "model_id": [
+    "680b46eba0d70a0f278d9cb3"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68664d0d84877e225d244d41"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Camera Replacement",
+     "website_name": "Camera Replacement",
+     "image_alt_text": "iPad Pro 11 Inch 4th Generation 2022 Camera Replacement",
+     "repair_image": {
+      "public_id": "service/ipad-pro-11-inch-4th-generation-2022-camera-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-11-inch-4th-generation-2022-camera-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 4000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a689448bf41443db6d216c9"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-03T09:27:41.720Z",
+   "updated_at": "2026-07-28T11:36:40.027Z",
+   "endpoints": [
+    {
+     "model_id": "680b46eba0d70a0f278d9cb3",
+     "endpoint": "/services/ipad-pro/4th-gen-11-inch/camera-replacement",
+     "_id": "6a689448bf41443db6d216c7"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 11 Inch 4th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Pro-11-Inch-4th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-11-Inch-4th-Gen-(2022).png"
+     },
+     "endpoint": "4th-gen-11-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 11 Inch 4th Gen (2022) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 11 Inch 4th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "6863d7a584877e225d244bc3",
+   "title": "Speaker Replacement",
+   "order_no": 6,
+   "image": {
+    "public_id": "service/boot-loop.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/boot-loop.png"
+   },
+   "model_id": [
+    "680b46eba0d70a0f278d9cb3"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "6863d7a584877e225d244bc4"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Speaker Replacement",
+     "website_name": "Speaker Replacement",
+     "image_alt_text": "iPad Pro 11 Inch 4th Generation 2022 Speaker Replacement",
+     "repair_image": {
+      "public_id": "service/617e275c-80ca-45c9-acba-c0b9c444fe1e.png",
+      "url": "https://my-invento.s3.ap-southeast-1.amazonaws.com/service/617e275c-80ca-45c9-acba-c0b9c444fe1e.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 4000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a688ecfbf41443db6cf5fb2"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-01T12:42:13.838Z",
+   "updated_at": "2026-07-28T11:13:19.520Z",
+   "endpoints": [
+    {
+     "model_id": "680b46eba0d70a0f278d9cb3",
+     "endpoint": "/services/ipad-pro/4th-gen-11-inch/speaker-replacement",
+     "_id": "6a688ecfbf41443db6cf5fb0"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 11 Inch 4th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Pro-11-Inch-4th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-11-Inch-4th-Gen-(2022).png"
+     },
+     "endpoint": "4th-gen-11-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 11 Inch 4th Gen (2022) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 11 Inch 4th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68fc7f947495d2cd032828b6",
+   "title": "Battery Replacement",
+   "order_no": 2,
+   "image": {
+    "public_id": "service/battery-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/battery-issue.png"
+   },
+   "model_id": [
+    "680b46eba0d70a0f278d9cb3"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68fc7f947495d2cd032828b7"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Battery Replacement",
+     "image_alt_text": "iPad Pro 11 Inch 4th Gen Battery Replacement",
+     "repair_image": {
+      "public_id": "service/battery-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/battery-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68fb7efd7495d2cd03281cf7",
+     "product_variation_id": "68fb7efe7495d2cd03281cfa",
+     "_id": "6a12c1ea173a1ff538501895",
+     "product_data": {
+      "_id": "68fb7efd7495d2cd03281cf7",
+      "product_id": "p343",
+      "name": "iPad Pro 11 Inch 4th Gen 2022 Battery",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f28aed11479fdf2f3ca",
+      "device_id": "680a2fd4a0d70a0f278d98bf",
+      "model_id": "680b46eba0d70a0f278d9cb3",
+      "attachable_models": [
+       "680b46eba0d70a0f278d9cb3"
+      ],
+      "price": null,
+      "warranty": 0,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T13:28:29.492Z",
+      "updated_at": "2026-02-14T12:03:14.885Z",
+      "__v": 0,
+      "endpoint": "/product/ipad-pro-4th-gen-11-inch-battery",
+      "warranty_note": "",
+      "website_name": "iPad Pro 11 Inch 4th Gen 2022 Battery"
+     },
+     "product_variation_data": {
+      "_id": "68fb7efe7495d2cd03281cfa",
+      "name": "Battery",
+      "quality": "Standard After Market",
+      "product_id": "68fb7efd7495d2cd03281cf7",
+      "price": 7000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/ipad-pro-11-inch-3rd-&-4th--gen-battery.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/ipad-pro-11-inch-3rd-&-4th--gen-battery.png",
+        "_id": "694e821b8a888ed233599099"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T13:28:30.374Z",
+      "updated_at": "2026-05-05T13:54:33.181Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-25T07:43:16.573Z",
+   "updated_at": "2026-05-24T09:16:26.706Z",
+   "endpoints": [
+    {
+     "model_id": "680b46eba0d70a0f278d9cb3",
+     "endpoint": "/services/ipad-pro/4th-gen-11-inch/battery-replacement",
+     "_id": "6a12c1ea173a1ff538501893"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 11 Inch 4th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Pro-11-Inch-4th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-11-Inch-4th-Gen-(2022).png"
+     },
+     "endpoint": "4th-gen-11-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 11 Inch 4th Gen (2022) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 11 Inch 4th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "6867c47184877e225d245480",
+   "title": "Button Issue",
+   "order_no": 3,
+   "image": {
+    "public_id": "service/ipad-pro-11-inch-4th-generation-2022-button-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-11-inch-4th-generation-2022-button-issue.png"
+   },
+   "model_id": [
+    "680b46eba0d70a0f278d9cb3"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "6867c47184877e225d245481"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Button Issue",
+     "website_name": "Button Issue",
+     "image_alt_text": "iPad Pro 11 Inch 4th Generation 2022 Button Issue",
+     "repair_image": {
+      "public_id": "service/ipad-pro-11-inch-4th-generation-2022-button-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-11-inch-4th-generation-2022-button-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 6000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a6883c6bf41443db6c8a29a"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-04T12:09:21.539Z",
+   "updated_at": "2026-07-28T10:26:14.378Z",
+   "endpoints": [
+    {
+     "model_id": "680b46eba0d70a0f278d9cb3",
+     "endpoint": "/services/ipad-pro/4th-gen-11-inch/button-issue",
+     "_id": "6a6883c6bf41443db6c8a298"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 11 Inch 4th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Pro-11-Inch-4th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-11-Inch-4th-Gen-(2022).png"
+     },
+     "endpoint": "4th-gen-11-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 11 Inch 4th Gen (2022) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 11 Inch 4th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68fc7eb97495d2cd03282886",
+   "title": "Display Replacement",
+   "order_no": 1,
+   "image": {
+    "public_id": "service/display-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/display-replacement.png"
+   },
+   "model_id": [
+    "680b46eba0d70a0f278d9cb3"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68fc7eb97495d2cd03282887"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Display Replacement",
+     "image_alt_text": "iPad Pro 4th Gen 11 Inch Display Replacement",
+     "repair_image": {
+      "public_id": "service/display-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/display-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68fb78517495d2cd03281b4d",
+     "product_variation_id": "68fb78517495d2cd03281b50",
+     "_id": "6a12c1d1173a1ff538501857",
+     "product_data": {
+      "_id": "68fb78517495d2cd03281b4d",
+      "product_id": "p331",
+      "name": "iPad Pro 11 Inch 4th Gen 2022 Display",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f1caed11479fdf2f3c1",
+      "device_id": "680a2fd4a0d70a0f278d98bf",
+      "model_id": "680b46eba0d70a0f278d9cb3",
+      "attachable_models": [
+       "680b46eba0d70a0f278d9cb3"
+      ],
+      "price": null,
+      "warranty": 0,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T13:00:01.268Z",
+      "updated_at": "2026-02-14T12:03:39.893Z",
+      "__v": 0,
+      "endpoint": "/product/ipad-pro-4th-gen-11-inch-display",
+      "warranty_note": "",
+      "website_name": "iPad Pro 11 Inch 4th Gen 2022 Display"
+     },
+     "product_variation_data": {
+      "_id": "68fb78517495d2cd03281b50",
+      "name": "Display",
+      "quality": "Standard After Market",
+      "product_id": "68fb78517495d2cd03281b4d",
+      "price": 40000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/ipad-pro-11-inch-3rd-&-4th--gen-display-.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/ipad-pro-11-inch-3rd-&-4th--gen-display-.png",
+        "_id": "694e82268a888ed2335990a1"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T13:00:01.634Z",
+      "updated_at": "2026-05-05T13:53:04.758Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-25T07:39:37.509Z",
+   "updated_at": "2026-05-24T09:16:01.088Z",
+   "endpoints": [
+    {
+     "model_id": "680b46eba0d70a0f278d9cb3",
+     "endpoint": "/services/ipad-pro/4th-gen-11-inch/display-replacement",
+     "_id": "6a12c1d1173a1ff538501855"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 11 Inch 4th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Pro-11-Inch-4th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-11-Inch-4th-Gen-(2022).png"
+     },
+     "endpoint": "4th-gen-11-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 11 Inch 4th Gen (2022) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 11 Inch 4th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "6867d87c84877e225d24554c",
+   "title": "Motherboard Repair",
+   "order_no": 4,
+   "image": {
+    "public_id": "service/ipad-pro-11-inch-4th-generation-2022-motherboard-repair.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-11-inch-4th-generation-2022-motherboard-repair.png"
+   },
+   "model_id": [
+    "680b46eba0d70a0f278d9cb3"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "6867d87c84877e225d24554d"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Motherboard Repair",
+     "website_name": "Motherboard Repair",
+     "image_alt_text": "iPad Pro 11 Inch 4th Generation 2022 Motherboard Repair",
+     "repair_image": {
+      "public_id": "service/ipad-pro-11-inch-4th-generation-2022-motherboard-repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-11-inch-4th-generation-2022-motherboard-repair.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 15000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a688d59bf41443db6cf5c77"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-04T13:34:52.219Z",
+   "updated_at": "2026-07-28T11:07:05.312Z",
+   "endpoints": [
+    {
+     "model_id": "680b46eba0d70a0f278d9cb3",
+     "endpoint": "services/ipad-pro/4th-gen-11-inch/motherboard-repair",
+     "_id": "6a688d59bf41443db6cf5c75"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 11 Inch 4th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Pro-11-Inch-4th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-11-Inch-4th-Gen-(2022).png"
+     },
+     "endpoint": "4th-gen-11-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 11 Inch 4th Gen (2022) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 11 Inch 4th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "6863c6b084877e225d244ba1",
+   "title": "Liquid Damage",
+   "order_no": 8,
+   "image": {
+    "public_id": "service/ipad-pro-11-inch-4th-generation-2022-liquid-damage.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-11-inch-4th-generation-2022-liquid-damage.png"
+   },
+   "model_id": [
+    "680b46eba0d70a0f278d9cb3"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "6863c6b084877e225d244ba2"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Liquid Damage",
+     "website_name": "Liquid Damage",
+     "image_alt_text": "iPad Pro 11 Inch 4th Generation 2022 Liquid Damage",
+     "repair_image": {
+      "public_id": "service/ipad-pro-11-inch-4th-generation-2022-liquid-damage.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-11-inch-4th-generation-2022-liquid-damage.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a689c08bf41443db6d387cd"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-01T11:29:52.955Z",
+   "updated_at": "2026-07-28T12:09:44.456Z",
+   "endpoints": [
+    {
+     "model_id": "680b46eba0d70a0f278d9cb3",
+     "endpoint": "/services/ipad-pro/4th-gen-11-inch/liquid-damage",
+     "_id": "6a689c08bf41443db6d387cb"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 11 Inch 4th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Pro-11-Inch-4th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-11-Inch-4th-Gen-(2022).png"
+     },
+     "endpoint": "4th-gen-11-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 11 Inch 4th Gen (2022) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 11 Inch 4th Gen (2022) from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "6863d94984877e225d244c18",
+   "title": "Software Issue",
+   "order_no": 9,
+   "image": {
+    "public_id": "service/ipad-pro-11-inch-4th-generation-2022-software-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-11-inch-4th-generation-2022-software-issue.png"
+   },
+   "model_id": [
+    "680b46eba0d70a0f278d9cb3"
+   ],
+   "device_id": "680a2fd4a0d70a0f278d98bf",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "6863d94984877e225d244c19"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Software Issue",
+     "website_name": "Software Issue",
+     "image_alt_text": "iPad Pro 11 Inch 4th Generation 2022 Software Issue",
+     "repair_image": {
+      "public_id": "service/ipad-pro-11-inch-4th-generation-2022-software-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-pro-11-inch-4th-generation-2022-software-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a689cb7bf41443db6d4dbd6"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-01T12:49:13.828Z",
+   "updated_at": "2026-07-28T12:12:39.129Z",
+   "endpoints": [
+    {
+     "model_id": "680b46eba0d70a0f278d9cb3",
+     "endpoint": "/services/ipad-pro/4th-gen-11-inch/software-issue",
+     "_id": "6a689cb7bf41443db6d4dbd4"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Pro",
+     "image": {
+      "public_id": "device/ipad-pro.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-pro.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Pro 11 Inch 4th Gen (2022)",
+     "image": {
+      "public_id": "model/iPad-Pro-11-Inch-4th-Gen-(2022).png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Pro-11-Inch-4th-Gen-(2022).png"
+     },
+     "endpoint": "4th-gen-11-inch",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Pro 11 Inch 4th Gen (2022) Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Pro 11 Inch 4th Gen (2022) from iFixit BD"
+    }
+   ]
+  }
+ ],
+ "totalData": 9
+}

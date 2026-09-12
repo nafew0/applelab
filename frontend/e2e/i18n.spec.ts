@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test'
+import { SITE } from './site.config'
 
 test.describe('BP-2 i18n (locale routing, toggle, cookie, exclusions)', () => {
   test('root redirects to default locale with lang frame', async ({ page }) => {
@@ -10,7 +11,7 @@ test.describe('BP-2 i18n (locale routing, toggle, cookie, exclusions)', () => {
   test('bengali deep link renders translated copy with bn lang', async ({ page }) => {
     await page.goto('/bn')
     await expect(page.getByTestId('locale-frame')).toHaveAttribute('lang', 'bn')
-    await expect(page.getByTestId('hero-headline')).toContainText('বিশ্বস্ত লোকাল সার্ভিস')
+    await expect(page.getByTestId('hero-headline')).toContainText(SITE.heroHeadline.bn)
   })
 
   test('toggle switches locale, persists via cookie across visits', async ({ page }) => {

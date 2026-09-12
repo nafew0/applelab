@@ -1,0 +1,718 @@
+{
+ "success": true,
+ "message": "successful",
+ "data": [
+  {
+   "_id": "68ff2b077495d2cd03283c78",
+   "title": "Upper Glass Replacement",
+   "order_no": 2,
+   "image": {
+    "public_id": "service/apple-watch-upper-glass-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-upper-glass-replacement.png"
+   },
+   "model_id": [
+    "68a86fdd55f5cfa31e2abbbd"
+   ],
+   "device_id": "68a8640d55f5cfa31e2abad2",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68ff2b077495d2cd03283c79"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Upper Glass Replacement",
+     "website_name": "Upper Glass Replacement",
+     "image_alt_text": "Apple Watch Generation Series 7-45mm Upper Glass Replacement",
+     "repair_image": {
+      "public_id": "service/apple-watch-upper-glass-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-upper-glass-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 6000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a5f6d252b6ad2269dc9730f"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-27T08:19:19.483Z",
+   "updated_at": "2026-07-21T12:59:17.929Z",
+   "endpoints": [
+    {
+     "model_id": "68a86fdd55f5cfa31e2abbbd",
+     "endpoint": "/services/apple-watch-generation/series-7-45mm/upper-glass-replacement",
+     "_id": "6a5f6d252b6ad2269dc9730d"
+    }
+   ],
+   "meta_description": "Trust iFixit, Bangladesh's Authentic Apple Service Center, for Apple Watch Series 7 (45mm) upper glass replacement in Dhaka. Genuine OEM parts...",
+   "meta_keywords": "",
+   "meta_title": "Apple Watch Series 7 (45mm) Upper Glass Replacement | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Apple Watch Generation",
+     "image": {
+      "public_id": "device/Apple-Watch-Generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/Apple-Watch-Generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Apple Watch Series 7-45mm",
+     "image": {
+      "public_id": "model/Apple-Watch-Series-7-45mm.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Apple-Watch-Series-7-45mm.png"
+     },
+     "endpoint": "series-7-45mm",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Apple Watch Series 7-45mm Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "68ff2b3c7495d2cd03283c9a",
+   "title": "Speaker Replacement",
+   "order_no": 4,
+   "image": {
+    "public_id": "service/apple-watch-speaker-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-speaker-replacement.png"
+   },
+   "model_id": [
+    "68a86fdd55f5cfa31e2abbbd"
+   ],
+   "device_id": "68a8640d55f5cfa31e2abad2",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68ff2b3c7495d2cd03283c9b"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Speaker Replacement",
+     "website_name": "Speaker Replacement",
+     "image_alt_text": "Apple Watch Generation Series 7-45mm Speaker Replacement",
+     "repair_image": {
+      "public_id": "service/apple-watch-speaker-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-speaker-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a61ab8ad93f2e3d1ccf4869"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-27T08:20:12.982Z",
+   "updated_at": "2026-07-23T05:50:02.841Z",
+   "endpoints": [
+    {
+     "model_id": "68a86fdd55f5cfa31e2abbbd",
+     "endpoint": "/services/apple-watch-genration/series-7-45mm/speaker-replacement",
+     "_id": "6a61ab8ad93f2e3d1ccf4867"
+    }
+   ],
+   "meta_description": "Looking for reliable speaker replacement for your Apple Watch Series 7 (45mm)? iFixit, Bangladesh's Authentic Apple Service Center, delivers expert...",
+   "meta_keywords": "",
+   "meta_title": "Apple Watch Series 7 (45mm) Speaker Replacement | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Apple Watch Generation",
+     "image": {
+      "public_id": "device/Apple-Watch-Generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/Apple-Watch-Generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Apple Watch Series 7-45mm",
+     "image": {
+      "public_id": "model/Apple-Watch-Series-7-45mm.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Apple-Watch-Series-7-45mm.png"
+     },
+     "endpoint": "series-7-45mm",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Apple Watch Series 7-45mm Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "68ff2acf7495d2cd03283c4a",
+   "title": "Battery Replacement",
+   "order_no": 2,
+   "image": {
+    "public_id": "service/apple-watch-battery-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-battery-replacement.png"
+   },
+   "model_id": [
+    "68a86fdd55f5cfa31e2abbbd"
+   ],
+   "device_id": "68a8640d55f5cfa31e2abad2",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68ff2acf7495d2cd03283c4b"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Battery Replacement",
+     "image_alt_text": "Apple Watch Generation Series 7-45mm Battery Replacement",
+     "repair_image": {
+      "public_id": "service/apple-watch-battery-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-battery-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 0,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "695bbfa026358c8899abbd9d",
+     "product_variation_id": "695bbfa326358c8899abbda0",
+     "_id": "6a5f6cdf2b6ad2269dc972b2",
+     "product_data": {
+      "_id": "695bbfa026358c8899abbd9d",
+      "product_id": "p401",
+      "name": "Apple Watch Series 7-45mm Battery",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f28aed11479fdf2f3ca",
+      "device_id": "68a8640d55f5cfa31e2abad2",
+      "model_id": "68a86fdd55f5cfa31e2abbbd",
+      "attachable_models": [
+       "68a86fdd55f5cfa31e2abbbd"
+      ],
+      "price": null,
+      "warranty": null,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2026-01-05T13:41:52.936Z",
+      "updated_at": "2026-02-19T06:31:20.918Z",
+      "__v": 0,
+      "endpoint": "/product/apple-watch-series-7-45mm-battery",
+      "warranty_note": "",
+      "website_name": "Apple Watch Series 7-45mm Battery"
+     },
+     "product_variation_data": {
+      "_id": "695bbfa326358c8899abbda0",
+      "name": "Battery",
+      "quality": "Standard After Market",
+      "product_id": "695bbfa026358c8899abbd9d",
+      "price": 4000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/Apple-Watch-Series-7--45mm-battery.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/Apple-Watch-Series-7--45mm-battery.png",
+        "_id": "695bbfa326358c8899abbda1"
+       }
+      ],
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2026-01-05T13:41:55.052Z",
+      "updated_at": "2026-05-07T09:24:34.069Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-27T08:18:23.634Z",
+   "updated_at": "2026-07-21T12:58:07.282Z",
+   "endpoints": [
+    {
+     "model_id": "68a86fdd55f5cfa31e2abbbd",
+     "endpoint": "/services/apple-watch-generation/series-7-45mm/battery-replacement",
+     "_id": "6a5f6cdf2b6ad2269dc972b0"
+    }
+   ],
+   "meta_description": "Get professional battery replacement for Apple Watch Series 7 (45mm) at iFixit, Dhaka – Bangladesh's Authentic Apple Service Center. 100% genuine OEM...",
+   "meta_keywords": "",
+   "meta_title": "Apple Watch Series 7 (45mm) Battery Replacement | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Apple Watch Generation",
+     "image": {
+      "public_id": "device/Apple-Watch-Generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/Apple-Watch-Generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Apple Watch Series 7-45mm",
+     "image": {
+      "public_id": "model/Apple-Watch-Series-7-45mm.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Apple-Watch-Series-7-45mm.png"
+     },
+     "endpoint": "series-7-45mm",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Apple Watch Series 7-45mm Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "68ff2aa27495d2cd03283c25",
+   "title": "Display Replacement",
+   "order_no": 1,
+   "image": {
+    "public_id": "service/apple-watch-display-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-display-replacement.png"
+   },
+   "model_id": [
+    "68a86fdd55f5cfa31e2abbbd"
+   ],
+   "device_id": "68a8640d55f5cfa31e2abad2",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68ff2aa27495d2cd03283c26"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Display Replacement",
+     "image_alt_text": "Apple Watch Generation Series 7-45mm Display Replacement",
+     "repair_image": {
+      "public_id": "service/apple-watch-display-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-display-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 0,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "695bbedd26358c8899abbd65",
+     "product_variation_id": "695bbedf26358c8899abbd68",
+     "_id": "6a5f67492b6ad2269dc963be",
+     "product_data": {
+      "_id": "695bbedd26358c8899abbd65",
+      "product_id": "p399",
+      "name": "Apple Watch Series 7-45mm Display",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f1caed11479fdf2f3c1",
+      "device_id": "68a8640d55f5cfa31e2abad2",
+      "model_id": "68a86fdd55f5cfa31e2abbbd",
+      "attachable_models": [
+       "68a86fdd55f5cfa31e2abbbd"
+      ],
+      "price": null,
+      "warranty": null,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2026-01-05T13:38:37.990Z",
+      "updated_at": "2026-02-19T06:30:35.685Z",
+      "__v": 0,
+      "endpoint": "/product/apple-watch-series-7-45mm-display",
+      "warranty_note": "",
+      "website_name": "Apple Watch Series 7-45mm Display"
+     },
+     "product_variation_data": {
+      "_id": "695bbedf26358c8899abbd68",
+      "name": "Display",
+      "quality": "Standard After Market",
+      "product_id": "695bbedd26358c8899abbd65",
+      "price": 12000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/Apple-Watch-Series-7--45mm-display.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/Apple-Watch-Series-7--45mm-display.png",
+        "_id": "695bbedf26358c8899abbd69"
+       }
+      ],
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2026-01-05T13:38:39.214Z",
+      "updated_at": "2026-05-07T07:22:55.627Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-27T08:17:38.494Z",
+   "updated_at": "2026-07-21T12:34:17.941Z",
+   "endpoints": [
+    {
+     "model_id": "68a86fdd55f5cfa31e2abbbd",
+     "endpoint": "/services/apple-watch-generation/series-7-45mm/display-replacement",
+     "_id": "6a5f67492b6ad2269dc963bc"
+    }
+   ],
+   "meta_description": "Need display replacement for your Apple Watch Series 7 (45mm)? iFixit offers genuine OEM parts, certified technicians and full warranty in Dhaka –...",
+   "meta_keywords": "",
+   "meta_title": "Apple Watch Series 7 (45mm) Display Replacement | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Apple Watch Generation",
+     "image": {
+      "public_id": "device/Apple-Watch-Generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/Apple-Watch-Generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Apple Watch Series 7-45mm",
+     "image": {
+      "public_id": "model/Apple-Watch-Series-7-45mm.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Apple-Watch-Series-7-45mm.png"
+     },
+     "endpoint": "series-7-45mm",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Apple Watch Series 7-45mm Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "68ff2b877495d2cd03283cbf",
+   "title": "Software Issue",
+   "order_no": 5,
+   "image": {
+    "public_id": "service/apple-watch-software-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-software-issue.png"
+   },
+   "model_id": [
+    "68a86fdd55f5cfa31e2abbbd"
+   ],
+   "device_id": "68a8640d55f5cfa31e2abad2",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68ff2b877495d2cd03283cc0"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Software Issue",
+     "website_name": "Software Issue",
+     "image_alt_text": "Apple Watch Generation Series 7-45mm Software Issue",
+     "repair_image": {
+      "public_id": "service/apple-watch-software-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/apple-watch-software-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a61abc4d93f2e3d1ccf48c3"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-27T08:21:27.989Z",
+   "updated_at": "2026-07-23T05:51:00.637Z",
+   "endpoints": [
+    {
+     "model_id": "68a86fdd55f5cfa31e2abbbd",
+     "endpoint": "/services/apple-watch-generation/series-7-45mm/software-issue",
+     "_id": "6a61abc4d93f2e3d1ccf48c1"
+    }
+   ],
+   "meta_description": "Facing a software issue with your Apple Watch Series 7 (45mm)? iFixit, Bangladesh's Authentic Apple Service Center in Dhaka, offers expert care...",
+   "meta_keywords": "",
+   "meta_title": "Apple Watch Series 7 (45mm) Software Issue in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Apple Watch Generation",
+     "image": {
+      "public_id": "device/Apple-Watch-Generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/Apple-Watch-Generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Apple Watch Series 7-45mm",
+     "image": {
+      "public_id": "model/Apple-Watch-Series-7-45mm.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Apple-Watch-Series-7-45mm.png"
+     },
+     "endpoint": "series-7-45mm",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Apple Watch Series 7-45mm Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  }
+ ],
+ "totalData": 5
+}

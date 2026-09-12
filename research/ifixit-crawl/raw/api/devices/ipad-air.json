@@ -1,0 +1,107 @@
+{
+ "message": "success",
+ "status": 200,
+ "data": [
+  {
+   "image": {
+    "public_id": "model/iPad-Air-13-Inch-7th-Gen-(2025).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-13-Inch-7th-Gen-(2025).png"
+   },
+   "_id": "680b5bcaa0d70a0f278d9df6",
+   "name": "iPad Air 13 Inch 7th Gen (2025)",
+   "order_no": 76,
+   "endpoint": "7th-13-2025"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Air-11-Inch-7th-Gen-(2025).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-11-Inch-7th-Gen-(2025).png"
+   },
+   "_id": "680b5b0ba0d70a0f278d9deb",
+   "name": "iPad Air 11 Inch 7th Gen (2025)",
+   "order_no": 75,
+   "endpoint": "7th-11-2025"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Air-13-Inch-6th-Gen-(2024).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-13-Inch-6th-Gen-(2024).png"
+   },
+   "_id": "680b5964a0d70a0f278d9dc5",
+   "name": "iPad Air 13 Inch 6th Gen (2024)",
+   "order_no": 74,
+   "endpoint": "6th-13-2024"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Air-11-Inch-6th-Gen-(2024).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-11-Inch-6th-Gen-(2024).png"
+   },
+   "_id": "680b58dba0d70a0f278d9dab",
+   "name": "iPad Air 11 Inch 6th Gen (2024)",
+   "order_no": 73,
+   "endpoint": "6th-11-2024"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Air-5th-Gen-(2022).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-5th-Gen-(2022).png"
+   },
+   "_id": "680b581fa0d70a0f278d9d9a",
+   "name": "iPad Air 5th Gen (2022)",
+   "order_no": 72,
+   "endpoint": "5th-2022"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Air-4th-Gen-(2020).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-4th-Gen-(2020).png"
+   },
+   "_id": "680b5774a0d70a0f278d9d7e",
+   "name": "iPad Air 4th Gen (2020)",
+   "order_no": 71,
+   "endpoint": "4th-2020"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Air-3rd-Gen-(2019).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-3rd-Gen-(2019).png"
+   },
+   "_id": "680b5695a0d70a0f278d9d72",
+   "name": "iPad Air 3rd Gen (2019)",
+   "order_no": 70,
+   "endpoint": "3rd-2019"
+  },
+  {
+   "image": {
+    "public_id": "model/iPad-Air-2nd-Gen-(2014).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Air-2nd-Gen-(2014).png"
+   },
+   "_id": "680b55d1a0d70a0f278d9d5d",
+   "name": "iPad Air 2nd Gen (2014)",
+   "order_no": 69,
+   "endpoint": "2nd-2014"
+  },
+  {
+   "image": {
+    "public_id": "model/_iPad-Air-1st-Gen-(2013).png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/_iPad-Air-1st-Gen-(2013).png"
+   },
+   "_id": "680b5359a0d70a0f278d9d41",
+   "name": "iPad Air 1st Gen (2013)",
+   "order_no": 68,
+   "endpoint": "1st-2013"
+  }
+ ],
+ "childDevice": false,
+ "device": {
+  "_id": "680a2fc0a0d70a0f278d98b4",
+  "name": "iPad Air",
+  "meta_description": "Searching  for trusted iPad Air repair services in Dhaka? At iFixit BD, we specialize in expert iPad Air repairs, providing fast and efficient fix.",
+  "meta_keywords": "",
+  "meta_title": "Authentic iPad Air Repair Center in Dhaka, Bangladesh - iFixit BD",
+  "page_description": "<h2>Premium iPad Air Repair Center in Dhaka, Bangladesh</h2><p>A damaged iPad Air rarely fails at a convenient moment. A dark screen during a meeting, a battery collapsing midway through class, or a charging port that stops responding can interrupt an entire day. At iFixit BD, these situations are routine—and so is restoring order. The focus stays on clarity, precision, and results that last. Customers visit our shop with devices that matter deeply: a child’s study tablet, a professional’s work tool, or a long-used iPad Air that still has value. Screen failures, unstable displays, battery swelling, and charging faults are assessed through careful diagnostics, not guesswork. Each repair follows a clear sequence—identify the fault, explain the solution, replace with original-grade parts, then test for stability. Inside our iPad Air repair Shop Dhaka, technicians work with restraint and discipline, treating every device as essential, not disposable. The outcome is simple: an iPad Air that feels dependable again, backed by warranty and thoughtful workmanship.</p><h2>Our iPad Air Repair Services</h2><p>Careful checks, expert repairs, and long-lasting results define every iPad mini service offered by the top tier Apple Care. Customers across the country rely on this trusted repair destination for its consistent focus on quality and dependable repair. Here are some of the iPad Air repair services we offer:</p><ul><li>iPad Air display replacement</li><li>iPad Air battery replacement</li><li>iPad Air water damage repair</li><li>iPad Air motherboard repair</li><li>iPad Air software solutions</li></ul>",
+  "page_title": "iPad Air Repair Services",
+  "page_title_description": "From the first inspection to final testing, iPad Air repairs in Dhaka are done with care, clarity, and uncompromising standards."
+ }
+}

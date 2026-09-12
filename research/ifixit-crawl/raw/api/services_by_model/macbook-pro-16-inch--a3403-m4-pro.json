@@ -1,0 +1,1007 @@
+{
+ "success": true,
+ "message": "successful",
+ "data": [
+  {
+   "_id": "693ea52ee3cb8bf613c2e995",
+   "title": "Speaker Replacement",
+   "order_no": 5,
+   "endpoints": [
+    {
+     "model_id": "6a4ca1d06409e4026e01e06b",
+     "endpoint": "/services/macbook-pro-16-inch/a3403-m4-pro/speaker-replacement",
+     "_id": "6a4cca7e6409e4026e0df662"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-pro-16\"-m4-pro-speaker-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m4-pro-speaker-replacement.png"
+   },
+   "model_id": [
+    "6a4ca1d06409e4026e01e06b"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693ea52ee3cb8bf613c2e997"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Speaker Replacement",
+     "website_name": "Speaker Replacement",
+     "image_alt_text": "MacBook Pro 16\" M4 Pro Speaker Replacement",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16\"-m4-pro-speaker-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m4-pro-speaker-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 8000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a4cca7e6409e4026e0df664"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-14T11:53:18.780Z",
+   "updated_at": "2026-07-07T09:44:30.744Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M4 Pro (A3403)",
+     "endpoint": "a3403-m4-pro",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-Inch-M4-Pro-Repair-List-at-iFixit-BD.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-Inch-M4-Pro-Repair-List-at-iFixit-BD.png"
+     },
+     "allservice_meta_title": "",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_page_title": "MacBook Pro 16\" M4 Pro (A3403) Repair List",
+     "allservice_page_title_description": "Get repaired your faulty MacBook Pro 16\" M4 Pro (A3403) from iFixit BD",
+     "allservice_page_description": "<p></p>"
+    }
+   ]
+  },
+  {
+   "_id": "693ea688e3cb8bf613c2ea24",
+   "title": "Display Replacement",
+   "order_no": 1,
+   "endpoints": [
+    {
+     "model_id": "6a4ca1d06409e4026e01e06b",
+     "endpoint": "/services/macbook-pro-16-inch/a3403-m4-pro/display-replacement",
+     "_id": "6a4caa496409e4026e01f1bc"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-pro-16\"-m4-pro-display-replacement-service.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m4-pro-display-replacement-service.png"
+   },
+   "model_id": [
+    "6a4ca1d06409e4026e01e06b"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693ea688e3cb8bf613c2ea26"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Display Replacement",
+     "image_alt_text": "MacBook Pro 16\" M4 Pro Display Replacement Service",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16\"-m4-pro-display-replacement-service.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m4-pro-display-replacement-service.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a4caa496409e4026e01f1be"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-14T11:59:04.429Z",
+   "updated_at": "2026-07-07T07:27:05.473Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M4 Pro (A3403)",
+     "endpoint": "a3403-m4-pro",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-Inch-M4-Pro-Repair-List-at-iFixit-BD.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-Inch-M4-Pro-Repair-List-at-iFixit-BD.png"
+     },
+     "allservice_meta_title": "",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_page_title": "MacBook Pro 16\" M4 Pro (A3403) Repair List",
+     "allservice_page_title_description": "Get repaired your faulty MacBook Pro 16\" M4 Pro (A3403) from iFixit BD",
+     "allservice_page_description": "<p></p>"
+    }
+   ]
+  },
+  {
+   "_id": "693ea872e3cb8bf613c2eab3",
+   "title": "Trackpad Issue",
+   "order_no": 6,
+   "endpoints": [
+    {
+     "model_id": "6a4ca1d06409e4026e01e06b",
+     "endpoint": "/services/macbook-pro-16-inch/a3403-m4-pro/trackpad-issue",
+     "_id": "6a4cca996409e4026e0df67b"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-pro-16\"-trackpad-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-trackpad-issue.png"
+   },
+   "model_id": [
+    "6a4ca1d06409e4026e01e06b"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693ea872e3cb8bf613c2eab5"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Trackpad Issue",
+     "website_name": "Trackpad Issue",
+     "image_alt_text": "MacBook Pro 16\" M4 Pro Trackpad Issue",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16\"-trackpad-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-trackpad-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 14000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a4cca996409e4026e0df67d"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-14T12:07:14.600Z",
+   "updated_at": "2026-07-07T09:44:57.571Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M4 Pro (A3403)",
+     "endpoint": "a3403-m4-pro",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-Inch-M4-Pro-Repair-List-at-iFixit-BD.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-Inch-M4-Pro-Repair-List-at-iFixit-BD.png"
+     },
+     "allservice_meta_title": "",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_page_title": "MacBook Pro 16\" M4 Pro (A3403) Repair List",
+     "allservice_page_title_description": "Get repaired your faulty MacBook Pro 16\" M4 Pro (A3403) from iFixit BD",
+     "allservice_page_description": "<p></p>"
+    }
+   ]
+  },
+  {
+   "_id": "693d60bde3cb8bf613c2bd87",
+   "title": "Os Installation",
+   "order_no": 8,
+   "endpoints": [
+    {
+     "model_id": "6a4ca1d06409e4026e01e06b",
+     "endpoint": "/services/macbook-pro-16-inch/a3403-m4-pro/os-installation",
+     "_id": "6a4cdba66409e4026e1072d7"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-pro-16\"-m4-pro-os-installation.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m4-pro-os-installation.png"
+   },
+   "model_id": [
+    "6a4ca1d06409e4026e01e06b"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693d60bde3cb8bf613c2bd89"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Os Installation",
+     "website_name": "Os Installation",
+     "image_alt_text": "MacBook Pro 16\" M4 Pro Os Installation",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16\"-m4-pro-os-installation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m4-pro-os-installation.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a4cdba66409e4026e1072d9"
+    }
+   ],
+   "description": "<p>Now you can repair your faulty touch mechanism on the iPhone 16e without having to change the entire display! The iPhone 16e also has a separate touch and display panel that integrates and works as a whole unit. If your phone has a faulty, unresponsive, broken, or damaged touch, you need not replace the whole display unit. ifixit.bd has a dedicated service to replace or repair your touch panel (not the entire display) at in-service points located all over Dhaka, Bangladesh.</p><p></p><p><strong>Signs that indicate a faulty touch mechanism in the iPhone 16e are...</strong></p><p>Doesn’t work or has no response; / Program doesn’t open or respond after touching the icon </p><p>Delayed response or wrong response (Clicking on one place but the phone registers the touch elsewhere and opens an unrelated app) </p><p>Takes multiple touch attempts to open an app or perform an action on the phone </p><p>Ghost Touch / Delayed Touch Issue</p><p></p><p></p><p>If you see any of the signs on your phone, you can safely assume that the touch mechanism is faulty and should be replaced. Apple uses Haptic Touch on the iPhone 16e, and Haptic Touch ensures that there’s no struggle to operate the phone by touching it.</p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-13T12:49:01.293Z",
+   "updated_at": "2026-07-07T10:57:42.293Z",
+   "meta_description": "Need touch replacement for your iPhone 16e? iFixit offers genuine OEM parts, certified technicians and full warranty in Dhaka – Bangladesh's Authentic...",
+   "meta_keywords": "",
+   "meta_title": "iPhone 16e Touch Replacement in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M4 Pro (A3403)",
+     "endpoint": "a3403-m4-pro",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-Inch-M4-Pro-Repair-List-at-iFixit-BD.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-Inch-M4-Pro-Repair-List-at-iFixit-BD.png"
+     },
+     "allservice_meta_title": "",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_page_title": "MacBook Pro 16\" M4 Pro (A3403) Repair List",
+     "allservice_page_title_description": "Get repaired your faulty MacBook Pro 16\" M4 Pro (A3403) from iFixit BD",
+     "allservice_page_description": "<p></p>"
+    }
+   ]
+  },
+  {
+   "_id": "693ea7f5e3cb8bf613c2ea6c",
+   "title": "Charging Port Replacement",
+   "order_no": 4,
+   "endpoints": [
+    {
+     "model_id": "6a4ca1d06409e4026e01e06b",
+     "endpoint": "/services/macbook-pro-16-inch/a3403-m4-pro/charging-port-replacement",
+     "_id": "6a4cca576409e4026e0df635"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-pro-16\"-m5-pro-charging-port-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m5-pro-charging-port-replacement.png"
+   },
+   "model_id": [
+    "6a4ca1d06409e4026e01e06b"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693ea7f5e3cb8bf613c2ea6e"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Charging Port Replacement",
+     "website_name": "Charging Port Replacement",
+     "image_alt_text": "MacBook Pro 16\" M4 Pro Charging Port Replacement",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16\"-m5-pro-charging-port-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m5-pro-charging-port-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 6000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a4cca576409e4026e0df637"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-14T12:05:09.055Z",
+   "updated_at": "2026-07-07T09:43:51.840Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M4 Pro (A3403)",
+     "endpoint": "a3403-m4-pro",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-Inch-M4-Pro-Repair-List-at-iFixit-BD.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-Inch-M4-Pro-Repair-List-at-iFixit-BD.png"
+     },
+     "allservice_meta_title": "",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_page_title": "MacBook Pro 16\" M4 Pro (A3403) Repair List",
+     "allservice_page_title_description": "Get repaired your faulty MacBook Pro 16\" M4 Pro (A3403) from iFixit BD",
+     "allservice_page_description": "<p></p>"
+    }
+   ]
+  },
+  {
+   "_id": "693ea835e3cb8bf613c2ea8f",
+   "title": "Liquid Clean",
+   "order_no": 7,
+   "endpoints": [
+    {
+     "model_id": "6a4ca1d06409e4026e01e06b",
+     "endpoint": "/services/macbook-pro-16-inch/a3403-m4-pro/liquid-clean",
+     "_id": "6a4cda326409e4026e0f3a65"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-pro-16\"-m4-pro-liquid-clean.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m4-pro-liquid-clean.png"
+   },
+   "model_id": [
+    "6a4ca1d06409e4026e01e06b"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693ea835e3cb8bf613c2ea91"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Liquid Clean",
+     "website_name": "Liquid Clean",
+     "image_alt_text": "MacBook Pro 16\" M4 Pro Liquid Clean",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16\"-m4-pro-liquid-clean.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m4-pro-liquid-clean.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a4cda326409e4026e0f3a67"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-14T12:06:13.623Z",
+   "updated_at": "2026-07-07T10:51:30.744Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M4 Pro (A3403)",
+     "endpoint": "a3403-m4-pro",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-Inch-M4-Pro-Repair-List-at-iFixit-BD.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-Inch-M4-Pro-Repair-List-at-iFixit-BD.png"
+     },
+     "allservice_meta_title": "",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_page_title": "MacBook Pro 16\" M4 Pro (A3403) Repair List",
+     "allservice_page_title_description": "Get repaired your faulty MacBook Pro 16\" M4 Pro (A3403) from iFixit BD",
+     "allservice_page_description": "<p></p>"
+    }
+   ]
+  },
+  {
+   "_id": "693ea3dee3cb8bf613c2e94e",
+   "title": "Battery Replacement",
+   "order_no": 2,
+   "endpoints": [
+    {
+     "model_id": "6a4ca1d06409e4026e01e06b",
+     "endpoint": "/services/macbook-pro-16-inch/a3403-m4-pro/battery-replacement",
+     "_id": "6a4cc6c96409e4026e0df150"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-pro-16\"-m4-pro-battery-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m4-pro-battery-replacement.png"
+   },
+   "model_id": [
+    "6a4ca1d06409e4026e01e06b"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693ea3dee3cb8bf613c2e950"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Battery Replacement",
+     "image_alt_text": "MacBook Pro 16\" M4 Pro Battery Replacement",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16\"-m4-pro-battery-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m4-pro-battery-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a4cc6c96409e4026e0df152"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-14T11:47:42.013Z",
+   "updated_at": "2026-07-07T09:28:41.510Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M4 Pro (A3403)",
+     "endpoint": "a3403-m4-pro",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-Inch-M4-Pro-Repair-List-at-iFixit-BD.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-Inch-M4-Pro-Repair-List-at-iFixit-BD.png"
+     },
+     "allservice_meta_title": "",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_page_title": "MacBook Pro 16\" M4 Pro (A3403) Repair List",
+     "allservice_page_title_description": "Get repaired your faulty MacBook Pro 16\" M4 Pro (A3403) from iFixit BD",
+     "allservice_page_description": "<p></p>"
+    }
+   ]
+  },
+  {
+   "_id": "693ea646e3cb8bf613c2ea01",
+   "title": "Motherboard Repair",
+   "order_no": 3,
+   "endpoints": [
+    {
+     "model_id": "6a4ca1d06409e4026e01e06b",
+     "endpoint": "/services/macbook-pro-16-inch/a3403-m4-pro/motherboard-repair",
+     "_id": "6a4cca446409e4026e0df61e"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-pro-16\"-m5-pro-motherboard-repair.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m5-pro-motherboard-repair.png"
+   },
+   "model_id": [
+    "6a4ca1d06409e4026e01e06b"
+   ],
+   "device_id": "6885f9f319055242d5b9750d",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693ea646e3cb8bf613c2ea03"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Motherboard Repair",
+     "website_name": "Motherboard Repair",
+     "image_alt_text": "MacBook Pro 16\" M4 Pro Motherboard Repair",
+     "repair_image": {
+      "public_id": "service/macbook-pro-16\"-m5-pro-motherboard-repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-16\"-m5-pro-motherboard-repair.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 18000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a4cca446409e4026e0df620"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-14T11:57:58.228Z",
+   "updated_at": "2026-07-07T09:43:32.653Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 16\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-16-Inch-Repair-MacBook-Pro-16-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 16\" M4 Pro (A3403)",
+     "endpoint": "a3403-m4-pro",
+     "image": {
+      "public_id": "model/MacBook-Pro-16-Inch-M4-Pro-Repair-List-at-iFixit-BD.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-16-Inch-M4-Pro-Repair-List-at-iFixit-BD.png"
+     },
+     "allservice_meta_title": "",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_page_title": "MacBook Pro 16\" M4 Pro (A3403) Repair List",
+     "allservice_page_title_description": "Get repaired your faulty MacBook Pro 16\" M4 Pro (A3403) from iFixit BD",
+     "allservice_page_description": "<p></p>"
+    }
+   ]
+  }
+ ],
+ "totalData": 8
+}

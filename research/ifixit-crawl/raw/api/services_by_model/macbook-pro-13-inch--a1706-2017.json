@@ -1,0 +1,1771 @@
+{
+ "success": true,
+ "message": "successful",
+ "data": [
+  {
+   "_id": "68b6ada7f4016bd30fe610df",
+   "title": "Motherboard Repair ",
+   "order_no": 3,
+   "image": {
+    "public_id": "service/macbook-motherboard-repair.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-motherboard-repair.png"
+   },
+   "model_id": [
+    "6887740719055242d5b97cac",
+    "68a8087955f5cfa31e2ab7e5"
+   ],
+   "device_id": "6885f4b819055242d5b97423",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b6ada7f4016bd30fe610e0"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Motherboard Repair",
+     "website_name": "Motherboard Repair",
+     "image_alt_text": "MacBook Pro 13 Inch Touch Bar 2016, 2017 Motherboard Repair",
+     "repair_image": {
+      "public_id": "service/macbook-motherboard-repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-motherboard-repair.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 9000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a158ffd921f2574d91c2de9"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-02T08:41:11.701Z",
+   "updated_at": "2026-05-26T12:20:13.940Z",
+   "endpoints": [
+    {
+     "model_id": "6887740719055242d5b97cac",
+     "endpoint": "/services/macbook-pro-13-inch/a1706-2016/motherboard-repair",
+     "_id": "6a158ffd921f2574d91c2de6"
+    },
+    {
+     "model_id": "68a8087955f5cfa31e2ab7e5",
+     "endpoint": "/services/macbook-pro-13-inch/a1706-2017/motherboard-repair",
+     "_id": "6a158ffd921f2574d91c2de7"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 13\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-13-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-13-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 13\" Touch Bar 2016 (A1706)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2016.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2016.png"
+     },
+     "endpoint": "a1706-2016",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Touch Bar 2016 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Touch Bar 2016 from iFixit BD"
+    },
+    {
+     "name": "MacBook Pro 13\" Touch Bar 2017 (A1706)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2017.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2017.png"
+     },
+     "endpoint": "a1706-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Touch Bar 2017 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Touch Bar 2017 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68b6afe7f4016bd30fe61132",
+   "title": "Trackpad Issue",
+   "order_no": 7,
+   "image": {
+    "public_id": "service/macbook-trackpad-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-trackpad-issue.png"
+   },
+   "model_id": [
+    "6887740719055242d5b97cac",
+    "68a8087955f5cfa31e2ab7e5"
+   ],
+   "device_id": "6885f4b819055242d5b97423",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b6afe7f4016bd30fe61133"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Trackpad Issue",
+     "website_name": "Trackpad Issue",
+     "image_alt_text": "MacBook Pro 13 Inch Touch Bar 2016, 2017 Trackpad Issue",
+     "repair_image": {
+      "public_id": "service/macbook-trackpad-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-trackpad-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 8000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a159004921f2574d91c2e01"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-02T08:50:47.556Z",
+   "updated_at": "2026-05-26T12:20:20.701Z",
+   "endpoints": [
+    {
+     "model_id": "6887740719055242d5b97cac",
+     "endpoint": "/services/macbook-pro-13-inch/a1706-2016/trackpad-issue",
+     "_id": "6a159004921f2574d91c2dfe"
+    },
+    {
+     "model_id": "68a8087955f5cfa31e2ab7e5",
+     "endpoint": "/services/macbook-pro-13-inch/a1706-2017/trackpad-issue",
+     "_id": "6a159004921f2574d91c2dff"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 13\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-13-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-13-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 13\" Touch Bar 2016 (A1706)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2016.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2016.png"
+     },
+     "endpoint": "a1706-2016",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Touch Bar 2016 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Touch Bar 2016 from iFixit BD"
+    },
+    {
+     "name": "MacBook Pro 13\" Touch Bar 2017 (A1706)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2017.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2017.png"
+     },
+     "endpoint": "a1706-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Touch Bar 2017 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Touch Bar 2017 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68b6c22ff4016bd30fe61182",
+   "title": "Liquid Clean",
+   "order_no": 9,
+   "image": {
+    "public_id": "service/liquid-damage.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/liquid-damage.png"
+   },
+   "model_id": [
+    "6887740719055242d5b97cac",
+    "68a8087955f5cfa31e2ab7e5"
+   ],
+   "device_id": "6885f4b819055242d5b97423",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b6c22ff4016bd30fe61183"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Liquid Clean",
+     "website_name": "Liquid Clean",
+     "image_alt_text": "MacBook Pro 13 Inch Touch Bar 2016, 2017 Liquid Clean",
+     "repair_image": {
+      "public_id": "service/liquid-damage.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/liquid-damage.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a158fe2921f2574d91c2da1"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-02T10:08:47.178Z",
+   "updated_at": "2026-05-26T12:19:45.997Z",
+   "endpoints": [
+    {
+     "model_id": "6887740719055242d5b97cac",
+     "endpoint": "/services/macbook-pro-13-inch/a1706-2016/liquid-clean",
+     "_id": "6a158fe1921f2574d91c2d9e"
+    },
+    {
+     "model_id": "68a8087955f5cfa31e2ab7e5",
+     "endpoint": "/services/macbook-pro-13-inch/a1706-2017/liquid-clean",
+     "_id": "6a158fe1921f2574d91c2d9f"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 13\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-13-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-13-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 13\" Touch Bar 2016 (A1706)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2016.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2016.png"
+     },
+     "endpoint": "a1706-2016",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Touch Bar 2016 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Touch Bar 2016 from iFixit BD"
+    },
+    {
+     "name": "MacBook Pro 13\" Touch Bar 2017 (A1706)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2017.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2017.png"
+     },
+     "endpoint": "a1706-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Touch Bar 2017 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Touch Bar 2017 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68e7c29a7495d2cd0327fae9",
+   "title": "Display Replacement",
+   "order_no": 1,
+   "image": {
+    "public_id": "service/macbook-pro-13-inch-touch-bar-2017---a1706.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-13-inch-touch-bar-2017---a1706.png"
+   },
+   "model_id": [
+    "6887740719055242d5b97cac",
+    "68a8087955f5cfa31e2ab7e5"
+   ],
+   "device_id": "6885f4b819055242d5b97423",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68e7c29a7495d2cd0327faea"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Display Replacement",
+     "image_alt_text": "Display Replacement service",
+     "repair_image": {
+      "public_id": "service/macbook-pro-13-inch-touch-bar-2017---a1706.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-13-inch-touch-bar-2017---a1706.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68e7bfee7495d2cd0327f9fb",
+     "product_variation_id": "68e7bfef7495d2cd0327f9fe",
+     "_id": "6a4b9df16409e4026ee9ffd3",
+     "product_data": {
+      "_id": "68e7bfee7495d2cd0327f9fb",
+      "product_id": "p251",
+      "name": "MacBook Pro 13\" Retina (Late 2016-2017) Display Assembly",
+      "brand_id": "680a09e8a0d70a0f278d94ae",
+      "category_id": "68282f1caed11479fdf2f3c1",
+      "device_id": "6885f4b819055242d5b97423",
+      "model_id": "688752c219055242d5b978ad",
+      "attachable_models": [
+       "688752c219055242d5b978ad",
+       "6887740719055242d5b97cac",
+       "68a8081a55f5cfa31e2ab7cd",
+       "68a8087955f5cfa31e2ab7e5"
+      ],
+      "price": null,
+      "warranty": null,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-09T14:00:14.519Z",
+      "updated_at": "2026-06-13T08:43:53.787Z",
+      "__v": 0,
+      "endpoint": "/product/macbook-pro-13-inch-display-assembly-late-2016-2017",
+      "warranty_note": "",
+      "website_name": "MacBook Pro 13\" Retina (Late 2016-2017) Display Assembly",
+      "description2": "<p></p>",
+      "meta_description": "undefined",
+      "meta_keywords": "undefined",
+      "meta_title": "undefined",
+      "page_description": "<p></p>",
+      "page_title": "undefined",
+      "page_title_description": "undefined"
+     },
+     "product_variation_data": {
+      "_id": "68e7bfef7495d2cd0327f9fe",
+      "name": "Space Gray",
+      "quality": "Disassembled From MacBook",
+      "product_id": "68e7bfee7495d2cd0327f9fb",
+      "price": 32000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/MacBook-Pro-13-Inch-Function-Keys-display-Assembly-Late-2016-2017.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/MacBook-Pro-13-Inch-Function-Keys-display-Assembly-Late-2016-2017.png",
+        "_id": "6953b67785b753595beece24"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-09T14:00:15.450Z",
+      "updated_at": "2026-08-24T07:10:09.577Z",
+      "__v": 0
+     }
+    },
+    {
+     "name": "Assemble Charge",
+     "website_name": "Display Replacement",
+     "image_alt_text": "Display Replacement service",
+     "repair_image": {
+      "public_id": "service/macbook-pro-13-inch-late-2016-2017-display-replacement-service.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-pro-13-inch-late-2016-2017-display-replacement-service.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "6a3d2d5796eb520b027942ae",
+     "product_variation_id": "6a3d2d5896eb520b027942b1",
+     "_id": "6a4b9df16409e4026ee9ffd4",
+     "product_data": {
+      "_id": "6a3d2d5796eb520b027942ae",
+      "product_id": "p435",
+      "name": "MacBook Pro 13\" Retina Lcd (Late 2016-2017)",
+      "website_name": "MacBook Pro 13\" Retina Lcd (Late 2016-2017)",
+      "endpoint": "/product/macbook-pro-13-inch-display-lcd-late-2016-2017",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f1caed11479fdf2f3c1",
+      "device_id": "6885f4b819055242d5b97423",
+      "model_id": "688752c219055242d5b978ad",
+      "attachable_models": [
+       "688752c219055242d5b978ad",
+       "68a8081a55f5cfa31e2ab7cd"
+      ],
+      "price": null,
+      "warranty": null,
+      "warranty_note": "",
+      "description": "<p></p>",
+      "description2": "<p></p>",
+      "images": [],
+      "meta_title": "",
+      "meta_description": "",
+      "meta_keywords": "",
+      "page_title": "",
+      "page_title_description": "",
+      "page_description": "<p></p>",
+      "remarks": "",
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "N/A",
+      "created_at": "2026-06-25T13:29:59.459Z",
+      "updated_at": "2026-06-25T13:29:59.459Z",
+      "__v": 0
+     },
+     "product_variation_data": {
+      "_id": "6a3d2d5896eb520b027942b1",
+      "name": "LCD",
+      "quality": "Standard After Market",
+      "product_id": "6a3d2d5796eb520b027942ae",
+      "price": 18500,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/MacBook-Air-13-Inch-Mid-2012-Early-2017-display-LCD.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/MacBook-Air-13-Inch-Mid-2012-Early-2017-display-LCD.png",
+        "_id": "6a3d309096eb520b027947c6"
+       }
+      ],
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2026-06-25T13:30:00.191Z",
+      "updated_at": "2026-06-25T13:43:44.673Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-09T14:11:38.233Z",
+   "updated_at": "2026-07-06T12:22:09.272Z",
+   "endpoints": [
+    {
+     "model_id": "6887740719055242d5b97cac",
+     "endpoint": "/services/macbook-pro-13-inch/a1706-2016/display-replacement",
+     "_id": "6a4b9df16409e4026ee9ffd0"
+    },
+    {
+     "model_id": "68a8087955f5cfa31e2ab7e5",
+     "endpoint": "/services/macbook-pro-13-inch/a1706-2017/display-replacement",
+     "_id": "6a4b9df16409e4026ee9ffd1"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "MacBook Pro 13 Inch Touch Bar 2016 and 2017 Display Replacement Service",
+   "page_title_description": "Choose the right display for your MacBook Pro 13 Inch Touch Bar 2017 from iFixit BD",
+   "device_data": [
+    {
+     "name": "MacBook Pro 13\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-13-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-13-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 13\" Touch Bar 2016 (A1706)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2016.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2016.png"
+     },
+     "endpoint": "a1706-2016",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Touch Bar 2016 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Touch Bar 2016 from iFixit BD"
+    },
+    {
+     "name": "MacBook Pro 13\" Touch Bar 2017 (A1706)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2017.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2017.png"
+     },
+     "endpoint": "a1706-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Touch Bar 2017 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Touch Bar 2017 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68b6b053f4016bd30fe61157",
+   "title": "Os Installation",
+   "order_no": 10,
+   "image": {
+    "public_id": "service/macbook-os-installation.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-os-installation.png"
+   },
+   "model_id": [
+    "6887740719055242d5b97cac",
+    "68a8087955f5cfa31e2ab7e5"
+   ],
+   "device_id": "6885f4b819055242d5b97423",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b6b053f4016bd30fe61158"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Os Installation",
+     "website_name": "Os Installation",
+     "image_alt_text": "MacBook Pro 13 Inch Touch Bar 2016, 2017 Os Installation",
+     "repair_image": {
+      "public_id": "service/macbook-os-installation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-os-installation.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a159017921f2574d91c2e31"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-02T08:52:35.168Z",
+   "updated_at": "2026-05-26T12:20:39.817Z",
+   "endpoints": [
+    {
+     "model_id": "6887740719055242d5b97cac",
+     "endpoint": "/services/macbook-pro-13-inch/a1706-2016/os-installation",
+     "_id": "6a159017921f2574d91c2e2e"
+    },
+    {
+     "model_id": "68a8087955f5cfa31e2ab7e5",
+     "endpoint": "/services/macbook-pro-13-inch/a1706-2017/os-installation",
+     "_id": "6a159017921f2574d91c2e2f"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 13\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-13-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-13-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 13\" Touch Bar 2016 (A1706)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2016.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2016.png"
+     },
+     "endpoint": "a1706-2016",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Touch Bar 2016 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Touch Bar 2016 from iFixit BD"
+    },
+    {
+     "name": "MacBook Pro 13\" Touch Bar 2017 (A1706)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2017.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2017.png"
+     },
+     "endpoint": "a1706-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Touch Bar 2017 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Touch Bar 2017 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68b6c4aef4016bd30fe611a7",
+   "title": "Charging Port Replacement",
+   "order_no": 4,
+   "image": {
+    "public_id": "service/charging-port.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/charging-port.png"
+   },
+   "model_id": [
+    "6887740719055242d5b97cac",
+    "68a8087955f5cfa31e2ab7e5"
+   ],
+   "device_id": "6885f4b819055242d5b97423",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b6c4aef4016bd30fe611a8"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Charging Port Replacement",
+     "website_name": "Charging Port Replacement",
+     "image_alt_text": "MacBook Pro 13 Inch Touch Bar 2016, 2017 Charging Port Replacement",
+     "repair_image": {
+      "public_id": "service/charging-port.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/charging-port.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 6000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a158f82921f2574d91c2d47"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-02T10:19:26.057Z",
+   "updated_at": "2026-05-26T12:18:10.206Z",
+   "endpoints": [
+    {
+     "model_id": "6887740719055242d5b97cac",
+     "endpoint": "/services/macbook-pro-13-inch/a1706-2016/charging-port-replacement",
+     "_id": "6a158f82921f2574d91c2d44"
+    },
+    {
+     "model_id": "68a8087955f5cfa31e2ab7e5",
+     "endpoint": "/services/macbook-pro-13-inch/a1706-2017/charging-port-replacement",
+     "_id": "6a158f82921f2574d91c2d45"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 13\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-13-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-13-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 13\" Touch Bar 2016 (A1706)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2016.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2016.png"
+     },
+     "endpoint": "a1706-2016",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Touch Bar 2016 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Touch Bar 2016 from iFixit BD"
+    },
+    {
+     "name": "MacBook Pro 13\" Touch Bar 2017 (A1706)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2017.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2017.png"
+     },
+     "endpoint": "a1706-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Touch Bar 2017 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Touch Bar 2017 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68b6c53cf4016bd30fe611ee",
+   "title": "Touch Bar Replacement",
+   "order_no": 12,
+   "image": {
+    "public_id": "service/touch-bar-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/touch-bar-replacement.png"
+   },
+   "model_id": [
+    "6887740719055242d5b97cac",
+    "68a8087955f5cfa31e2ab7e5"
+   ],
+   "device_id": "6885f4b819055242d5b97423",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b6c53cf4016bd30fe611ef"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Touch Bar Replacement",
+     "website_name": "Touch Bar Replacement",
+     "image_alt_text": "MacBook Pro 13 Inch Touch Bar 2016, 2017 Touch Bar Replacement",
+     "repair_image": {
+      "public_id": "service/touch-bar-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/touch-bar-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 12000,
+     "guaranty": "30 days money-back guarantee",
+     "warranty": "",
+     "_id": "6a159010921f2574d91c2e19"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-02T10:21:48.297Z",
+   "updated_at": "2026-05-26T12:20:32.296Z",
+   "endpoints": [
+    {
+     "model_id": "6887740719055242d5b97cac",
+     "endpoint": "/services/macbook-pro-13-inch/a1706-2016/touch-bar-replacement",
+     "_id": "6a159010921f2574d91c2e16"
+    },
+    {
+     "model_id": "68a8087955f5cfa31e2ab7e5",
+     "endpoint": "/services/macbook-pro-13-inch/a1706-2017/touch-bar-replacement",
+     "_id": "6a159010921f2574d91c2e17"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 13\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-13-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-13-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 13\" Touch Bar 2016 (A1706)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2016.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2016.png"
+     },
+     "endpoint": "a1706-2016",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Touch Bar 2016 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Touch Bar 2016 from iFixit BD"
+    },
+    {
+     "name": "MacBook Pro 13\" Touch Bar 2017 (A1706)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2017.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2017.png"
+     },
+     "endpoint": "a1706-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Touch Bar 2017 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Touch Bar 2017 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68b6afb8f4016bd30fe6110d",
+   "title": "Speaker Replacement",
+   "order_no": 6,
+   "image": {
+    "public_id": "service/macbook-speaker-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-speaker-replacement.png"
+   },
+   "model_id": [
+    "6887740719055242d5b97cac",
+    "68a8087955f5cfa31e2ab7e5"
+   ],
+   "device_id": "6885f4b819055242d5b97423",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b6afb8f4016bd30fe6110e"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Speaker Replacement",
+     "website_name": "Speaker Replacement",
+     "image_alt_text": "MacBook Pro 13 Inch Touch Bar 2016, 2017 Speaker Replacement",
+     "repair_image": {
+      "public_id": "service/macbook-speaker-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-speaker-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 6000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a158fd4921f2574d91c2d89"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-02T08:50:00.299Z",
+   "updated_at": "2026-05-26T12:19:32.167Z",
+   "endpoints": [
+    {
+     "model_id": "6887740719055242d5b97cac",
+     "endpoint": "/services/macbook-pro-13-inch/a1706-2016/speaker-replacement",
+     "_id": "6a158fd4921f2574d91c2d86"
+    },
+    {
+     "model_id": "68a8087955f5cfa31e2ab7e5",
+     "endpoint": "/services/macbook-pro-13-inch/a1706-2017/speaker-replacement",
+     "_id": "6a158fd4921f2574d91c2d87"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 13\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-13-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-13-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 13\" Touch Bar 2016 (A1706)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2016.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2016.png"
+     },
+     "endpoint": "a1706-2016",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Touch Bar 2016 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Touch Bar 2016 from iFixit BD"
+    },
+    {
+     "name": "MacBook Pro 13\" Touch Bar 2017 (A1706)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2017.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2017.png"
+     },
+     "endpoint": "a1706-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Touch Bar 2017 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Touch Bar 2017 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68e7c2fa7495d2cd0327fb13",
+   "title": "Battery Replacement",
+   "order_no": 2,
+   "image": {
+    "public_id": "service/macbook-battery-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-battery-replacement.png"
+   },
+   "model_id": [
+    "6887740719055242d5b97cac",
+    "68a8087955f5cfa31e2ab7e5"
+   ],
+   "device_id": "6885f4b819055242d5b97423",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68e7c2fa7495d2cd0327fb14"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Battery Replacement",
+     "image_alt_text": "macbook pro 13 inch touch bar 2016, 2017 battery replacement",
+     "repair_image": {
+      "public_id": "service/macbook-battery-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-battery-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "12 Months Warranty",
+     "product_id": "68e7c1267495d2cd0327fa40",
+     "product_variation_id": "68e7c1267495d2cd0327fa43",
+     "_id": "6a158ff6921f2574d91c2dd1",
+     "product_data": {
+      "_id": "68e7c1267495d2cd0327fa40",
+      "product_id": "p253",
+      "name": "MacBook Pro 13 Inch Touch Bar Battery 2016-2017",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f28aed11479fdf2f3ca",
+      "device_id": "6885f4b819055242d5b97423",
+      "model_id": "6887740719055242d5b97cac",
+      "attachable_models": [
+       "6887740719055242d5b97cac",
+       "68a8087955f5cfa31e2ab7e5"
+      ],
+      "price": null,
+      "warranty": 12,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "ifixitbd@gmail.com",
+      "created_at": "2025-10-09T14:05:26.342Z",
+      "updated_at": "2026-03-11T06:19:58.067Z",
+      "__v": 0,
+      "endpoint": "/product/macbook-pro-battery-model-a1819",
+      "warranty_note": "",
+      "website_name": "MacBook Pro 13 Inch Touch Bar Battery 2016-2017"
+     },
+     "product_variation_data": {
+      "_id": "68e7c1267495d2cd0327fa43",
+      "name": "Battery Replacement",
+      "quality": "Standard After Market",
+      "product_id": "68e7c1267495d2cd0327fa40",
+      "price": 8000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/touchbar-2016-2017-battery.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/touchbar-2016-2017-battery.png",
+        "_id": "69565ece27938d797b4a8538"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-09T14:05:26.859Z",
+      "updated_at": "2026-05-05T13:27:40.155Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-09T14:13:14.644Z",
+   "updated_at": "2026-05-26T12:20:06.618Z",
+   "endpoints": [
+    {
+     "model_id": "6887740719055242d5b97cac",
+     "endpoint": "/services/macbook-pro-13-inch/a1706-2016/battery-replacement",
+     "_id": "6a158ff6921f2574d91c2dce"
+    },
+    {
+     "model_id": "68a8087955f5cfa31e2ab7e5",
+     "endpoint": "/services/macbook-pro-13-inch/a1706-2017/battery-replacement",
+     "_id": "6a158ff6921f2574d91c2dcf"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "MacBook Pro 13 Inch Battery Replacement",
+   "page_title_description": "Get replaced and select the specific model of your MacBook Pro 13 Inch Touch bar 2016, 2017 battery",
+   "device_data": [
+    {
+     "name": "MacBook Pro 13\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-13-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-13-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 13\" Touch Bar 2016 (A1706)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2016.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2016.png"
+     },
+     "endpoint": "a1706-2016",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Touch Bar 2016 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Touch Bar 2016 from iFixit BD"
+    },
+    {
+     "name": "MacBook Pro 13\" Touch Bar 2017 (A1706)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2017.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2017.png"
+     },
+     "endpoint": "a1706-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Touch Bar 2017 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Touch Bar 2017 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68b69dd9f4016bd30fe60fbd",
+   "title": "Keyboard Replacement",
+   "order_no": 5,
+   "image": {
+    "public_id": "service/keyboard-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/keyboard-replacement.png"
+   },
+   "model_id": [
+    "6887740719055242d5b97cac",
+    "68a8087955f5cfa31e2ab7e5"
+   ],
+   "device_id": "6885f4b819055242d5b97423",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b69dd9f4016bd30fe60fbe"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Keyboard Replacement",
+     "website_name": "Keyboard Replacement",
+     "image_alt_text": "MacBook Pro 13 Inch Touch Bar 2016, 2017 Keyboard Replacement",
+     "repair_image": {
+      "public_id": "service/keyboard-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/keyboard-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 9000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a158feb921f2574d91c2db9"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-02T07:33:45.413Z",
+   "updated_at": "2026-05-26T12:19:55.634Z",
+   "endpoints": [
+    {
+     "model_id": "6887740719055242d5b97cac",
+     "endpoint": "/services/macbook-pro-13-inch/a1706-2016/keyboard-replacement",
+     "_id": "6a158feb921f2574d91c2db6"
+    },
+    {
+     "model_id": "68a8087955f5cfa31e2ab7e5",
+     "endpoint": "/services/macbook-pro-13-inch/a1706-2017/keyboard-replacement",
+     "_id": "6a158feb921f2574d91c2db7"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 13\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-13-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-13-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 13\" Touch Bar 2016 (A1706)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2016.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2016.png"
+     },
+     "endpoint": "a1706-2016",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Touch Bar 2016 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Touch Bar 2016 from iFixit BD"
+    },
+    {
+     "name": "MacBook Pro 13\" Touch Bar 2017 (A1706)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2017.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2017.png"
+     },
+     "endpoint": "a1706-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Touch Bar 2017 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Touch Bar 2017 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68b6c4fef4016bd30fe611cc",
+   "title": "SSD Upgrade",
+   "order_no": 11,
+   "image": {
+    "public_id": "service/ssd.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ssd.png"
+   },
+   "model_id": [
+    "6887740719055242d5b97cac",
+    "68a8087955f5cfa31e2ab7e5"
+   ],
+   "device_id": "6885f4b819055242d5b97423",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b6c4fef4016bd30fe611cd"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "SSD Upgrade",
+     "website_name": "SSD Upgrade",
+     "image_alt_text": "MacBook Pro 13 Inch Touch Bar 2016, 2017 SSD Upgrade",
+     "repair_image": {
+      "public_id": "service/ssd.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ssd.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 0,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a159020921f2574d91c2e49"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-02T10:20:46.755Z",
+   "updated_at": "2026-05-26T12:20:48.567Z",
+   "endpoints": [
+    {
+     "model_id": "6887740719055242d5b97cac",
+     "endpoint": "/services/macbook-pro-13-inch/a1706-2016/ssd-upgrade",
+     "_id": "6a159020921f2574d91c2e46"
+    },
+    {
+     "model_id": "68a8087955f5cfa31e2ab7e5",
+     "endpoint": "/services/macbook-pro-13-inch/a1706-2017/ssd-upgrade",
+     "_id": "6a159020921f2574d91c2e47"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 13\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-13-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-13-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 13\" Touch Bar 2016 (A1706)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2016.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2016.png"
+     },
+     "endpoint": "a1706-2016",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Touch Bar 2016 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Touch Bar 2016 from iFixit BD"
+    },
+    {
+     "name": "MacBook Pro 13\" Touch Bar 2017 (A1706)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2017.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2017.png"
+     },
+     "endpoint": "a1706-2017",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Touch Bar 2017 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Touch Bar 2017 from iFixit BD"
+    }
+   ]
+  }
+ ],
+ "totalData": 11
+}

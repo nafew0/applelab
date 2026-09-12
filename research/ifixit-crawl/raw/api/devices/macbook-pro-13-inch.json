@@ -1,0 +1,137 @@
+{
+ "message": "success",
+ "status": 200,
+ "data": [
+  {
+   "image": {
+    "public_id": "model/MacBook-Pro-13-Inch-Two-Thunderbolt-Ports-M2-2022.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Two-Thunderbolt-Ports-M2-2022.png"
+   },
+   "_id": "68a80faa55f5cfa31e2ab85d",
+   "name": "MacBook Pro 13\" M2 (A2338)",
+   "order_no": 192,
+   "endpoint": "a2338-m2"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Pro-13-Inch-Two-Thunderbolt-Ports-Late-2020.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Two-Thunderbolt-Ports-Late-2020.png"
+   },
+   "_id": "6887759f19055242d5b97cdc",
+   "name": "MacBook Pro 13\" M1 (A2338)",
+   "order_no": 191,
+   "endpoint": "a2338-m1"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Pro-13-Inch-Four-Thunderbolt-Ports-2020.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Four-Thunderbolt-Ports-2020.png"
+   },
+   "_id": "688774f119055242d5b97cc1",
+   "name": "MacBook Pro 13\" 2020 (A2251)",
+   "order_no": 190,
+   "endpoint": "a2251-2020"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Pro-13-Inch-Two-Thunderbolt-Ports-2020.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Two-Thunderbolt-Ports-2020.png"
+   },
+   "_id": "6887753f19055242d5b97cd3",
+   "name": "MacBook Pro 13\" 2020 (A2289)",
+   "order_no": 189,
+   "endpoint": "a2289-2020"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Pro-13-Inch-Two-Thunderbolt-Ports-2019.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Two-Thunderbolt-Ports-2019.png"
+   },
+   "_id": "6887751919055242d5b97cca",
+   "name": "MacBook Pro 13\" 2019 (A2159)",
+   "order_no": 188,
+   "endpoint": "a2159-2019"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2019.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2019.png"
+   },
+   "_id": "68a80d5755f5cfa31e2ab811",
+   "name": "MacBook Pro 13\" Touch Bar 2019 (A1989)",
+   "order_no": 187,
+   "endpoint": "a1989-2019"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2018.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2018.png"
+   },
+   "_id": "688774c519055242d5b97cb8",
+   "name": "MacBook Pro 13\" Touch Bar 2018 (A1989)",
+   "order_no": 186,
+   "endpoint": "a1989-2018"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2017.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2017.png"
+   },
+   "_id": "68a8087955f5cfa31e2ab7e5",
+   "name": "MacBook Pro 13\" Touch Bar 2017 (A1706)",
+   "order_no": 185,
+   "endpoint": "a1706-2017"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Pro-13-Inch-Touch-Bar-2016.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Touch-Bar-2016.png"
+   },
+   "_id": "6887740719055242d5b97cac",
+   "name": "MacBook Pro 13\" Touch Bar 2016 (A1706)",
+   "order_no": 184,
+   "endpoint": "a1706-2016"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Pro-13-Inch-Function-Keys-2017.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Function-Keys-2017.png"
+   },
+   "_id": "68a8081a55f5cfa31e2ab7cd",
+   "name": "MacBook Pro 13\" Function Keys 2017 (A1708)",
+   "order_no": 183,
+   "endpoint": "a1708-2017"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Pro-13-Inch-Function-Keys-2016.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Function-Keys-2016.png"
+   },
+   "_id": "688752c219055242d5b978ad",
+   "name": "MacBook Pro 13\" Function Keys 2016 (A1708)",
+   "order_no": 182,
+   "endpoint": "a1708-2016"
+  },
+  {
+   "image": {
+    "public_id": "model/MacBook-Pro-13-Inch-Early-2015.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Early-2015.png"
+   },
+   "_id": "68874e3419055242d5b9784a",
+   "name": "MacBook Pro 13\" Early 2015 (A1502)",
+   "order_no": 181,
+   "endpoint": "a1502-2015"
+  }
+ ],
+ "childDevice": false,
+ "device": {
+  "_id": "6885f4b819055242d5b97423",
+  "name": "MacBook Pro 13\"",
+  "meta_description": "Looking for a reliable MacBook Pro 13 Inch repair service in Dhaka? iFixit BD offers expert repairs with genuine parts, fast service, and certified technicians.\r\n",
+  "meta_keywords": "undefined",
+  "meta_title": "MacBook Pro 13 Inch Repair Center in Dhaka, Bangladesh - iFixit BD",
+  "page_description": "<h1>Leading MacBook Pro 13 Inch Repair Service Center in Dhaka, Bangladesh</h1><p>At iFixit BD, every MacBook Pro 13-inch that arrives at our service center begins its own story. Users come in with cracked screens after an unexpected fall, others with batteries that can no longer keep up with a busy day, and many with keyboards, trackpads, or internal components that have slowly worn down over time. No matter how simple or complicated the issue, our team of trained technicians treats each device with the same level of care and attention as if it were their own. From the moment your MacBook Pro reaches our hands, we focus on giving it a second life. We rely on high-quality, genuine parts to ensure your device performs smoothly and stays reliable long after the repair. Every step—from diagnosis to delivery—is handled with transparency, patience, and expertise. With quick service, clear repair guidance, and a convenient pickup and delivery option anywhere in Dhaka, we make the journey effortless for you. Whether your MacBook has slowed down, suffered accidental damage, or simply feels worn out, iFixit BD is here to bring it back to its best form, ready to serve you again like the day you first opened it.</p><h1>Our MacBook Pro 13 Inch Repair Service</h1><p>MacBook Pro 13 Inch repairs prioritize dependable outcomes, built on structured inspections and technical proficiency.</p><p>Here are some of the MacBook Pro 13 Inch repair services we offer:</p><ul><li>MacBook Pro 13 Inch display Replacement</li><li>MacBook Pro 13 Inch battery Replacement</li><li>MacBook Pro 13 Inch cleaning Service</li><li>MacBook Pro 13 Inch motherboard Repair</li><li>MacBook Pro 13 Inch keyboard Replacement</li><li>MacBook Pro 13 Inch charging Port Issue</li><li>MacBook Pro 13 Inch keyboard Replacement</li><li>MacBook Pro 13 Inch speaker Replacement</li><li>MacBook Pro 13 Inch trackpad Issue</li><li>MacBook Pro 13 Inch Os Installation</li></ul>",
+  "page_title": "MacBook Pro 13 Inch Repair Services",
+  "page_title_description": "Trusted hands and thorough diagnostics define how iFixit BD restores the MacBook Pro 13-inch to full capability.\r\n"
+ }
+}

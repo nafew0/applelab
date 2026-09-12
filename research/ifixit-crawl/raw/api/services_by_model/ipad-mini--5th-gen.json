@@ -1,0 +1,1361 @@
+{
+ "success": true,
+ "message": "successful",
+ "data": [
+  {
+   "_id": "68bd5750f4016bd30fe62145",
+   "title": "Button Issue",
+   "order_no": 3,
+   "image": {
+    "public_id": "service/button-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/button-issue.png"
+   },
+   "model_id": [
+    "680a2781a0d70a0f278d980e",
+    "680a35c5a0d70a0f278d9928"
+   ],
+   "device_id": "680a29eea0d70a0f278d983f",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bd5750f4016bd30fe62146"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Button Issue",
+     "website_name": "Button Issue",
+     "image_alt_text": "iPad Mini 4th & 5th Gen Button Issue",
+     "repair_image": {
+      "public_id": "service/button-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/button-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a350430f66f32eefa526493"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-07T09:58:40.207Z",
+   "updated_at": "2026-06-19T08:56:16.154Z",
+   "endpoints": [
+    {
+     "model_id": "680a2781a0d70a0f278d980e",
+     "endpoint": "/services/ipad-mini/4th-gen/button-issue",
+     "_id": "6a350430f66f32eefa526490"
+    },
+    {
+     "model_id": "680a35c5a0d70a0f278d9928",
+     "endpoint": "/services/ipad-mini/5th-gen/button-issue",
+     "_id": "6a350430f66f32eefa526491"
+    }
+   ],
+   "meta_description": "Facing a button issue with your iPad Mini 5th Gen 2019? iFixit, Bangladesh's Authentic Apple Service Center in Dhaka, offers expert care, genuine OEM...",
+   "meta_keywords": "",
+   "meta_title": "iPad Mini 5th Gen 2019 Button Issue in Dhaka - iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Mini",
+     "image": {
+      "public_id": "device/ipad-mini.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-mini.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Mini 4th Gen 2015",
+     "image": {
+      "public_id": "model/iPad-Mini-4th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-4th-gen.png"
+     },
+     "endpoint": "4th-gen",
+     "allservice_meta_description": "iPad Mini 4th Gen 2015 repair service in Bangladesh with skilled technicians, reliable solutions and competitive pricing. Book now.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 4th Gen 2015 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 4th Gen 2015 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 4th Gen 2015 from iFixit BD"
+    },
+    {
+     "name": "iPad Mini 5th Gen 2019",
+     "image": {
+      "public_id": "model/iPad-mini-5th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-mini-5th-gen.png"
+     },
+     "endpoint": "5th-gen",
+     "allservice_meta_description": "iPad Mini 5 Repair in Bangladesh with expert technicians, fast service and affordable repair cost. Book your repair today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 5th Gen 2019 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 5th Gen 2019 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 5th Gen 2019 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68f4d1437495d2cd032813e4",
+   "title": "Display Replacement",
+   "order_no": 1,
+   "image": {
+    "public_id": "service/display-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/display-replacement.png"
+   },
+   "model_id": [
+    "680a35c5a0d70a0f278d9928"
+   ],
+   "device_id": "680a29eea0d70a0f278d983f",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68f4d1437495d2cd032813e5"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Display Replacement",
+     "image_alt_text": "iPad Mini 5th Gen Display Replacement",
+     "repair_image": {
+      "public_id": "service/display-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/display-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68f32b537495d2cd03280fd8",
+     "product_variation_id": "68f32b537495d2cd03280fdb",
+     "_id": "6a34fa35f66f32eefa5157d3",
+     "product_data": {
+      "_id": "68f32b537495d2cd03280fd8",
+      "product_id": "p282",
+      "name": "Used iPad Mini 5th Gen 2019 Display",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f1caed11479fdf2f3c1",
+      "device_id": "680a29eea0d70a0f278d983f",
+      "model_id": "680a35c5a0d70a0f278d9928",
+      "attachable_models": [
+       "680a35c5a0d70a0f278d9928"
+      ],
+      "price": null,
+      "warranty": 0,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-18T05:53:23.368Z",
+      "updated_at": "2026-02-13T12:13:55.086Z",
+      "__v": 0,
+      "endpoint": "/product/ipad-mini-5th-gen-display",
+      "warranty_note": "",
+      "website_name": "iPad Mini 5th Gen 2019 Display"
+     },
+     "product_variation_data": {
+      "_id": "68f32b537495d2cd03280fdb",
+      "name": "Display",
+      "quality": "Standard After Market",
+      "product_id": "68f32b537495d2cd03280fd8",
+      "price": 18000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/ipad-mini-5-display-.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/ipad-mini-5-display-.png",
+        "_id": "694e61658a888ed23359550c"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-18T05:53:23.721Z",
+      "updated_at": "2026-05-05T13:46:21.836Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-19T11:53:39.760Z",
+   "updated_at": "2026-06-19T08:13:41.384Z",
+   "endpoints": [
+    {
+     "model_id": "680a35c5a0d70a0f278d9928",
+     "endpoint": "/services/ipad-mini/5th-gen/display-replacement",
+     "_id": "6a34fa35f66f32eefa5157d1"
+    }
+   ],
+   "meta_description": "Trust iFixit, Bangladesh's Authentic Apple Service Center, for iPad Mini 5th Gen 2019 display replacement in Dhaka. Genuine OEM parts, certified...",
+   "meta_keywords": "",
+   "meta_title": "iPad Mini 5th Gen 2019 Display Replacement in Dhaka - iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Mini",
+     "image": {
+      "public_id": "device/ipad-mini.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-mini.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Mini 5th Gen 2019",
+     "image": {
+      "public_id": "model/iPad-mini-5th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-mini-5th-gen.png"
+     },
+     "endpoint": "5th-gen",
+     "allservice_meta_description": "iPad Mini 5 Repair in Bangladesh with expert technicians, fast service and affordable repair cost. Book your repair today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 5th Gen 2019 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 5th Gen 2019 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 5th Gen 2019 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68bd57c2f4016bd30fe62189",
+   "title": "Touch Replacement",
+   "order_no": 5,
+   "image": {
+    "public_id": "service/touch-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/touch-replacement.png"
+   },
+   "model_id": [
+    "680a2781a0d70a0f278d980e",
+    "680a35c5a0d70a0f278d9928"
+   ],
+   "device_id": "680a29eea0d70a0f278d983f",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bd57c2f4016bd30fe6218a"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Touch Replacement",
+     "website_name": "Touch Replacement",
+     "image_alt_text": "iPad Mini 4th & 5th Gen Touch Replacement",
+     "repair_image": {
+      "public_id": "service/touch-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/touch-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 8000,
+     "guaranty": "30 days money-back guarantee",
+     "warranty": "",
+     "_id": "6a3504cbf66f32eefa526538"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-07T10:00:34.613Z",
+   "updated_at": "2026-06-19T08:58:51.006Z",
+   "endpoints": [
+    {
+     "model_id": "680a2781a0d70a0f278d980e",
+     "endpoint": "/services/ipad-mini/4th-gen/touch-replacement",
+     "_id": "6a3504cbf66f32eefa526535"
+    },
+    {
+     "model_id": "680a35c5a0d70a0f278d9928",
+     "endpoint": "/services/ipad-mini/5th-gen/touch-replacement",
+     "_id": "6a3504cbf66f32eefa526536"
+    }
+   ],
+   "meta_description": "Need touch replacement for your iPad Mini 5th Gen 2019? iFixit offers genuine OEM parts, certified technicians and full warranty in Dhaka.",
+   "meta_keywords": "",
+   "meta_title": "iPad Mini 5th Gen 2019 Touch Replacement in Dhaka - iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Mini",
+     "image": {
+      "public_id": "device/ipad-mini.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-mini.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Mini 4th Gen 2015",
+     "image": {
+      "public_id": "model/iPad-Mini-4th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-4th-gen.png"
+     },
+     "endpoint": "4th-gen",
+     "allservice_meta_description": "iPad Mini 4th Gen 2015 repair service in Bangladesh with skilled technicians, reliable solutions and competitive pricing. Book now.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 4th Gen 2015 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 4th Gen 2015 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 4th Gen 2015 from iFixit BD"
+    },
+    {
+     "name": "iPad Mini 5th Gen 2019",
+     "image": {
+      "public_id": "model/iPad-mini-5th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-mini-5th-gen.png"
+     },
+     "endpoint": "5th-gen",
+     "allservice_meta_description": "iPad Mini 5 Repair in Bangladesh with expert technicians, fast service and affordable repair cost. Book your repair today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 5th Gen 2019 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 5th Gen 2019 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 5th Gen 2019 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68bd585af4016bd30fe621d3",
+   "title": "Camera Replacement",
+   "order_no": 7,
+   "image": {
+    "public_id": "service/camera-issues.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/camera-issues.png"
+   },
+   "model_id": [
+    "680a2781a0d70a0f278d980e",
+    "680a35c5a0d70a0f278d9928"
+   ],
+   "device_id": "680a29eea0d70a0f278d983f",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bd585af4016bd30fe621d4"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Camera Replacement",
+     "website_name": "Camera Replacement",
+     "image_alt_text": "iPad Mini 4th & 5th Gen Camera Replacement",
+     "repair_image": {
+      "public_id": "service/camera-issues.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/camera-issues.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a350571f66f32eefa5265d5"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-07T10:03:06.582Z",
+   "updated_at": "2026-06-19T09:01:37.409Z",
+   "endpoints": [
+    {
+     "model_id": "680a2781a0d70a0f278d980e",
+     "endpoint": "/services/ipad-mini/4th-gen/camera-replacement",
+     "_id": "6a350571f66f32eefa5265d2"
+    },
+    {
+     "model_id": "680a35c5a0d70a0f278d9928",
+     "endpoint": "/services/ipad-mini/5th-gen/camera-replacement",
+     "_id": "6a350571f66f32eefa5265d3"
+    }
+   ],
+   "meta_description": "Trust iFixit, Bangladesh's Authentic Apple Service Center, for iPad Mini 5th Gen 2019 camera replacement in Dhaka. Genuine OEM parts, certified...",
+   "meta_keywords": "",
+   "meta_title": "iPad Mini 5th Gen 2019 Camera Replacement in Dhaka - iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Mini",
+     "image": {
+      "public_id": "device/ipad-mini.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-mini.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Mini 4th Gen 2015",
+     "image": {
+      "public_id": "model/iPad-Mini-4th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-4th-gen.png"
+     },
+     "endpoint": "4th-gen",
+     "allservice_meta_description": "iPad Mini 4th Gen 2015 repair service in Bangladesh with skilled technicians, reliable solutions and competitive pricing. Book now.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 4th Gen 2015 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 4th Gen 2015 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 4th Gen 2015 from iFixit BD"
+    },
+    {
+     "name": "iPad Mini 5th Gen 2019",
+     "image": {
+      "public_id": "model/iPad-mini-5th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-mini-5th-gen.png"
+     },
+     "endpoint": "5th-gen",
+     "allservice_meta_description": "iPad Mini 5 Repair in Bangladesh with expert technicians, fast service and affordable repair cost. Book your repair today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 5th Gen 2019 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 5th Gen 2019 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 5th Gen 2019 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68bd5819f4016bd30fe621b1",
+   "title": "Speaker Replacement",
+   "order_no": 6,
+   "image": {
+    "public_id": "service/loud-speaker-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/loud-speaker-replacement.png"
+   },
+   "model_id": [
+    "680a2781a0d70a0f278d980e",
+    "680a35c5a0d70a0f278d9928"
+   ],
+   "device_id": "680a29eea0d70a0f278d983f",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bd5819f4016bd30fe621b2"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Speaker Replacement",
+     "website_name": "Speaker Replacement",
+     "image_alt_text": "iPad Mini 4th & 5th Gen Speaker Replacement",
+     "repair_image": {
+      "public_id": "service/loud-speaker-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/loud-speaker-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a350543f66f32eefa5265a3"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-07T10:02:01.435Z",
+   "updated_at": "2026-06-19T09:00:51.719Z",
+   "endpoints": [
+    {
+     "model_id": "680a2781a0d70a0f278d980e",
+     "endpoint": "/services/ipad-mini/4th-gen/speaker-replacement",
+     "_id": "6a350543f66f32eefa5265a0"
+    },
+    {
+     "model_id": "680a35c5a0d70a0f278d9928",
+     "endpoint": "/services/ipad-mini/5th-gen/speaker-replacement",
+     "_id": "6a350543f66f32eefa5265a1"
+    }
+   ],
+   "meta_description": "Get professional speaker replacement for iPad Mini 5th Gen 2019 at iFixit, Dhaka – Bangladesh's Authentic Apple Service Center. 100% genuine OEM parts...",
+   "meta_keywords": "",
+   "meta_title": "iPad Mini 5th Gen 2019 Speaker Replacement in Dhaka - iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Mini",
+     "image": {
+      "public_id": "device/ipad-mini.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-mini.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Mini 4th Gen 2015",
+     "image": {
+      "public_id": "model/iPad-Mini-4th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-4th-gen.png"
+     },
+     "endpoint": "4th-gen",
+     "allservice_meta_description": "iPad Mini 4th Gen 2015 repair service in Bangladesh with skilled technicians, reliable solutions and competitive pricing. Book now.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 4th Gen 2015 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 4th Gen 2015 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 4th Gen 2015 from iFixit BD"
+    },
+    {
+     "name": "iPad Mini 5th Gen 2019",
+     "image": {
+      "public_id": "model/iPad-mini-5th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-mini-5th-gen.png"
+     },
+     "endpoint": "5th-gen",
+     "allservice_meta_description": "iPad Mini 5 Repair in Bangladesh with expert technicians, fast service and affordable repair cost. Book your repair today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 5th Gen 2019 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 5th Gen 2019 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 5th Gen 2019 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68bd5897f4016bd30fe621f5",
+   "title": "Liquid Damage",
+   "order_no": 8,
+   "image": {
+    "public_id": "service/liquid-damage-1.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/liquid-damage-1.png"
+   },
+   "model_id": [
+    "680a2781a0d70a0f278d980e",
+    "680a35c5a0d70a0f278d9928"
+   ],
+   "device_id": "680a29eea0d70a0f278d983f",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bd5897f4016bd30fe621f6"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Liquid Damage",
+     "website_name": "Liquid Damage",
+     "image_alt_text": "iPad Mini 4th & 5th Gen Liquid Damage",
+     "repair_image": {
+      "public_id": "service/liquid-damage-1.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/liquid-damage-1.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "30 days money-back guarantee",
+     "warranty": "",
+     "_id": "6a35059bf66f32eefa526651"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-07T10:04:07.588Z",
+   "updated_at": "2026-06-19T09:02:19.211Z",
+   "endpoints": [
+    {
+     "model_id": "680a2781a0d70a0f278d980e",
+     "endpoint": "/services/ipad-mini/4th-gen/liquid-damage",
+     "_id": "6a35059bf66f32eefa52664e"
+    },
+    {
+     "model_id": "680a35c5a0d70a0f278d9928",
+     "endpoint": "/services/ipad-mini/5th-gen/liquid-damage",
+     "_id": "6a35059bf66f32eefa52664f"
+    }
+   ],
+   "meta_description": "Facing liquid damage with your iPad Mini 5th Gen 2019? iFixit, Bangladesh's Authentic Apple Service Center in Dhaka, offers expert care, genuine OEM...",
+   "meta_keywords": "",
+   "meta_title": "iPad Mini 5th Gen 2019 Liquid Damage in Dhaka - iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Mini",
+     "image": {
+      "public_id": "device/ipad-mini.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-mini.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Mini 4th Gen 2015",
+     "image": {
+      "public_id": "model/iPad-Mini-4th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-4th-gen.png"
+     },
+     "endpoint": "4th-gen",
+     "allservice_meta_description": "iPad Mini 4th Gen 2015 repair service in Bangladesh with skilled technicians, reliable solutions and competitive pricing. Book now.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 4th Gen 2015 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 4th Gen 2015 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 4th Gen 2015 from iFixit BD"
+    },
+    {
+     "name": "iPad Mini 5th Gen 2019",
+     "image": {
+      "public_id": "model/iPad-mini-5th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-mini-5th-gen.png"
+     },
+     "endpoint": "5th-gen",
+     "allservice_meta_description": "iPad Mini 5 Repair in Bangladesh with expert technicians, fast service and affordable repair cost. Book your repair today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 5th Gen 2019 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 5th Gen 2019 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 5th Gen 2019 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68f4d8c87495d2cd0328141c",
+   "title": "Battery Replacement",
+   "order_no": 2,
+   "image": {
+    "public_id": "service/battery-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/battery-issue.png"
+   },
+   "model_id": [
+    "680a35c5a0d70a0f278d9928"
+   ],
+   "device_id": "680a29eea0d70a0f278d983f",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68f4d8c87495d2cd0328141d"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Battery Replacement",
+     "image_alt_text": "iPad Mini 5th Gen Battery Replacement",
+     "repair_image": {
+      "public_id": "service/battery-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/battery-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68f49bdd7495d2cd032810c8",
+     "product_variation_id": "68f49bdd7495d2cd032810cb",
+     "_id": "6a34facbf66f32eefa5158b5",
+     "product_data": {
+      "_id": "68f49bdd7495d2cd032810c8",
+      "product_id": "p289",
+      "name": "iPad Mini 5th Gen 2019 Battery",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f28aed11479fdf2f3ca",
+      "device_id": "680a29eea0d70a0f278d983f",
+      "model_id": "680a35c5a0d70a0f278d9928",
+      "attachable_models": [
+       "680a35c5a0d70a0f278d9928"
+      ],
+      "price": null,
+      "warranty": 0,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-19T08:05:49.196Z",
+      "updated_at": "2026-02-13T12:14:23.615Z",
+      "__v": 0,
+      "endpoint": "/product/ipad-mini-5th-gen-battery",
+      "warranty_note": "",
+      "website_name": "iPad Mini 5th Gen 2019 Battery"
+     },
+     "product_variation_data": {
+      "_id": "68f49bdd7495d2cd032810cb",
+      "name": "Battery",
+      "quality": "Standard After Market",
+      "product_id": "68f49bdd7495d2cd032810c8",
+      "price": 4500,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/ipad-mini-5-battery.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/ipad-mini-5-battery.png",
+        "_id": "694e615e8a888ed233595504"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-19T08:05:49.679Z",
+      "updated_at": "2026-05-05T13:47:18.072Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-19T12:25:44.271Z",
+   "updated_at": "2026-06-19T08:16:11.524Z",
+   "endpoints": [
+    {
+     "model_id": "680a35c5a0d70a0f278d9928",
+     "endpoint": "/services/ipad-mini/5th-gen/battery-replacement",
+     "_id": "6a34facbf66f32eefa5158b3"
+    }
+   ],
+   "meta_description": "Looking for reliable battery replacement for your iPad Mini 5th Gen 2019? iFixit, Bangladesh's Authentic Apple Service Center, delivers expert battery...",
+   "meta_keywords": "",
+   "meta_title": "iPad Mini 5th Gen 2019 Battery Replacement in Dhaka - iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Mini",
+     "image": {
+      "public_id": "device/ipad-mini.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-mini.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Mini 5th Gen 2019",
+     "image": {
+      "public_id": "model/iPad-mini-5th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-mini-5th-gen.png"
+     },
+     "endpoint": "5th-gen",
+     "allservice_meta_description": "iPad Mini 5 Repair in Bangladesh with expert technicians, fast service and affordable repair cost. Book your repair today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 5th Gen 2019 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 5th Gen 2019 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 5th Gen 2019 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68bd58d3f4016bd30fe62217",
+   "title": "Software Issue",
+   "order_no": 9,
+   "image": {
+    "public_id": "service/software-issues.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/software-issues.png"
+   },
+   "model_id": [
+    "680a2781a0d70a0f278d980e",
+    "680a35c5a0d70a0f278d9928"
+   ],
+   "device_id": "680a29eea0d70a0f278d983f",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bd58d3f4016bd30fe62218"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Software Issue",
+     "website_name": "Software Issues",
+     "image_alt_text": "iPad Mini 4th & 5th Gen Software Issues",
+     "repair_image": {
+      "public_id": "service/software-issues.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/software-issues.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 500,
+     "guaranty": "30 days money-back guarantee",
+     "warranty": "",
+     "_id": "6a3505c1f66f32eefa52668d"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-07T10:05:07.307Z",
+   "updated_at": "2026-06-19T09:02:57.856Z",
+   "endpoints": [
+    {
+     "model_id": "680a2781a0d70a0f278d980e",
+     "endpoint": "/services/ipad-mini/4th-gen/software-issues",
+     "_id": "6a3505c1f66f32eefa52668a"
+    },
+    {
+     "model_id": "680a35c5a0d70a0f278d9928",
+     "endpoint": "/services/ipad-mini/5th-gen/software-issues",
+     "_id": "6a3505c1f66f32eefa52668b"
+    }
+   ],
+   "meta_description": "Need software troubleshooting for your iPad Mini 5th Gen 2019? Get expert diagnosis and precise repair at iFixit, Bangladesh's Authentic Apple Service...",
+   "meta_keywords": "",
+   "meta_title": "iPad Mini 5th Gen 2019 Software Issue in Dhaka - iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Mini",
+     "image": {
+      "public_id": "device/ipad-mini.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-mini.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Mini 4th Gen 2015",
+     "image": {
+      "public_id": "model/iPad-Mini-4th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-4th-gen.png"
+     },
+     "endpoint": "4th-gen",
+     "allservice_meta_description": "iPad Mini 4th Gen 2015 repair service in Bangladesh with skilled technicians, reliable solutions and competitive pricing. Book now.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 4th Gen 2015 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 4th Gen 2015 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 4th Gen 2015 from iFixit BD"
+    },
+    {
+     "name": "iPad Mini 5th Gen 2019",
+     "image": {
+      "public_id": "model/iPad-mini-5th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-mini-5th-gen.png"
+     },
+     "endpoint": "5th-gen",
+     "allservice_meta_description": "iPad Mini 5 Repair in Bangladesh with expert technicians, fast service and affordable repair cost. Book your repair today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 5th Gen 2019 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 5th Gen 2019 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 5th Gen 2019 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68bd5786f4016bd30fe62167",
+   "title": "Motherboard Repair",
+   "order_no": 4,
+   "image": {
+    "public_id": "service/ipad-motherboard-repair.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-motherboard-repair.png"
+   },
+   "model_id": [
+    "680a2781a0d70a0f278d980e",
+    "680a35c5a0d70a0f278d9928"
+   ],
+   "device_id": "680a29eea0d70a0f278d983f",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bd5786f4016bd30fe62168"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Motherboard Repair",
+     "website_name": "Motherboard Repair",
+     "image_alt_text": "iPad Mini 4th & 5th Gen Motherboard Repair",
+     "repair_image": {
+      "public_id": "service/ipad-motherboard-repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-motherboard-repair.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 6000,
+     "guaranty": "30 days money-back guarantee",
+     "warranty": "",
+     "_id": "6a35045ef66f32eefa5264d4"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-07T09:59:34.568Z",
+   "updated_at": "2026-06-19T08:57:02.414Z",
+   "endpoints": [
+    {
+     "model_id": "680a2781a0d70a0f278d980e",
+     "endpoint": "/services/ipad-mini/4th-gen/motherboard-repair",
+     "_id": "6a35045ef66f32eefa5264d1"
+    },
+    {
+     "model_id": "680a35c5a0d70a0f278d9928",
+     "endpoint": "/services/ipad-mini/5th-gen/motherboard-repair",
+     "_id": "6a35045ef66f32eefa5264d2"
+    }
+   ],
+   "meta_description": "Need motherboard repair for your iPad Mini 5th Gen 2019? Get expert diagnosis and precise repair at iFixit, Bangladesh's Authentic Apple Service Center...",
+   "meta_keywords": "",
+   "meta_title": "iPad Mini 5th Gen 2019 Motherboard Repair in Dhaka - iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Mini",
+     "image": {
+      "public_id": "device/ipad-mini.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-mini.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad Mini 4th Gen 2015",
+     "image": {
+      "public_id": "model/iPad-Mini-4th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-Mini-4th-gen.png"
+     },
+     "endpoint": "4th-gen",
+     "allservice_meta_description": "iPad Mini 4th Gen 2015 repair service in Bangladesh with skilled technicians, reliable solutions and competitive pricing. Book now.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 4th Gen 2015 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 4th Gen 2015 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 4th Gen 2015 from iFixit BD"
+    },
+    {
+     "name": "iPad Mini 5th Gen 2019",
+     "image": {
+      "public_id": "model/iPad-mini-5th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-mini-5th-gen.png"
+     },
+     "endpoint": "5th-gen",
+     "allservice_meta_description": "iPad Mini 5 Repair in Bangladesh with expert technicians, fast service and affordable repair cost. Book your repair today.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPad Mini 5th Gen 2019 Repair - iFixit BD",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad Mini 5th Gen 2019 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad Mini 5th Gen 2019 from iFixit BD"
+    }
+   ]
+  }
+ ],
+ "totalData": 9
+}

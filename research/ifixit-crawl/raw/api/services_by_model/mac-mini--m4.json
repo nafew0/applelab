@@ -1,0 +1,832 @@
+{
+ "success": true,
+ "message": "successful",
+ "data": [
+  {
+   "_id": "694a70298a888ed23358b1d9",
+   "title": "Os Installation",
+   "order_no": 4,
+   "endpoints": [
+    {
+     "model_id": "68b3f05bf4016bd30fe5ee3a",
+     "endpoint": "/services/mac-mini/m1/os-installation",
+     "_id": "6a27dfd7921f2574d9ae4bdc"
+    },
+    {
+     "model_id": "68b3f073f4016bd30fe5ee43",
+     "endpoint": "/services/mac-mini/m2/os-installation",
+     "_id": "6a27dfd7921f2574d9ae4bdd"
+    },
+    {
+     "model_id": "68b3f0cbf4016bd30fe5ee5a",
+     "endpoint": "/services/mac-mini/m4/os-installation",
+     "_id": "6a27dfd7921f2574d9ae4bde"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-os-installation.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-os-installation.png"
+   },
+   "model_id": [
+    "68b3f05bf4016bd30fe5ee3a",
+    "68b3f073f4016bd30fe5ee43",
+    "68b3f0cbf4016bd30fe5ee5a"
+   ],
+   "device_id": "685e62cb84877e225d242f05",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "694a70298a888ed23358b1dd"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Os Installation",
+     "website_name": "Os Installation",
+     "image_alt_text": "Mac Mini M1, M2, M4 Os Installation",
+     "repair_image": {
+      "public_id": "service/macbook-os-installation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-os-installation.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a27dfd7921f2574d9ae4be0"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-23T10:34:17.310Z",
+   "updated_at": "2026-06-09T09:41:43.685Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Mac Mini",
+     "image": {
+      "public_id": "device/552ea784-4413-4644-8d86-93a50721ac61.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/552ea784-4413-4644-8d86-93a50721ac61.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Mac Mini M2",
+     "image": {
+      "public_id": "model/Mac-mini-M2.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-M2.png"
+     },
+     "endpoint": "m2",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini M2 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "Mac Mini M1",
+     "image": {
+      "public_id": "model/Mac-mini-M1.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-M1.png"
+     },
+     "endpoint": "m1",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini M1 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "Mac Mini M4",
+     "image": {
+      "public_id": "model/Mac-mini-M4.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-M4.png"
+     },
+     "endpoint": "m4",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini M4 Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "694a712a8a888ed23358b24c",
+   "title": "Speaker Replacement",
+   "order_no": 3,
+   "endpoints": [
+    {
+     "model_id": "68b3f05bf4016bd30fe5ee3a",
+     "endpoint": "/services/mac-mini/m1/speaker-replacement",
+     "_id": "6a27dfcf921f2574d9ae4bc1"
+    },
+    {
+     "model_id": "68b3f073f4016bd30fe5ee43",
+     "endpoint": "/services/mac-mini/m2/speaker-replacement",
+     "_id": "6a27dfcf921f2574d9ae4bc2"
+    },
+    {
+     "model_id": "68b3f0cbf4016bd30fe5ee5a",
+     "endpoint": "/services/mac-mini/m4/speaker-replacement",
+     "_id": "6a27dfcf921f2574d9ae4bc3"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-speaker-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-speaker-replacement.png"
+   },
+   "model_id": [
+    "68b3f05bf4016bd30fe5ee3a",
+    "68b3f073f4016bd30fe5ee43",
+    "68b3f0cbf4016bd30fe5ee5a"
+   ],
+   "device_id": "685e62cb84877e225d242f05",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "694a712a8a888ed23358b250"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Speaker Replacement",
+     "website_name": "Speaker Replacement",
+     "image_alt_text": "Mac Mini M1, M2, M4 Speaker Replacement",
+     "repair_image": {
+      "public_id": "service/macbook-speaker-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-speaker-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a27dfcf921f2574d9ae4bc5"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-23T10:38:34.121Z",
+   "updated_at": "2026-06-09T09:41:35.113Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Mac Mini",
+     "image": {
+      "public_id": "device/552ea784-4413-4644-8d86-93a50721ac61.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/552ea784-4413-4644-8d86-93a50721ac61.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Mac Mini M2",
+     "image": {
+      "public_id": "model/Mac-mini-M2.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-M2.png"
+     },
+     "endpoint": "m2",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini M2 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "Mac Mini M1",
+     "image": {
+      "public_id": "model/Mac-mini-M1.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-M1.png"
+     },
+     "endpoint": "m1",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini M1 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "Mac Mini M4",
+     "image": {
+      "public_id": "model/Mac-mini-M4.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-M4.png"
+     },
+     "endpoint": "m4",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini M4 Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "694a719c8a888ed23358b271",
+   "title": "Power Supply Replacement",
+   "order_no": 2,
+   "endpoints": [
+    {
+     "model_id": "68b3f05bf4016bd30fe5ee3a",
+     "endpoint": "/services/mac-mini/m1/power-supply-replacement",
+     "_id": "6a27dfe7921f2574d9ae4c12"
+    },
+    {
+     "model_id": "68b3f073f4016bd30fe5ee43",
+     "endpoint": "/services/mac-mini/m2/power-supply-replacement",
+     "_id": "6a27dfe7921f2574d9ae4c13"
+    },
+    {
+     "model_id": "68b3f0cbf4016bd30fe5ee5a",
+     "endpoint": "/services/mac-mini/m4/power-supply-replacement",
+     "_id": "6a27dfe7921f2574d9ae4c14"
+    }
+   ],
+   "image": {
+    "public_id": "service/power-issues.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/power-issues.png"
+   },
+   "model_id": [
+    "68b3f05bf4016bd30fe5ee3a",
+    "68b3f073f4016bd30fe5ee43",
+    "68b3f0cbf4016bd30fe5ee5a"
+   ],
+   "device_id": "685e62cb84877e225d242f05",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "694a719c8a888ed23358b275"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Power Supply Replacement",
+     "website_name": "Power Supply Replacement",
+     "image_alt_text": "Mac Mini M1, M2, M4 Power Supply Replacement",
+     "repair_image": {
+      "public_id": "service/power-issues.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/power-issues.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 15000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a27dfe7921f2574d9ae4c16"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-23T10:40:28.727Z",
+   "updated_at": "2026-06-09T09:41:59.577Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Mac Mini",
+     "image": {
+      "public_id": "device/552ea784-4413-4644-8d86-93a50721ac61.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/552ea784-4413-4644-8d86-93a50721ac61.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Mac Mini M2",
+     "image": {
+      "public_id": "model/Mac-mini-M2.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-M2.png"
+     },
+     "endpoint": "m2",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini M2 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "Mac Mini M1",
+     "image": {
+      "public_id": "model/Mac-mini-M1.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-M1.png"
+     },
+     "endpoint": "m1",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini M1 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "Mac Mini M4",
+     "image": {
+      "public_id": "model/Mac-mini-M4.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-M4.png"
+     },
+     "endpoint": "m4",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini M4 Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "694a6ef08a888ed23358b156",
+   "title": "Motherboard Repair",
+   "order_no": 1,
+   "endpoints": [
+    {
+     "model_id": "68b3f05bf4016bd30fe5ee3a",
+     "endpoint": "/services/mac-mini/m1/motherboard-repair",
+     "_id": "6a27dfc7921f2574d9ae4ba6"
+    },
+    {
+     "model_id": "68b3f073f4016bd30fe5ee43",
+     "endpoint": "/services/mac-mini/m2/motherboard-repair",
+     "_id": "6a27dfc7921f2574d9ae4ba7"
+    },
+    {
+     "model_id": "68b3f0cbf4016bd30fe5ee5a",
+     "endpoint": "/services/mac-mini/m4/motherboard-repair",
+     "_id": "6a27dfc7921f2574d9ae4ba8"
+    }
+   ],
+   "image": {
+    "public_id": "service/macbook-motherboard-repair.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-motherboard-repair.png"
+   },
+   "model_id": [
+    "68b3f05bf4016bd30fe5ee3a",
+    "68b3f073f4016bd30fe5ee43",
+    "68b3f0cbf4016bd30fe5ee5a"
+   ],
+   "device_id": "685e62cb84877e225d242f05",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "694a6ef08a888ed23358b15a"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Motherboard Repair",
+     "website_name": "Motherboard Repair",
+     "image_alt_text": "Mac Mini M1, M2, M4 Motherboard Repair",
+     "repair_image": {
+      "public_id": "service/macbook-motherboard-repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-motherboard-repair.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 15000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a27dfc7921f2574d9ae4baa"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-23T10:29:04.065Z",
+   "updated_at": "2026-06-09T09:41:26.998Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Mac Mini",
+     "image": {
+      "public_id": "device/552ea784-4413-4644-8d86-93a50721ac61.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/552ea784-4413-4644-8d86-93a50721ac61.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Mac Mini M2",
+     "image": {
+      "public_id": "model/Mac-mini-M2.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-M2.png"
+     },
+     "endpoint": "m2",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini M2 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "Mac Mini M1",
+     "image": {
+      "public_id": "model/Mac-mini-M1.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-M1.png"
+     },
+     "endpoint": "m1",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini M1 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "Mac Mini M4",
+     "image": {
+      "public_id": "model/Mac-mini-M4.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-M4.png"
+     },
+     "endpoint": "m4",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini M4 Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  },
+  {
+   "_id": "694a6f968a888ed23358b17e",
+   "title": "Cleaning Service",
+   "order_no": 5,
+   "endpoints": [
+    {
+     "model_id": "68b3f05bf4016bd30fe5ee3a",
+     "endpoint": "/services/mac-mini/m1/cleaning-service",
+     "_id": "6a27dfdf921f2574d9ae4bf7"
+    },
+    {
+     "model_id": "68b3f073f4016bd30fe5ee43",
+     "endpoint": "/services/mac-mini/m2/cleaning-service",
+     "_id": "6a27dfdf921f2574d9ae4bf8"
+    },
+    {
+     "model_id": "68b3f0cbf4016bd30fe5ee5a",
+     "endpoint": "/services/mac-mini/m4/cleaning-service",
+     "_id": "6a27dfdf921f2574d9ae4bf9"
+    }
+   ],
+   "image": {
+    "public_id": "service/cleaning-service.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/cleaning-service.png"
+   },
+   "model_id": [
+    "68b3f05bf4016bd30fe5ee3a",
+    "68b3f073f4016bd30fe5ee43",
+    "68b3f0cbf4016bd30fe5ee5a"
+   ],
+   "device_id": "685e62cb84877e225d242f05",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "694a6f968a888ed23358b182"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Cleaning Service",
+     "website_name": "Cleaning Service",
+     "image_alt_text": "Mac Mini M1, M2, M4 Cleaning Service",
+     "repair_image": {
+      "public_id": "service/cleaning-service.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/cleaning-service.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a27dfdf921f2574d9ae4bfb"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-23T10:31:50.532Z",
+   "updated_at": "2026-06-09T09:41:51.069Z",
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "Mac Mini",
+     "image": {
+      "public_id": "device/552ea784-4413-4644-8d86-93a50721ac61.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/552ea784-4413-4644-8d86-93a50721ac61.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "Mac Mini M2",
+     "image": {
+      "public_id": "model/Mac-mini-M2.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-M2.png"
+     },
+     "endpoint": "m2",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini M2 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "Mac Mini M1",
+     "image": {
+      "public_id": "model/Mac-mini-M1.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-M1.png"
+     },
+     "endpoint": "m1",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini M1 Repair Service",
+     "allservice_page_title_description": ""
+    },
+    {
+     "name": "Mac Mini M4",
+     "image": {
+      "public_id": "model/Mac-mini-M4.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/Mac-mini-M4.png"
+     },
+     "endpoint": "m4",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "Mac Mini M4 Repair Service",
+     "allservice_page_title_description": ""
+    }
+   ]
+  }
+ ],
+ "totalData": 5
+}

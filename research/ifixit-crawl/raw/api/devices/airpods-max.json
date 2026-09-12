@@ -1,0 +1,31 @@
+{
+ "message": "success",
+ "status": 200,
+ "data": [
+  {
+   "image": {
+    "public_id": "model/AirPods-Max-USB-C.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/AirPods-Max-USB-C.png"
+   },
+   "_id": "68b3f42cf4016bd30fe5ef0c",
+   "name": "AirPods Max USB-C",
+   "order_no": 377,
+   "endpoint": "usb-c"
+  },
+  {
+   "image": {
+    "public_id": "model/AirPods-Max.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/AirPods-Max.png"
+   },
+   "_id": "68b3f417f4016bd30fe5ef03",
+   "name": "AirPods Max",
+   "order_no": 376,
+   "endpoint": "airpods-max"
+  }
+ ],
+ "childDevice": false,
+ "device": {
+  "_id": "68b3f2edf4016bd30fe5eeaa",
+  "name": "AirPods Max"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "message": "success",
+ "status": 200,
+ "data": [
+  {
+   "image": {
+    "public_id": "model/apple-watch-ultra-2.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/apple-watch-ultra-2.png"
+   },
+   "_id": "68a8745b55f5cfa31e2abc73",
+   "name": "Apple Watch Ultra 2-44mm",
+   "order_no": 346,
+   "endpoint": "2-44mm"
+  },
+  {
+   "image": {
+    "public_id": "model/apple-watch-ultra.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/apple-watch-ultra.png"
+   },
+   "_id": "68a873f955f5cfa31e2abc53",
+   "name": "Apple Watch Ultra - 49mm",
+   "order_no": 345,
+   "endpoint": "49-mm"
+  }
+ ],
+ "childDevice": false,
+ "device": {
+  "_id": "68a864dc55f5cfa31e2abae8",
+  "name": "Apple Watch Ultra",
+  "meta_description": "Searching  for trusted Apple Watch ultra repair services in Dhaka? At iFixit BD, we specialize in expert Apple Watch, providing fast and efficient fix.\r\n",
+  "meta_keywords": "undefined",
+  "meta_title": "Authentic Apple Watch Ultra Repair Center in Bangladesh - iFixit BD",
+  "page_description": "<h1>Leading Apple Watch Ultra Repair Service in BD</h1><p>The Apple Watch Ultra enhances daily routines, tracks health metrics, and keeps you connected. A cracked screen, worn battery, or software issue can disrupt not only timekeeping but also productivity and workflow. At iFixit BD, we address these challenges with precision and expertise. Our technicians perform thorough diagnostics and repair each device using genuine components, ensuring consistent performance and long-term reliability. With authentic Apple Watch service still limited in Bangladesh, we set a trusted standard. Through a meticulous, generation-specific repair process, every device regains full functionality while preserving its sleek design. The result is a watch that runs seamlessly, retains its visual elegance, and meets the demands of modern life, reinforcing confidence in both the technology and the user experience.<br/></p><h1>Our Apple Watch Ultra Repair Services</h1><p>Apple Watch functions best when serviced with attention to detail, combining technical expertise and authentic parts for longevity.<br/></p><p>Our Apple Watch Ultra repair services include:</p><ul><li>Apple Watch Ultra screen repair</li><li>Apple Watch Ultra battery replacement </li><li>Apple Watch Ultra Water damage repair </li><li>Apple Watch Ultra software solutions</li></ul>",
+  "page_title": "Apple Watch Ultra Repair Services",
+  "page_title_description": "iFixit BD delivers precise, professional care for the Apple Watch Ultra, ensuring optimal performance and enduring reliability.\r\n"
+ }
+}

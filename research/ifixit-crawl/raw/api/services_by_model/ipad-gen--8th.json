@@ -1,0 +1,1221 @@
+{
+ "success": true,
+ "message": "successful",
+ "data": [
+  {
+   "_id": "6874ea0f19055242d5b94176",
+   "title": "Camera Replacement",
+   "order_no": 7,
+   "image": {
+    "public_id": "service/ipad-generation-8th-generation-camera-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-generation-8th-generation-camera-replacement.png"
+   },
+   "model_id": [
+    "680b25f8a0d70a0f278d9afc"
+   ],
+   "device_id": "680a2faea0d70a0f278d98a9",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "6874ea0f19055242d5b94177"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Camera Replacement",
+     "website_name": "Camera Replacement",
+     "image_alt_text": "iPad Generation 8th Generation Camera Replacement",
+     "repair_image": {
+      "public_id": "service/ipad-generation-8th-generation-camera-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-generation-8th-generation-camera-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a70741ebf41443db677640e"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-14T11:29:19.338Z",
+   "updated_at": "2026-08-03T10:57:34.748Z",
+   "endpoints": [
+    {
+     "model_id": "680b25f8a0d70a0f278d9afc",
+     "endpoint": "/services/ipad-gen/8th/camera-replacement",
+     "_id": "6a70741ebf41443db677640c"
+    }
+   ],
+   "meta_description": "Trust iFixit, Bangladesh's Authentic Apple Service Center, for iPad 8th Gen 2020 camera replacement in Dhaka. Genuine OEM parts, certified technicians...",
+   "meta_keywords": "",
+   "meta_title": "iPad 8th Gen 2020 Camera Replacement in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Generation",
+     "image": {
+      "public_id": "device/ipad-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad 8th Gen 2020",
+     "image": {
+      "public_id": "model/iPad-8th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-8th-gen.png"
+     },
+     "endpoint": "8th",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad 8th Gen 2020 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad 8th Gen 2020 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "6874fb5219055242d5b94206",
+   "title": "Software Issue",
+   "order_no": 9,
+   "image": {
+    "public_id": "service/ipad-8th-generation-2020-software-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-8th-generation-2020-software-issue.png"
+   },
+   "model_id": [
+    "680b25f8a0d70a0f278d9afc"
+   ],
+   "device_id": "680a2faea0d70a0f278d98a9",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "6874fb5219055242d5b94207"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Software Issue",
+     "website_name": "Software Issue",
+     "image_alt_text": "iPad 8th generation 2020 Software Issue",
+     "repair_image": {
+      "public_id": "service/ipad-8th-generation-2020-software-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-8th-generation-2020-software-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 500,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a7074a0bf41443db67765c7"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-14T12:42:58.727Z",
+   "updated_at": "2026-08-03T10:59:44.610Z",
+   "endpoints": [
+    {
+     "model_id": "680b25f8a0d70a0f278d9afc",
+     "endpoint": "/services/ipad-gen/8th/software-issues",
+     "_id": "6a7074a0bf41443db67765c5"
+    }
+   ],
+   "meta_description": "Need software troubleshooting for your iPad 8th Gen 2020? Get expert diagnosis and precise repair at iFixit, Bangladesh's Authentic Apple Service...",
+   "meta_keywords": "",
+   "meta_title": "iPad 8th Gen 2020 Software Issue in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Generation",
+     "image": {
+      "public_id": "device/ipad-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad 8th Gen 2020",
+     "image": {
+      "public_id": "model/iPad-8th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-8th-gen.png"
+     },
+     "endpoint": "8th",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad 8th Gen 2020 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad 8th Gen 2020 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "6873a0fc19055242d5b93df8",
+   "title": "Button Issue",
+   "order_no": 4,
+   "image": {
+    "public_id": "service/ipad-generation-7th,-8th-&-9th-button-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-generation-7th,-8th-&-9th-button-issue.png"
+   },
+   "model_id": [
+    "680b25f8a0d70a0f278d9afc"
+   ],
+   "device_id": "680a2faea0d70a0f278d98a9",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "6873a0fc19055242d5b93df9"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Button Issue",
+     "website_name": "Button Issue",
+     "image_alt_text": "iPad 8th Generation 2020 Button Issue",
+     "repair_image": {
+      "public_id": "service/ipad-generation-7th,-8th-&-9th-button-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-generation-7th,-8th-&-9th-button-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 4000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a7072f0bf41443db6760157"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-13T12:05:16.426Z",
+   "updated_at": "2026-08-03T10:52:32.441Z",
+   "endpoints": [
+    {
+     "model_id": "680b25f8a0d70a0f278d9afc",
+     "endpoint": "/services/ipad-gen/8th/button-issue",
+     "_id": "6a7072f0bf41443db6760155"
+    }
+   ],
+   "meta_description": "Facing a button issue with your iPad 8th Gen 2020? iFixit, Bangladesh's Authentic Apple Service Center in Dhaka, offers expert care, genuine OEM parts...",
+   "meta_keywords": "",
+   "meta_title": "iPad 8th Gen 2020 Button Issue in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Generation",
+     "image": {
+      "public_id": "device/ipad-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad 8th Gen 2020",
+     "image": {
+      "public_id": "model/iPad-8th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-8th-gen.png"
+     },
+     "endpoint": "8th",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad 8th Gen 2020 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad 8th Gen 2020 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "6876045619055242d5b9429d",
+   "title": "Speaker Replacement",
+   "order_no": 6,
+   "image": {
+    "public_id": "service/ipad-8th-generation-2020-speaker-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-8th-generation-2020-speaker-replacement.png"
+   },
+   "model_id": [
+    "680b25f8a0d70a0f278d9afc"
+   ],
+   "device_id": "680a2faea0d70a0f278d98a9",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "6876045619055242d5b9429e"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Speaker Replacement",
+     "website_name": "Speaker Replacement",
+     "image_alt_text": "iPad 8th Generation 2020 Speaker Replacement",
+     "repair_image": {
+      "public_id": "service/ipad-8th-generation-2020-speaker-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-8th-generation-2020-speaker-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 3000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a7073d9bf41443db67763ad"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-15T07:33:42.131Z",
+   "updated_at": "2026-08-03T10:56:25.796Z",
+   "endpoints": [
+    {
+     "model_id": "680b25f8a0d70a0f278d9afc",
+     "endpoint": "/services/ipad-gen/8th/speaker-replacement",
+     "_id": "6a7073d9bf41443db67763ab"
+    }
+   ],
+   "meta_description": "Get professional speaker replacement for iPad 8th Gen 2020 at iFixit, Dhaka – Bangladesh's Authentic Apple Service Center. 100% genuine OEM parts with...",
+   "meta_keywords": "",
+   "meta_title": "iPad 8th Gen 2020 Speaker Replacement in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Generation",
+     "image": {
+      "public_id": "device/ipad-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad 8th Gen 2020",
+     "image": {
+      "public_id": "model/iPad-8th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-8th-gen.png"
+     },
+     "endpoint": "8th",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad 8th Gen 2020 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad 8th Gen 2020 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "6873a04919055242d5b93dd6",
+   "title": "Motherboard Repair",
+   "order_no": 3,
+   "image": {
+    "public_id": "service/ipad-8th-generation-2020-motherboard-repair.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-8th-generation-2020-motherboard-repair.png"
+   },
+   "model_id": [
+    "680b25f8a0d70a0f278d9afc"
+   ],
+   "device_id": "680a2faea0d70a0f278d98a9",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "6873a04919055242d5b93dd7"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Motherboard Repair",
+     "website_name": "Motherboard Repair",
+     "image_alt_text": "iPad 8th Generation 2020 Motherboard Repair",
+     "repair_image": {
+      "public_id": "service/ipad-8th-generation-2020-motherboard-repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-8th-generation-2020-motherboard-repair.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 9500,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a707336bf41443db6760215"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-13T12:02:17.324Z",
+   "updated_at": "2026-08-03T10:53:42.306Z",
+   "endpoints": [
+    {
+     "model_id": "680b25f8a0d70a0f278d9afc",
+     "endpoint": "/services/ipad-gen/8th/motherboard-repair",
+     "_id": "6a707336bf41443db6760213"
+    }
+   ],
+   "meta_description": "Need motherboard repair for your iPad 8th Gen 2020? Get expert diagnosis and precise repair at iFixit, Bangladesh's Authentic Apple Service Center in...",
+   "meta_keywords": "",
+   "meta_title": "iPad 8th Gen 2020 Motherboard Repair in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Generation",
+     "image": {
+      "public_id": "device/ipad-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad 8th Gen 2020",
+     "image": {
+      "public_id": "model/iPad-8th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-8th-gen.png"
+     },
+     "endpoint": "8th",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad 8th Gen 2020 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad 8th Gen 2020 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68bd66ccf4016bd30fe62566",
+   "title": "Battery Replacement",
+   "order_no": 2,
+   "image": {
+    "public_id": "service/battery-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/battery-issue.png"
+   },
+   "model_id": [
+    "680b25f8a0d70a0f278d9afc"
+   ],
+   "device_id": "680a2faea0d70a0f278d98a9",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68bd66ccf4016bd30fe62567"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Battery Replacement",
+     "image_alt_text": "iPad Generation 8th Battery Replacement",
+     "repair_image": {
+      "public_id": "service/battery-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/battery-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68fb4af77495d2cd0328173b",
+     "product_variation_id": "68fb4af87495d2cd0328173e",
+     "_id": "6a7072b4bf41443db6760110",
+     "product_data": {
+      "_id": "68fb4af77495d2cd0328173b",
+      "product_id": "p302",
+      "name": "iPad 8th Gen 2020 Battery",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f28aed11479fdf2f3ca",
+      "device_id": "680a2faea0d70a0f278d98a9",
+      "model_id": "680b25f8a0d70a0f278d9afc",
+      "attachable_models": [
+       "680b25f8a0d70a0f278d9afc"
+      ],
+      "price": null,
+      "warranty": 0,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T09:46:31.588Z",
+      "updated_at": "2026-02-13T13:01:52.864Z",
+      "__v": 0,
+      "endpoint": "/product/ipad-8th-gen-battery",
+      "warranty_note": "",
+      "website_name": "iPad 8th Gen 2020 Battery"
+     },
+     "product_variation_data": {
+      "_id": "68fb4af87495d2cd0328173e",
+      "name": "Battery",
+      "quality": "Standard After Market",
+      "product_id": "68fb4af77495d2cd0328173b",
+      "price": 6000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/ipad-5,-6-,7,8-&-9-battery.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/ipad-5,-6-,7,8-&-9-battery.png",
+        "_id": "694e67ee8a888ed2335959c3"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-24T09:46:32.159Z",
+      "updated_at": "2026-05-05T13:49:24.510Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-07T11:04:44.364Z",
+   "updated_at": "2026-08-03T10:51:32.944Z",
+   "endpoints": [
+    {
+     "model_id": "680b25f8a0d70a0f278d9afc",
+     "endpoint": "/services/ipad-gen/8th/battery-replacement",
+     "_id": "6a7072b4bf41443db676010e"
+    }
+   ],
+   "meta_description": "Looking for reliable battery replacement for your iPad 8th Gen 2020? iFixit, Bangladesh's Authentic Apple Service Center, delivers expert battery...",
+   "meta_keywords": "",
+   "meta_title": "iPad 8th Gen 2020 Battery Replacement in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Generation",
+     "image": {
+      "public_id": "device/ipad-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad 8th Gen 2020",
+     "image": {
+      "public_id": "model/iPad-8th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-8th-gen.png"
+     },
+     "endpoint": "8th",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad 8th Gen 2020 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad 8th Gen 2020 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68fc601d7495d2cd03281f3e",
+   "title": "Display Replacement",
+   "order_no": 1,
+   "image": {
+    "public_id": "service/display-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/display-replacement.png"
+   },
+   "model_id": [
+    "680b25f8a0d70a0f278d9afc"
+   ],
+   "device_id": "680a2faea0d70a0f278d98a9",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68fc601d7495d2cd03281f3f"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Display Replacement",
+     "image_alt_text": "iPad Generation 8th Display Replacement",
+     "repair_image": {
+      "public_id": "service/display-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/display-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68f5e6d07495d2cd032815cc",
+     "product_variation_id": "68f5e6d07495d2cd032815cf",
+     "_id": "6a707273bf41443db676009f",
+     "product_data": {
+      "_id": "68f5e6d07495d2cd032815cc",
+      "product_id": "p295",
+      "name": "Used iPad 8th Gen 2020 Display",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f1caed11479fdf2f3c1",
+      "device_id": "680a2faea0d70a0f278d98a9",
+      "model_id": "680b25f8a0d70a0f278d9afc",
+      "attachable_models": [
+       "680b25f8a0d70a0f278d9afc"
+      ],
+      "price": null,
+      "warranty": 0,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-20T07:37:52.348Z",
+      "updated_at": "2026-02-13T13:02:46.150Z",
+      "__v": 0,
+      "endpoint": "/product/ipad-8th-gen-display",
+      "warranty_note": "",
+      "website_name": "iPad 8th Gen 2020 Display"
+     },
+     "product_variation_data": {
+      "_id": "68f5e6d07495d2cd032815cf",
+      "name": "Display",
+      "quality": "Standard After Market",
+      "product_id": "68f5e6d07495d2cd032815cc",
+      "price": 14000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/ipad-7,8-and-9-display.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/ipad-7,8-and-9-display.png",
+        "_id": "694e67f88a888ed2335959cb"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-20T07:37:52.736Z",
+      "updated_at": "2026-05-05T13:48:10.882Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-25T05:29:01.856Z",
+   "updated_at": "2026-08-03T10:50:27.356Z",
+   "endpoints": [
+    {
+     "model_id": "680b25f8a0d70a0f278d9afc",
+     "endpoint": "/services/ipad-gen/8th/display-replacement",
+     "_id": "6a707273bf41443db676009d"
+    }
+   ],
+   "meta_description": "Trust iFixit, Bangladesh's Authentic Apple Service Center, for iPad 8th Gen 2020 display replacement in Dhaka. Genuine OEM parts, certified...",
+   "meta_keywords": "",
+   "meta_title": "iPad 8th Gen 2020 Display Replacement in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Generation",
+     "image": {
+      "public_id": "device/ipad-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad 8th Gen 2020",
+     "image": {
+      "public_id": "model/iPad-8th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-8th-gen.png"
+     },
+     "endpoint": "8th",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad 8th Gen 2020 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad 8th Gen 2020 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68739e1f19055242d5b93d92",
+   "title": "Liquid Damage",
+   "order_no": 8,
+   "image": {
+    "public_id": "service/ipad-8th-generation-2020-liquid-damage.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-8th-generation-2020-liquid-damage.png"
+   },
+   "model_id": [
+    "680b25f8a0d70a0f278d9afc"
+   ],
+   "device_id": "680a2faea0d70a0f278d98a9",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68739e1f19055242d5b93d93"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Liquid Damage",
+     "website_name": "Liquid Damage",
+     "image_alt_text": "iPad 8th Generation 2020 Liquid Damage",
+     "repair_image": {
+      "public_id": "service/ipad-8th-generation-2020-liquid-damage.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-8th-generation-2020-liquid-damage.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2500,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a707458bf41443db67764c1"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-13T11:53:03.213Z",
+   "updated_at": "2026-08-03T10:58:32.590Z",
+   "endpoints": [
+    {
+     "model_id": "680b25f8a0d70a0f278d9afc",
+     "endpoint": "/services/ipad-gen/8th/liquid-damage",
+     "_id": "6a707458bf41443db67764bf"
+    }
+   ],
+   "meta_description": "Facing liquid damage with your iPad 8th Gen 2020? iFixit, Bangladesh's Authentic Apple Service Center in Dhaka, offers expert care, genuine OEM parts...",
+   "meta_keywords": "",
+   "meta_title": "iPad 8th Gen 2020 Liquid Damage in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Generation",
+     "image": {
+      "public_id": "device/ipad-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad 8th Gen 2020",
+     "image": {
+      "public_id": "model/iPad-8th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-8th-gen.png"
+     },
+     "endpoint": "8th",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad 8th Gen 2020 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad 8th Gen 2020 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "6873a51119055242d5b93e8c",
+   "title": "Touch Replacement",
+   "order_no": 5,
+   "image": {
+    "public_id": "service/ipad-8th-generation-2020-touch-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-8th-generation-2020-touch-replacement.png"
+   },
+   "model_id": [
+    "680b25f8a0d70a0f278d9afc"
+   ],
+   "device_id": "680a2faea0d70a0f278d98a9",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "6873a51119055242d5b93e8d"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Touch Replacement",
+     "website_name": "Touch Replacement",
+     "image_alt_text": "iPad 8th Generation 2020 Touch Replacement",
+     "repair_image": {
+      "public_id": "service/ipad-8th-generation-2020-touch-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ipad-8th-generation-2020-touch-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 6000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a707380bf41443db6776324"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-07-13T12:22:41.016Z",
+   "updated_at": "2026-08-03T10:54:56.588Z",
+   "endpoints": [
+    {
+     "model_id": "680b25f8a0d70a0f278d9afc",
+     "endpoint": "/services/ipad-gen/8th/touch-replacement",
+     "_id": "6a707380bf41443db6776322"
+    }
+   ],
+   "meta_description": "Need touch replacement for your iPad 8th Gen 2020? iFixit offers genuine OEM parts, certified technicians and full warranty in Dhaka – Bangladesh's...",
+   "meta_keywords": "",
+   "meta_title": "iPad 8th Gen 2020 Touch Replacement in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPad Generation",
+     "image": {
+      "public_id": "device/ipad-generation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/ipad-generation.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPad 8th Gen 2020",
+     "image": {
+      "public_id": "model/iPad-8th-gen.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iPad-8th-gen.png"
+     },
+     "endpoint": "8th",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "iPad 8th Gen 2020 Repair List",
+     "allservice_page_title_description": "Choose the right repair service for your iPad 8th Gen 2020 from iFixit BD"
+    }
+   ]
+  }
+ ],
+ "totalData": 9
+}

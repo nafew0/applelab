@@ -1,0 +1,2439 @@
+{
+ "success": true,
+ "message": "successful",
+ "data": [
+  {
+   "_id": "693e825de3cb8bf613c2de6e",
+   "title": "Cleaning Service",
+   "order_no": 17,
+   "endpoints": [
+    {
+     "model_id": "68cbfbab7495d2cd0327c237",
+     "endpoint": "/services/iphone/17/cleaning-service",
+     "_id": "6a6c3342bf41443db648794d"
+    }
+   ],
+   "image": {
+    "public_id": "service/cleaning-service.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/cleaning-service.png"
+   },
+   "model_id": [
+    "68cbfbab7495d2cd0327c237"
+   ],
+   "device_id": "680a0789a0d70a0f278d9405",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693e825de3cb8bf613c2de70"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Cleaning Service",
+     "website_name": "Cleaning Service",
+     "image_alt_text": "iPhone 17 Cleaning Service",
+     "repair_image": {
+      "public_id": "service/cleaning-service.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/cleaning-service.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a6c3342bf41443db648794f"
+    }
+   ],
+   "description": "<p><strong>Introduction</strong></p><p>Dust accumulation inside an iPhone 17 reduces cooling efficiency and affects internal component stability across Apple hardware systems. The device collects microscopic particles around the charging port, speaker mesh, and internal vents during daily use.</p><p>When debris blocks airflow or settles inside connectors, charging stability and audio output degrade over time. The iOS system continues functioning normally, but hardware-level performance becomes inconsistent.</p><p>In many cases, liquid residue and humidity exposure in Dhaka, Bangladesh accelerate corrosion inside the charging port and speaker chamber. This condition directly affects Charging IC performance and audio clarity.</p><p>At iFixit BD, every iPhone 17 cleaning process includes structured diagnostics, internal inspection, and safe removal of dust particles using professional tools. The goal is to restore original device efficiency without damaging internal components like Face ID or Camera Module.<br/> </p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-14T09:24:45.347Z",
+   "updated_at": "2026-07-31T05:31:46.158Z",
+   "meta_description": "Keep your iPhone 17 dust-free, cool and running smoothly with professional cleaning at iFixit, Bangladesh's Authentic Apple Service Center in Dhaka...",
+   "meta_keywords": "",
+   "meta_title": "iPhone 17 Cleaning Service in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPhone",
+     "image": {
+      "public_id": "device/865ecae5-561e-4e45-8c85-37c27b28ad79.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/865ecae5-561e-4e45-8c85-37c27b28ad79.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPhone 17",
+     "image": {
+      "public_id": "model/iphone-17.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iphone-17.png"
+     },
+     "endpoint": "17",
+     "allservice_meta_description": "Get professional iPhone 17 repair service in Bangladesh. Fast diagnostics, screen, battery & motherboard repairs at affordable prices.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPhone 17 Repair Service in Bangladesh | iFixit BD",
+     "allservice_page_description": "<h2>iPhone 17 repair service in Dhaka, Bangladesh</h2><p>With 18+ years of experience, 500,000+ devices repaired, and 70+ expert technicians across 4 dedicated branches in Dhaka, iFixit BD repairs every iPhone 17 fault. The standard iPhone 17 delivers a 6.1-inch OLED display, A19 chip, dual-camera system, and USB-C charging in an aluminium body — Apple&#x27;s 2025 everyday iPhone. We repair cracked screens, failing batteries, USB-C port issues, camera damage, and Face ID sensor faults using A-grade and Original parts. Screen replacement starts from ৳12,000, battery from ৳3,500, and every repair begins with a free written diagnosis.<br/></p><p></p><h2>What are the common iPhone 17 problems we fix?</h2><h3>Battery not lasting through the day</h3><p>The iPhone 17&#x27;s A19 chip is efficient, but Bangladesh&#x27;s high ambient temperatures and always-on connectivity accelerate battery degradation. When the phone no longer reaches evening on a single charge, battery health has dropped. Replacement takes under an hour and immediately restores full-day performance.  iPhone 17 battery replacement</p><h3>Cracked OLED screen</h3><p>The 6.1-inch Super Retina XDR OLED display cracks more visibly than older LCD models and can show discolouration, dead touch zones, or green lines after impact. A full display assembly replacement — OLED panel, digitiser, and bracket — restores the original display quality.  iPhone 17 screen replacement</p><h3>USB-C port loose or charging unreliably</h3><p>The USB-C port is the only charging and data connection on the iPhone 17. Lint in the port is the most frequent cause of intermittent charging. We clean it during free diagnosis — port flex cable replacement is only performed when cleaning confirms the cable itself is damaged. iPhone 17 charging issues</p><h3>Rear camera blurry or not switching correctly</h3><p>The iPhone 17 uses a dual-camera system. Drops that impact the rear camera bump, lens scratches, or internal flex damage can cause blur, autofocus failure, or the camera app failing to open. We inspect each module independently.  iPhone 17 camera repair</p><h3>Face ID sensor failure</h3><p>TrueDepth sensors in the Dynamic Island area control Face ID. Physical impact, moisture, or an incorrect prior screen repair can disable Face ID. iFixit BD protects TrueDepth pairing during screen replacements and can diagnose sensor faults independently.  iPhone 17 Face ID repair<br/></p><p></p><p></p><h2>How does our repair process work?</h2><p>Step 1 — Free diagnosis. Bring your iPhone 17 to any iFixit BD branch. Fault identified, written quote provided at no cost.<br/></p><p>Step 2 — Report and fixed price. Written fault report, fixed price, A-grade and Original options side by side.<br/></p><p>Step 3 — Confirm and repair. Most repairs completed same day. Board-level repairs take 1–2 days.<br/></p><p>Step 4 — Test together and collect with warranty. Full test with you present before you leave. Warranty begins from this moment.<br/></p><p></p><p></p><h2>iPhone 17 repair price list at iFixit BD</h2><p>All prices include parts and labour. Diagnosis is always free.<br/></p><p>Screen replacement (OLED) — A-grade ৳12,000 | Original ৳27,000 | Turnaround: 1–2 hr</p><p>Battery replacement — A-grade ৳3,500 | Original ৳7,000 | Turnaround: 45–60 min</p><p>USB-C charging port — A-grade ৳2,200 | Original ৳4,500 | Turnaround: 1–2 hr</p><p>Rear camera — A-grade ৳4,500 | Original ৳10,000 | Turnaround: 2–3 hr</p><p>Front camera / Face ID sensor — A-grade ৳4,000 | Original ৳9,000 | Turnaround: 2–3 hr</p><p>Earpiece speaker — A-grade ৳1,500 | Original ৳3,200 | Turnaround: 1 hr</p><p>Loudspeaker — A-grade ৳1,800 | Original ৳3,500 | Turnaround: 1 hr</p><p>Back glass — A-grade ৳4,000 | Original ৳9,500 | Turnaround: same day</p><p>Liquid damage (ultrasonic board clean) — from ৳3,500 | Turnaround: 1–3 days</p><p>Logic board repair (micro-soldering) — from ৳5,500 | Turnaround: 1–3 days<br/></p><p></p><p></p><h2>Why repair your iPhone 17 at iFixit BD?</h2><p>Free written diagnosis and fixed quote. Written estimate before work starts — no hidden charges.<br/></p><p>Board-level micro-soldering lab. Component-level repairs, ultrasonic cleaning, 18 years experience.<br/></p><p>Dual-tier pricing. A-grade and Original prices disclosed before work starts. Nothing added at the counter.<br/></p><p>Repair warranty. All parts and labour covered at /warranty-policy.<br/></p><p>70+ expert technicians, 4 dedicated Dhaka branches, 500,000+ devices repaired.<br/></p><p></p><p></p><h2>Is the iPhone 17 still worth repairing in 2026?</h2><p>Yes — this is a current 2025 device and every common repair is clearly worth doing.<br/></p><p>Battery and screen repairs cost far less than replacement. A battery at ৳3,500–7,000 and screen at ৳12,000–27,000 return the phone to full performance for a fraction of replacement cost.<br/></p><p>No iOS ceiling. Current model — receives all iOS updates.<br/></p><p>Straightforward answer for most faults. Battery, screen, USB-C port, camera — all worth repairing on the iPhone 17 in 2026. Board-level faults receive an honest cost assessment before any work starts.<br/></p>",
+     "allservice_page_title": "iPhone 17 Repair Service",
+     "allservice_page_title_description": "Choose the right service for your iPhone 17 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "693e71c9e3cb8bf613c2d6d1",
+   "title": "Upper Glass Replacement",
+   "order_no": 5,
+   "endpoints": [
+    {
+     "model_id": "68cbfbab7495d2cd0327c237",
+     "endpoint": "/services/iphone/17/upper-glass-replacement",
+     "_id": "6a6b4f7abf41443db638967d"
+    }
+   ],
+   "image": {
+    "public_id": "service/upper-glass-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/upper-glass-replacement.png"
+   },
+   "model_id": [
+    "68cbfbab7495d2cd0327c237"
+   ],
+   "device_id": "680a0789a0d70a0f278d9405",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693e71c9e3cb8bf613c2d6d3"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Upper Glass Replacement",
+     "website_name": "Upper Glass Replacement",
+     "image_alt_text": "iPhone 17 Upper Glass Replacement",
+     "repair_image": {
+      "public_id": "service/upper-glass-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/upper-glass-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 14500,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a6b4f7abf41443db638967f"
+    }
+   ],
+   "description": "<p><strong>Descriptions</strong></p><p>Upper glass damage on iPhone 17 directly affects display protection and touch layer stability. The upper glass sits above the display panel and protects the internal touch system from impact and pressure. When the upper glass cracks, the iPhone display assembly loses structural balance, and dust starts entering the laminated screen layers. This condition gradually affects touch response and display clarity.</p><p>At iFixit BD in Dhaka, every upper glass replacement process starts with detailed diagnostics. Technicians inspect display integrity, Touch IC stability, and frame alignment before any repair begins. We use original and high quality parts to maintain Apple-level display accuracy, ensuring long-term durability, smooth touch response, and proper display calibration under daily Bangladesh usage conditions.<br/></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-14T08:14:01.522Z",
+   "updated_at": "2026-07-30T13:19:54.830Z",
+   "meta_description": "Trust iFixit, Bangladesh's Authentic Apple Service Center, for iPhone 17 upper glass replacement in Dhaka. Genuine OEM parts, certified technicians...",
+   "meta_keywords": "",
+   "meta_title": "iPhone 17 Upper Glass Replacement in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPhone",
+     "image": {
+      "public_id": "device/865ecae5-561e-4e45-8c85-37c27b28ad79.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/865ecae5-561e-4e45-8c85-37c27b28ad79.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPhone 17",
+     "image": {
+      "public_id": "model/iphone-17.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iphone-17.png"
+     },
+     "endpoint": "17",
+     "allservice_meta_description": "Get professional iPhone 17 repair service in Bangladesh. Fast diagnostics, screen, battery & motherboard repairs at affordable prices.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPhone 17 Repair Service in Bangladesh | iFixit BD",
+     "allservice_page_description": "<h2>iPhone 17 repair service in Dhaka, Bangladesh</h2><p>With 18+ years of experience, 500,000+ devices repaired, and 70+ expert technicians across 4 dedicated branches in Dhaka, iFixit BD repairs every iPhone 17 fault. The standard iPhone 17 delivers a 6.1-inch OLED display, A19 chip, dual-camera system, and USB-C charging in an aluminium body — Apple&#x27;s 2025 everyday iPhone. We repair cracked screens, failing batteries, USB-C port issues, camera damage, and Face ID sensor faults using A-grade and Original parts. Screen replacement starts from ৳12,000, battery from ৳3,500, and every repair begins with a free written diagnosis.<br/></p><p></p><h2>What are the common iPhone 17 problems we fix?</h2><h3>Battery not lasting through the day</h3><p>The iPhone 17&#x27;s A19 chip is efficient, but Bangladesh&#x27;s high ambient temperatures and always-on connectivity accelerate battery degradation. When the phone no longer reaches evening on a single charge, battery health has dropped. Replacement takes under an hour and immediately restores full-day performance.  iPhone 17 battery replacement</p><h3>Cracked OLED screen</h3><p>The 6.1-inch Super Retina XDR OLED display cracks more visibly than older LCD models and can show discolouration, dead touch zones, or green lines after impact. A full display assembly replacement — OLED panel, digitiser, and bracket — restores the original display quality.  iPhone 17 screen replacement</p><h3>USB-C port loose or charging unreliably</h3><p>The USB-C port is the only charging and data connection on the iPhone 17. Lint in the port is the most frequent cause of intermittent charging. We clean it during free diagnosis — port flex cable replacement is only performed when cleaning confirms the cable itself is damaged. iPhone 17 charging issues</p><h3>Rear camera blurry or not switching correctly</h3><p>The iPhone 17 uses a dual-camera system. Drops that impact the rear camera bump, lens scratches, or internal flex damage can cause blur, autofocus failure, or the camera app failing to open. We inspect each module independently.  iPhone 17 camera repair</p><h3>Face ID sensor failure</h3><p>TrueDepth sensors in the Dynamic Island area control Face ID. Physical impact, moisture, or an incorrect prior screen repair can disable Face ID. iFixit BD protects TrueDepth pairing during screen replacements and can diagnose sensor faults independently.  iPhone 17 Face ID repair<br/></p><p></p><p></p><h2>How does our repair process work?</h2><p>Step 1 — Free diagnosis. Bring your iPhone 17 to any iFixit BD branch. Fault identified, written quote provided at no cost.<br/></p><p>Step 2 — Report and fixed price. Written fault report, fixed price, A-grade and Original options side by side.<br/></p><p>Step 3 — Confirm and repair. Most repairs completed same day. Board-level repairs take 1–2 days.<br/></p><p>Step 4 — Test together and collect with warranty. Full test with you present before you leave. Warranty begins from this moment.<br/></p><p></p><p></p><h2>iPhone 17 repair price list at iFixit BD</h2><p>All prices include parts and labour. Diagnosis is always free.<br/></p><p>Screen replacement (OLED) — A-grade ৳12,000 | Original ৳27,000 | Turnaround: 1–2 hr</p><p>Battery replacement — A-grade ৳3,500 | Original ৳7,000 | Turnaround: 45–60 min</p><p>USB-C charging port — A-grade ৳2,200 | Original ৳4,500 | Turnaround: 1–2 hr</p><p>Rear camera — A-grade ৳4,500 | Original ৳10,000 | Turnaround: 2–3 hr</p><p>Front camera / Face ID sensor — A-grade ৳4,000 | Original ৳9,000 | Turnaround: 2–3 hr</p><p>Earpiece speaker — A-grade ৳1,500 | Original ৳3,200 | Turnaround: 1 hr</p><p>Loudspeaker — A-grade ৳1,800 | Original ৳3,500 | Turnaround: 1 hr</p><p>Back glass — A-grade ৳4,000 | Original ৳9,500 | Turnaround: same day</p><p>Liquid damage (ultrasonic board clean) — from ৳3,500 | Turnaround: 1–3 days</p><p>Logic board repair (micro-soldering) — from ৳5,500 | Turnaround: 1–3 days<br/></p><p></p><p></p><h2>Why repair your iPhone 17 at iFixit BD?</h2><p>Free written diagnosis and fixed quote. Written estimate before work starts — no hidden charges.<br/></p><p>Board-level micro-soldering lab. Component-level repairs, ultrasonic cleaning, 18 years experience.<br/></p><p>Dual-tier pricing. A-grade and Original prices disclosed before work starts. Nothing added at the counter.<br/></p><p>Repair warranty. All parts and labour covered at /warranty-policy.<br/></p><p>70+ expert technicians, 4 dedicated Dhaka branches, 500,000+ devices repaired.<br/></p><p></p><p></p><h2>Is the iPhone 17 still worth repairing in 2026?</h2><p>Yes — this is a current 2025 device and every common repair is clearly worth doing.<br/></p><p>Battery and screen repairs cost far less than replacement. A battery at ৳3,500–7,000 and screen at ৳12,000–27,000 return the phone to full performance for a fraction of replacement cost.<br/></p><p>No iOS ceiling. Current model — receives all iOS updates.<br/></p><p>Straightforward answer for most faults. Battery, screen, USB-C port, camera — all worth repairing on the iPhone 17 in 2026. Board-level faults receive an honest cost assessment before any work starts.<br/></p>",
+     "allservice_page_title": "iPhone 17 Repair Service",
+     "allservice_page_title_description": "Choose the right service for your iPhone 17 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "6941118fe3cb8bf613c3287f",
+   "title": "Face ID Issue",
+   "order_no": 19,
+   "endpoints": [
+    {
+     "model_id": "68cbfbab7495d2cd0327c237",
+     "endpoint": "/services/iphone/17/face-id-issues",
+     "_id": "6a6c3382bf41443db64879ae"
+    }
+   ],
+   "image": {
+    "public_id": "service/face-id-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/face-id-issue.png"
+   },
+   "model_id": [
+    "68cbfbab7495d2cd0327c237"
+   ],
+   "device_id": "680a0789a0d70a0f278d9405",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "6941118fe3cb8bf613c32881"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Face ID Issue",
+     "website_name": "Face ID Issue",
+     "image_alt_text": "iPhone 17 Face ID Issue",
+     "repair_image": {
+      "public_id": "service/face-id-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/face-id-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 8000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a6c3382bf41443db64879b0"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-16T08:00:15.308Z",
+   "updated_at": "2026-07-31T05:32:50.969Z",
+   "meta_description": "iPhone 17 Face ID Issue? Get expert diagnosis and precise repair at iFixit, Bangladesh's Authentic Apple Service Center in Dhaka. Genuine OEM parts...",
+   "meta_keywords": "",
+   "meta_title": "iPhone 17 Face ID Issue in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPhone",
+     "image": {
+      "public_id": "device/865ecae5-561e-4e45-8c85-37c27b28ad79.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/865ecae5-561e-4e45-8c85-37c27b28ad79.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPhone 17",
+     "image": {
+      "public_id": "model/iphone-17.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iphone-17.png"
+     },
+     "endpoint": "17",
+     "allservice_meta_description": "Get professional iPhone 17 repair service in Bangladesh. Fast diagnostics, screen, battery & motherboard repairs at affordable prices.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPhone 17 Repair Service in Bangladesh | iFixit BD",
+     "allservice_page_description": "<h2>iPhone 17 repair service in Dhaka, Bangladesh</h2><p>With 18+ years of experience, 500,000+ devices repaired, and 70+ expert technicians across 4 dedicated branches in Dhaka, iFixit BD repairs every iPhone 17 fault. The standard iPhone 17 delivers a 6.1-inch OLED display, A19 chip, dual-camera system, and USB-C charging in an aluminium body — Apple&#x27;s 2025 everyday iPhone. We repair cracked screens, failing batteries, USB-C port issues, camera damage, and Face ID sensor faults using A-grade and Original parts. Screen replacement starts from ৳12,000, battery from ৳3,500, and every repair begins with a free written diagnosis.<br/></p><p></p><h2>What are the common iPhone 17 problems we fix?</h2><h3>Battery not lasting through the day</h3><p>The iPhone 17&#x27;s A19 chip is efficient, but Bangladesh&#x27;s high ambient temperatures and always-on connectivity accelerate battery degradation. When the phone no longer reaches evening on a single charge, battery health has dropped. Replacement takes under an hour and immediately restores full-day performance.  iPhone 17 battery replacement</p><h3>Cracked OLED screen</h3><p>The 6.1-inch Super Retina XDR OLED display cracks more visibly than older LCD models and can show discolouration, dead touch zones, or green lines after impact. A full display assembly replacement — OLED panel, digitiser, and bracket — restores the original display quality.  iPhone 17 screen replacement</p><h3>USB-C port loose or charging unreliably</h3><p>The USB-C port is the only charging and data connection on the iPhone 17. Lint in the port is the most frequent cause of intermittent charging. We clean it during free diagnosis — port flex cable replacement is only performed when cleaning confirms the cable itself is damaged. iPhone 17 charging issues</p><h3>Rear camera blurry or not switching correctly</h3><p>The iPhone 17 uses a dual-camera system. Drops that impact the rear camera bump, lens scratches, or internal flex damage can cause blur, autofocus failure, or the camera app failing to open. We inspect each module independently.  iPhone 17 camera repair</p><h3>Face ID sensor failure</h3><p>TrueDepth sensors in the Dynamic Island area control Face ID. Physical impact, moisture, or an incorrect prior screen repair can disable Face ID. iFixit BD protects TrueDepth pairing during screen replacements and can diagnose sensor faults independently.  iPhone 17 Face ID repair<br/></p><p></p><p></p><h2>How does our repair process work?</h2><p>Step 1 — Free diagnosis. Bring your iPhone 17 to any iFixit BD branch. Fault identified, written quote provided at no cost.<br/></p><p>Step 2 — Report and fixed price. Written fault report, fixed price, A-grade and Original options side by side.<br/></p><p>Step 3 — Confirm and repair. Most repairs completed same day. Board-level repairs take 1–2 days.<br/></p><p>Step 4 — Test together and collect with warranty. Full test with you present before you leave. Warranty begins from this moment.<br/></p><p></p><p></p><h2>iPhone 17 repair price list at iFixit BD</h2><p>All prices include parts and labour. Diagnosis is always free.<br/></p><p>Screen replacement (OLED) — A-grade ৳12,000 | Original ৳27,000 | Turnaround: 1–2 hr</p><p>Battery replacement — A-grade ৳3,500 | Original ৳7,000 | Turnaround: 45–60 min</p><p>USB-C charging port — A-grade ৳2,200 | Original ৳4,500 | Turnaround: 1–2 hr</p><p>Rear camera — A-grade ৳4,500 | Original ৳10,000 | Turnaround: 2–3 hr</p><p>Front camera / Face ID sensor — A-grade ৳4,000 | Original ৳9,000 | Turnaround: 2–3 hr</p><p>Earpiece speaker — A-grade ৳1,500 | Original ৳3,200 | Turnaround: 1 hr</p><p>Loudspeaker — A-grade ৳1,800 | Original ৳3,500 | Turnaround: 1 hr</p><p>Back glass — A-grade ৳4,000 | Original ৳9,500 | Turnaround: same day</p><p>Liquid damage (ultrasonic board clean) — from ৳3,500 | Turnaround: 1–3 days</p><p>Logic board repair (micro-soldering) — from ৳5,500 | Turnaround: 1–3 days<br/></p><p></p><p></p><h2>Why repair your iPhone 17 at iFixit BD?</h2><p>Free written diagnosis and fixed quote. Written estimate before work starts — no hidden charges.<br/></p><p>Board-level micro-soldering lab. Component-level repairs, ultrasonic cleaning, 18 years experience.<br/></p><p>Dual-tier pricing. A-grade and Original prices disclosed before work starts. Nothing added at the counter.<br/></p><p>Repair warranty. All parts and labour covered at /warranty-policy.<br/></p><p>70+ expert technicians, 4 dedicated Dhaka branches, 500,000+ devices repaired.<br/></p><p></p><p></p><h2>Is the iPhone 17 still worth repairing in 2026?</h2><p>Yes — this is a current 2025 device and every common repair is clearly worth doing.<br/></p><p>Battery and screen repairs cost far less than replacement. A battery at ৳3,500–7,000 and screen at ৳12,000–27,000 return the phone to full performance for a fraction of replacement cost.<br/></p><p>No iOS ceiling. Current model — receives all iOS updates.<br/></p><p>Straightforward answer for most faults. Battery, screen, USB-C port, camera — all worth repairing on the iPhone 17 in 2026. Board-level faults receive an honest cost assessment before any work starts.<br/></p>",
+     "allservice_page_title": "iPhone 17 Repair Service",
+     "allservice_page_title_description": "Choose the right service for your iPhone 17 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "693e789ee3cb8bf613c2d7ba",
+   "title": "Front Camera Replacement",
+   "order_no": 9,
+   "endpoints": [
+    {
+     "model_id": "68cbfbab7495d2cd0327c237",
+     "endpoint": "/services/iphone/17/front-camera-replacement",
+     "_id": "6a6b5198bf41443db6389973"
+    }
+   ],
+   "image": {
+    "public_id": "service/front-camera-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/front-camera-replacement.png"
+   },
+   "model_id": [
+    "68cbfbab7495d2cd0327c237"
+   ],
+   "device_id": "680a0789a0d70a0f278d9405",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693e789ee3cb8bf613c2d7bc"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Front Camera Replacement",
+     "website_name": "Front Camera Replacement",
+     "image_alt_text": "iPhone 17 Front Camera Replacement",
+     "repair_image": {
+      "public_id": "service/front-camera-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/front-camera-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 8000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a6b5198bf41443db6389975"
+    }
+   ],
+   "description": "<p><strong>Introduction</strong></p><p>The front camera system on the iPhone 17 handles selfies, Face ID authentication, video calls, social media content, and secure iOS features. Front camera failure directly affects communication quality and device usability.</p><p>The iPhone 17 front camera module becomes unstable after drops, liquid damage, overheating, or internal hardware failure. Camera focus performance declines when the sensor alignment shifts or internal flex cables become damaged. Face ID performance also becomes inconsistent when the front camera assembly loses proper motherboard communication.</p><p>At iFixit BD, every iPhone 17 Front Camera Replacement starts with complete diagnostics. Our repair technicians inspect the front camera module, Face ID components, motherboard communication lines, and iOS camera functionality before beginning the repair process.</p><p>Customers across Dhaka choose iFixit BD because we use original and high quality parts designed for long-term reliability. Proper camera replacement restores image clarity, stable Face ID performance, and smooth video communication.</p><p>Professional installation also protects nearby components including the OLED display, Touch IC connections, display calibration system, and front sensor assembly.<br/> </p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-14T08:43:10.319Z",
+   "updated_at": "2026-07-30T13:28:56.078Z",
+   "meta_description": "Trust iFixit, Bangladesh's Authentic Apple Service Center, for iPhone 17 front camera replacement in Dhaka. Genuine OEM parts, certified technicians...",
+   "meta_keywords": "",
+   "meta_title": "iPhone 17 Front Camera Replacement in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPhone",
+     "image": {
+      "public_id": "device/865ecae5-561e-4e45-8c85-37c27b28ad79.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/865ecae5-561e-4e45-8c85-37c27b28ad79.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPhone 17",
+     "image": {
+      "public_id": "model/iphone-17.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iphone-17.png"
+     },
+     "endpoint": "17",
+     "allservice_meta_description": "Get professional iPhone 17 repair service in Bangladesh. Fast diagnostics, screen, battery & motherboard repairs at affordable prices.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPhone 17 Repair Service in Bangladesh | iFixit BD",
+     "allservice_page_description": "<h2>iPhone 17 repair service in Dhaka, Bangladesh</h2><p>With 18+ years of experience, 500,000+ devices repaired, and 70+ expert technicians across 4 dedicated branches in Dhaka, iFixit BD repairs every iPhone 17 fault. The standard iPhone 17 delivers a 6.1-inch OLED display, A19 chip, dual-camera system, and USB-C charging in an aluminium body — Apple&#x27;s 2025 everyday iPhone. We repair cracked screens, failing batteries, USB-C port issues, camera damage, and Face ID sensor faults using A-grade and Original parts. Screen replacement starts from ৳12,000, battery from ৳3,500, and every repair begins with a free written diagnosis.<br/></p><p></p><h2>What are the common iPhone 17 problems we fix?</h2><h3>Battery not lasting through the day</h3><p>The iPhone 17&#x27;s A19 chip is efficient, but Bangladesh&#x27;s high ambient temperatures and always-on connectivity accelerate battery degradation. When the phone no longer reaches evening on a single charge, battery health has dropped. Replacement takes under an hour and immediately restores full-day performance.  iPhone 17 battery replacement</p><h3>Cracked OLED screen</h3><p>The 6.1-inch Super Retina XDR OLED display cracks more visibly than older LCD models and can show discolouration, dead touch zones, or green lines after impact. A full display assembly replacement — OLED panel, digitiser, and bracket — restores the original display quality.  iPhone 17 screen replacement</p><h3>USB-C port loose or charging unreliably</h3><p>The USB-C port is the only charging and data connection on the iPhone 17. Lint in the port is the most frequent cause of intermittent charging. We clean it during free diagnosis — port flex cable replacement is only performed when cleaning confirms the cable itself is damaged. iPhone 17 charging issues</p><h3>Rear camera blurry or not switching correctly</h3><p>The iPhone 17 uses a dual-camera system. Drops that impact the rear camera bump, lens scratches, or internal flex damage can cause blur, autofocus failure, or the camera app failing to open. We inspect each module independently.  iPhone 17 camera repair</p><h3>Face ID sensor failure</h3><p>TrueDepth sensors in the Dynamic Island area control Face ID. Physical impact, moisture, or an incorrect prior screen repair can disable Face ID. iFixit BD protects TrueDepth pairing during screen replacements and can diagnose sensor faults independently.  iPhone 17 Face ID repair<br/></p><p></p><p></p><h2>How does our repair process work?</h2><p>Step 1 — Free diagnosis. Bring your iPhone 17 to any iFixit BD branch. Fault identified, written quote provided at no cost.<br/></p><p>Step 2 — Report and fixed price. Written fault report, fixed price, A-grade and Original options side by side.<br/></p><p>Step 3 — Confirm and repair. Most repairs completed same day. Board-level repairs take 1–2 days.<br/></p><p>Step 4 — Test together and collect with warranty. Full test with you present before you leave. Warranty begins from this moment.<br/></p><p></p><p></p><h2>iPhone 17 repair price list at iFixit BD</h2><p>All prices include parts and labour. Diagnosis is always free.<br/></p><p>Screen replacement (OLED) — A-grade ৳12,000 | Original ৳27,000 | Turnaround: 1–2 hr</p><p>Battery replacement — A-grade ৳3,500 | Original ৳7,000 | Turnaround: 45–60 min</p><p>USB-C charging port — A-grade ৳2,200 | Original ৳4,500 | Turnaround: 1–2 hr</p><p>Rear camera — A-grade ৳4,500 | Original ৳10,000 | Turnaround: 2–3 hr</p><p>Front camera / Face ID sensor — A-grade ৳4,000 | Original ৳9,000 | Turnaround: 2–3 hr</p><p>Earpiece speaker — A-grade ৳1,500 | Original ৳3,200 | Turnaround: 1 hr</p><p>Loudspeaker — A-grade ৳1,800 | Original ৳3,500 | Turnaround: 1 hr</p><p>Back glass — A-grade ৳4,000 | Original ৳9,500 | Turnaround: same day</p><p>Liquid damage (ultrasonic board clean) — from ৳3,500 | Turnaround: 1–3 days</p><p>Logic board repair (micro-soldering) — from ৳5,500 | Turnaround: 1–3 days<br/></p><p></p><p></p><h2>Why repair your iPhone 17 at iFixit BD?</h2><p>Free written diagnosis and fixed quote. Written estimate before work starts — no hidden charges.<br/></p><p>Board-level micro-soldering lab. Component-level repairs, ultrasonic cleaning, 18 years experience.<br/></p><p>Dual-tier pricing. A-grade and Original prices disclosed before work starts. Nothing added at the counter.<br/></p><p>Repair warranty. All parts and labour covered at /warranty-policy.<br/></p><p>70+ expert technicians, 4 dedicated Dhaka branches, 500,000+ devices repaired.<br/></p><p></p><p></p><h2>Is the iPhone 17 still worth repairing in 2026?</h2><p>Yes — this is a current 2025 device and every common repair is clearly worth doing.<br/></p><p>Battery and screen repairs cost far less than replacement. A battery at ৳3,500–7,000 and screen at ৳12,000–27,000 return the phone to full performance for a fraction of replacement cost.<br/></p><p>No iOS ceiling. Current model — receives all iOS updates.<br/></p><p>Straightforward answer for most faults. Battery, screen, USB-C port, camera — all worth repairing on the iPhone 17 in 2026. Board-level faults receive an honest cost assessment before any work starts.<br/></p>",
+     "allservice_page_title": "iPhone 17 Repair Service",
+     "allservice_page_title_description": "Choose the right service for your iPhone 17 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "693e7144e3cb8bf613c2d68b",
+   "title": "Battery Replacement",
+   "order_no": 2,
+   "endpoints": [
+    {
+     "model_id": "68cbfbab7495d2cd0327c237",
+     "endpoint": "/services/iphone/17/battery-replacement",
+     "_id": "6a6b4911bf41443db635e063"
+    }
+   ],
+   "image": {
+    "public_id": "service/battery-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/battery-issue.png"
+   },
+   "model_id": [
+    "68cbfbab7495d2cd0327c237"
+   ],
+   "device_id": "680a0789a0d70a0f278d9405",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693e7144e3cb8bf613c2d68d"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Battery Replacement",
+     "image_alt_text": "iPhone 17 Battery Replacement",
+     "repair_image": {
+      "public_id": "service/battery-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/battery-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "18 Months Warranty",
+     "product_id": "6944eda28836331ef88f83be",
+     "product_variation_id": "6944eda38836331ef88f83c1",
+     "_id": "6a6b4911bf41443db635e065",
+     "product_data": {
+      "_id": "6944eda28836331ef88f83be",
+      "product_id": "p391",
+      "name": "iPhone 17 Original Battery",
+      "brand_id": "680a09e8a0d70a0f278d94ae",
+      "category_id": "68282f28aed11479fdf2f3ca",
+      "device_id": "680a0789a0d70a0f278d9405",
+      "model_id": "68cbfbab7495d2cd0327c237",
+      "attachable_models": [
+       "68cbfbab7495d2cd0327c237"
+      ],
+      "price": null,
+      "warranty": 18,
+      "description": "<h2>iPhone 17 Original Battery</h2><p>This is a genuine Apple battery for the iPhone 17 — the original 3,692 mAh lithium-ion cell with Apple&#x27;s factory battery management system, not an aftermarket copy. A genuine battery restores the phone&#x27;s rated endurance of up to 30 hours of video playback, its factory fast-charging behavior, and Apple&#x27;s safety standards. Every unit is capacity-tested before sale.</p><h2>Battery technology and specifications</h2><p><strong>Capacity</strong>: 3,692 mAh in the physical-SIM variant sold in Bangladesh [VERIFY: stocked variant; eSIM-only variants carry a slightly larger cell]. Interestingly, the iPhone 17&#x27;s efficiency — particularly its LTPO ProMotion display — lets it outlast some larger-capacity phones; that efficiency equation only works with a genuine cell delivering true rated capacity.<br/></p><p><strong>Power management:</strong> Apple&#x27;s factory battery management circuitry governs charging curves, thermal limits, and Battery Health reporting accuracy — the component copy batteries compromise on, and the difference between predictable degradation and a cell that overheats or swells.<br/></p><p><strong>Charging behavior</strong>: Restores the factory charging profile — fast charging up to 50% in around 20 minutes with Apple&#x27;s 40W adapter, and MagSafe wireless charging up to 25W with a 30W or higher adapter.<br/></p><p><strong>Safety</strong>: Genuine Apple cells meet Apple&#x27;s thermal and overcharge protection standards — the most important safety factor in any battery replacement.</p><h2>Why a genuine iPhone battery matters?</h2><p>A degraded battery shows up as faster percentage drain, slowdowns under peak load, and eventually a battery service message in iOS. A genuine replacement resolves all three as Apple designed: full rated capacity, restored peak performance capability, and correct Battery Health reporting.<br/> </p><h2>What is the price of iPhone 17 original battery in Bangladesh</h2><p>The original iPhone 17 battery costs Tk 12,000 at iFixit BD, including capacity testing before sale and an 18-month warranty. The iPhone 17&#x27;s all-day endurance comes from pairing a 3,692 mAh cell with highly efficient hardware — an equation that only holds when the cell delivers its true rated capacity, which copy cells sold cheaper in the market consistently fail to do.<br/> </p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-12-19T06:16:02.772Z",
+      "updated_at": "2026-07-11T04:06:53.273Z",
+      "__v": 0,
+      "endpoint": "/product/iphone-17-original-battery",
+      "warranty_note": "",
+      "website_name": "iPhone 17 Original Battery",
+      "description2": "<p></p>",
+      "meta_description": "Get your iPhone 17 running all day again. Original battery, tested before sale, with an 18-month warranty and 30-day money-back guarantee. Order today from iFixit BD Dhaka.\r\n",
+      "meta_keywords": "undefined",
+      "meta_title": "iPhone 17 Original Battery – Tk 12,000 | iFixit BD",
+      "page_description": "<p></p>",
+      "page_title": "undefined",
+      "page_title_description": "undefined"
+     },
+     "product_variation_data": {
+      "_id": "6944eda38836331ef88f83c1",
+      "name": "3,692 mAh",
+      "quality": "OEM",
+      "product_id": "6944eda28836331ef88f83be",
+      "price": 12000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/iPhone-17-original-battery.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/iPhone-17-original-battery.png",
+        "_id": "69b9187b237968f819c79736"
+       }
+      ],
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-12-19T06:16:03.367Z",
+      "updated_at": "2026-04-13T07:24:20.729Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p><strong>Description</strong></p><p>iPhone 17 battery performance declines when battery health drops after repeated charging cycles and overheating. The device loses backup time and struggles under normal usage load. The iPhone 17 battery system integrates power management IC, fast charging control, and iOS energy optimization. When the battery degrades, the entire power distribution becomes unstable.</p><p>At iFixit BD in Dhaka, every iPhone 17 Original Battery Replacement starts with structured diagnostics. A repair technician checks charging IC behavior, power consumption patterns, and battery cycle health before replacement.</p><p>We install OEM &amp; iFixit batteries to restore stable performance, fast charging support, and long-term reliability under daily use in Bangladesh.<br/></p><p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-14T08:11:48.055Z",
+   "updated_at": "2026-07-30T12:52:33.238Z",
+   "meta_description": "Need battery replacement for your iPhone 17? iFixit offers genuine OEM parts, certified technicians and full warranty in Dhaka – Bangladesh's Authentic...",
+   "meta_keywords": "",
+   "meta_title": "iPhone 17 Battery Replacement in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "iPhone 17 Battery Replacement",
+   "page_title_description": "Choose the right battery for your iPhone 17 from iFixit BD",
+   "device_data": [
+    {
+     "name": "iPhone",
+     "image": {
+      "public_id": "device/865ecae5-561e-4e45-8c85-37c27b28ad79.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/865ecae5-561e-4e45-8c85-37c27b28ad79.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPhone 17",
+     "image": {
+      "public_id": "model/iphone-17.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iphone-17.png"
+     },
+     "endpoint": "17",
+     "allservice_meta_description": "Get professional iPhone 17 repair service in Bangladesh. Fast diagnostics, screen, battery & motherboard repairs at affordable prices.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPhone 17 Repair Service in Bangladesh | iFixit BD",
+     "allservice_page_description": "<h2>iPhone 17 repair service in Dhaka, Bangladesh</h2><p>With 18+ years of experience, 500,000+ devices repaired, and 70+ expert technicians across 4 dedicated branches in Dhaka, iFixit BD repairs every iPhone 17 fault. The standard iPhone 17 delivers a 6.1-inch OLED display, A19 chip, dual-camera system, and USB-C charging in an aluminium body — Apple&#x27;s 2025 everyday iPhone. We repair cracked screens, failing batteries, USB-C port issues, camera damage, and Face ID sensor faults using A-grade and Original parts. Screen replacement starts from ৳12,000, battery from ৳3,500, and every repair begins with a free written diagnosis.<br/></p><p></p><h2>What are the common iPhone 17 problems we fix?</h2><h3>Battery not lasting through the day</h3><p>The iPhone 17&#x27;s A19 chip is efficient, but Bangladesh&#x27;s high ambient temperatures and always-on connectivity accelerate battery degradation. When the phone no longer reaches evening on a single charge, battery health has dropped. Replacement takes under an hour and immediately restores full-day performance.  iPhone 17 battery replacement</p><h3>Cracked OLED screen</h3><p>The 6.1-inch Super Retina XDR OLED display cracks more visibly than older LCD models and can show discolouration, dead touch zones, or green lines after impact. A full display assembly replacement — OLED panel, digitiser, and bracket — restores the original display quality.  iPhone 17 screen replacement</p><h3>USB-C port loose or charging unreliably</h3><p>The USB-C port is the only charging and data connection on the iPhone 17. Lint in the port is the most frequent cause of intermittent charging. We clean it during free diagnosis — port flex cable replacement is only performed when cleaning confirms the cable itself is damaged. iPhone 17 charging issues</p><h3>Rear camera blurry or not switching correctly</h3><p>The iPhone 17 uses a dual-camera system. Drops that impact the rear camera bump, lens scratches, or internal flex damage can cause blur, autofocus failure, or the camera app failing to open. We inspect each module independently.  iPhone 17 camera repair</p><h3>Face ID sensor failure</h3><p>TrueDepth sensors in the Dynamic Island area control Face ID. Physical impact, moisture, or an incorrect prior screen repair can disable Face ID. iFixit BD protects TrueDepth pairing during screen replacements and can diagnose sensor faults independently.  iPhone 17 Face ID repair<br/></p><p></p><p></p><h2>How does our repair process work?</h2><p>Step 1 — Free diagnosis. Bring your iPhone 17 to any iFixit BD branch. Fault identified, written quote provided at no cost.<br/></p><p>Step 2 — Report and fixed price. Written fault report, fixed price, A-grade and Original options side by side.<br/></p><p>Step 3 — Confirm and repair. Most repairs completed same day. Board-level repairs take 1–2 days.<br/></p><p>Step 4 — Test together and collect with warranty. Full test with you present before you leave. Warranty begins from this moment.<br/></p><p></p><p></p><h2>iPhone 17 repair price list at iFixit BD</h2><p>All prices include parts and labour. Diagnosis is always free.<br/></p><p>Screen replacement (OLED) — A-grade ৳12,000 | Original ৳27,000 | Turnaround: 1–2 hr</p><p>Battery replacement — A-grade ৳3,500 | Original ৳7,000 | Turnaround: 45–60 min</p><p>USB-C charging port — A-grade ৳2,200 | Original ৳4,500 | Turnaround: 1–2 hr</p><p>Rear camera — A-grade ৳4,500 | Original ৳10,000 | Turnaround: 2–3 hr</p><p>Front camera / Face ID sensor — A-grade ৳4,000 | Original ৳9,000 | Turnaround: 2–3 hr</p><p>Earpiece speaker — A-grade ৳1,500 | Original ৳3,200 | Turnaround: 1 hr</p><p>Loudspeaker — A-grade ৳1,800 | Original ৳3,500 | Turnaround: 1 hr</p><p>Back glass — A-grade ৳4,000 | Original ৳9,500 | Turnaround: same day</p><p>Liquid damage (ultrasonic board clean) — from ৳3,500 | Turnaround: 1–3 days</p><p>Logic board repair (micro-soldering) — from ৳5,500 | Turnaround: 1–3 days<br/></p><p></p><p></p><h2>Why repair your iPhone 17 at iFixit BD?</h2><p>Free written diagnosis and fixed quote. Written estimate before work starts — no hidden charges.<br/></p><p>Board-level micro-soldering lab. Component-level repairs, ultrasonic cleaning, 18 years experience.<br/></p><p>Dual-tier pricing. A-grade and Original prices disclosed before work starts. Nothing added at the counter.<br/></p><p>Repair warranty. All parts and labour covered at /warranty-policy.<br/></p><p>70+ expert technicians, 4 dedicated Dhaka branches, 500,000+ devices repaired.<br/></p><p></p><p></p><h2>Is the iPhone 17 still worth repairing in 2026?</h2><p>Yes — this is a current 2025 device and every common repair is clearly worth doing.<br/></p><p>Battery and screen repairs cost far less than replacement. A battery at ৳3,500–7,000 and screen at ৳12,000–27,000 return the phone to full performance for a fraction of replacement cost.<br/></p><p>No iOS ceiling. Current model — receives all iOS updates.<br/></p><p>Straightforward answer for most faults. Battery, screen, USB-C port, camera — all worth repairing on the iPhone 17 in 2026. Board-level faults receive an honest cost assessment before any work starts.<br/></p>",
+     "allservice_page_title": "iPhone 17 Repair Service",
+     "allservice_page_title_description": "Choose the right service for your iPhone 17 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "693e78eae3cb8bf613c2d7dd",
+   "title": "Charging Dock Replacement",
+   "order_no": 10,
+   "endpoints": [
+    {
+     "model_id": "68cbfbab7495d2cd0327c237",
+     "endpoint": "/services/iphone/17/charging-dock-replacement",
+     "_id": "6a6b51f3bf41443db6389a07"
+    }
+   ],
+   "image": {
+    "public_id": "service/charging-dock-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/charging-dock-replacement.png"
+   },
+   "model_id": [
+    "68cbfbab7495d2cd0327c237"
+   ],
+   "device_id": "680a0789a0d70a0f278d9405",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693e78eae3cb8bf613c2d7df"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Charging Dock Replacement",
+     "website_name": "Charging Dock Replacement",
+     "image_alt_text": "iPhone 17 Charging Dock Replacement",
+     "repair_image": {
+      "public_id": "service/charging-dock-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/charging-dock-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 8000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a6b51f3bf41443db6389a09"
+    }
+   ],
+   "description": "<p><strong>Introduction</strong></p><p>The charging dock system on the iPhone 17 controls power intake, fast charging stability, data syncing, and USB-C/Lightning communication with iOS. When the charging dock fails, the device loses stable power flow and charging performance becomes inconsistent.</p><p>Charging dock failure commonly develops after dust accumulation, liquid damage, repeated cable stress, or overheating near the charging port area. The Charging IC and Power IC lose stable connection when the dock flex cable becomes damaged or oxidized. Charging interruptions also affect battery health because unstable current flow forces irregular charging cycles.</p><p>At iFixit BD, every iPhone 17 Charging Dock Replacement begins with full diagnostics. Our repair technicians inspect the charging port assembly, motherboard power line stability, Charging IC response, and fast charging compatibility before replacement.</p><p>Customers in Dhaka rely on iFixit BD because we use original and high quality parts designed for stable charging performance and long-term durability. Proper dock replacement restores fast charging, stable data transfer, and safe power regulation inside iOS.</p><p>Charging dock repair also protects surrounding components including the motherboard, battery system, and display calibration circuits from long-term electrical instability.<br/> </p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-14T08:44:26.725Z",
+   "updated_at": "2026-07-30T13:30:27.505Z",
+   "meta_description": "Looking for reliable charging dock replacement for your iPhone 17? iFixit, Bangladesh's Authentic Apple Service Center, delivers expert charging dock...",
+   "meta_keywords": "",
+   "meta_title": "iPhone 17 Charging Dock Replacement in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPhone",
+     "image": {
+      "public_id": "device/865ecae5-561e-4e45-8c85-37c27b28ad79.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/865ecae5-561e-4e45-8c85-37c27b28ad79.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPhone 17",
+     "image": {
+      "public_id": "model/iphone-17.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iphone-17.png"
+     },
+     "endpoint": "17",
+     "allservice_meta_description": "Get professional iPhone 17 repair service in Bangladesh. Fast diagnostics, screen, battery & motherboard repairs at affordable prices.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPhone 17 Repair Service in Bangladesh | iFixit BD",
+     "allservice_page_description": "<h2>iPhone 17 repair service in Dhaka, Bangladesh</h2><p>With 18+ years of experience, 500,000+ devices repaired, and 70+ expert technicians across 4 dedicated branches in Dhaka, iFixit BD repairs every iPhone 17 fault. The standard iPhone 17 delivers a 6.1-inch OLED display, A19 chip, dual-camera system, and USB-C charging in an aluminium body — Apple&#x27;s 2025 everyday iPhone. We repair cracked screens, failing batteries, USB-C port issues, camera damage, and Face ID sensor faults using A-grade and Original parts. Screen replacement starts from ৳12,000, battery from ৳3,500, and every repair begins with a free written diagnosis.<br/></p><p></p><h2>What are the common iPhone 17 problems we fix?</h2><h3>Battery not lasting through the day</h3><p>The iPhone 17&#x27;s A19 chip is efficient, but Bangladesh&#x27;s high ambient temperatures and always-on connectivity accelerate battery degradation. When the phone no longer reaches evening on a single charge, battery health has dropped. Replacement takes under an hour and immediately restores full-day performance.  iPhone 17 battery replacement</p><h3>Cracked OLED screen</h3><p>The 6.1-inch Super Retina XDR OLED display cracks more visibly than older LCD models and can show discolouration, dead touch zones, or green lines after impact. A full display assembly replacement — OLED panel, digitiser, and bracket — restores the original display quality.  iPhone 17 screen replacement</p><h3>USB-C port loose or charging unreliably</h3><p>The USB-C port is the only charging and data connection on the iPhone 17. Lint in the port is the most frequent cause of intermittent charging. We clean it during free diagnosis — port flex cable replacement is only performed when cleaning confirms the cable itself is damaged. iPhone 17 charging issues</p><h3>Rear camera blurry or not switching correctly</h3><p>The iPhone 17 uses a dual-camera system. Drops that impact the rear camera bump, lens scratches, or internal flex damage can cause blur, autofocus failure, or the camera app failing to open. We inspect each module independently.  iPhone 17 camera repair</p><h3>Face ID sensor failure</h3><p>TrueDepth sensors in the Dynamic Island area control Face ID. Physical impact, moisture, or an incorrect prior screen repair can disable Face ID. iFixit BD protects TrueDepth pairing during screen replacements and can diagnose sensor faults independently.  iPhone 17 Face ID repair<br/></p><p></p><p></p><h2>How does our repair process work?</h2><p>Step 1 — Free diagnosis. Bring your iPhone 17 to any iFixit BD branch. Fault identified, written quote provided at no cost.<br/></p><p>Step 2 — Report and fixed price. Written fault report, fixed price, A-grade and Original options side by side.<br/></p><p>Step 3 — Confirm and repair. Most repairs completed same day. Board-level repairs take 1–2 days.<br/></p><p>Step 4 — Test together and collect with warranty. Full test with you present before you leave. Warranty begins from this moment.<br/></p><p></p><p></p><h2>iPhone 17 repair price list at iFixit BD</h2><p>All prices include parts and labour. Diagnosis is always free.<br/></p><p>Screen replacement (OLED) — A-grade ৳12,000 | Original ৳27,000 | Turnaround: 1–2 hr</p><p>Battery replacement — A-grade ৳3,500 | Original ৳7,000 | Turnaround: 45–60 min</p><p>USB-C charging port — A-grade ৳2,200 | Original ৳4,500 | Turnaround: 1–2 hr</p><p>Rear camera — A-grade ৳4,500 | Original ৳10,000 | Turnaround: 2–3 hr</p><p>Front camera / Face ID sensor — A-grade ৳4,000 | Original ৳9,000 | Turnaround: 2–3 hr</p><p>Earpiece speaker — A-grade ৳1,500 | Original ৳3,200 | Turnaround: 1 hr</p><p>Loudspeaker — A-grade ৳1,800 | Original ৳3,500 | Turnaround: 1 hr</p><p>Back glass — A-grade ৳4,000 | Original ৳9,500 | Turnaround: same day</p><p>Liquid damage (ultrasonic board clean) — from ৳3,500 | Turnaround: 1–3 days</p><p>Logic board repair (micro-soldering) — from ৳5,500 | Turnaround: 1–3 days<br/></p><p></p><p></p><h2>Why repair your iPhone 17 at iFixit BD?</h2><p>Free written diagnosis and fixed quote. Written estimate before work starts — no hidden charges.<br/></p><p>Board-level micro-soldering lab. Component-level repairs, ultrasonic cleaning, 18 years experience.<br/></p><p>Dual-tier pricing. A-grade and Original prices disclosed before work starts. Nothing added at the counter.<br/></p><p>Repair warranty. All parts and labour covered at /warranty-policy.<br/></p><p>70+ expert technicians, 4 dedicated Dhaka branches, 500,000+ devices repaired.<br/></p><p></p><p></p><h2>Is the iPhone 17 still worth repairing in 2026?</h2><p>Yes — this is a current 2025 device and every common repair is clearly worth doing.<br/></p><p>Battery and screen repairs cost far less than replacement. A battery at ৳3,500–7,000 and screen at ৳12,000–27,000 return the phone to full performance for a fraction of replacement cost.<br/></p><p>No iOS ceiling. Current model — receives all iOS updates.<br/></p><p>Straightforward answer for most faults. Battery, screen, USB-C port, camera — all worth repairing on the iPhone 17 in 2026. Board-level faults receive an honest cost assessment before any work starts.<br/></p>",
+     "allservice_page_title": "iPhone 17 Repair Service",
+     "allservice_page_title_description": "Choose the right service for your iPhone 17 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "693e797be3cb8bf613c2d963",
+   "title": "Ear Speaker Replacement",
+   "order_no": 11,
+   "endpoints": [
+    {
+     "model_id": "68cbfbab7495d2cd0327c237",
+     "endpoint": "/services/iphone/17/ear-speaker-replacement",
+     "_id": "6a6b5263bf41443db6389b04"
+    }
+   ],
+   "image": {
+    "public_id": "service/ear-speaker-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ear-speaker-replacement.png"
+   },
+   "model_id": [
+    "68cbfbab7495d2cd0327c237"
+   ],
+   "device_id": "680a0789a0d70a0f278d9405",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693e797be3cb8bf613c2d965"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Ear Speaker Replacement",
+     "website_name": "Ear Speaker Replacement",
+     "image_alt_text": "iPhone 17 Ear Speaker Replacement",
+     "repair_image": {
+      "public_id": "service/ear-speaker-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ear-speaker-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 5000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a6b5263bf41443db6389b06"
+    }
+   ],
+   "description": "<p><strong>Introduction</strong></p><p>The iPhone 17 ear speaker failure directly affects call clarity, where voice output becomes low, distorted, or completely silent during normal phone calls. This issue breaks communication flow on Apple devices and impacts daily personal and business use.</p><p>In many cases, the ear speaker in iPhone 17 degrades after dust accumulation, liquid exposure, or internal flex cable damage. The speaker unit is tightly integrated with the Face ID sensor assembly, so any physical impact also affects audio performance.</p><p>At iFixit BD in Dhaka, we perform structured diagnostics on the Apple iPhone 17 audio pathway, checking the ear speaker module, proximity sensor alignment, and internal connector stability. This ensures the exact fault is identified before replacement.</p><p>We use high-quality or original replacement parts depending on device condition and customer requirement. Every repair follows controlled handling standards to protect iOS components, Face ID integrity, and internal display calibration.The goal is consistent long-term audio clarity and stable call performance for users in Bangladesh who depend on their iPhone 17 for daily communication. </p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-14T08:46:51.059Z",
+   "updated_at": "2026-07-30T13:32:19.420Z",
+   "meta_description": "Need ear speaker replacement for your iPhone 17? iFixit offers genuine OEM parts, certified technicians and full warranty in Dhaka – Bangladesh's...",
+   "meta_keywords": "",
+   "meta_title": "iPhone 17 Ear Speaker Replacement in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPhone",
+     "image": {
+      "public_id": "device/865ecae5-561e-4e45-8c85-37c27b28ad79.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/865ecae5-561e-4e45-8c85-37c27b28ad79.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPhone 17",
+     "image": {
+      "public_id": "model/iphone-17.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iphone-17.png"
+     },
+     "endpoint": "17",
+     "allservice_meta_description": "Get professional iPhone 17 repair service in Bangladesh. Fast diagnostics, screen, battery & motherboard repairs at affordable prices.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPhone 17 Repair Service in Bangladesh | iFixit BD",
+     "allservice_page_description": "<h2>iPhone 17 repair service in Dhaka, Bangladesh</h2><p>With 18+ years of experience, 500,000+ devices repaired, and 70+ expert technicians across 4 dedicated branches in Dhaka, iFixit BD repairs every iPhone 17 fault. The standard iPhone 17 delivers a 6.1-inch OLED display, A19 chip, dual-camera system, and USB-C charging in an aluminium body — Apple&#x27;s 2025 everyday iPhone. We repair cracked screens, failing batteries, USB-C port issues, camera damage, and Face ID sensor faults using A-grade and Original parts. Screen replacement starts from ৳12,000, battery from ৳3,500, and every repair begins with a free written diagnosis.<br/></p><p></p><h2>What are the common iPhone 17 problems we fix?</h2><h3>Battery not lasting through the day</h3><p>The iPhone 17&#x27;s A19 chip is efficient, but Bangladesh&#x27;s high ambient temperatures and always-on connectivity accelerate battery degradation. When the phone no longer reaches evening on a single charge, battery health has dropped. Replacement takes under an hour and immediately restores full-day performance.  iPhone 17 battery replacement</p><h3>Cracked OLED screen</h3><p>The 6.1-inch Super Retina XDR OLED display cracks more visibly than older LCD models and can show discolouration, dead touch zones, or green lines after impact. A full display assembly replacement — OLED panel, digitiser, and bracket — restores the original display quality.  iPhone 17 screen replacement</p><h3>USB-C port loose or charging unreliably</h3><p>The USB-C port is the only charging and data connection on the iPhone 17. Lint in the port is the most frequent cause of intermittent charging. We clean it during free diagnosis — port flex cable replacement is only performed when cleaning confirms the cable itself is damaged. iPhone 17 charging issues</p><h3>Rear camera blurry or not switching correctly</h3><p>The iPhone 17 uses a dual-camera system. Drops that impact the rear camera bump, lens scratches, or internal flex damage can cause blur, autofocus failure, or the camera app failing to open. We inspect each module independently.  iPhone 17 camera repair</p><h3>Face ID sensor failure</h3><p>TrueDepth sensors in the Dynamic Island area control Face ID. Physical impact, moisture, or an incorrect prior screen repair can disable Face ID. iFixit BD protects TrueDepth pairing during screen replacements and can diagnose sensor faults independently.  iPhone 17 Face ID repair<br/></p><p></p><p></p><h2>How does our repair process work?</h2><p>Step 1 — Free diagnosis. Bring your iPhone 17 to any iFixit BD branch. Fault identified, written quote provided at no cost.<br/></p><p>Step 2 — Report and fixed price. Written fault report, fixed price, A-grade and Original options side by side.<br/></p><p>Step 3 — Confirm and repair. Most repairs completed same day. Board-level repairs take 1–2 days.<br/></p><p>Step 4 — Test together and collect with warranty. Full test with you present before you leave. Warranty begins from this moment.<br/></p><p></p><p></p><h2>iPhone 17 repair price list at iFixit BD</h2><p>All prices include parts and labour. Diagnosis is always free.<br/></p><p>Screen replacement (OLED) — A-grade ৳12,000 | Original ৳27,000 | Turnaround: 1–2 hr</p><p>Battery replacement — A-grade ৳3,500 | Original ৳7,000 | Turnaround: 45–60 min</p><p>USB-C charging port — A-grade ৳2,200 | Original ৳4,500 | Turnaround: 1–2 hr</p><p>Rear camera — A-grade ৳4,500 | Original ৳10,000 | Turnaround: 2–3 hr</p><p>Front camera / Face ID sensor — A-grade ৳4,000 | Original ৳9,000 | Turnaround: 2–3 hr</p><p>Earpiece speaker — A-grade ৳1,500 | Original ৳3,200 | Turnaround: 1 hr</p><p>Loudspeaker — A-grade ৳1,800 | Original ৳3,500 | Turnaround: 1 hr</p><p>Back glass — A-grade ৳4,000 | Original ৳9,500 | Turnaround: same day</p><p>Liquid damage (ultrasonic board clean) — from ৳3,500 | Turnaround: 1–3 days</p><p>Logic board repair (micro-soldering) — from ৳5,500 | Turnaround: 1–3 days<br/></p><p></p><p></p><h2>Why repair your iPhone 17 at iFixit BD?</h2><p>Free written diagnosis and fixed quote. Written estimate before work starts — no hidden charges.<br/></p><p>Board-level micro-soldering lab. Component-level repairs, ultrasonic cleaning, 18 years experience.<br/></p><p>Dual-tier pricing. A-grade and Original prices disclosed before work starts. Nothing added at the counter.<br/></p><p>Repair warranty. All parts and labour covered at /warranty-policy.<br/></p><p>70+ expert technicians, 4 dedicated Dhaka branches, 500,000+ devices repaired.<br/></p><p></p><p></p><h2>Is the iPhone 17 still worth repairing in 2026?</h2><p>Yes — this is a current 2025 device and every common repair is clearly worth doing.<br/></p><p>Battery and screen repairs cost far less than replacement. A battery at ৳3,500–7,000 and screen at ৳12,000–27,000 return the phone to full performance for a fraction of replacement cost.<br/></p><p>No iOS ceiling. Current model — receives all iOS updates.<br/></p><p>Straightforward answer for most faults. Battery, screen, USB-C port, camera — all worth repairing on the iPhone 17 in 2026. Board-level faults receive an honest cost assessment before any work starts.<br/></p>",
+     "allservice_page_title": "iPhone 17 Repair Service",
+     "allservice_page_title_description": "Choose the right service for your iPhone 17 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "693e8146e3cb8bf613c2ddd2",
+   "title": "Button Issue",
+   "order_no": 14,
+   "endpoints": [
+    {
+     "model_id": "68cbfbab7495d2cd0327c237",
+     "endpoint": "/services/iphone/17/button-issue",
+     "_id": "6a6c31ffbf41443db6487636"
+    }
+   ],
+   "image": {
+    "public_id": "service/button-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/button-issue.png"
+   },
+   "model_id": [
+    "68cbfbab7495d2cd0327c237"
+   ],
+   "device_id": "680a0789a0d70a0f278d9405",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693e8146e3cb8bf613c2ddd4"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Button Issue",
+     "website_name": "Button Issue",
+     "image_alt_text": "iPhone 17 Button Issue",
+     "repair_image": {
+      "public_id": "service/button-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/button-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 6000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a6c31ffbf41443db6487638"
+    }
+   ],
+   "description": "<p><strong>Introduction</strong></p><p>Button failure in the iPhone 17 disrupts core device control functions. Power, volume, and silent switch response becomes inconsistent when internal flex cables or mechanical contacts degrade.</p><p>The Apple iPhone system depends on precise mechanical input signals routed through flex circuits connected to the motherboard. A Button Issue affects Touch IC communication and system-level input recognition in iOS.</p><p>At iFixit BD in Dhaka, every iPhone 17 with button failure undergoes structured diagnostics. Repair technicians inspect internal flex cables, button assemblies, and motherboard signal pathways to identify exact failure points.</p><p>Original and high quality parts restore stable mechanical response and long-term durability. Proper repair ensures smooth interaction between hardware inputs and iOS control systems.<br/> </p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-14T09:20:06.996Z",
+   "updated_at": "2026-07-31T05:26:23.762Z",
+   "meta_description": "iPhone 17 Button Issue? Get expert diagnosis and precise repair at iFixit, Bangladesh's Authentic Apple Service Center in Dhaka. Genuine OEM parts...",
+   "meta_keywords": "",
+   "meta_title": "iPhone 17 Button Issue in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPhone",
+     "image": {
+      "public_id": "device/865ecae5-561e-4e45-8c85-37c27b28ad79.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/865ecae5-561e-4e45-8c85-37c27b28ad79.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPhone 17",
+     "image": {
+      "public_id": "model/iphone-17.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iphone-17.png"
+     },
+     "endpoint": "17",
+     "allservice_meta_description": "Get professional iPhone 17 repair service in Bangladesh. Fast diagnostics, screen, battery & motherboard repairs at affordable prices.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPhone 17 Repair Service in Bangladesh | iFixit BD",
+     "allservice_page_description": "<h2>iPhone 17 repair service in Dhaka, Bangladesh</h2><p>With 18+ years of experience, 500,000+ devices repaired, and 70+ expert technicians across 4 dedicated branches in Dhaka, iFixit BD repairs every iPhone 17 fault. The standard iPhone 17 delivers a 6.1-inch OLED display, A19 chip, dual-camera system, and USB-C charging in an aluminium body — Apple&#x27;s 2025 everyday iPhone. We repair cracked screens, failing batteries, USB-C port issues, camera damage, and Face ID sensor faults using A-grade and Original parts. Screen replacement starts from ৳12,000, battery from ৳3,500, and every repair begins with a free written diagnosis.<br/></p><p></p><h2>What are the common iPhone 17 problems we fix?</h2><h3>Battery not lasting through the day</h3><p>The iPhone 17&#x27;s A19 chip is efficient, but Bangladesh&#x27;s high ambient temperatures and always-on connectivity accelerate battery degradation. When the phone no longer reaches evening on a single charge, battery health has dropped. Replacement takes under an hour and immediately restores full-day performance.  iPhone 17 battery replacement</p><h3>Cracked OLED screen</h3><p>The 6.1-inch Super Retina XDR OLED display cracks more visibly than older LCD models and can show discolouration, dead touch zones, or green lines after impact. A full display assembly replacement — OLED panel, digitiser, and bracket — restores the original display quality.  iPhone 17 screen replacement</p><h3>USB-C port loose or charging unreliably</h3><p>The USB-C port is the only charging and data connection on the iPhone 17. Lint in the port is the most frequent cause of intermittent charging. We clean it during free diagnosis — port flex cable replacement is only performed when cleaning confirms the cable itself is damaged. iPhone 17 charging issues</p><h3>Rear camera blurry or not switching correctly</h3><p>The iPhone 17 uses a dual-camera system. Drops that impact the rear camera bump, lens scratches, or internal flex damage can cause blur, autofocus failure, or the camera app failing to open. We inspect each module independently.  iPhone 17 camera repair</p><h3>Face ID sensor failure</h3><p>TrueDepth sensors in the Dynamic Island area control Face ID. Physical impact, moisture, or an incorrect prior screen repair can disable Face ID. iFixit BD protects TrueDepth pairing during screen replacements and can diagnose sensor faults independently.  iPhone 17 Face ID repair<br/></p><p></p><p></p><h2>How does our repair process work?</h2><p>Step 1 — Free diagnosis. Bring your iPhone 17 to any iFixit BD branch. Fault identified, written quote provided at no cost.<br/></p><p>Step 2 — Report and fixed price. Written fault report, fixed price, A-grade and Original options side by side.<br/></p><p>Step 3 — Confirm and repair. Most repairs completed same day. Board-level repairs take 1–2 days.<br/></p><p>Step 4 — Test together and collect with warranty. Full test with you present before you leave. Warranty begins from this moment.<br/></p><p></p><p></p><h2>iPhone 17 repair price list at iFixit BD</h2><p>All prices include parts and labour. Diagnosis is always free.<br/></p><p>Screen replacement (OLED) — A-grade ৳12,000 | Original ৳27,000 | Turnaround: 1–2 hr</p><p>Battery replacement — A-grade ৳3,500 | Original ৳7,000 | Turnaround: 45–60 min</p><p>USB-C charging port — A-grade ৳2,200 | Original ৳4,500 | Turnaround: 1–2 hr</p><p>Rear camera — A-grade ৳4,500 | Original ৳10,000 | Turnaround: 2–3 hr</p><p>Front camera / Face ID sensor — A-grade ৳4,000 | Original ৳9,000 | Turnaround: 2–3 hr</p><p>Earpiece speaker — A-grade ৳1,500 | Original ৳3,200 | Turnaround: 1 hr</p><p>Loudspeaker — A-grade ৳1,800 | Original ৳3,500 | Turnaround: 1 hr</p><p>Back glass — A-grade ৳4,000 | Original ৳9,500 | Turnaround: same day</p><p>Liquid damage (ultrasonic board clean) — from ৳3,500 | Turnaround: 1–3 days</p><p>Logic board repair (micro-soldering) — from ৳5,500 | Turnaround: 1–3 days<br/></p><p></p><p></p><h2>Why repair your iPhone 17 at iFixit BD?</h2><p>Free written diagnosis and fixed quote. Written estimate before work starts — no hidden charges.<br/></p><p>Board-level micro-soldering lab. Component-level repairs, ultrasonic cleaning, 18 years experience.<br/></p><p>Dual-tier pricing. A-grade and Original prices disclosed before work starts. Nothing added at the counter.<br/></p><p>Repair warranty. All parts and labour covered at /warranty-policy.<br/></p><p>70+ expert technicians, 4 dedicated Dhaka branches, 500,000+ devices repaired.<br/></p><p></p><p></p><h2>Is the iPhone 17 still worth repairing in 2026?</h2><p>Yes — this is a current 2025 device and every common repair is clearly worth doing.<br/></p><p>Battery and screen repairs cost far less than replacement. A battery at ৳3,500–7,000 and screen at ৳12,000–27,000 return the phone to full performance for a fraction of replacement cost.<br/></p><p>No iOS ceiling. Current model — receives all iOS updates.<br/></p><p>Straightforward answer for most faults. Battery, screen, USB-C port, camera — all worth repairing on the iPhone 17 in 2026. Board-level faults receive an honest cost assessment before any work starts.<br/></p>",
+     "allservice_page_title": "iPhone 17 Repair Service",
+     "allservice_page_title_description": "Choose the right service for your iPhone 17 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "693e7857e3cb8bf613c2d796",
+   "title": "Rear Camera Replacement",
+   "order_no": 8,
+   "endpoints": [
+    {
+     "model_id": "68cbfbab7495d2cd0327c237",
+     "endpoint": "/services/iphone/17/rear-camera-replacement",
+     "_id": "6a6b5035bf41443db6389795"
+    }
+   ],
+   "image": {
+    "public_id": "service/rear-camera-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/rear-camera-replacement.png"
+   },
+   "model_id": [
+    "68cbfbab7495d2cd0327c237"
+   ],
+   "device_id": "680a0789a0d70a0f278d9405",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693e7857e3cb8bf613c2d798"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Rear Camera Replacement",
+     "website_name": "Rear Camera Replacement",
+     "image_alt_text": "iPhone 17 Rear Camera Replacement",
+     "repair_image": {
+      "public_id": "service/rear-camera-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/rear-camera-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 10500,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a6b5035bf41443db6389797"
+    }
+   ],
+   "description": "<p><strong>Introduction</strong></p><p>Modern smartphone photography depends on a stable and responsive camera module. The iPhone 17 rear camera system handles daily photography, 4K video recording, social media content, document scanning, and professional mobile shooting. Camera failure directly affects daily communication and productivity.</p><p>Rear camera performance drops when the camera module becomes damaged after impact, liquid damage, overheating, or internal hardware failure. The iPhone camera sensor loses focus accuracy when stabilization components stop responding properly. Image quality also declines when low-quality replacement parts are installed during previous repairs.</p><p>At iFixit BD, every iPhone 17 Rear Camera Replacement starts with detailed diagnostics. Our repair technicians inspect the camera module, motherboard connection points, Power IC stability, and iOS camera functionality before replacement begins.</p><p>Customers across Dhaka trust iFixit BD because we use original and high quality parts designed for long-term performance stability. Proper rear camera replacement protects image processing performance, autofocus precision, video stabilization, and overall device reliability.</p><p>Professional repair also prevents secondary hardware damage. A faulty camera module increases motherboard communication errors when damaged internal components create unstable voltage flow inside the device.<br/> </p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-14T08:41:59.538Z",
+   "updated_at": "2026-07-30T13:23:01.874Z",
+   "meta_description": "Get professional rear camera replacement for iPhone 17 at iFixit, Dhaka – Bangladesh's Authentic Apple Service Center. 100% genuine OEM parts with full...",
+   "meta_keywords": "",
+   "meta_title": "iPhone 17 Rear Camera Replacement in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPhone",
+     "image": {
+      "public_id": "device/865ecae5-561e-4e45-8c85-37c27b28ad79.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/865ecae5-561e-4e45-8c85-37c27b28ad79.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPhone 17",
+     "image": {
+      "public_id": "model/iphone-17.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iphone-17.png"
+     },
+     "endpoint": "17",
+     "allservice_meta_description": "Get professional iPhone 17 repair service in Bangladesh. Fast diagnostics, screen, battery & motherboard repairs at affordable prices.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPhone 17 Repair Service in Bangladesh | iFixit BD",
+     "allservice_page_description": "<h2>iPhone 17 repair service in Dhaka, Bangladesh</h2><p>With 18+ years of experience, 500,000+ devices repaired, and 70+ expert technicians across 4 dedicated branches in Dhaka, iFixit BD repairs every iPhone 17 fault. The standard iPhone 17 delivers a 6.1-inch OLED display, A19 chip, dual-camera system, and USB-C charging in an aluminium body — Apple&#x27;s 2025 everyday iPhone. We repair cracked screens, failing batteries, USB-C port issues, camera damage, and Face ID sensor faults using A-grade and Original parts. Screen replacement starts from ৳12,000, battery from ৳3,500, and every repair begins with a free written diagnosis.<br/></p><p></p><h2>What are the common iPhone 17 problems we fix?</h2><h3>Battery not lasting through the day</h3><p>The iPhone 17&#x27;s A19 chip is efficient, but Bangladesh&#x27;s high ambient temperatures and always-on connectivity accelerate battery degradation. When the phone no longer reaches evening on a single charge, battery health has dropped. Replacement takes under an hour and immediately restores full-day performance.  iPhone 17 battery replacement</p><h3>Cracked OLED screen</h3><p>The 6.1-inch Super Retina XDR OLED display cracks more visibly than older LCD models and can show discolouration, dead touch zones, or green lines after impact. A full display assembly replacement — OLED panel, digitiser, and bracket — restores the original display quality.  iPhone 17 screen replacement</p><h3>USB-C port loose or charging unreliably</h3><p>The USB-C port is the only charging and data connection on the iPhone 17. Lint in the port is the most frequent cause of intermittent charging. We clean it during free diagnosis — port flex cable replacement is only performed when cleaning confirms the cable itself is damaged. iPhone 17 charging issues</p><h3>Rear camera blurry or not switching correctly</h3><p>The iPhone 17 uses a dual-camera system. Drops that impact the rear camera bump, lens scratches, or internal flex damage can cause blur, autofocus failure, or the camera app failing to open. We inspect each module independently.  iPhone 17 camera repair</p><h3>Face ID sensor failure</h3><p>TrueDepth sensors in the Dynamic Island area control Face ID. Physical impact, moisture, or an incorrect prior screen repair can disable Face ID. iFixit BD protects TrueDepth pairing during screen replacements and can diagnose sensor faults independently.  iPhone 17 Face ID repair<br/></p><p></p><p></p><h2>How does our repair process work?</h2><p>Step 1 — Free diagnosis. Bring your iPhone 17 to any iFixit BD branch. Fault identified, written quote provided at no cost.<br/></p><p>Step 2 — Report and fixed price. Written fault report, fixed price, A-grade and Original options side by side.<br/></p><p>Step 3 — Confirm and repair. Most repairs completed same day. Board-level repairs take 1–2 days.<br/></p><p>Step 4 — Test together and collect with warranty. Full test with you present before you leave. Warranty begins from this moment.<br/></p><p></p><p></p><h2>iPhone 17 repair price list at iFixit BD</h2><p>All prices include parts and labour. Diagnosis is always free.<br/></p><p>Screen replacement (OLED) — A-grade ৳12,000 | Original ৳27,000 | Turnaround: 1–2 hr</p><p>Battery replacement — A-grade ৳3,500 | Original ৳7,000 | Turnaround: 45–60 min</p><p>USB-C charging port — A-grade ৳2,200 | Original ৳4,500 | Turnaround: 1–2 hr</p><p>Rear camera — A-grade ৳4,500 | Original ৳10,000 | Turnaround: 2–3 hr</p><p>Front camera / Face ID sensor — A-grade ৳4,000 | Original ৳9,000 | Turnaround: 2–3 hr</p><p>Earpiece speaker — A-grade ৳1,500 | Original ৳3,200 | Turnaround: 1 hr</p><p>Loudspeaker — A-grade ৳1,800 | Original ৳3,500 | Turnaround: 1 hr</p><p>Back glass — A-grade ৳4,000 | Original ৳9,500 | Turnaround: same day</p><p>Liquid damage (ultrasonic board clean) — from ৳3,500 | Turnaround: 1–3 days</p><p>Logic board repair (micro-soldering) — from ৳5,500 | Turnaround: 1–3 days<br/></p><p></p><p></p><h2>Why repair your iPhone 17 at iFixit BD?</h2><p>Free written diagnosis and fixed quote. Written estimate before work starts — no hidden charges.<br/></p><p>Board-level micro-soldering lab. Component-level repairs, ultrasonic cleaning, 18 years experience.<br/></p><p>Dual-tier pricing. A-grade and Original prices disclosed before work starts. Nothing added at the counter.<br/></p><p>Repair warranty. All parts and labour covered at /warranty-policy.<br/></p><p>70+ expert technicians, 4 dedicated Dhaka branches, 500,000+ devices repaired.<br/></p><p></p><p></p><h2>Is the iPhone 17 still worth repairing in 2026?</h2><p>Yes — this is a current 2025 device and every common repair is clearly worth doing.<br/></p><p>Battery and screen repairs cost far less than replacement. A battery at ৳3,500–7,000 and screen at ৳12,000–27,000 return the phone to full performance for a fraction of replacement cost.<br/></p><p>No iOS ceiling. Current model — receives all iOS updates.<br/></p><p>Straightforward answer for most faults. Battery, screen, USB-C port, camera — all worth repairing on the iPhone 17 in 2026. Board-level faults receive an honest cost assessment before any work starts.<br/></p>",
+     "allservice_page_title": "iPhone 17 Repair Service",
+     "allservice_page_title_description": "Choose the right service for your iPhone 17 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "693e7108e3cb8bf613c2d667",
+   "title": "Display Replacement",
+   "order_no": 1,
+   "endpoints": [
+    {
+     "model_id": "68cbfbab7495d2cd0327c237",
+     "endpoint": "/services/iphone/17/display-replacement",
+     "_id": "6a6b488bbf41443db633296d"
+    }
+   ],
+   "image": {
+    "public_id": "service/iphone-17-display-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/iphone-17-display-replacement.png"
+   },
+   "model_id": [
+    "68cbfbab7495d2cd0327c237"
+   ],
+   "device_id": "680a0789a0d70a0f278d9405",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693e7108e3cb8bf613c2d669"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Display Replacement",
+     "image_alt_text": "iPhone 17 Display Replacement",
+     "repair_image": {
+      "public_id": "service/iphone-17-display-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/iphone-17-display-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "18 Months Warranty",
+     "product_id": "6943d9e18836331ef88f6d8b",
+     "product_variation_id": "6943d9e28836331ef88f6d8e",
+     "_id": "6a6b488bbf41443db633296f",
+     "product_data": {
+      "_id": "6943d9e18836331ef88f6d8b",
+      "product_id": "p386",
+      "name": "iPhone 17 Original Display",
+      "brand_id": "680a09e8a0d70a0f278d94ae",
+      "category_id": "68282f1caed11479fdf2f3c1",
+      "device_id": "680a0789a0d70a0f278d9405",
+      "model_id": "68cbfbab7495d2cd0327c237",
+      "attachable_models": [
+       "68cbfbab7495d2cd0327c237"
+      ],
+      "price": null,
+      "warranty": 18,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-12-18T10:39:29.593Z",
+      "updated_at": "2026-07-14T12:07:13.856Z",
+      "__v": 0,
+      "endpoint": "/product/iphone-17-original-display",
+      "warranty_note": "18-Month Touch Warranty. Warranty is void in cases of physical damage, color lines, or blank screen.",
+      "website_name": "iPhone 17 Original Display",
+      "description2": "<p></p>",
+      "meta_description": "undefined",
+      "meta_keywords": "undefined",
+      "meta_title": "undefined",
+      "page_description": "<p></p>",
+      "page_title": "undefined",
+      "page_title_description": "undefined"
+     },
+     "product_variation_data": {
+      "_id": "6943d9e28836331ef88f6d8e",
+      "name": "Black",
+      "quality": "Disassembled From iPhone",
+      "product_id": "6943d9e18836331ef88f6d8b",
+      "price": 49000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/iPhone-17-Original-Display.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/iPhone-17-Original-Display.png",
+        "_id": "69e356c086203014150c32d0"
+       }
+      ],
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-12-18T10:39:30.124Z",
+      "updated_at": "2026-04-18T10:02:40.642Z",
+      "__v": 0
+     }
+    },
+    {
+     "name": "Assemble Charge",
+     "website_name": "iPhone 17 Display Replacement",
+     "image_alt_text": "iPhone 17 Display Replacement",
+     "repair_image": {
+      "public_id": "service/iphone-17-display-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/iphone-17-display-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "6 Months Warranty",
+     "product_id": "697c930438991ab465be70d1",
+     "product_variation_id": "697c930438991ab465be70d4",
+     "_id": "6a6b488bbf41443db6332970",
+     "product_data": {
+      "_id": "697c930438991ab465be70d1",
+      "product_id": "p419",
+      "name": "iPhone 17 High Quality Display 120Hz",
+      "website_name": "iPhone 17 High Quality Display 120Hz",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f1caed11479fdf2f3c1",
+      "device_id": "680a0789a0d70a0f278d9405",
+      "model_id": "68cbfbab7495d2cd0327c237",
+      "attachable_models": [
+       "68cbfbab7495d2cd0327c237"
+      ],
+      "price": null,
+      "warranty": 6,
+      "warranty_note": "6-Month Touch Warranty. Warranty is void in cases of physical damage, color lines, or blank screen.",
+      "description": "<h2>iPhone 17 high quality display (120Hz)</h2><p>This is a premium aftermarket OLED display assembly for the iPhone 17 with 120Hz refresh support — the highest aftermarket grade available for this model. It is not a genuine Apple panel, and we say that plainly: iFixit BD sells both grades openly so you can choose with full information. What separates this panel from common copy screens: OLED technology, 120Hz support, and per-unit testing before sale.</p><h3>What you get with this panel?</h3><p><strong>120Hz refresh support: </strong>The iPhone 17&#x27;s headline display feature is ProMotion — and a standard 60Hz aftermarket panel takes exactly that away. This panel preserves the 120Hz smoothness. <br/></p><p><strong>OLED panel:</strong> Self-emissive OLED with true blacks and strong contrast — a clear step above Incell LCD copy screens.<br/></p><p><strong>Correct fit:</strong> Sized to the iPhone 17 housing with the Dynamic Island cutout at factory tolerances, keeping Face ID and TrueDepth unobstructed after correct installation.<br/></p><p><strong>Tested before sale:</strong> Touch response, brightness, color uniformity, and dead-pixel checks on every unit.</p><h2>Honest Trade-offs vs the Original Panel</h2><p>Compared with the genuine pulled panel: lower peak brightness (the original reaches 3,000 nits outdoors), color calibration that is good but not Apple-factory-matched, and front glass below Ceramic Shield 2 durability. What you keep: OLED contrast, 120Hz smoothness, accurate touch, and a substantially lower price.<br/></p><p><strong>Choose this panel if:</strong> you want ProMotion smoothness back on a budget, or the phone is a secondary device. Choose the original panel if: you use the phone daily and outdoors, or plan to keep or resell it at full value.</p><h2>What is the iPhone 17 high quality display price in Bangladesh</h2><p>The iPhone 17 High Quality 120Hz display costs Tk 15,500 at iFixit BD — well below the original panel&#x27;s price, with per-unit testing and a 6-month warranty included. The gap against the original display reflects the honest grade difference: 120Hz smoothness and OLED contrast are preserved, full factory brightness and features are not. It also sits clearly above 60Hz copy screens, which remove the iPhone 17&#x27;s signature ProMotion feature entirely. <br/> </p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2026-01-30T11:16:20.074Z",
+      "updated_at": "2026-07-14T10:31:32.314Z",
+      "__v": 0,
+      "endpoint": "/product/iphone-17-high-quality-display",
+      "description2": "<p></p>",
+      "meta_description": "Fix your iPhone 17 screen on a budget without losing the 120Hz smoothness. Tested before sale, with a 6-month warranty and 30-day money-back guarantee at iFixit BD Dhaka.\r\n",
+      "meta_keywords": "undefined",
+      "meta_title": "iPhone 17 120Hz Display – Only Tk 15,500 | iFixit BD",
+      "page_description": "<p></p>",
+      "page_title": "undefined",
+      "page_title_description": "undefined"
+     },
+     "product_variation_data": {
+      "_id": "697c930438991ab465be70d4",
+      "name": "Black",
+      "quality": "Standard After Market",
+      "product_id": "697c930438991ab465be70d1",
+      "price": 15500,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/iPhone-17-High-Quality-Display-120Hz.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/iPhone-17-High-Quality-Display-120Hz.png",
+        "_id": "69e356d086203014150c32da"
+       }
+      ],
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2026-01-30T11:16:20.691Z",
+      "updated_at": "2026-04-18T10:02:56.662Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p><strong>Description</strong></p><p>A damaged iPhone 17 display directly affects touch response, display clarity, and Face ID usability. Screen cracks and panel failures reduce both usability and device safety in daily use. The iPhone 17 display integrates display panel, Touch IC, and display calibration layers into a single precision unit. When the display breaks, the system loses visual accuracy and touch stability.</p><p>At iFixit BD in Dhaka, every iPhone 17 Display Replacement starts with structured diagnostics. A repair technician checks internal display connectors, Face ID alignment, and liquid damage indicators before any replacement begins.</p><p>We use original and high-quality parts to restore brightness, color accuracy, and smooth touch performance. Each repair is calibrated to maintain long-term iOS stability and device performance.<br/></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-14T08:10:48.779Z",
+   "updated_at": "2026-07-30T12:50:19.514Z",
+   "meta_description": "Looking for reliable display replacement for your iPhone 17? iFixit, Bangladesh's Authentic Apple Service Center, delivers expert display replacement...",
+   "meta_keywords": "",
+   "meta_title": "iPhone 17 Display Replacement in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "iPhone 17 Display Replacement",
+   "page_title_description": "Choose the right display for your iPhone 17 from iFixit BD",
+   "device_data": [
+    {
+     "name": "iPhone",
+     "image": {
+      "public_id": "device/865ecae5-561e-4e45-8c85-37c27b28ad79.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/865ecae5-561e-4e45-8c85-37c27b28ad79.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPhone 17",
+     "image": {
+      "public_id": "model/iphone-17.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iphone-17.png"
+     },
+     "endpoint": "17",
+     "allservice_meta_description": "Get professional iPhone 17 repair service in Bangladesh. Fast diagnostics, screen, battery & motherboard repairs at affordable prices.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPhone 17 Repair Service in Bangladesh | iFixit BD",
+     "allservice_page_description": "<h2>iPhone 17 repair service in Dhaka, Bangladesh</h2><p>With 18+ years of experience, 500,000+ devices repaired, and 70+ expert technicians across 4 dedicated branches in Dhaka, iFixit BD repairs every iPhone 17 fault. The standard iPhone 17 delivers a 6.1-inch OLED display, A19 chip, dual-camera system, and USB-C charging in an aluminium body — Apple&#x27;s 2025 everyday iPhone. We repair cracked screens, failing batteries, USB-C port issues, camera damage, and Face ID sensor faults using A-grade and Original parts. Screen replacement starts from ৳12,000, battery from ৳3,500, and every repair begins with a free written diagnosis.<br/></p><p></p><h2>What are the common iPhone 17 problems we fix?</h2><h3>Battery not lasting through the day</h3><p>The iPhone 17&#x27;s A19 chip is efficient, but Bangladesh&#x27;s high ambient temperatures and always-on connectivity accelerate battery degradation. When the phone no longer reaches evening on a single charge, battery health has dropped. Replacement takes under an hour and immediately restores full-day performance.  iPhone 17 battery replacement</p><h3>Cracked OLED screen</h3><p>The 6.1-inch Super Retina XDR OLED display cracks more visibly than older LCD models and can show discolouration, dead touch zones, or green lines after impact. A full display assembly replacement — OLED panel, digitiser, and bracket — restores the original display quality.  iPhone 17 screen replacement</p><h3>USB-C port loose or charging unreliably</h3><p>The USB-C port is the only charging and data connection on the iPhone 17. Lint in the port is the most frequent cause of intermittent charging. We clean it during free diagnosis — port flex cable replacement is only performed when cleaning confirms the cable itself is damaged. iPhone 17 charging issues</p><h3>Rear camera blurry or not switching correctly</h3><p>The iPhone 17 uses a dual-camera system. Drops that impact the rear camera bump, lens scratches, or internal flex damage can cause blur, autofocus failure, or the camera app failing to open. We inspect each module independently.  iPhone 17 camera repair</p><h3>Face ID sensor failure</h3><p>TrueDepth sensors in the Dynamic Island area control Face ID. Physical impact, moisture, or an incorrect prior screen repair can disable Face ID. iFixit BD protects TrueDepth pairing during screen replacements and can diagnose sensor faults independently.  iPhone 17 Face ID repair<br/></p><p></p><p></p><h2>How does our repair process work?</h2><p>Step 1 — Free diagnosis. Bring your iPhone 17 to any iFixit BD branch. Fault identified, written quote provided at no cost.<br/></p><p>Step 2 — Report and fixed price. Written fault report, fixed price, A-grade and Original options side by side.<br/></p><p>Step 3 — Confirm and repair. Most repairs completed same day. Board-level repairs take 1–2 days.<br/></p><p>Step 4 — Test together and collect with warranty. Full test with you present before you leave. Warranty begins from this moment.<br/></p><p></p><p></p><h2>iPhone 17 repair price list at iFixit BD</h2><p>All prices include parts and labour. Diagnosis is always free.<br/></p><p>Screen replacement (OLED) — A-grade ৳12,000 | Original ৳27,000 | Turnaround: 1–2 hr</p><p>Battery replacement — A-grade ৳3,500 | Original ৳7,000 | Turnaround: 45–60 min</p><p>USB-C charging port — A-grade ৳2,200 | Original ৳4,500 | Turnaround: 1–2 hr</p><p>Rear camera — A-grade ৳4,500 | Original ৳10,000 | Turnaround: 2–3 hr</p><p>Front camera / Face ID sensor — A-grade ৳4,000 | Original ৳9,000 | Turnaround: 2–3 hr</p><p>Earpiece speaker — A-grade ৳1,500 | Original ৳3,200 | Turnaround: 1 hr</p><p>Loudspeaker — A-grade ৳1,800 | Original ৳3,500 | Turnaround: 1 hr</p><p>Back glass — A-grade ৳4,000 | Original ৳9,500 | Turnaround: same day</p><p>Liquid damage (ultrasonic board clean) — from ৳3,500 | Turnaround: 1–3 days</p><p>Logic board repair (micro-soldering) — from ৳5,500 | Turnaround: 1–3 days<br/></p><p></p><p></p><h2>Why repair your iPhone 17 at iFixit BD?</h2><p>Free written diagnosis and fixed quote. Written estimate before work starts — no hidden charges.<br/></p><p>Board-level micro-soldering lab. Component-level repairs, ultrasonic cleaning, 18 years experience.<br/></p><p>Dual-tier pricing. A-grade and Original prices disclosed before work starts. Nothing added at the counter.<br/></p><p>Repair warranty. All parts and labour covered at /warranty-policy.<br/></p><p>70+ expert technicians, 4 dedicated Dhaka branches, 500,000+ devices repaired.<br/></p><p></p><p></p><h2>Is the iPhone 17 still worth repairing in 2026?</h2><p>Yes — this is a current 2025 device and every common repair is clearly worth doing.<br/></p><p>Battery and screen repairs cost far less than replacement. A battery at ৳3,500–7,000 and screen at ৳12,000–27,000 return the phone to full performance for a fraction of replacement cost.<br/></p><p>No iOS ceiling. Current model — receives all iOS updates.<br/></p><p>Straightforward answer for most faults. Battery, screen, USB-C port, camera — all worth repairing on the iPhone 17 in 2026. Board-level faults receive an honest cost assessment before any work starts.<br/></p>",
+     "allservice_page_title": "iPhone 17 Repair Service",
+     "allservice_page_title_description": "Choose the right service for your iPhone 17 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "693e7189e3cb8bf613c2d6ae",
+   "title": "Back Glass Replacement",
+   "order_no": 4,
+   "endpoints": [
+    {
+     "model_id": "68cbfbab7495d2cd0327c237",
+     "endpoint": "/services/iphone/17/back-glass-replacement",
+     "_id": "6a6b4f37bf41443db63895cf"
+    }
+   ],
+   "image": {
+    "public_id": "service/backglass-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/backglass-replacement.png"
+   },
+   "model_id": [
+    "68cbfbab7495d2cd0327c237"
+   ],
+   "device_id": "680a0789a0d70a0f278d9405",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693e7189e3cb8bf613c2d6b0"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Back Glass Replacement",
+     "website_name": "Back Glass Replacement",
+     "image_alt_text": "iPhone 17 Back Glass Replacement",
+     "repair_image": {
+      "public_id": "service/backglass-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/backglass-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 6000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a6b4f37bf41443db63895d1"
+    }
+   ],
+   "description": "<p><strong>Description</strong></p><p>Cracked rear glass on an iPhone 17 directly reduces device structural strength and increases internal exposure risk. Back glass damage creates micro-entry points where dust and moisture gradually affect internal Apple components. The iPhone 17 back glass assembly protects wireless charging alignment, camera module stability, and internal frame integrity. When the glass breaks, the device loses uniform pressure distribution across the chassis.</p><p>At iFixit BD in Dhaka, every back glass replacement process starts with structured diagnostics. Technicians inspect frame alignment, camera housing, and internal adhesive stability before repair execution. We use original and high quality parts designed for Apple-level fitment accuracy. Each replacement maintains heat distribution balance and ensures long-term device durability under daily usage conditions in Bangladesh.<br/></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-14T08:12:57.910Z",
+   "updated_at": "2026-07-30T13:18:47.893Z",
+   "meta_description": "Get professional back glass replacement for iPhone 17 at iFixit, Dhaka – Bangladesh's Authentic Apple Service Center. 100% genuine OEM parts with full...",
+   "meta_keywords": "",
+   "meta_title": "iPhone 17 Back Glass Replacement in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPhone",
+     "image": {
+      "public_id": "device/865ecae5-561e-4e45-8c85-37c27b28ad79.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/865ecae5-561e-4e45-8c85-37c27b28ad79.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPhone 17",
+     "image": {
+      "public_id": "model/iphone-17.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iphone-17.png"
+     },
+     "endpoint": "17",
+     "allservice_meta_description": "Get professional iPhone 17 repair service in Bangladesh. Fast diagnostics, screen, battery & motherboard repairs at affordable prices.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPhone 17 Repair Service in Bangladesh | iFixit BD",
+     "allservice_page_description": "<h2>iPhone 17 repair service in Dhaka, Bangladesh</h2><p>With 18+ years of experience, 500,000+ devices repaired, and 70+ expert technicians across 4 dedicated branches in Dhaka, iFixit BD repairs every iPhone 17 fault. The standard iPhone 17 delivers a 6.1-inch OLED display, A19 chip, dual-camera system, and USB-C charging in an aluminium body — Apple&#x27;s 2025 everyday iPhone. We repair cracked screens, failing batteries, USB-C port issues, camera damage, and Face ID sensor faults using A-grade and Original parts. Screen replacement starts from ৳12,000, battery from ৳3,500, and every repair begins with a free written diagnosis.<br/></p><p></p><h2>What are the common iPhone 17 problems we fix?</h2><h3>Battery not lasting through the day</h3><p>The iPhone 17&#x27;s A19 chip is efficient, but Bangladesh&#x27;s high ambient temperatures and always-on connectivity accelerate battery degradation. When the phone no longer reaches evening on a single charge, battery health has dropped. Replacement takes under an hour and immediately restores full-day performance.  iPhone 17 battery replacement</p><h3>Cracked OLED screen</h3><p>The 6.1-inch Super Retina XDR OLED display cracks more visibly than older LCD models and can show discolouration, dead touch zones, or green lines after impact. A full display assembly replacement — OLED panel, digitiser, and bracket — restores the original display quality.  iPhone 17 screen replacement</p><h3>USB-C port loose or charging unreliably</h3><p>The USB-C port is the only charging and data connection on the iPhone 17. Lint in the port is the most frequent cause of intermittent charging. We clean it during free diagnosis — port flex cable replacement is only performed when cleaning confirms the cable itself is damaged. iPhone 17 charging issues</p><h3>Rear camera blurry or not switching correctly</h3><p>The iPhone 17 uses a dual-camera system. Drops that impact the rear camera bump, lens scratches, or internal flex damage can cause blur, autofocus failure, or the camera app failing to open. We inspect each module independently.  iPhone 17 camera repair</p><h3>Face ID sensor failure</h3><p>TrueDepth sensors in the Dynamic Island area control Face ID. Physical impact, moisture, or an incorrect prior screen repair can disable Face ID. iFixit BD protects TrueDepth pairing during screen replacements and can diagnose sensor faults independently.  iPhone 17 Face ID repair<br/></p><p></p><p></p><h2>How does our repair process work?</h2><p>Step 1 — Free diagnosis. Bring your iPhone 17 to any iFixit BD branch. Fault identified, written quote provided at no cost.<br/></p><p>Step 2 — Report and fixed price. Written fault report, fixed price, A-grade and Original options side by side.<br/></p><p>Step 3 — Confirm and repair. Most repairs completed same day. Board-level repairs take 1–2 days.<br/></p><p>Step 4 — Test together and collect with warranty. Full test with you present before you leave. Warranty begins from this moment.<br/></p><p></p><p></p><h2>iPhone 17 repair price list at iFixit BD</h2><p>All prices include parts and labour. Diagnosis is always free.<br/></p><p>Screen replacement (OLED) — A-grade ৳12,000 | Original ৳27,000 | Turnaround: 1–2 hr</p><p>Battery replacement — A-grade ৳3,500 | Original ৳7,000 | Turnaround: 45–60 min</p><p>USB-C charging port — A-grade ৳2,200 | Original ৳4,500 | Turnaround: 1–2 hr</p><p>Rear camera — A-grade ৳4,500 | Original ৳10,000 | Turnaround: 2–3 hr</p><p>Front camera / Face ID sensor — A-grade ৳4,000 | Original ৳9,000 | Turnaround: 2–3 hr</p><p>Earpiece speaker — A-grade ৳1,500 | Original ৳3,200 | Turnaround: 1 hr</p><p>Loudspeaker — A-grade ৳1,800 | Original ৳3,500 | Turnaround: 1 hr</p><p>Back glass — A-grade ৳4,000 | Original ৳9,500 | Turnaround: same day</p><p>Liquid damage (ultrasonic board clean) — from ৳3,500 | Turnaround: 1–3 days</p><p>Logic board repair (micro-soldering) — from ৳5,500 | Turnaround: 1–3 days<br/></p><p></p><p></p><h2>Why repair your iPhone 17 at iFixit BD?</h2><p>Free written diagnosis and fixed quote. Written estimate before work starts — no hidden charges.<br/></p><p>Board-level micro-soldering lab. Component-level repairs, ultrasonic cleaning, 18 years experience.<br/></p><p>Dual-tier pricing. A-grade and Original prices disclosed before work starts. Nothing added at the counter.<br/></p><p>Repair warranty. All parts and labour covered at /warranty-policy.<br/></p><p>70+ expert technicians, 4 dedicated Dhaka branches, 500,000+ devices repaired.<br/></p><p></p><p></p><h2>Is the iPhone 17 still worth repairing in 2026?</h2><p>Yes — this is a current 2025 device and every common repair is clearly worth doing.<br/></p><p>Battery and screen repairs cost far less than replacement. A battery at ৳3,500–7,000 and screen at ৳12,000–27,000 return the phone to full performance for a fraction of replacement cost.<br/></p><p>No iOS ceiling. Current model — receives all iOS updates.<br/></p><p>Straightforward answer for most faults. Battery, screen, USB-C port, camera — all worth repairing on the iPhone 17 in 2026. Board-level faults receive an honest cost assessment before any work starts.<br/></p>",
+     "allservice_page_title": "iPhone 17 Repair Service",
+     "allservice_page_title_description": "Choose the right service for your iPhone 17 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "693e81b7e3cb8bf613c2de18",
+   "title": "Proximity Sensor Replacement",
+   "order_no": 15,
+   "endpoints": [
+    {
+     "model_id": "68cbfbab7495d2cd0327c237",
+     "endpoint": "/services/iphone/17/proximity-sensor-replacement",
+     "_id": "6a6c3241bf41443db64876db"
+    }
+   ],
+   "image": {
+    "public_id": "service/proximity-sensor-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/proximity-sensor-replacement.png"
+   },
+   "model_id": [
+    "68cbfbab7495d2cd0327c237"
+   ],
+   "device_id": "680a0789a0d70a0f278d9405",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693e81b7e3cb8bf613c2de1a"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Proximity Sensor Replacement",
+     "website_name": "Proximity Sensor Replacement",
+     "image_alt_text": "iPhone 17 Proximity Sensor Replacement",
+     "repair_image": {
+      "public_id": "service/proximity-sensor-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/proximity-sensor-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 6000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a6c3241bf41443db64876dd"
+    }
+   ],
+   "description": "<h2><strong>Introduction</strong></h2><p>Proximity sensor failure in iPhone 17 affects automatic screen control during calls. The display does not turn off near the ear when the proximity sensor stops detecting distance correctly.</p><p>The Apple iPhone system relies on the proximity sensor to coordinate Face ID area behavior, OLED display response, and in-call touch blocking through iOS input control.</p><p>At iFixit BD in Dhaka, every iPhone 17 proximity issue undergoes structured diagnostics. Repair technicians inspect sensor alignment, flex cable integrity, and motherboard signal pathways to identify exact failure points.</p><p>Original and high quality parts restore accurate detection and stable long-term performance. Proper replacement ensures correct interaction between hardware sensors and iOS call management.<br/> </p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-14T09:21:59.487Z",
+   "updated_at": "2026-07-31T05:27:29.602Z",
+   "meta_description": "Trust iFixit, Bangladesh's Authentic Apple Service Center, for iPhone 17 proximity sensor replacement in Dhaka. Genuine OEM parts, certified...",
+   "meta_keywords": "",
+   "meta_title": "iPhone 17 Proximity Sensor Replacement in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPhone",
+     "image": {
+      "public_id": "device/865ecae5-561e-4e45-8c85-37c27b28ad79.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/865ecae5-561e-4e45-8c85-37c27b28ad79.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPhone 17",
+     "image": {
+      "public_id": "model/iphone-17.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iphone-17.png"
+     },
+     "endpoint": "17",
+     "allservice_meta_description": "Get professional iPhone 17 repair service in Bangladesh. Fast diagnostics, screen, battery & motherboard repairs at affordable prices.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPhone 17 Repair Service in Bangladesh | iFixit BD",
+     "allservice_page_description": "<h2>iPhone 17 repair service in Dhaka, Bangladesh</h2><p>With 18+ years of experience, 500,000+ devices repaired, and 70+ expert technicians across 4 dedicated branches in Dhaka, iFixit BD repairs every iPhone 17 fault. The standard iPhone 17 delivers a 6.1-inch OLED display, A19 chip, dual-camera system, and USB-C charging in an aluminium body — Apple&#x27;s 2025 everyday iPhone. We repair cracked screens, failing batteries, USB-C port issues, camera damage, and Face ID sensor faults using A-grade and Original parts. Screen replacement starts from ৳12,000, battery from ৳3,500, and every repair begins with a free written diagnosis.<br/></p><p></p><h2>What are the common iPhone 17 problems we fix?</h2><h3>Battery not lasting through the day</h3><p>The iPhone 17&#x27;s A19 chip is efficient, but Bangladesh&#x27;s high ambient temperatures and always-on connectivity accelerate battery degradation. When the phone no longer reaches evening on a single charge, battery health has dropped. Replacement takes under an hour and immediately restores full-day performance.  iPhone 17 battery replacement</p><h3>Cracked OLED screen</h3><p>The 6.1-inch Super Retina XDR OLED display cracks more visibly than older LCD models and can show discolouration, dead touch zones, or green lines after impact. A full display assembly replacement — OLED panel, digitiser, and bracket — restores the original display quality.  iPhone 17 screen replacement</p><h3>USB-C port loose or charging unreliably</h3><p>The USB-C port is the only charging and data connection on the iPhone 17. Lint in the port is the most frequent cause of intermittent charging. We clean it during free diagnosis — port flex cable replacement is only performed when cleaning confirms the cable itself is damaged. iPhone 17 charging issues</p><h3>Rear camera blurry or not switching correctly</h3><p>The iPhone 17 uses a dual-camera system. Drops that impact the rear camera bump, lens scratches, or internal flex damage can cause blur, autofocus failure, or the camera app failing to open. We inspect each module independently.  iPhone 17 camera repair</p><h3>Face ID sensor failure</h3><p>TrueDepth sensors in the Dynamic Island area control Face ID. Physical impact, moisture, or an incorrect prior screen repair can disable Face ID. iFixit BD protects TrueDepth pairing during screen replacements and can diagnose sensor faults independently.  iPhone 17 Face ID repair<br/></p><p></p><p></p><h2>How does our repair process work?</h2><p>Step 1 — Free diagnosis. Bring your iPhone 17 to any iFixit BD branch. Fault identified, written quote provided at no cost.<br/></p><p>Step 2 — Report and fixed price. Written fault report, fixed price, A-grade and Original options side by side.<br/></p><p>Step 3 — Confirm and repair. Most repairs completed same day. Board-level repairs take 1–2 days.<br/></p><p>Step 4 — Test together and collect with warranty. Full test with you present before you leave. Warranty begins from this moment.<br/></p><p></p><p></p><h2>iPhone 17 repair price list at iFixit BD</h2><p>All prices include parts and labour. Diagnosis is always free.<br/></p><p>Screen replacement (OLED) — A-grade ৳12,000 | Original ৳27,000 | Turnaround: 1–2 hr</p><p>Battery replacement — A-grade ৳3,500 | Original ৳7,000 | Turnaround: 45–60 min</p><p>USB-C charging port — A-grade ৳2,200 | Original ৳4,500 | Turnaround: 1–2 hr</p><p>Rear camera — A-grade ৳4,500 | Original ৳10,000 | Turnaround: 2–3 hr</p><p>Front camera / Face ID sensor — A-grade ৳4,000 | Original ৳9,000 | Turnaround: 2–3 hr</p><p>Earpiece speaker — A-grade ৳1,500 | Original ৳3,200 | Turnaround: 1 hr</p><p>Loudspeaker — A-grade ৳1,800 | Original ৳3,500 | Turnaround: 1 hr</p><p>Back glass — A-grade ৳4,000 | Original ৳9,500 | Turnaround: same day</p><p>Liquid damage (ultrasonic board clean) — from ৳3,500 | Turnaround: 1–3 days</p><p>Logic board repair (micro-soldering) — from ৳5,500 | Turnaround: 1–3 days<br/></p><p></p><p></p><h2>Why repair your iPhone 17 at iFixit BD?</h2><p>Free written diagnosis and fixed quote. Written estimate before work starts — no hidden charges.<br/></p><p>Board-level micro-soldering lab. Component-level repairs, ultrasonic cleaning, 18 years experience.<br/></p><p>Dual-tier pricing. A-grade and Original prices disclosed before work starts. Nothing added at the counter.<br/></p><p>Repair warranty. All parts and labour covered at /warranty-policy.<br/></p><p>70+ expert technicians, 4 dedicated Dhaka branches, 500,000+ devices repaired.<br/></p><p></p><p></p><h2>Is the iPhone 17 still worth repairing in 2026?</h2><p>Yes — this is a current 2025 device and every common repair is clearly worth doing.<br/></p><p>Battery and screen repairs cost far less than replacement. A battery at ৳3,500–7,000 and screen at ৳12,000–27,000 return the phone to full performance for a fraction of replacement cost.<br/></p><p>No iOS ceiling. Current model — receives all iOS updates.<br/></p><p>Straightforward answer for most faults. Battery, screen, USB-C port, camera — all worth repairing on the iPhone 17 in 2026. Board-level faults receive an honest cost assessment before any work starts.<br/></p>",
+     "allservice_page_title": "iPhone 17 Repair Service",
+     "allservice_page_title_description": "Choose the right service for your iPhone 17 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "693e7255e3cb8bf613c2d717",
+   "title": "Housing Replacement",
+   "order_no": 7,
+   "endpoints": [
+    {
+     "model_id": "68cbfbab7495d2cd0327c237",
+     "endpoint": "/services/iphone/17/housing-replacement",
+     "_id": "6a6b4febbf41443db63896c5"
+    }
+   ],
+   "image": {
+    "public_id": "service/housing-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/housing-replacement.png"
+   },
+   "model_id": [
+    "68cbfbab7495d2cd0327c237"
+   ],
+   "device_id": "680a0789a0d70a0f278d9405",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693e7255e3cb8bf613c2d719"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Housing Replacement",
+     "website_name": "Housing Replacement",
+     "image_alt_text": "iPhone 17 Housing Replacement",
+     "repair_image": {
+      "public_id": "service/housing-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/housing-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 22000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a6b4febbf41443db63896c7"
+    }
+   ],
+   "description": "<p><strong>Introduction</strong></p><p>A damaged iPhone 17 housing affects both device protection and overall performance. Bent frames, cracked rear housing, dented corners, and loose internal alignment reduce structural stability and increase the risk of motherboard damage.</p><p>The iPhone 17 frame supports critical Apple components including the OLED display, Camera module, charging port, battery assembly, and motherboard. Housing damage changes internal alignment and creates pressure on sensitive hardware components.</p><p>At iFixit BD, every iPhone 17 Housing Replacement begins with complete diagnostics and internal inspection. Our repair technicians carefully examine frame condition, charging dock alignment, Face ID positioning, battery health stability, and display calibration before starting the replacement process.</p><p>Customers across Dhaka, Bangladesh rely on iFixit BD because we use original and high quality housing components with professional repair tools and secure handling procedures. Proper housing replacement restores structural durability, improves device protection, and maintains long-term iPhone performance.</p><p>A damaged frame also affects wireless charging efficiency, button responsiveness, camera alignment, and heat dissipation. Fast repair helps prevent additional internal damage and keeps the iPhone stable during daily usage.<br/> </p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-14T08:16:21.111Z",
+   "updated_at": "2026-07-30T13:21:47.384Z",
+   "meta_description": "Need housing replacement for your iPhone 17? iFixit offers genuine OEM parts, certified technicians and full warranty in Dhaka – Bangladesh's Authentic...",
+   "meta_keywords": "",
+   "meta_title": "iPhone 17 Housing Replacement in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPhone",
+     "image": {
+      "public_id": "device/865ecae5-561e-4e45-8c85-37c27b28ad79.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/865ecae5-561e-4e45-8c85-37c27b28ad79.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPhone 17",
+     "image": {
+      "public_id": "model/iphone-17.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iphone-17.png"
+     },
+     "endpoint": "17",
+     "allservice_meta_description": "Get professional iPhone 17 repair service in Bangladesh. Fast diagnostics, screen, battery & motherboard repairs at affordable prices.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPhone 17 Repair Service in Bangladesh | iFixit BD",
+     "allservice_page_description": "<h2>iPhone 17 repair service in Dhaka, Bangladesh</h2><p>With 18+ years of experience, 500,000+ devices repaired, and 70+ expert technicians across 4 dedicated branches in Dhaka, iFixit BD repairs every iPhone 17 fault. The standard iPhone 17 delivers a 6.1-inch OLED display, A19 chip, dual-camera system, and USB-C charging in an aluminium body — Apple&#x27;s 2025 everyday iPhone. We repair cracked screens, failing batteries, USB-C port issues, camera damage, and Face ID sensor faults using A-grade and Original parts. Screen replacement starts from ৳12,000, battery from ৳3,500, and every repair begins with a free written diagnosis.<br/></p><p></p><h2>What are the common iPhone 17 problems we fix?</h2><h3>Battery not lasting through the day</h3><p>The iPhone 17&#x27;s A19 chip is efficient, but Bangladesh&#x27;s high ambient temperatures and always-on connectivity accelerate battery degradation. When the phone no longer reaches evening on a single charge, battery health has dropped. Replacement takes under an hour and immediately restores full-day performance.  iPhone 17 battery replacement</p><h3>Cracked OLED screen</h3><p>The 6.1-inch Super Retina XDR OLED display cracks more visibly than older LCD models and can show discolouration, dead touch zones, or green lines after impact. A full display assembly replacement — OLED panel, digitiser, and bracket — restores the original display quality.  iPhone 17 screen replacement</p><h3>USB-C port loose or charging unreliably</h3><p>The USB-C port is the only charging and data connection on the iPhone 17. Lint in the port is the most frequent cause of intermittent charging. We clean it during free diagnosis — port flex cable replacement is only performed when cleaning confirms the cable itself is damaged. iPhone 17 charging issues</p><h3>Rear camera blurry or not switching correctly</h3><p>The iPhone 17 uses a dual-camera system. Drops that impact the rear camera bump, lens scratches, or internal flex damage can cause blur, autofocus failure, or the camera app failing to open. We inspect each module independently.  iPhone 17 camera repair</p><h3>Face ID sensor failure</h3><p>TrueDepth sensors in the Dynamic Island area control Face ID. Physical impact, moisture, or an incorrect prior screen repair can disable Face ID. iFixit BD protects TrueDepth pairing during screen replacements and can diagnose sensor faults independently.  iPhone 17 Face ID repair<br/></p><p></p><p></p><h2>How does our repair process work?</h2><p>Step 1 — Free diagnosis. Bring your iPhone 17 to any iFixit BD branch. Fault identified, written quote provided at no cost.<br/></p><p>Step 2 — Report and fixed price. Written fault report, fixed price, A-grade and Original options side by side.<br/></p><p>Step 3 — Confirm and repair. Most repairs completed same day. Board-level repairs take 1–2 days.<br/></p><p>Step 4 — Test together and collect with warranty. Full test with you present before you leave. Warranty begins from this moment.<br/></p><p></p><p></p><h2>iPhone 17 repair price list at iFixit BD</h2><p>All prices include parts and labour. Diagnosis is always free.<br/></p><p>Screen replacement (OLED) — A-grade ৳12,000 | Original ৳27,000 | Turnaround: 1–2 hr</p><p>Battery replacement — A-grade ৳3,500 | Original ৳7,000 | Turnaround: 45–60 min</p><p>USB-C charging port — A-grade ৳2,200 | Original ৳4,500 | Turnaround: 1–2 hr</p><p>Rear camera — A-grade ৳4,500 | Original ৳10,000 | Turnaround: 2–3 hr</p><p>Front camera / Face ID sensor — A-grade ৳4,000 | Original ৳9,000 | Turnaround: 2–3 hr</p><p>Earpiece speaker — A-grade ৳1,500 | Original ৳3,200 | Turnaround: 1 hr</p><p>Loudspeaker — A-grade ৳1,800 | Original ৳3,500 | Turnaround: 1 hr</p><p>Back glass — A-grade ৳4,000 | Original ৳9,500 | Turnaround: same day</p><p>Liquid damage (ultrasonic board clean) — from ৳3,500 | Turnaround: 1–3 days</p><p>Logic board repair (micro-soldering) — from ৳5,500 | Turnaround: 1–3 days<br/></p><p></p><p></p><h2>Why repair your iPhone 17 at iFixit BD?</h2><p>Free written diagnosis and fixed quote. Written estimate before work starts — no hidden charges.<br/></p><p>Board-level micro-soldering lab. Component-level repairs, ultrasonic cleaning, 18 years experience.<br/></p><p>Dual-tier pricing. A-grade and Original prices disclosed before work starts. Nothing added at the counter.<br/></p><p>Repair warranty. All parts and labour covered at /warranty-policy.<br/></p><p>70+ expert technicians, 4 dedicated Dhaka branches, 500,000+ devices repaired.<br/></p><p></p><p></p><h2>Is the iPhone 17 still worth repairing in 2026?</h2><p>Yes — this is a current 2025 device and every common repair is clearly worth doing.<br/></p><p>Battery and screen repairs cost far less than replacement. A battery at ৳3,500–7,000 and screen at ৳12,000–27,000 return the phone to full performance for a fraction of replacement cost.<br/></p><p>No iOS ceiling. Current model — receives all iOS updates.<br/></p><p>Straightforward answer for most faults. Battery, screen, USB-C port, camera — all worth repairing on the iPhone 17 in 2026. Board-level faults receive an honest cost assessment before any work starts.<br/></p>",
+     "allservice_page_title": "iPhone 17 Repair Service",
+     "allservice_page_title_description": "Choose the right service for your iPhone 17 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "693e792fe3cb8bf613c2d822",
+   "title": "Motherboard Issues",
+   "order_no": 3,
+   "endpoints": [
+    {
+     "model_id": "68cbfbab7495d2cd0327c237",
+     "endpoint": "/services/iphone/17/motherboard-issues",
+     "_id": "6a6b4960bf41443db635e0d6"
+    }
+   ],
+   "image": {
+    "public_id": "service/iphone-motherboard-repair.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/iphone-motherboard-repair.png"
+   },
+   "model_id": [
+    "68cbfbab7495d2cd0327c237"
+   ],
+   "device_id": "680a0789a0d70a0f278d9405",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693e792fe3cb8bf613c2d824"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Motherboard Issues",
+     "website_name": "Motherboard Issues",
+     "image_alt_text": "iPhone 17 Motherboard Issues",
+     "repair_image": {
+      "public_id": "service/iphone-motherboard-repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/iphone-motherboard-repair.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 15000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a6b4960bf41443db635e0d8"
+    }
+   ],
+   "description": "<p><strong>Description</strong></p><p>iPhone 17 motherboard issues directly affect power distribution, Face ID stability, and iOS boot performance. The device fails when core logic circuits become unstable. The iPhone motherboard integrates Power IC, Charging IC, Touch IC, and CPU communication lines. When any section fails, the entire system becomes unresponsive or unpredictable.</p><p>At iFixit BD in Dhaka, every iPhone 17 Motherboard Issues Solve service starts with deep diagnostics. A repair technician analyzes voltage flow, short circuits, and liquid damage impact before repair begins.</p><p>We use structured repair methods with originality to restore stable performance, fast charging behavior, and long-term device reliability.<br/></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-14T08:45:35.738Z",
+   "updated_at": "2026-07-30T12:53:52.042Z",
+   "meta_description": "iPhone 17 Motherboard Issues? Get expert diagnosis and precise repair at iFixit, Bangladesh's Authentic Apple Service Center in Dhaka. Genuine OEM...",
+   "meta_keywords": "",
+   "meta_title": "iPhone 17 Motherboard Issues in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPhone",
+     "image": {
+      "public_id": "device/865ecae5-561e-4e45-8c85-37c27b28ad79.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/865ecae5-561e-4e45-8c85-37c27b28ad79.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPhone 17",
+     "image": {
+      "public_id": "model/iphone-17.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iphone-17.png"
+     },
+     "endpoint": "17",
+     "allservice_meta_description": "Get professional iPhone 17 repair service in Bangladesh. Fast diagnostics, screen, battery & motherboard repairs at affordable prices.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPhone 17 Repair Service in Bangladesh | iFixit BD",
+     "allservice_page_description": "<h2>iPhone 17 repair service in Dhaka, Bangladesh</h2><p>With 18+ years of experience, 500,000+ devices repaired, and 70+ expert technicians across 4 dedicated branches in Dhaka, iFixit BD repairs every iPhone 17 fault. The standard iPhone 17 delivers a 6.1-inch OLED display, A19 chip, dual-camera system, and USB-C charging in an aluminium body — Apple&#x27;s 2025 everyday iPhone. We repair cracked screens, failing batteries, USB-C port issues, camera damage, and Face ID sensor faults using A-grade and Original parts. Screen replacement starts from ৳12,000, battery from ৳3,500, and every repair begins with a free written diagnosis.<br/></p><p></p><h2>What are the common iPhone 17 problems we fix?</h2><h3>Battery not lasting through the day</h3><p>The iPhone 17&#x27;s A19 chip is efficient, but Bangladesh&#x27;s high ambient temperatures and always-on connectivity accelerate battery degradation. When the phone no longer reaches evening on a single charge, battery health has dropped. Replacement takes under an hour and immediately restores full-day performance.  iPhone 17 battery replacement</p><h3>Cracked OLED screen</h3><p>The 6.1-inch Super Retina XDR OLED display cracks more visibly than older LCD models and can show discolouration, dead touch zones, or green lines after impact. A full display assembly replacement — OLED panel, digitiser, and bracket — restores the original display quality.  iPhone 17 screen replacement</p><h3>USB-C port loose or charging unreliably</h3><p>The USB-C port is the only charging and data connection on the iPhone 17. Lint in the port is the most frequent cause of intermittent charging. We clean it during free diagnosis — port flex cable replacement is only performed when cleaning confirms the cable itself is damaged. iPhone 17 charging issues</p><h3>Rear camera blurry or not switching correctly</h3><p>The iPhone 17 uses a dual-camera system. Drops that impact the rear camera bump, lens scratches, or internal flex damage can cause blur, autofocus failure, or the camera app failing to open. We inspect each module independently.  iPhone 17 camera repair</p><h3>Face ID sensor failure</h3><p>TrueDepth sensors in the Dynamic Island area control Face ID. Physical impact, moisture, or an incorrect prior screen repair can disable Face ID. iFixit BD protects TrueDepth pairing during screen replacements and can diagnose sensor faults independently.  iPhone 17 Face ID repair<br/></p><p></p><p></p><h2>How does our repair process work?</h2><p>Step 1 — Free diagnosis. Bring your iPhone 17 to any iFixit BD branch. Fault identified, written quote provided at no cost.<br/></p><p>Step 2 — Report and fixed price. Written fault report, fixed price, A-grade and Original options side by side.<br/></p><p>Step 3 — Confirm and repair. Most repairs completed same day. Board-level repairs take 1–2 days.<br/></p><p>Step 4 — Test together and collect with warranty. Full test with you present before you leave. Warranty begins from this moment.<br/></p><p></p><p></p><h2>iPhone 17 repair price list at iFixit BD</h2><p>All prices include parts and labour. Diagnosis is always free.<br/></p><p>Screen replacement (OLED) — A-grade ৳12,000 | Original ৳27,000 | Turnaround: 1–2 hr</p><p>Battery replacement — A-grade ৳3,500 | Original ৳7,000 | Turnaround: 45–60 min</p><p>USB-C charging port — A-grade ৳2,200 | Original ৳4,500 | Turnaround: 1–2 hr</p><p>Rear camera — A-grade ৳4,500 | Original ৳10,000 | Turnaround: 2–3 hr</p><p>Front camera / Face ID sensor — A-grade ৳4,000 | Original ৳9,000 | Turnaround: 2–3 hr</p><p>Earpiece speaker — A-grade ৳1,500 | Original ৳3,200 | Turnaround: 1 hr</p><p>Loudspeaker — A-grade ৳1,800 | Original ৳3,500 | Turnaround: 1 hr</p><p>Back glass — A-grade ৳4,000 | Original ৳9,500 | Turnaround: same day</p><p>Liquid damage (ultrasonic board clean) — from ৳3,500 | Turnaround: 1–3 days</p><p>Logic board repair (micro-soldering) — from ৳5,500 | Turnaround: 1–3 days<br/></p><p></p><p></p><h2>Why repair your iPhone 17 at iFixit BD?</h2><p>Free written diagnosis and fixed quote. Written estimate before work starts — no hidden charges.<br/></p><p>Board-level micro-soldering lab. Component-level repairs, ultrasonic cleaning, 18 years experience.<br/></p><p>Dual-tier pricing. A-grade and Original prices disclosed before work starts. Nothing added at the counter.<br/></p><p>Repair warranty. All parts and labour covered at /warranty-policy.<br/></p><p>70+ expert technicians, 4 dedicated Dhaka branches, 500,000+ devices repaired.<br/></p><p></p><p></p><h2>Is the iPhone 17 still worth repairing in 2026?</h2><p>Yes — this is a current 2025 device and every common repair is clearly worth doing.<br/></p><p>Battery and screen repairs cost far less than replacement. A battery at ৳3,500–7,000 and screen at ৳12,000–27,000 return the phone to full performance for a fraction of replacement cost.<br/></p><p>No iOS ceiling. Current model — receives all iOS updates.<br/></p><p>Straightforward answer for most faults. Battery, screen, USB-C port, camera — all worth repairing on the iPhone 17 in 2026. Board-level faults receive an honest cost assessment before any work starts.<br/></p>",
+     "allservice_page_title": "iPhone 17 Repair Service",
+     "allservice_page_title_description": "Choose the right service for your iPhone 17 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "693e81f7e3cb8bf613c2de42",
+   "title": "Taptic Engine Replace",
+   "order_no": 16,
+   "endpoints": [
+    {
+     "model_id": "68cbfbab7495d2cd0327c237",
+     "endpoint": "/services/iphone/17/taptic-engine-replace",
+     "_id": "6a6c328abf41443db648776f"
+    }
+   ],
+   "image": {
+    "public_id": "service/taptic-engine.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/taptic-engine.png"
+   },
+   "model_id": [
+    "68cbfbab7495d2cd0327c237"
+   ],
+   "device_id": "680a0789a0d70a0f278d9405",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693e81f7e3cb8bf613c2de44"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Taptic Engine Replace",
+     "website_name": "Taptic Engine Replace",
+     "image_alt_text": "iPhone 17 Taptic Engine Replace",
+     "repair_image": {
+      "public_id": "service/taptic-engine.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/taptic-engine.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 4000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a6c328abf41443db6487771"
+    }
+   ],
+   "description": "<h2><strong>Introduction</strong></h2><p>Haptic feedback failure on iPhone 17 Taptic Engine affects system vibration accuracy and user interaction feedback across iOS operations. The device loses tactile response during calls, notifications, and system gestures when the Taptic Engine degrades.</p><p>The Apple iPhone relies on the Taptic Engine to deliver precise vibration patterns for Face ID feedback, keyboard haptics, and silent alerts. A damaged unit creates inconsistent response timing and weak vibration output, reducing overall usability.</p><p>In many cases, Taptic Engine malfunction occurs after physical drops or internal shock impact, especially when the device frame transfers force to internal modules. Liquid exposure also disrupts internal coil alignment and motor control.</p><p>At iFixit BD in Dhaka, Bangladesh, every iPhone 17 undergoes structured diagnostics before replacement. Repair technicians inspect internal connectors, test iOS-level haptic response, and install high-quality parts designed for stable long-term performance.<br/> </p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-14T09:23:03.672Z",
+   "updated_at": "2026-07-31T05:28:42.794Z",
+   "meta_description": "Looking for reliable taptic engine replacement for your iPhone 17? iFixit, Bangladesh's Authentic Apple Service Center, delivers expert taptic engine...",
+   "meta_keywords": "",
+   "meta_title": "iPhone 17 Taptic Engine Replacement in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPhone",
+     "image": {
+      "public_id": "device/865ecae5-561e-4e45-8c85-37c27b28ad79.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/865ecae5-561e-4e45-8c85-37c27b28ad79.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPhone 17",
+     "image": {
+      "public_id": "model/iphone-17.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iphone-17.png"
+     },
+     "endpoint": "17",
+     "allservice_meta_description": "Get professional iPhone 17 repair service in Bangladesh. Fast diagnostics, screen, battery & motherboard repairs at affordable prices.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPhone 17 Repair Service in Bangladesh | iFixit BD",
+     "allservice_page_description": "<h2>iPhone 17 repair service in Dhaka, Bangladesh</h2><p>With 18+ years of experience, 500,000+ devices repaired, and 70+ expert technicians across 4 dedicated branches in Dhaka, iFixit BD repairs every iPhone 17 fault. The standard iPhone 17 delivers a 6.1-inch OLED display, A19 chip, dual-camera system, and USB-C charging in an aluminium body — Apple&#x27;s 2025 everyday iPhone. We repair cracked screens, failing batteries, USB-C port issues, camera damage, and Face ID sensor faults using A-grade and Original parts. Screen replacement starts from ৳12,000, battery from ৳3,500, and every repair begins with a free written diagnosis.<br/></p><p></p><h2>What are the common iPhone 17 problems we fix?</h2><h3>Battery not lasting through the day</h3><p>The iPhone 17&#x27;s A19 chip is efficient, but Bangladesh&#x27;s high ambient temperatures and always-on connectivity accelerate battery degradation. When the phone no longer reaches evening on a single charge, battery health has dropped. Replacement takes under an hour and immediately restores full-day performance.  iPhone 17 battery replacement</p><h3>Cracked OLED screen</h3><p>The 6.1-inch Super Retina XDR OLED display cracks more visibly than older LCD models and can show discolouration, dead touch zones, or green lines after impact. A full display assembly replacement — OLED panel, digitiser, and bracket — restores the original display quality.  iPhone 17 screen replacement</p><h3>USB-C port loose or charging unreliably</h3><p>The USB-C port is the only charging and data connection on the iPhone 17. Lint in the port is the most frequent cause of intermittent charging. We clean it during free diagnosis — port flex cable replacement is only performed when cleaning confirms the cable itself is damaged. iPhone 17 charging issues</p><h3>Rear camera blurry or not switching correctly</h3><p>The iPhone 17 uses a dual-camera system. Drops that impact the rear camera bump, lens scratches, or internal flex damage can cause blur, autofocus failure, or the camera app failing to open. We inspect each module independently.  iPhone 17 camera repair</p><h3>Face ID sensor failure</h3><p>TrueDepth sensors in the Dynamic Island area control Face ID. Physical impact, moisture, or an incorrect prior screen repair can disable Face ID. iFixit BD protects TrueDepth pairing during screen replacements and can diagnose sensor faults independently.  iPhone 17 Face ID repair<br/></p><p></p><p></p><h2>How does our repair process work?</h2><p>Step 1 — Free diagnosis. Bring your iPhone 17 to any iFixit BD branch. Fault identified, written quote provided at no cost.<br/></p><p>Step 2 — Report and fixed price. Written fault report, fixed price, A-grade and Original options side by side.<br/></p><p>Step 3 — Confirm and repair. Most repairs completed same day. Board-level repairs take 1–2 days.<br/></p><p>Step 4 — Test together and collect with warranty. Full test with you present before you leave. Warranty begins from this moment.<br/></p><p></p><p></p><h2>iPhone 17 repair price list at iFixit BD</h2><p>All prices include parts and labour. Diagnosis is always free.<br/></p><p>Screen replacement (OLED) — A-grade ৳12,000 | Original ৳27,000 | Turnaround: 1–2 hr</p><p>Battery replacement — A-grade ৳3,500 | Original ৳7,000 | Turnaround: 45–60 min</p><p>USB-C charging port — A-grade ৳2,200 | Original ৳4,500 | Turnaround: 1–2 hr</p><p>Rear camera — A-grade ৳4,500 | Original ৳10,000 | Turnaround: 2–3 hr</p><p>Front camera / Face ID sensor — A-grade ৳4,000 | Original ৳9,000 | Turnaround: 2–3 hr</p><p>Earpiece speaker — A-grade ৳1,500 | Original ৳3,200 | Turnaround: 1 hr</p><p>Loudspeaker — A-grade ৳1,800 | Original ৳3,500 | Turnaround: 1 hr</p><p>Back glass — A-grade ৳4,000 | Original ৳9,500 | Turnaround: same day</p><p>Liquid damage (ultrasonic board clean) — from ৳3,500 | Turnaround: 1–3 days</p><p>Logic board repair (micro-soldering) — from ৳5,500 | Turnaround: 1–3 days<br/></p><p></p><p></p><h2>Why repair your iPhone 17 at iFixit BD?</h2><p>Free written diagnosis and fixed quote. Written estimate before work starts — no hidden charges.<br/></p><p>Board-level micro-soldering lab. Component-level repairs, ultrasonic cleaning, 18 years experience.<br/></p><p>Dual-tier pricing. A-grade and Original prices disclosed before work starts. Nothing added at the counter.<br/></p><p>Repair warranty. All parts and labour covered at /warranty-policy.<br/></p><p>70+ expert technicians, 4 dedicated Dhaka branches, 500,000+ devices repaired.<br/></p><p></p><p></p><h2>Is the iPhone 17 still worth repairing in 2026?</h2><p>Yes — this is a current 2025 device and every common repair is clearly worth doing.<br/></p><p>Battery and screen repairs cost far less than replacement. A battery at ৳3,500–7,000 and screen at ৳12,000–27,000 return the phone to full performance for a fraction of replacement cost.<br/></p><p>No iOS ceiling. Current model — receives all iOS updates.<br/></p><p>Straightforward answer for most faults. Battery, screen, USB-C port, camera — all worth repairing on the iPhone 17 in 2026. Board-level faults receive an honest cost assessment before any work starts.<br/></p>",
+     "allservice_page_title": "iPhone 17 Repair Service",
+     "allservice_page_title_description": "Choose the right service for your iPhone 17 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "693e851ee3cb8bf613c2dfbc",
+   "title": "Software Issue",
+   "order_no": 18,
+   "endpoints": [
+    {
+     "model_id": "68cbfbab7495d2cd0327c237",
+     "endpoint": "/services/iphone/17/software-issues",
+     "_id": "6a6c330bbf41443db6487866"
+    }
+   ],
+   "image": {
+    "public_id": "service/software-issues.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/software-issues.png"
+   },
+   "model_id": [
+    "68cbfbab7495d2cd0327c237"
+   ],
+   "device_id": "680a0789a0d70a0f278d9405",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693e851ee3cb8bf613c2dfbe"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Software Issue",
+     "website_name": "Software Issue",
+     "image_alt_text": "iPhone 17 Software Issue",
+     "repair_image": {
+      "public_id": "service/software-issues.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/software-issues.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 500,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a6c330bbf41443db6487868"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-14T09:36:30.993Z",
+   "updated_at": "2026-07-31T05:30:51.530Z",
+   "meta_description": "Facing software issue on your iPhone 17? iFixit, Bangladesh's Authentic Apple Service Center in Dhaka, offers expert care, genuine OEM parts and...",
+   "meta_keywords": "",
+   "meta_title": "iPhone 17 Software Issue in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPhone",
+     "image": {
+      "public_id": "device/865ecae5-561e-4e45-8c85-37c27b28ad79.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/865ecae5-561e-4e45-8c85-37c27b28ad79.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPhone 17",
+     "image": {
+      "public_id": "model/iphone-17.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iphone-17.png"
+     },
+     "endpoint": "17",
+     "allservice_meta_description": "Get professional iPhone 17 repair service in Bangladesh. Fast diagnostics, screen, battery & motherboard repairs at affordable prices.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPhone 17 Repair Service in Bangladesh | iFixit BD",
+     "allservice_page_description": "<h2>iPhone 17 repair service in Dhaka, Bangladesh</h2><p>With 18+ years of experience, 500,000+ devices repaired, and 70+ expert technicians across 4 dedicated branches in Dhaka, iFixit BD repairs every iPhone 17 fault. The standard iPhone 17 delivers a 6.1-inch OLED display, A19 chip, dual-camera system, and USB-C charging in an aluminium body — Apple&#x27;s 2025 everyday iPhone. We repair cracked screens, failing batteries, USB-C port issues, camera damage, and Face ID sensor faults using A-grade and Original parts. Screen replacement starts from ৳12,000, battery from ৳3,500, and every repair begins with a free written diagnosis.<br/></p><p></p><h2>What are the common iPhone 17 problems we fix?</h2><h3>Battery not lasting through the day</h3><p>The iPhone 17&#x27;s A19 chip is efficient, but Bangladesh&#x27;s high ambient temperatures and always-on connectivity accelerate battery degradation. When the phone no longer reaches evening on a single charge, battery health has dropped. Replacement takes under an hour and immediately restores full-day performance.  iPhone 17 battery replacement</p><h3>Cracked OLED screen</h3><p>The 6.1-inch Super Retina XDR OLED display cracks more visibly than older LCD models and can show discolouration, dead touch zones, or green lines after impact. A full display assembly replacement — OLED panel, digitiser, and bracket — restores the original display quality.  iPhone 17 screen replacement</p><h3>USB-C port loose or charging unreliably</h3><p>The USB-C port is the only charging and data connection on the iPhone 17. Lint in the port is the most frequent cause of intermittent charging. We clean it during free diagnosis — port flex cable replacement is only performed when cleaning confirms the cable itself is damaged. iPhone 17 charging issues</p><h3>Rear camera blurry or not switching correctly</h3><p>The iPhone 17 uses a dual-camera system. Drops that impact the rear camera bump, lens scratches, or internal flex damage can cause blur, autofocus failure, or the camera app failing to open. We inspect each module independently.  iPhone 17 camera repair</p><h3>Face ID sensor failure</h3><p>TrueDepth sensors in the Dynamic Island area control Face ID. Physical impact, moisture, or an incorrect prior screen repair can disable Face ID. iFixit BD protects TrueDepth pairing during screen replacements and can diagnose sensor faults independently.  iPhone 17 Face ID repair<br/></p><p></p><p></p><h2>How does our repair process work?</h2><p>Step 1 — Free diagnosis. Bring your iPhone 17 to any iFixit BD branch. Fault identified, written quote provided at no cost.<br/></p><p>Step 2 — Report and fixed price. Written fault report, fixed price, A-grade and Original options side by side.<br/></p><p>Step 3 — Confirm and repair. Most repairs completed same day. Board-level repairs take 1–2 days.<br/></p><p>Step 4 — Test together and collect with warranty. Full test with you present before you leave. Warranty begins from this moment.<br/></p><p></p><p></p><h2>iPhone 17 repair price list at iFixit BD</h2><p>All prices include parts and labour. Diagnosis is always free.<br/></p><p>Screen replacement (OLED) — A-grade ৳12,000 | Original ৳27,000 | Turnaround: 1–2 hr</p><p>Battery replacement — A-grade ৳3,500 | Original ৳7,000 | Turnaround: 45–60 min</p><p>USB-C charging port — A-grade ৳2,200 | Original ৳4,500 | Turnaround: 1–2 hr</p><p>Rear camera — A-grade ৳4,500 | Original ৳10,000 | Turnaround: 2–3 hr</p><p>Front camera / Face ID sensor — A-grade ৳4,000 | Original ৳9,000 | Turnaround: 2–3 hr</p><p>Earpiece speaker — A-grade ৳1,500 | Original ৳3,200 | Turnaround: 1 hr</p><p>Loudspeaker — A-grade ৳1,800 | Original ৳3,500 | Turnaround: 1 hr</p><p>Back glass — A-grade ৳4,000 | Original ৳9,500 | Turnaround: same day</p><p>Liquid damage (ultrasonic board clean) — from ৳3,500 | Turnaround: 1–3 days</p><p>Logic board repair (micro-soldering) — from ৳5,500 | Turnaround: 1–3 days<br/></p><p></p><p></p><h2>Why repair your iPhone 17 at iFixit BD?</h2><p>Free written diagnosis and fixed quote. Written estimate before work starts — no hidden charges.<br/></p><p>Board-level micro-soldering lab. Component-level repairs, ultrasonic cleaning, 18 years experience.<br/></p><p>Dual-tier pricing. A-grade and Original prices disclosed before work starts. Nothing added at the counter.<br/></p><p>Repair warranty. All parts and labour covered at /warranty-policy.<br/></p><p>70+ expert technicians, 4 dedicated Dhaka branches, 500,000+ devices repaired.<br/></p><p></p><p></p><h2>Is the iPhone 17 still worth repairing in 2026?</h2><p>Yes — this is a current 2025 device and every common repair is clearly worth doing.<br/></p><p>Battery and screen repairs cost far less than replacement. A battery at ৳3,500–7,000 and screen at ৳12,000–27,000 return the phone to full performance for a fraction of replacement cost.<br/></p><p>No iOS ceiling. Current model — receives all iOS updates.<br/></p><p>Straightforward answer for most faults. Battery, screen, USB-C port, camera — all worth repairing on the iPhone 17 in 2026. Board-level faults receive an honest cost assessment before any work starts.<br/></p>",
+     "allservice_page_title": "iPhone 17 Repair Service",
+     "allservice_page_title_description": "Choose the right service for your iPhone 17 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "694013fae3cb8bf613c31aa4",
+   "title": "Loud Speaker Replacement",
+   "order_no": 12,
+   "endpoints": [
+    {
+     "model_id": "68cbfbab7495d2cd0327c237",
+     "endpoint": "/services/iphone/17/loud-speaker-replacement",
+     "_id": "6a6b5407bf41443db639f2e2"
+    }
+   ],
+   "image": {
+    "public_id": "service/loud-speaker-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/loud-speaker-replacement.png"
+   },
+   "model_id": [
+    "68cbfbab7495d2cd0327c237"
+   ],
+   "device_id": "680a0789a0d70a0f278d9405",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "694013fae3cb8bf613c31aa6"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Loud Speaker Replacement",
+     "website_name": "Loud Speaker Replacement",
+     "image_alt_text": "iPhone 17 Loud Speaker Replacement",
+     "repair_image": {
+      "public_id": "service/loud-speaker-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/loud-speaker-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 5000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a6b5407bf41443db639f2e4"
+    }
+   ],
+   "description": "<p><strong>Introduction</strong></p><p>The iPhone 17 loud speaker failure directly reduces media sound, ringtone volume, and video audio output. Users experience low volume, distortion, or complete silence during normal playback on Apple devices.</p><p>The loud speaker module in iPhone 17 degrades due to dust accumulation, liquid damage, or long-term vibration stress. This affects the speaker diaphragm and internal audio pathways inside the device frame.</p><p>At iFixit BD in Dhaka, we perform structured diagnostics on the Apple iPhone audio system, checking the loud speaker unit, charging port audio integration, and motherboard-level audio IC response. This ensures accurate fault identification before replacement.</p><p>We use original and high-quality replacement parts depending on device condition. Every repair protects iOS stability, Face ID alignment, and internal hardware calibration for long-term performance.The goal is consistent clear sound output, stable media playback, and reliable device performance for users in Bangladesh. </p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-15T13:58:18.766Z",
+   "updated_at": "2026-07-30T13:39:19.871Z",
+   "meta_description": "Get professional loud speaker replacement for iPhone 17 at iFixit, Dhaka – Bangladesh's Authentic Apple Service Center. 100% genuine OEM parts with...",
+   "meta_keywords": "",
+   "meta_title": "iPhone 17 Loud Speaker Replacement in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPhone",
+     "image": {
+      "public_id": "device/865ecae5-561e-4e45-8c85-37c27b28ad79.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/865ecae5-561e-4e45-8c85-37c27b28ad79.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPhone 17",
+     "image": {
+      "public_id": "model/iphone-17.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iphone-17.png"
+     },
+     "endpoint": "17",
+     "allservice_meta_description": "Get professional iPhone 17 repair service in Bangladesh. Fast diagnostics, screen, battery & motherboard repairs at affordable prices.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPhone 17 Repair Service in Bangladesh | iFixit BD",
+     "allservice_page_description": "<h2>iPhone 17 repair service in Dhaka, Bangladesh</h2><p>With 18+ years of experience, 500,000+ devices repaired, and 70+ expert technicians across 4 dedicated branches in Dhaka, iFixit BD repairs every iPhone 17 fault. The standard iPhone 17 delivers a 6.1-inch OLED display, A19 chip, dual-camera system, and USB-C charging in an aluminium body — Apple&#x27;s 2025 everyday iPhone. We repair cracked screens, failing batteries, USB-C port issues, camera damage, and Face ID sensor faults using A-grade and Original parts. Screen replacement starts from ৳12,000, battery from ৳3,500, and every repair begins with a free written diagnosis.<br/></p><p></p><h2>What are the common iPhone 17 problems we fix?</h2><h3>Battery not lasting through the day</h3><p>The iPhone 17&#x27;s A19 chip is efficient, but Bangladesh&#x27;s high ambient temperatures and always-on connectivity accelerate battery degradation. When the phone no longer reaches evening on a single charge, battery health has dropped. Replacement takes under an hour and immediately restores full-day performance.  iPhone 17 battery replacement</p><h3>Cracked OLED screen</h3><p>The 6.1-inch Super Retina XDR OLED display cracks more visibly than older LCD models and can show discolouration, dead touch zones, or green lines after impact. A full display assembly replacement — OLED panel, digitiser, and bracket — restores the original display quality.  iPhone 17 screen replacement</p><h3>USB-C port loose or charging unreliably</h3><p>The USB-C port is the only charging and data connection on the iPhone 17. Lint in the port is the most frequent cause of intermittent charging. We clean it during free diagnosis — port flex cable replacement is only performed when cleaning confirms the cable itself is damaged. iPhone 17 charging issues</p><h3>Rear camera blurry or not switching correctly</h3><p>The iPhone 17 uses a dual-camera system. Drops that impact the rear camera bump, lens scratches, or internal flex damage can cause blur, autofocus failure, or the camera app failing to open. We inspect each module independently.  iPhone 17 camera repair</p><h3>Face ID sensor failure</h3><p>TrueDepth sensors in the Dynamic Island area control Face ID. Physical impact, moisture, or an incorrect prior screen repair can disable Face ID. iFixit BD protects TrueDepth pairing during screen replacements and can diagnose sensor faults independently.  iPhone 17 Face ID repair<br/></p><p></p><p></p><h2>How does our repair process work?</h2><p>Step 1 — Free diagnosis. Bring your iPhone 17 to any iFixit BD branch. Fault identified, written quote provided at no cost.<br/></p><p>Step 2 — Report and fixed price. Written fault report, fixed price, A-grade and Original options side by side.<br/></p><p>Step 3 — Confirm and repair. Most repairs completed same day. Board-level repairs take 1–2 days.<br/></p><p>Step 4 — Test together and collect with warranty. Full test with you present before you leave. Warranty begins from this moment.<br/></p><p></p><p></p><h2>iPhone 17 repair price list at iFixit BD</h2><p>All prices include parts and labour. Diagnosis is always free.<br/></p><p>Screen replacement (OLED) — A-grade ৳12,000 | Original ৳27,000 | Turnaround: 1–2 hr</p><p>Battery replacement — A-grade ৳3,500 | Original ৳7,000 | Turnaround: 45–60 min</p><p>USB-C charging port — A-grade ৳2,200 | Original ৳4,500 | Turnaround: 1–2 hr</p><p>Rear camera — A-grade ৳4,500 | Original ৳10,000 | Turnaround: 2–3 hr</p><p>Front camera / Face ID sensor — A-grade ৳4,000 | Original ৳9,000 | Turnaround: 2–3 hr</p><p>Earpiece speaker — A-grade ৳1,500 | Original ৳3,200 | Turnaround: 1 hr</p><p>Loudspeaker — A-grade ৳1,800 | Original ৳3,500 | Turnaround: 1 hr</p><p>Back glass — A-grade ৳4,000 | Original ৳9,500 | Turnaround: same day</p><p>Liquid damage (ultrasonic board clean) — from ৳3,500 | Turnaround: 1–3 days</p><p>Logic board repair (micro-soldering) — from ৳5,500 | Turnaround: 1–3 days<br/></p><p></p><p></p><h2>Why repair your iPhone 17 at iFixit BD?</h2><p>Free written diagnosis and fixed quote. Written estimate before work starts — no hidden charges.<br/></p><p>Board-level micro-soldering lab. Component-level repairs, ultrasonic cleaning, 18 years experience.<br/></p><p>Dual-tier pricing. A-grade and Original prices disclosed before work starts. Nothing added at the counter.<br/></p><p>Repair warranty. All parts and labour covered at /warranty-policy.<br/></p><p>70+ expert technicians, 4 dedicated Dhaka branches, 500,000+ devices repaired.<br/></p><p></p><p></p><h2>Is the iPhone 17 still worth repairing in 2026?</h2><p>Yes — this is a current 2025 device and every common repair is clearly worth doing.<br/></p><p>Battery and screen repairs cost far less than replacement. A battery at ৳3,500–7,000 and screen at ৳12,000–27,000 return the phone to full performance for a fraction of replacement cost.<br/></p><p>No iOS ceiling. Current model — receives all iOS updates.<br/></p><p>Straightforward answer for most faults. Battery, screen, USB-C port, camera — all worth repairing on the iPhone 17 in 2026. Board-level faults receive an honest cost assessment before any work starts.<br/></p>",
+     "allservice_page_title": "iPhone 17 Repair Service",
+     "allservice_page_title_description": "Choose the right service for your iPhone 17 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "693e7da0e3cb8bf613c2dcb0",
+   "title": "Liquid Damage",
+   "order_no": 13,
+   "endpoints": [
+    {
+     "model_id": "68cbfbab7495d2cd0327c237",
+     "endpoint": "/services/iphone/17/liquid-damage",
+     "_id": "6a6b547dbf41443db639f3b6"
+    }
+   ],
+   "image": {
+    "public_id": "service/liquid-damage.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/liquid-damage.png"
+   },
+   "model_id": [
+    "68cbfbab7495d2cd0327c237"
+   ],
+   "device_id": "680a0789a0d70a0f278d9405",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "step_image": null,
+     "_id": "693e7da0e3cb8bf613c2dcb2"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Liquid Damage",
+     "website_name": "Liquid Damage",
+     "image_alt_text": "iPhone 17 Liquid Damage",
+     "repair_image": {
+      "public_id": "service/liquid-damage.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/liquid-damage.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 4000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a6b547dbf41443db639f3b8"
+    }
+   ],
+   "description": "<p><strong>Introduction</strong></p><p>Liquid damage in an iPhone 17 causes immediate instability in core electronic pathways. Water exposure disrupts motherboard conductivity and triggers short circuits across sensitive Apple components.</p><p>The iPhone 17 relies on tightly integrated systems including OLED display control, charging IC, Face ID module, and power management circuits. Liquid intrusion affects these systems simultaneously, leading to unpredictable device failure.</p><p>At iFixit BD in Dhaka, every liquid-damaged iPhone undergoes structured diagnostics. Repair technicians isolate affected zones, inspect corrosion levels, and evaluate motherboard continuity before restoration.</p><p>Original and high quality parts restore stable performance after cleaning and repair. Proper treatment prevents long-term degradation of iOS performance, battery stability, and charging efficiency.<br/> </p>",
+   "status": true,
+   "created_by": "blankdiary2020@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-12-14T09:04:32.858Z",
+   "updated_at": "2026-07-30T13:41:17.658Z",
+   "meta_description": "Facing liquid damage on your iPhone 17? iFixit, Bangladesh's Authentic Apple Service Center in Dhaka, offers expert care, genuine OEM parts and precise...",
+   "meta_keywords": "",
+   "meta_title": "iPhone 17 Liquid Damage in Dhaka | iFixit",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "iPhone",
+     "image": {
+      "public_id": "device/865ecae5-561e-4e45-8c85-37c27b28ad79.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/865ecae5-561e-4e45-8c85-37c27b28ad79.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "iPhone 17",
+     "image": {
+      "public_id": "model/iphone-17.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/iphone-17.png"
+     },
+     "endpoint": "17",
+     "allservice_meta_description": "Get professional iPhone 17 repair service in Bangladesh. Fast diagnostics, screen, battery & motherboard repairs at affordable prices.",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "iPhone 17 Repair Service in Bangladesh | iFixit BD",
+     "allservice_page_description": "<h2>iPhone 17 repair service in Dhaka, Bangladesh</h2><p>With 18+ years of experience, 500,000+ devices repaired, and 70+ expert technicians across 4 dedicated branches in Dhaka, iFixit BD repairs every iPhone 17 fault. The standard iPhone 17 delivers a 6.1-inch OLED display, A19 chip, dual-camera system, and USB-C charging in an aluminium body — Apple&#x27;s 2025 everyday iPhone. We repair cracked screens, failing batteries, USB-C port issues, camera damage, and Face ID sensor faults using A-grade and Original parts. Screen replacement starts from ৳12,000, battery from ৳3,500, and every repair begins with a free written diagnosis.<br/></p><p></p><h2>What are the common iPhone 17 problems we fix?</h2><h3>Battery not lasting through the day</h3><p>The iPhone 17&#x27;s A19 chip is efficient, but Bangladesh&#x27;s high ambient temperatures and always-on connectivity accelerate battery degradation. When the phone no longer reaches evening on a single charge, battery health has dropped. Replacement takes under an hour and immediately restores full-day performance.  iPhone 17 battery replacement</p><h3>Cracked OLED screen</h3><p>The 6.1-inch Super Retina XDR OLED display cracks more visibly than older LCD models and can show discolouration, dead touch zones, or green lines after impact. A full display assembly replacement — OLED panel, digitiser, and bracket — restores the original display quality.  iPhone 17 screen replacement</p><h3>USB-C port loose or charging unreliably</h3><p>The USB-C port is the only charging and data connection on the iPhone 17. Lint in the port is the most frequent cause of intermittent charging. We clean it during free diagnosis — port flex cable replacement is only performed when cleaning confirms the cable itself is damaged. iPhone 17 charging issues</p><h3>Rear camera blurry or not switching correctly</h3><p>The iPhone 17 uses a dual-camera system. Drops that impact the rear camera bump, lens scratches, or internal flex damage can cause blur, autofocus failure, or the camera app failing to open. We inspect each module independently.  iPhone 17 camera repair</p><h3>Face ID sensor failure</h3><p>TrueDepth sensors in the Dynamic Island area control Face ID. Physical impact, moisture, or an incorrect prior screen repair can disable Face ID. iFixit BD protects TrueDepth pairing during screen replacements and can diagnose sensor faults independently.  iPhone 17 Face ID repair<br/></p><p></p><p></p><h2>How does our repair process work?</h2><p>Step 1 — Free diagnosis. Bring your iPhone 17 to any iFixit BD branch. Fault identified, written quote provided at no cost.<br/></p><p>Step 2 — Report and fixed price. Written fault report, fixed price, A-grade and Original options side by side.<br/></p><p>Step 3 — Confirm and repair. Most repairs completed same day. Board-level repairs take 1–2 days.<br/></p><p>Step 4 — Test together and collect with warranty. Full test with you present before you leave. Warranty begins from this moment.<br/></p><p></p><p></p><h2>iPhone 17 repair price list at iFixit BD</h2><p>All prices include parts and labour. Diagnosis is always free.<br/></p><p>Screen replacement (OLED) — A-grade ৳12,000 | Original ৳27,000 | Turnaround: 1–2 hr</p><p>Battery replacement — A-grade ৳3,500 | Original ৳7,000 | Turnaround: 45–60 min</p><p>USB-C charging port — A-grade ৳2,200 | Original ৳4,500 | Turnaround: 1–2 hr</p><p>Rear camera — A-grade ৳4,500 | Original ৳10,000 | Turnaround: 2–3 hr</p><p>Front camera / Face ID sensor — A-grade ৳4,000 | Original ৳9,000 | Turnaround: 2–3 hr</p><p>Earpiece speaker — A-grade ৳1,500 | Original ৳3,200 | Turnaround: 1 hr</p><p>Loudspeaker — A-grade ৳1,800 | Original ৳3,500 | Turnaround: 1 hr</p><p>Back glass — A-grade ৳4,000 | Original ৳9,500 | Turnaround: same day</p><p>Liquid damage (ultrasonic board clean) — from ৳3,500 | Turnaround: 1–3 days</p><p>Logic board repair (micro-soldering) — from ৳5,500 | Turnaround: 1–3 days<br/></p><p></p><p></p><h2>Why repair your iPhone 17 at iFixit BD?</h2><p>Free written diagnosis and fixed quote. Written estimate before work starts — no hidden charges.<br/></p><p>Board-level micro-soldering lab. Component-level repairs, ultrasonic cleaning, 18 years experience.<br/></p><p>Dual-tier pricing. A-grade and Original prices disclosed before work starts. Nothing added at the counter.<br/></p><p>Repair warranty. All parts and labour covered at /warranty-policy.<br/></p><p>70+ expert technicians, 4 dedicated Dhaka branches, 500,000+ devices repaired.<br/></p><p></p><p></p><h2>Is the iPhone 17 still worth repairing in 2026?</h2><p>Yes — this is a current 2025 device and every common repair is clearly worth doing.<br/></p><p>Battery and screen repairs cost far less than replacement. A battery at ৳3,500–7,000 and screen at ৳12,000–27,000 return the phone to full performance for a fraction of replacement cost.<br/></p><p>No iOS ceiling. Current model — receives all iOS updates.<br/></p><p>Straightforward answer for most faults. Battery, screen, USB-C port, camera — all worth repairing on the iPhone 17 in 2026. Board-level faults receive an honest cost assessment before any work starts.<br/></p>",
+     "allservice_page_title": "iPhone 17 Repair Service",
+     "allservice_page_title_description": "Choose the right service for your iPhone 17 from iFixit BD"
+    }
+   ]
+  }
+ ],
+ "totalData": 18
+}

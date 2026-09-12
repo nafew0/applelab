@@ -1,5 +1,6 @@
 import { test, expect, type Page } from '@playwright/test'
 import { loginAsAdmin } from './helpers'
+import { SITE } from './site.config'
 
 /**
  * BP-4: funnel → capture (attribution) → admin queue/kanban → respond loop.
@@ -51,29 +52,29 @@ test.describe.serial('BP-4 leads (funnel → pipeline → respond)', () => {
     )
   })
 
-  test('kanban: lead sits in New and moves to Contacted', async ({ page }) => {
+  test('kanban: lead sits in the initial stage and moves to the next', async ({ page }) => {
     await loginAsAdmin(page)
     await page.goto('/admin/leads')
     await page.getByTestId('leads-view-board').click()
     await expect(page.getByTestId('leads-board')).toBeVisible()
 
     const card = page.getByTestId(`lead-card-${reference}`)
-    await expect(page.getByTestId('board-column-new').getByTestId(`lead-card-${reference}`)).toBeVisible()
-    await card.getByTestId('lead-move-select').selectOption('contacted')
+    await expect(page.getByTestId(`board-column-${SITE.stages.initial}`).getByTestId(`lead-card-${reference}`)).toBeVisible()
+    await card.getByTestId('lead-move-select').selectOption(SITE.stages.next)
     await expect(
-      page.getByTestId('board-column-contacted').getByTestId(`lead-card-${reference}`)
+      page.getByTestId(`board-column-${SITE.stages.next}`).getByTestId(`lead-card-${reference}`)
     ).toBeVisible()
   })
 
   test('detail: terminal stage requires a reason; note composer works', async ({ page }) => {
     await openLeadDetail(page)
 
-    await page.getByTestId('detail-stage-select').selectOption('lost')
+    await page.getByTestId('detail-stage-select').selectOption(SITE.stages.terminalWithReason)
     const dialog = page.getByTestId('stage-reason-dialog')
     await expect(dialog).toBeVisible()
     await dialog.locator('textarea').fill('Chose a competitor (e2e).')
     await dialog.getByRole('button', { name: /confirm|save|move/i }).click()
-    await expect(page.getByTestId('detail-stage-chip')).toHaveText(/Lost/)
+    await expect(page.getByTestId('detail-stage-chip')).toHaveText(new RegExp(SITE.stages.terminalWithReasonName))
     await expect(page.locator('ol').getByText('Chose a competitor (e2e).')).toBeVisible()
 
     const composer = page.getByTestId('note-composer')
@@ -92,7 +93,7 @@ test.describe.serial('BP-4 leads (funnel → pipeline → respond)', () => {
         page.locator('input').evaluateAll((els) => els.map((el) => (el as HTMLInputElement).value))
       )
       .toEqual(
-        expect.arrayContaining(['New', 'Contacted', 'Qualified', 'Booked', 'Won', 'Lost'])
+        expect.arrayContaining([...SITE.stages.names])
       )
 
     await page.goto('/admin')

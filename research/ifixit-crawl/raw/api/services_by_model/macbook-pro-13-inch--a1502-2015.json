@@ -1,0 +1,1546 @@
+{
+ "success": true,
+ "message": "successful",
+ "data": [
+  {
+   "_id": "68b69a34f4016bd30fe60eb7",
+   "title": "Speaker Replacement",
+   "order_no": 6,
+   "image": {
+    "public_id": "service/macbook-speaker-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-speaker-replacement.png"
+   },
+   "model_id": [
+    "68874e3419055242d5b9784a"
+   ],
+   "device_id": "6885f4b819055242d5b97423",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b69a34f4016bd30fe60eb8"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Speaker Replacement",
+     "website_name": "Speaker Replacement",
+     "image_alt_text": "MacBook Pro 13 Inch Early 2015 Speaker Replacement",
+     "repair_image": {
+      "public_id": "service/macbook-speaker-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-speaker-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 4000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a158e84921f2574d91c2944"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-02T07:18:12.825Z",
+   "updated_at": "2026-05-26T12:13:56.892Z",
+   "endpoints": [
+    {
+     "model_id": "68874e3419055242d5b9784a",
+     "endpoint": "/services/macbook-pro-13-inch/a1502-2015/speaker-replacement",
+     "_id": "6a158e84921f2574d91c2942"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 13\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-13-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-13-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 13\" Early 2015 (A1502)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Early-2015.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Early-2015.png"
+     },
+     "endpoint": "a1502-2015",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Early 2015 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Early 2015 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68b696bbf4016bd30fe60df1",
+   "title": "Keyboard Replacement",
+   "order_no": 5,
+   "image": {
+    "public_id": "service/keyboard-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/keyboard-replacement.png"
+   },
+   "model_id": [
+    "68874e3419055242d5b9784a"
+   ],
+   "device_id": "6885f4b819055242d5b97423",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b696bbf4016bd30fe60df2"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Keyboard Replacement",
+     "website_name": "Keyboard Replacement",
+     "image_alt_text": "MacBook Pro 13 Inch Early 2015 Keyboard Replacement",
+     "repair_image": {
+      "public_id": "service/keyboard-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/keyboard-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 4000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a158e7e921f2574d91c292f"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-02T07:03:23.636Z",
+   "updated_at": "2026-05-26T12:13:50.139Z",
+   "endpoints": [
+    {
+     "model_id": "68874e3419055242d5b9784a",
+     "endpoint": "/services/macbook-pro-13-inch/a1502-2015/keyboard-replacement",
+     "_id": "6a158e7e921f2574d91c292d"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 13\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-13-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-13-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 13\" Early 2015 (A1502)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Early-2015.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Early-2015.png"
+     },
+     "endpoint": "a1502-2015",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Early 2015 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Early 2015 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68e7b8587495d2cd0327f980",
+   "title": "Battery Replacement",
+   "order_no": 2,
+   "image": {
+    "public_id": "service/macbook-battery-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-battery-replacement.png"
+   },
+   "model_id": [
+    "68874e3419055242d5b9784a"
+   ],
+   "device_id": "6885f4b819055242d5b97423",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68e7b8587495d2cd0327f981"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Battery Replacement",
+     "image_alt_text": "MacBook Pro 13 Inch Early 2015 Battery Replacement",
+     "repair_image": {
+      "public_id": "service/macbook-battery-replacement.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-battery-replacement.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "12 Months Warranty",
+     "product_id": "68e7b61b7495d2cd0327f8d9",
+     "product_variation_id": "68e7b61c7495d2cd0327f8dc",
+     "_id": "6a158e64921f2574d91c2819",
+     "product_data": {
+      "_id": "68e7b61b7495d2cd0327f8d9",
+      "product_id": "p250",
+      "name": "MacBook Pro 13 Inch Battery Early 2015",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f28aed11479fdf2f3ca",
+      "device_id": "6885f4b819055242d5b97423",
+      "model_id": "68874e3419055242d5b9784a",
+      "attachable_models": [
+       "68874e3419055242d5b9784a"
+      ],
+      "price": null,
+      "warranty": 12,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "ifixitbd@gmail.com",
+      "created_at": "2025-10-09T13:18:19.535Z",
+      "updated_at": "2026-03-11T06:20:16.656Z",
+      "__v": 0,
+      "endpoint": "/product/macbook-pro-battery-model-a1582",
+      "warranty_note": "",
+      "website_name": "MacBook Pro 13 Inch Battery Early 2015"
+     },
+     "product_variation_data": {
+      "_id": "68e7b61c7495d2cd0327f8dc",
+      "name": "Battery Replacement",
+      "quality": "Standard After Market",
+      "product_id": "68e7b61b7495d2cd0327f8d9",
+      "price": 7000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/MacBook-Pro-13-Inch-Battery-Early-2015.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/MacBook-Pro-13-Inch-Battery-Early-2015.png",
+        "_id": "6953ac9485b753595beebb00"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-09T13:18:20.212Z",
+      "updated_at": "2026-05-05T13:27:27.464Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-09T13:27:52.388Z",
+   "updated_at": "2026-05-26T12:13:24.797Z",
+   "endpoints": [
+    {
+     "model_id": "68874e3419055242d5b9784a",
+     "endpoint": "/services/macbook-pro-13-inch/a1502-2015/battery-replacement",
+     "_id": "6a158e64921f2574d91c2817"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "MacBook Pro 13 Inch Early 2015 Battery Replacement",
+   "page_title_description": "Change the weak battery for your MacBook Pro 13 Inch Early 2015 Battery Replacement from iFixit BD",
+   "device_data": [
+    {
+     "name": "MacBook Pro 13\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-13-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-13-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 13\" Early 2015 (A1502)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Early-2015.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Early-2015.png"
+     },
+     "endpoint": "a1502-2015",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Early 2015 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Early 2015 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68b699e9f4016bd30fe60e92",
+   "title": "SSD Upgrade",
+   "order_no": 11,
+   "image": {
+    "public_id": "service/ssd.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ssd.png"
+   },
+   "model_id": [
+    "68874e3419055242d5b9784a"
+   ],
+   "device_id": "6885f4b819055242d5b97423",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b699e9f4016bd30fe60e93"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "SSD Upgrade",
+     "website_name": "SSD Upgrade",
+     "image_alt_text": "MacBook Pro 13 Inch Early 2015 SSD Upgrade",
+     "repair_image": {
+      "public_id": "service/ssd.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/ssd.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 0,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a158ea9921f2574d91c29b0"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-02T07:16:57.428Z",
+   "updated_at": "2026-05-26T12:14:33.533Z",
+   "endpoints": [
+    {
+     "model_id": "68874e3419055242d5b9784a",
+     "endpoint": "/services/macbook-pro-13-inch/a1502-2015/ssd-upgrade",
+     "_id": "6a158ea9921f2574d91c29ae"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 13\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-13-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-13-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 13\" Early 2015 (A1502)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Early-2015.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Early-2015.png"
+     },
+     "endpoint": "a1502-2015",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Early 2015 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Early 2015 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68e7b8017495d2cd0327f955",
+   "title": "Display Replacement",
+   "order_no": 1,
+   "image": {
+    "public_id": "service/macbook-display-replacement.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-display-replacement.png"
+   },
+   "model_id": [
+    "68874e3419055242d5b9784a"
+   ],
+   "device_id": "6885f4b819055242d5b97423",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68e7b8017495d2cd0327f956"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Assemble Charge",
+     "website_name": "Display Replacement",
+     "image_alt_text": "MacBook Pro 13 Inch Early 2015 Display Replacement",
+     "repair_image": {
+      "public_id": "service/bb22e24e-ad91-4ab9-992a-b9e71b8cb5a5.png",
+      "url": "https://my-invento.s3.ap-southeast-1.amazonaws.com/service/bb22e24e-ad91-4ab9-992a-b9e71b8cb5a5.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "68e7b5c57495d2cd0327f8bc",
+     "product_variation_id": "68e7b5c57495d2cd0327f8c0",
+     "_id": "6a3d272d96eb520b0277128a",
+     "product_data": {
+      "_id": "68e7b5c57495d2cd0327f8bc",
+      "product_id": "p249",
+      "name": "MacBook Pro 13 Inch Display Assembly Early 2015",
+      "brand_id": "680a09e8a0d70a0f278d94ae",
+      "category_id": "68282f1caed11479fdf2f3c1",
+      "device_id": "6885f4b819055242d5b97423",
+      "model_id": "68874e3419055242d5b9784a",
+      "attachable_models": [
+       "68874e3419055242d5b9784a"
+      ],
+      "price": null,
+      "warranty": null,
+      "description": "<p></p>",
+      "images": [],
+      "remarks": "",
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-09T13:16:53.060Z",
+      "updated_at": "2026-06-25T12:58:40.866Z",
+      "__v": 0,
+      "endpoint": "/product/macbook-pro-13-inch-display-assembly-early-2015",
+      "warranty_note": "",
+      "website_name": "MacBook Pro 13 Inch Display Assembly Early 2015",
+      "description2": "<p></p>",
+      "meta_description": "undefined",
+      "meta_keywords": "undefined",
+      "meta_title": "undefined",
+      "page_description": "<p></p>",
+      "page_title": "undefined",
+      "page_title_description": "undefined"
+     },
+     "product_variation_data": {
+      "_id": "68e7b5c57495d2cd0327f8c0",
+      "name": "Display Assembly",
+      "quality": "Disassembled From MacBook",
+      "product_id": "68e7b5c57495d2cd0327f8bc",
+      "price": 32000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/MacBook-Pro-13-Inch-Display--Assembly-Early-2015.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/MacBook-Pro-13-Inch-Display--Assembly-Early-2015.png",
+        "_id": "6953ac6085b753595beebaf0"
+       }
+      ],
+      "status": true,
+      "created_by": "ifixitbd@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2025-10-09T13:16:53.703Z",
+      "updated_at": "2026-05-05T13:30:27.058Z",
+      "__v": 0
+     }
+    },
+    {
+     "name": "Assemble Charge",
+     "website_name": "Display Replacement",
+     "image_alt_text": "MacBook Pro 13 Inch Early 2015 Display Replacement",
+     "repair_image": {
+      "public_id": "service/6a6e0f02-9b82-48b4-b00b-e9383878b665.png",
+      "url": "https://my-invento.s3.ap-southeast-1.amazonaws.com/service/6a6e0f02-9b82-48b4-b00b-e9383878b665.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "",
+     "warranty": "",
+     "product_id": "6a3d26ee96eb520b02771227",
+     "product_variation_id": "6a3d26ef96eb520b0277122a",
+     "_id": "6a3d272d96eb520b0277128b",
+     "product_data": {
+      "_id": "6a3d26ee96eb520b02771227",
+      "product_id": "p434",
+      "name": "MacBook Pro 13 Inch Display Lcd Early 2015",
+      "website_name": "MacBook Pro 13 Inch Display Lcd Early 2015",
+      "endpoint": "/product/macbook-pro-13-inch-display-lcd-early-2015",
+      "brand_id": "68b3fc02f4016bd30fe5f01b",
+      "category_id": "68282f1caed11479fdf2f3c1",
+      "device_id": "6885f4b819055242d5b97423",
+      "model_id": "68874e3419055242d5b9784a",
+      "attachable_models": [
+       "68874e3419055242d5b9784a"
+      ],
+      "price": null,
+      "warranty": null,
+      "warranty_note": "",
+      "description": "<p></p>",
+      "description2": "<p></p>",
+      "images": [],
+      "meta_title": "",
+      "meta_description": "",
+      "meta_keywords": "",
+      "page_title": "",
+      "page_title_description": "",
+      "page_description": "<p></p>",
+      "remarks": "",
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "N/A",
+      "created_at": "2026-06-25T13:02:38.803Z",
+      "updated_at": "2026-06-25T13:02:38.803Z",
+      "__v": 0
+     },
+     "product_variation_data": {
+      "_id": "6a3d26ef96eb520b0277122a",
+      "name": "LCD",
+      "quality": "Standard After Market",
+      "product_id": "6a3d26ee96eb520b02771227",
+      "price": 22000,
+      "base_price": 0,
+      "images": [
+       {
+        "public_id": "product/MacBook-Pro-13-Inch-Display-Lcd-Early-2015.png",
+        "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/product/MacBook-Pro-13-Inch-Display-Lcd-Early-2015.png",
+        "_id": "6a3d2f7c96eb520b0279461e"
+       }
+      ],
+      "status": true,
+      "created_by": "blankdiary2020@gmail.com",
+      "updated_by": "blankdiary2020@gmail.com",
+      "created_at": "2026-06-25T13:02:39.412Z",
+      "updated_at": "2026-06-25T13:39:08.982Z",
+      "__v": 0
+     }
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-10-09T13:26:25.882Z",
+   "updated_at": "2026-06-25T13:03:41.269Z",
+   "endpoints": [
+    {
+     "model_id": "68874e3419055242d5b9784a",
+     "endpoint": "/services/macbook-pro-13-inch/a1502-2015/display-replacement",
+     "_id": "6a3d272d96eb520b02771288"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 13\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-13-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-13-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 13\" Early 2015 (A1502)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Early-2015.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Early-2015.png"
+     },
+     "endpoint": "a1502-2015",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Early 2015 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Early 2015 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68b69a8ef4016bd30fe60edc",
+   "title": "Trackpad Issue",
+   "order_no": 7,
+   "image": {
+    "public_id": "service/macbook-trackpad-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-trackpad-issue.png"
+   },
+   "model_id": [
+    "68874e3419055242d5b9784a"
+   ],
+   "device_id": "6885f4b819055242d5b97423",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b69a8ef4016bd30fe60edd"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Trackpad Issue",
+     "website_name": "Trackpad Issue",
+     "image_alt_text": "MacBook Pro 13 Inch Early 2015 Trackpad Issue",
+     "repair_image": {
+      "public_id": "service/macbook-trackpad-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-trackpad-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 4000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a158eaf921f2574d91c29c5"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-02T07:19:42.216Z",
+   "updated_at": "2026-05-26T12:14:39.698Z",
+   "endpoints": [
+    {
+     "model_id": "68874e3419055242d5b9784a",
+     "endpoint": "/services/macbook-pro-13-inch/a1502-2015/trackpad-issue",
+     "_id": "6a158eaf921f2574d91c29c3"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 13\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-13-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-13-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 13\" Early 2015 (A1502)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Early-2015.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Early-2015.png"
+     },
+     "endpoint": "a1502-2015",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Early 2015 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Early 2015 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68b6963bf4016bd30fe60dcb",
+   "title": "Charging Port Replacement",
+   "order_no": 4,
+   "image": {
+    "public_id": "service/charging-port.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/charging-port.png"
+   },
+   "model_id": [
+    "68874e3419055242d5b9784a"
+   ],
+   "device_id": "6885f4b819055242d5b97423",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b6963bf4016bd30fe60dcc"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Charging Port Replacement",
+     "website_name": "Charging Port Replacement",
+     "image_alt_text": "MacBook Pro 13 Inch Early 2015 Charging Port Replacement",
+     "repair_image": {
+      "public_id": "service/charging-port.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/charging-port.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 4000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a158e76921f2574d91c291a"
+    }
+   ],
+   "description": "<h2></h2>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-02T07:01:15.547Z",
+   "updated_at": "2026-05-26T12:13:42.890Z",
+   "endpoints": [
+    {
+     "model_id": "68874e3419055242d5b9784a",
+     "endpoint": "/services/macbook-pro-13-inch/a1502-2015/charging-port-replacement",
+     "_id": "6a158e76921f2574d91c2918"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 13\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-13-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-13-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 13\" Early 2015 (A1502)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Early-2015.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Early-2015.png"
+     },
+     "endpoint": "a1502-2015",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Early 2015 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Early 2015 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68b69b7cf4016bd30fe60f2c",
+   "title": "Wifi Issue",
+   "order_no": 8,
+   "image": {
+    "public_id": "service/wifi-issue.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/wifi-issue.png"
+   },
+   "model_id": [
+    "68874e3419055242d5b9784a"
+   ],
+   "device_id": "6885f4b819055242d5b97423",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b69b7cf4016bd30fe60f2d"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Wifi Issue",
+     "website_name": "Wifi Issue",
+     "image_alt_text": "MacBook Pro 13 Inch Early 2015 Wifi Issue",
+     "repair_image": {
+      "public_id": "service/wifi-issue.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/wifi-issue.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 4000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a158eb5921f2574d91c29da"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-02T07:23:40.465Z",
+   "updated_at": "2026-05-26T12:14:45.713Z",
+   "endpoints": [
+    {
+     "model_id": "68874e3419055242d5b9784a",
+     "endpoint": "/services/macbook-pro-13-inch/a1502-2015/wifi-issue",
+     "_id": "6a158eb5921f2574d91c29d8"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 13\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-13-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-13-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 13\" Early 2015 (A1502)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Early-2015.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Early-2015.png"
+     },
+     "endpoint": "a1502-2015",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Early 2015 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Early 2015 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68b696f5f4016bd30fe60e16",
+   "title": "Motherboard Repair",
+   "order_no": 3,
+   "image": {
+    "public_id": "service/macbook-motherboard-repair.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-motherboard-repair.png"
+   },
+   "model_id": [
+    "68874e3419055242d5b9784a"
+   ],
+   "device_id": "6885f4b819055242d5b97423",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b696f5f4016bd30fe60e17"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Motherboard Repair",
+     "website_name": "Motherboard Repair",
+     "image_alt_text": "MacBook Pro 13 Inch Early 2015 Motherboard Repair",
+     "repair_image": {
+      "public_id": "service/macbook-motherboard-repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-motherboard-repair.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 6000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a158e95921f2574d91c296e"
+    }
+   ],
+   "description": "<h2></h2>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-02T07:04:21.595Z",
+   "updated_at": "2026-05-26T12:14:13.606Z",
+   "endpoints": [
+    {
+     "model_id": "68874e3419055242d5b9784a",
+     "endpoint": "/services/macbook-pro-13-inch/a1502-2015/motherboard-repair",
+     "_id": "6a158e95921f2574d91c296c"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 13\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-13-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-13-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 13\" Early 2015 (A1502)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Early-2015.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Early-2015.png"
+     },
+     "endpoint": "a1502-2015",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Early 2015 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Early 2015 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68b69b31f4016bd30fe60f07",
+   "title": "Liquid Clean",
+   "order_no": 9,
+   "image": {
+    "public_id": "service/liquid-damage.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/liquid-damage.png"
+   },
+   "model_id": [
+    "68874e3419055242d5b9784a"
+   ],
+   "device_id": "6885f4b819055242d5b97423",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b69b31f4016bd30fe60f08"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Liquid Clean",
+     "website_name": "Liquid Clean",
+     "image_alt_text": "MacBook Pro 13 Inch Early 2015 Liquid Clean",
+     "repair_image": {
+      "public_id": "service/liquid-damage.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/liquid-damage.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 2000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a158e9b921f2574d91c2983"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-02T07:22:25.561Z",
+   "updated_at": "2026-05-26T12:14:19.727Z",
+   "endpoints": [
+    {
+     "model_id": "68874e3419055242d5b9784a",
+     "endpoint": "/services/macbook-pro-13-inch/a1502-2015/liquid-clean",
+     "_id": "6a158e9b921f2574d91c2981"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 13\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-13-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-13-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 13\" Early 2015 (A1502)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Early-2015.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Early-2015.png"
+     },
+     "endpoint": "a1502-2015",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Early 2015 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Early 2015 from iFixit BD"
+    }
+   ]
+  },
+  {
+   "_id": "68b6976af4016bd30fe60e3e",
+   "title": "Os Installation",
+   "order_no": 10,
+   "image": {
+    "public_id": "service/macbook-os-installation.png",
+    "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-os-installation.png"
+   },
+   "model_id": [
+    "68874e3419055242d5b9784a"
+   ],
+   "device_id": "6885f4b819055242d5b97423",
+   "brand_id": "680a09e8a0d70a0f278d94ae",
+   "branch_id": [
+    "6809c9cea0d70a0f278d927c",
+    "680b63baa0d70a0f278d9f30",
+    "680b64b9a0d70a0f278d9f71",
+    "680b6551a0d70a0f278d9f79",
+    "680b6606a0d70a0f278d9f81"
+   ],
+   "steps": [
+    {
+     "title": "",
+     "details": "<p></p>",
+     "_id": "68b6976af4016bd30fe60e3f"
+    }
+   ],
+   "repair_info": [
+    {
+     "name": "Os Installation",
+     "website_name": "Os Installation",
+     "image_alt_text": "MacBook Pro 13 Inch Early 2015 Os Installation",
+     "repair_image": {
+      "public_id": "service/macbook-os-installation.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/service/macbook-os-installation.png"
+     },
+     "details": "<p></p>",
+     "repair_cost": 1000,
+     "guaranty": "",
+     "warranty": "",
+     "_id": "6a158e8b921f2574d91c2959"
+    }
+   ],
+   "description": "<p></p>",
+   "status": true,
+   "created_by": "ifixitbd@gmail.com",
+   "updated_by": "blankdiary2020@gmail.com",
+   "created_at": "2025-09-02T07:06:18.314Z",
+   "updated_at": "2026-05-26T12:14:03.786Z",
+   "endpoints": [
+    {
+     "model_id": "68874e3419055242d5b9784a",
+     "endpoint": "/services/macbook-pro-13-inch/a1502-2015/os-installation",
+     "_id": "6a158e8b921f2574d91c2957"
+    }
+   ],
+   "meta_description": "",
+   "meta_keywords": "",
+   "meta_title": "",
+   "page_description": "<p></p>",
+   "page_title": "",
+   "page_title_description": "",
+   "device_data": [
+    {
+     "name": "MacBook Pro 13\"",
+     "image": {
+      "public_id": "device/MacBook-Pro-13-Inch-Repair.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/device/MacBook-Pro-13-Inch-Repair.png"
+     }
+    }
+   ],
+   "brand_data": [
+    {
+     "name": "Apple"
+    }
+   ],
+   "branch_data": [
+    {
+     "_id": "680b6551a0d70a0f278d9f79",
+     "name": "Tokyo Square (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 667, 5th Floor, Tokyo Square, Mohammadpur, Dhaka-1207"
+    },
+    {
+     "_id": "6809c9cea0d70a0f278d927c",
+     "name": "Head Office",
+     "is_main_branch": true
+    },
+    {
+     "_id": "680b64b9a0d70a0f278d9f71",
+     "name": "Uttara Navana Oval (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Navana Oval, Plot- 05, Sector- 07, Lift- 03, Road- Sonargaon Janapath, House Building, Uttara, Dhaka-1230"
+    },
+    {
+     "_id": "680b63baa0d70a0f278d9f30",
+     "name": "Jamuna Future Park (iFixit BD)",
+     "is_main_branch": false,
+     "address": "Shop# 4B-19G, 4th Floor, North Court, Jamuna Future Park"
+    },
+    {
+     "_id": "680b6606a0d70a0f278d9f81",
+     "name": "Eastern Plaza (iFixit BD)",
+     "is_main_branch": false,
+     "address": "9/7 (8th Floor), Eastern Plaza Commercial Complex, Hatirpul, Dhaka-1205"
+    }
+   ],
+   "model_data": [
+    {
+     "name": "MacBook Pro 13\" Early 2015 (A1502)",
+     "image": {
+      "public_id": "model/MacBook-Pro-13-Inch-Early-2015.png",
+      "url": "https://ifixit-app.s3.ap-southeast-2.amazonaws.com/model/MacBook-Pro-13-Inch-Early-2015.png"
+     },
+     "endpoint": "a1502-2015",
+     "allservice_meta_description": "",
+     "allservice_meta_keywords": "",
+     "allservice_meta_title": "",
+     "allservice_page_description": "<p></p>",
+     "allservice_page_title": "MacBook Pro 13 Inch Early 2015 Repair Service",
+     "allservice_page_title_description": "Get repaired your MacBook Pro 13 Inch Early 2015 from iFixit BD"
+    }
+   ]
+  }
+ ],
+ "totalData": 11
+}
