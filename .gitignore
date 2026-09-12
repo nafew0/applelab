@@ -6,3 +6,7 @@
 # Design bundles / Finder artifacts
 Design/*.zip
 .thumbnail
+
+# Competitor research crawl — local only, never published (the committed
+# catalog seed is backend/repairs/seed/catalog.json)
+research/ifixit-crawl/
