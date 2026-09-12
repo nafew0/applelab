@@ -8,7 +8,12 @@ from django.core import mail
 from django.core.cache import cache
 from django.core.management import call_command
 from django.db import connection
-from django.test import SimpleTestCase, TestCase, TransactionTestCase
+from django.test import (
+    SimpleTestCase,
+    TestCase,
+    TransactionTestCase,
+    override_settings,
+)
 from django.utils import timezone
 
 from rest_framework.test import APITestCase
@@ -230,6 +235,7 @@ class LeadCaptureTests(APITestCase):
             summary_en="Repairs",
         )
 
+    @override_settings(LEADS_REFERENCE_PREFIX="LD")
     def test_capture_creates_lead_with_stage_reference_and_transition(self):
         response = self.client.post(
             CAPTURE_URL,
