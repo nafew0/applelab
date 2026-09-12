@@ -604,6 +604,7 @@ class Command(BaseCommand):
             else:
                 m = CHIP_RE.search(name_en)
                 chip = m.group(1) if m else ("Intel" if "intel" in name_en.lower() else "")
+                chip = re.sub(r"\s*and\s*M\d.*$", "", chip)  # "M5 Pro and M5 Pro Max" → "M5 Pro"
             if family_slug == "apple-watch":
                 m = WATCH_SIZE_RE.search(name_en)
                 size_label = f"{m.group(1)}mm" if m else size_label
