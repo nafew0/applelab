@@ -174,7 +174,7 @@ def _validation_response(exc):
 # --------------------------------------------------------------- families
 class FamilyListCreateView(AdminAPIView):
     def get(self, request):
-        families = DeviceFamily.objects.annotate(n=Count("device_models"))
+        families = DeviceFamily.objects.annotate(n=Count("device_models")).order_by("display_order", "name_en")
         return Response({"results": [family_admin_payload(f, f.n) for f in families]})
 
     def post(self, request):
@@ -233,7 +233,12 @@ class FamilyReorderView(AdminAPIView):
 # --------------------------------------------------------------- models
 class ModelListCreateView(AdminAPIView):
     def get(self, request):
-        qs = DeviceModel.objects.select_related("family").annotate(n=Count("offerings"))
+        # Explicit order: Meta.ordering is dropped from GROUP BY (annotate) queries.
+        qs = (
+            DeviceModel.objects.select_related("family")
+            .annotate(n=Count("offerings"))
+            .order_by("-release_year", "display_order", "name_en", "id")
+        )
         family_slug = request.query_params.get("family")
         if family_slug:
             qs = qs.filter(family__slug=family_slug)
@@ -371,7 +376,11 @@ class OfferingDetailView(AdminAPIView):
 # --------------------------------------------------------------- issues
 class IssueListCreateView(AdminAPIView):
     def get(self, request):
-        issues = Issue.objects.prefetch_related("applies_to").annotate(n=Count("offerings"))
+        issues = (
+            Issue.objects.prefetch_related("applies_to")
+            .annotate(n=Count("offerings"))
+            .order_by("display_order", "name_en")
+        )
         return Response({"results": [issue_admin_payload(i, i.n) for i in issues]})
 
     def post(self, request):

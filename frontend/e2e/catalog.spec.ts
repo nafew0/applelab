@@ -113,6 +113,7 @@ async function openModelInAdmin(page: Page): Promise<string> {
   await loginAsAdmin(page)
   await page.goto(`/admin/catalog/families/${C.family.slug}`)
   await page.getByTestId('models-search').fill(C.model.searchTerm)
+  await page.getByTestId('models-search').press('Enter')
   await page
     .locator('[data-testid^="model-row-"]')
     .filter({ has: page.getByText(C.model.slug, { exact: true }) })

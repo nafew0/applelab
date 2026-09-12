@@ -163,6 +163,11 @@ class CatalogAdminAPITests(TestCase):
         self.client = APIClient()
         self.client.force_authenticate(self.staff)
 
+    def test_models_list_is_newest_first(self):
+        DeviceModel.objects.create(family=self.family, slug="6", name_en="iPhone 6", release_year=2014)
+        slugs = [m["slug"] for m in self.client.get("/api/admin/catalog/models/?family=iphone").json()["results"]]
+        self.assertEqual(slugs, ["15-pro", "13", "6"])
+
     def test_permissions(self):
         anon = APIClient()
         self.assertEqual(anon.get("/api/admin/catalog/families/").status_code, 401)
