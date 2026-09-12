@@ -8,6 +8,7 @@ import {
   LayoutDashboard,
   Settings2,
   ShieldCheck,
+  Smartphone,
   Users,
 } from 'lucide-react'
 
@@ -20,10 +21,14 @@ const NAV_ITEMS = [
   { to: '/admin/users', label: 'Users', icon: Users },
   { to: '/admin/leads', label: 'Leads', icon: Inbox },
   { to: '/admin/pipeline', label: 'Pipeline', icon: KanbanSquare },
+  { to: '/admin/catalog', label: 'Catalog', icon: Smartphone },
   { to: '/admin/settings', label: 'Settings', icon: Settings2 },
 ]
 
 function getAdminTitle(pathname: string) {
+  if (pathname.startsWith('/admin/catalog/families/')) return 'Family workspace'
+  if (pathname.startsWith('/admin/catalog/models/')) return 'Model detail'
+  if (pathname.startsWith('/admin/catalog')) return 'Device catalog'
   if (pathname.startsWith('/admin/users/')) return 'User detail'
   if (pathname.startsWith('/admin/users')) return 'User management'
   if (pathname.startsWith('/admin/leads/')) return 'Lead detail'
