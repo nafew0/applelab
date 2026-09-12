@@ -296,6 +296,12 @@ class ImportCatalogTests(TestCase):
 
 @override_settings(NEXT_REVALIDATE_URL="http://next.test/revalidate", NEXT_REVALIDATE_SECRET="s")
 class RevalidationSignalTests(TestCase):
+    def setUp(self):
+        from repairs import signals
+
+        # Tags from other tests' rolled-back transactions are never flushed.
+        signals._pending.tags = set()
+
     def test_save_triggers_best_effort_post(self):
         from unittest import mock
 
@@ -307,6 +313,27 @@ class RevalidationSignalTests(TestCase):
         with mock.patch("repairs.signals.requests.post", side_effect=RuntimeError("down")):
             with self.captureOnCommitCallbacks(execute=True):
                 DeviceFamily.objects.create(slug="imac", name_en="iMac")  # must not raise
+
+    def test_bulk_changes_in_one_transaction_send_one_request(self):
+        from unittest import mock
+
+        with mock.patch("repairs.signals.requests.post") as post:
+            post.return_value.status_code = 200
+            with self.captureOnCommitCallbacks(execute=True):
+                family = DeviceFamily.objects.create(slug="mac-studio", name_en="Mac Studio")
+                for n in range(30):
+                    DeviceModel.objects.create(family=family, slug=f"m{n}", name_en=f"Mac Studio {n}")
+            post.assert_called_once()
+            tags = post.call_args.kwargs["json"]["tags"]
+            self.assertIn("catalog", tags)
+            self.assertIn("model:mac-studio/m29", tags)
+        with mock.patch("repairs.signals.requests.post") as post:
+            post.return_value.status_code = 200
+            with self.captureOnCommitCallbacks(execute=True):
+                for n in range(120):
+                    DeviceModel.objects.create(family=family, slug=f"x{n}", name_en=f"X {n}")
+            post.assert_called_once()
+            self.assertEqual(post.call_args.kwargs["json"]["tags"], ["catalog"])
 
     def test_non_200_response_is_logged_and_redirects_not_followed(self):
         from unittest import mock

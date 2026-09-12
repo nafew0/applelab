@@ -5,6 +5,7 @@ When catalog rows change, POST the affected cache tags to the Next app
 blocks the save; runs after commit. No-op when the URL is not configured.
 """
 import logging
+import threading
 
 import requests
 from django.conf import settings
@@ -17,27 +18,45 @@ from .models import DeviceFamily, DeviceModel, Issue, ModelIssue
 logger = logging.getLogger(__name__)
 
 
-def revalidate_tags(tags):
+# Tags waiting for the next commit. Every save registers a flush; the first
+# flush to run sends them all in ONE request and the rest find nothing, so a
+# bulk seed/import costs one POST instead of thousands. Tags from a rolled-back
+# transaction ride along with the next flush — a harmless extra revalidation.
+_pending = threading.local()
+MAX_TAGS = 100  # the Next route accepts at most this many
+
+
+def _flush():
+    tags = getattr(_pending, "tags", None)
+    _pending.tags = set()
+    if not tags:
+        return
     url = getattr(settings, "NEXT_REVALIDATE_URL", "")
     secret = getattr(settings, "NEXT_REVALIDATE_SECRET", "")
-    if not url:
+    # Every catalog fetch carries the "catalog" tag, so it alone covers a big batch.
+    payload = sorted(tags) if len(tags) <= MAX_TAGS else ["catalog"]
+    try:
+        response = requests.post(
+            url,
+            json={"secret": secret, "tags": payload},
+            timeout=3,
+            allow_redirects=False,
+        )
+    except Exception as exc:  # noqa: BLE001 — best effort
+        logger.warning("Next revalidation failed: %s", exc)
         return
+    if response.status_code != 200:
+        logger.warning("Next revalidation returned HTTP %s from %s", response.status_code, url)
 
-    def _send():
-        try:
-            response = requests.post(
-                url,
-                json={"secret": secret, "tags": sorted(set(tags))},
-                timeout=3,
-                allow_redirects=False,
-            )
-        except Exception as exc:  # noqa: BLE001 — best effort
-            logger.warning("Next revalidation failed: %s", exc)
-            return
-        if response.status_code != 200:
-            logger.warning("Next revalidation returned HTTP %s from %s", response.status_code, url)
 
-    transaction.on_commit(_send)
+def revalidate_tags(tags):
+    if not getattr(settings, "NEXT_REVALIDATE_URL", ""):
+        return
+    pending = getattr(_pending, "tags", None)
+    if pending is None:
+        pending = _pending.tags = set()
+    pending.update(tags)
+    transaction.on_commit(_flush)
 
 
 def _tags_for(instance):
