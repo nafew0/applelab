@@ -1183,28 +1183,45 @@ h1, h2, h3, h4, h5, h6 {
 /* ============================================================
    SCROLL FILM HERO
    ============================================================ */
-.film{position:relative;height:520vh;background:rgb(var(--shade-black))}
-.film-sticky{position:sticky;top:0;height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px}
-.film-stage{position:relative;width:min(1160px,94vw);height:min(74vh,660px);border-radius:24px;overflow:hidden;background:#101012;box-shadow:0 40px 120px rgb(var(--shade-black) / 0.55)}
-.film-frame{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.07);will-change:opacity,transform}
-.film-frame:first-child{opacity:1;transform:none}
-.film-glint{position:absolute;top:-20%;left:0;width:34%;height:140%;background:linear-gradient(100deg,transparent,rgb(var(--brand-500) / 0.22) 35%,rgb(var(--brand-accent-500) / 0.30) 55%,transparent);opacity:0;pointer-events:none}
-.film-glow{position:absolute;inset:0;background:radial-gradient(62% 62% at 50% 56%,rgb(var(--brand-500) / 0.35),rgb(var(--brand-accent-500) / 0.14) 42%,transparent 74%);mix-blend-mode:screen;opacity:0;pointer-events:none}
-.film-intro{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-align:center;background:linear-gradient(180deg,rgba(245,245,247,0.90) 30%,rgba(245,245,247,0.35));padding:24px}
+.film{position:relative;height:520vh;background:var(--film-bottom)}
+.film-sticky{position:sticky;top:0;height:100vh;overflow:hidden;container-type:size;background:linear-gradient(180deg,var(--film-top),var(--film-bottom))}
+/* Frame placement: as large as possible while the laptop (the --s* safe box) stays
+   fully visible below the nav. Mirrors layout() in ScrollFilm.tsx, so the
+   server-rendered poster and the canvas that takes over line up exactly. */
+.film-poster{
+  --s:min(max(100cqw / var(--iw), 100cqh / var(--ih)), 100cqw / var(--sw), (100cqh - var(--nav-height)) / var(--sh));
+  --dw:calc(var(--s) * var(--iw));
+  --dh:calc(var(--s) * var(--ih));
+  --gx:calc(100cqw - var(--dw));
+  --gy:calc(100cqh - var(--dh));
+  --wx:calc(50cqw - (var(--sx) + var(--sw) / 2) * var(--s));
+  --wy:calc(var(--nav-height) + (100cqh - var(--nav-height)) / 2 - (var(--sy) + var(--sh) / 2) * var(--s));
+  position:absolute;width:var(--dw);height:var(--dh);max-width:none;
+  left:clamp(min(var(--gx), var(--gx) / 2), var(--wx), max(0px, var(--gx) / 2));
+  /* when the frame is shorter than the box it keeps its safe-box position (no clamp) */
+  top:clamp(calc(var(--gy) - max(0px, var(--gy)) * 10000), var(--wy), calc(max(0px, var(--gy)) * 10000));
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 var(--feather-x),#000 calc(100% - var(--feather-x)),transparent),linear-gradient(180deg,#000,#000 calc(100% - var(--feather-bottom)),transparent);
+  -webkit-mask-composite:source-in;
+  mask-image:linear-gradient(90deg,transparent,#000 var(--feather-x),#000 calc(100% - var(--feather-x)),transparent),linear-gradient(180deg,#000,#000 calc(100% - var(--feather-bottom)),transparent);
+  mask-composite:intersect}
+.film-canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+.film-glint{position:absolute;top:-20%;left:0;width:34%;height:140%;background:linear-gradient(100deg,transparent,rgb(var(--brand-500) / 0.16) 35%,rgb(var(--brand-accent-500) / 0.22) 55%,transparent);opacity:0;pointer-events:none}
+.film-glow{position:absolute;inset:0;background:radial-gradient(50% 50% at 50% 46%,rgb(var(--brand-500) / 0.22),rgb(var(--brand-accent-500) / 0.10) 42%,transparent 74%);mix-blend-mode:screen;opacity:0;pointer-events:none}
+.film-intro,.film-outro{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:14px;text-align:center;padding:calc(var(--nav-height) + clamp(28px, 7vh, 72px)) 24px 24px}
+.film-intro{background:linear-gradient(180deg,rgb(var(--shade-50) / 0.92) 0%,rgb(var(--shade-50) / 0.6) 26%,rgb(var(--shade-50) / 0) 50%)}
 .film-eyebrow{margin:0;font-size:12px;text-transform:uppercase;letter-spacing:0.1em;font-weight:600;color:rgb(var(--ink-secondary))}
 .film-h{font-size:clamp(30px,4.6vw,58px);line-height:1.06;letter-spacing:-0.012em}
-.film-cap{position:absolute;left:20px;bottom:22px;display:inline-flex;align-items:center;gap:10px;padding:10px 16px;border-radius:var(--radius-pill);background:rgba(10,10,12,0.62);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);color:rgb(var(--shade-50));font-size:14px;font-weight:500;opacity:0;pointer-events:none;max-width:min(84%,540px)}
+.film-cap{position:absolute;left:clamp(16px,4vw,48px);bottom:clamp(24px,5vh,48px);display:inline-flex;align-items:center;gap:10px;padding:10px 16px;border-radius:var(--radius-pill);background:rgb(var(--shade-0) / 0.78);border:1px solid rgb(var(--shade-black) / 0.06);box-shadow:0 8px 24px rgb(var(--shade-black) / 0.08);-webkit-backdrop-filter:saturate(180%) blur(12px);backdrop-filter:saturate(180%) blur(12px);color:rgb(var(--ink));font-size:14px;font-weight:500;opacity:0;pointer-events:none;max-width:min(84%,540px)}
 .film-cap .n{font-family:var(--font-mono);font-size:12px;font-weight:700;background:var(--gradient-brand);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
-.film-outro{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-align:center;background:linear-gradient(180deg,rgba(245,245,247,0.55),rgba(245,245,247,0.90));opacity:0;pointer-events:none;padding:24px}
+.film-outro{background:linear-gradient(180deg,rgb(var(--shade-50) / 0.9) 0%,rgb(var(--shade-50) / 0.55) 24%,rgb(var(--shade-50) / 0) 46%);opacity:0;pointer-events:none}
 .film-outro p{margin:0;font-size:clamp(15px,1.6vw,20px);color:rgb(var(--ink-secondary))}
-.film-bar{position:absolute;left:0;right:0;bottom:0;height:3px;background:rgb(var(--shade-black) / 0.10)}
+.film-bar{position:absolute;left:0;right:0;bottom:0;height:3px;background:rgb(var(--shade-black) / 0.06)}
 .film-bar i{display:block;height:100%;background:var(--gradient-brand);transform:scaleX(0);transform-origin:left}
-.film-credit{position:absolute;right:14px;bottom:10px;font-family:var(--font-mono);font-size:10px;letter-spacing:0.04em;color:rgb(var(--shade-800) / 0.38)}
-.film-hint{display:inline-flex;align-items:center;gap:8px;color:rgb(var(--shade-0) / 0.75);font-size:13px;letter-spacing:0.02em}
+.film-hint{position:absolute;left:50%;bottom:clamp(28px,6vh,56px);transform:translateX(-50%);display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:var(--radius-pill);background:rgb(var(--shade-0) / 0.72);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);color:rgb(var(--ink-secondary));font-size:13px;letter-spacing:0.02em;white-space:nowrap}
 .film-hint svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:2;transform:rotate(90deg)}
 .film.static{height:auto}
-.film.static .film-sticky{position:static;height:auto;padding:56px 0}
-@media (max-width:767px){.film{height:420vh}.film-stage{height:min(62vh,560px);border-radius:18px}.film-cap{left:12px;bottom:12px;font-size:12px;padding:8px 12px}}
+.film.static .film-sticky{position:relative}
+@media (max-width:767px){.film{height:420vh}.film-cap{font-size:12px;padding:8px 12px}}
 
 /* ============================================================
    PROMO CARDS (Our services)

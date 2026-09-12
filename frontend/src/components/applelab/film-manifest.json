@@ -1,0 +1,586 @@
+{
+  "width": 1536,
+  "height": 920,
+  "safe": {
+    "x": 300,
+    "y": 0,
+    "w": 936,
+    "h": 900
+  },
+  "background": {
+    "top": "#edeff3",
+    "bottom": "#e2e5ea"
+  },
+  "entries": [
+    {
+      "src": "/applelab/film/kf01.webp",
+      "section": "intro",
+      "weight": 6,
+      "hold": 0.55
+    },
+    {
+      "src": "/applelab/film/a000.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a001.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a002.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a003.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a004.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a005.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a006.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a007.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a008.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a009.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a010.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a011.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a012.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a013.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a014.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a015.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a016.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a017.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a018.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a019.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a020.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a021.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a022.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a023.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a024.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a025.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a026.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a027.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a028.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a029.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a030.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a031.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a032.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a033.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a034.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a035.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a036.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a037.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a038.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a039.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a040.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a041.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a042.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a043.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a044.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a045.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a046.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a047.webp",
+      "section": "apart",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/a048.webp",
+      "section": "apart",
+      "weight": 5,
+      "hold": 0.3
+    },
+    {
+      "src": "/applelab/film/kf03.webp",
+      "section": "apart",
+      "weight": 7,
+      "hold": 0.4
+    },
+    {
+      "src": "/applelab/film/kf04.webp",
+      "section": "exploded",
+      "weight": 9,
+      "hold": 0.45
+    },
+    {
+      "src": "/applelab/film/kf05.webp",
+      "section": "out",
+      "weight": 9,
+      "hold": 0.45
+    },
+    {
+      "src": "/applelab/film/kf06.webp",
+      "section": "hands",
+      "weight": 9,
+      "hold": 0.45
+    },
+    {
+      "src": "/applelab/film/kf07.webp",
+      "section": "hands",
+      "weight": 9,
+      "hold": 0.45
+    },
+    {
+      "src": "/applelab/film/kf08.webp",
+      "section": "renewed",
+      "weight": 7,
+      "hold": 0.45
+    },
+    {
+      "src": "/applelab/film/b000.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b001.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b002.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b003.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b004.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b005.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b006.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b007.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b008.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b009.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b010.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b011.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b012.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b013.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b014.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b015.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b016.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b017.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b018.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b019.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b020.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b021.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b022.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b023.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b024.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b025.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b026.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b027.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b028.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b029.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b030.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b031.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b032.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b033.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b034.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b035.webp",
+      "section": "together",
+      "weight": 1,
+      "hold": 0
+    },
+    {
+      "src": "/applelab/film/b036.webp",
+      "section": "together",
+      "weight": 5,
+      "hold": 0.3
+    },
+    {
+      "src": "/applelab/film/kf11.webp",
+      "section": "together",
+      "weight": 7,
+      "hold": 0.4
+    },
+    {
+      "src": "/applelab/film/kf12.webp",
+      "section": "awake",
+      "weight": 8,
+      "hold": 1
+    }
+  ]
+}

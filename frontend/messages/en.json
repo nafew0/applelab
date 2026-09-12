@@ -485,6 +485,8 @@
     },
     "film": {
       "eyebrow": "The Apple Lab process",
+      "ariaLabel": "A MacBook repair, from taken apart to brought back to life",
+      "posterAlt": "A silver MacBook on a bright white desk, its screen softly glowing",
       "introLine1": "Watch a MacBook",
       "introLine2": "come",
       "introAccent": "back to life.",
@@ -497,22 +499,7 @@
       "outroAccent": "Reborn.",
       "outroBody": "Genuine parts. 90-day warranty. Like it never happened.",
       "cta": "Book a repair",
-      "credit": "Repair photography — iFixit",
-      "hint": "Scroll to play",
-      "frames": [
-        "MacBook resting, screen dark",
-        "Technician inspecting the keyboard",
-        "Bottom case lifted away from the chassis",
-        "Driver removing internal screws",
-        "Battery being lifted out",
-        "Speakers lifted from the chassis",
-        "Tweezers disconnecting a ribbon cable",
-        "Tweezers seating a keycap",
-        "Logic board, fully exposed",
-        "Every component laid out in order",
-        "Chassis closing back up",
-        "MacBook reassembled"
-      ]
+      "hint": "Scroll to play"
     },
     "catalog": {
       "home": "Home",
