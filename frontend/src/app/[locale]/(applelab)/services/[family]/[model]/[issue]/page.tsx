@@ -55,7 +55,7 @@ export default async function OfferingPage({ params }: { params: Params }) {
   const title = t('offering.headline', { model: data.model.name, issue: data.issue.name })
 
   return (
-    <main id="top">
+    <main id="top" className="cat-page">
       <JsonLd
         data={[
           breadcrumbJsonLd(locale, crumbs),

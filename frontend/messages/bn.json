@@ -545,9 +545,10 @@
         "commonRepairs": "সচরাচর মেরামত",
         "chooseModel": "আপনার মডেল বেছে নিন",
         "allModels": "সব {family} মডেল ({count})",
-        "jumpToYear": "বছর অনুযায়ী দেখুন",
-        "otherYears": "অন্যান্য",
-        "noModels": "এই ডিভাইসের মডেলগুলো যোগ করা হচ্ছে।"
+        "noModels": "এই ডিভাইসের মডেলগুলো যোগ করা হচ্ছে।",
+        "allYears": "সব বছর",
+        "filterByYear": "বছর অনুযায়ী মডেল দেখুন",
+        "showing": "{total}টির মধ্যে {count}টি মডেল দেখানো হচ্ছে"
       },
       "model": {
         "headline": "ঢাকায় {model} মেরামত",

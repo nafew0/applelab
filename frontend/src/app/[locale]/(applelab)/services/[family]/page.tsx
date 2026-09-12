@@ -5,9 +5,9 @@ import { notFound } from 'next/navigation'
 import Breadcrumbs from '@/components/applelab/catalog/Breadcrumbs'
 import CatalogImage from '@/components/applelab/catalog/CatalogImage'
 import FaqList from '@/components/applelab/catalog/FaqList'
-import ModelCard from '@/components/applelab/catalog/ModelCard'
+import ModelBrowser from '@/components/applelab/catalog/ModelBrowser'
 import { Link } from '@/i18n/navigation'
-import { getFamilyPage, type ModelBrief } from '@/lib/catalog'
+import { getFamilyPage } from '@/lib/catalog'
 import { breadcrumbJsonLd, catalogMetadata, JsonLd, serviceJsonLd } from '@/lib/catalogSeo'
 import { getSiteConfig } from '@/lib/content'
 
@@ -33,18 +33,6 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   })
 }
 
-function groupByYear(models: ModelBrief[]): { year: number | null; models: ModelBrief[] }[] {
-  const groups = new Map<number | null, ModelBrief[]>()
-  for (const model of models) {
-    const key = model.release_year ?? null
-    if (!groups.has(key)) groups.set(key, [])
-    groups.get(key)!.push(model)
-  }
-  return [...groups.entries()]
-    .sort((a, b) => (b[0] ?? -1) - (a[0] ?? -1))
-    .map(([year, list]) => ({ year, models: list }))
-}
-
 export default async function FamilyPage({ params }: { params: Params }) {
   const { locale, family } = await params
   setRequestLocale(locale)
@@ -55,7 +43,6 @@ export default async function FamilyPage({ params }: { params: Params }) {
   ])
   if (!data) notFound()
 
-  const groups = groupByYear(data.models)
   const crumbs = [
     { label: t('home'), path: '' },
     { label: t('services'), path: '/services' },
@@ -63,7 +50,7 @@ export default async function FamilyPage({ params }: { params: Params }) {
   ]
 
   return (
-    <main id="top">
+    <main id="top" className="cat-page">
       <JsonLd
         data={[
           breadcrumbJsonLd(locale, crumbs),
@@ -110,24 +97,16 @@ export default async function FamilyPage({ params }: { params: Params }) {
             <p className="eyebrow">{t('family.chooseModel')}</p>
             <h2 className="h-lg">{t('family.allModels', { family: data.family.name, count: data.models.length })}</h2>
           </div>
-          {data.years.length > 1 ? (
-            <nav className="year-nav reveal" aria-label={t('family.jumpToYear')} data-testid="year-nav">
-              {data.years.map((year) => (
-                <a key={year} href={`#y${year}`}>{year}</a>
-              ))}
-            </nav>
-          ) : null}
-          {groups.map((group) => (
-            <div key={String(group.year)} className="year-group" id={group.year ? `y${group.year}` : undefined}>
-              <h3>{group.year ?? t('family.otherYears')}</h3>
-              <div className="model-grid">
-                {group.models.map((model) => (
-                  <ModelCard key={model.slug} model={model} />
-                ))}
-              </div>
-            </div>
-          ))}
-          {data.models.length === 0 ? <p className="sub">{t('family.noModels')}</p> : null}
+          <ModelBrowser
+            models={data.models}
+            years={data.years}
+            labels={{
+              all: t('family.allYears'),
+              filter: t('family.filterByYear'),
+              showing: t.raw('family.showing') as string,
+              empty: t('family.noModels'),
+            }}
+          />
           <p className="sub mt-32">
             {t('notListed')}{' '}
             <Link href="/f/demo" className="link">{t('notListedCta')}</Link>

@@ -545,9 +545,10 @@
         "commonRepairs": "Common repairs",
         "chooseModel": "Choose your model",
         "allModels": "All {family} models ({count})",
-        "jumpToYear": "Jump to year",
-        "otherYears": "Other",
-        "noModels": "Models for this device are being added."
+        "noModels": "Models for this device are being added.",
+        "allYears": "All years",
+        "filterByYear": "Filter models by year",
+        "showing": "Showing {count} of {total} models"
       },
       "model": {
         "headline": "{model} repair in Dhaka",

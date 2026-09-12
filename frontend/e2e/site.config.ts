@@ -45,7 +45,7 @@ export const SITE = {
   catalog: {
     familyCount: 10,
     family: { slug: 'iphone', name: 'iPhone', nameBn: 'আইফোন', minModels: 30 },
-    model: { slug: '15-pro', name: 'iPhone 15 Pro', chip: 'A17 Pro', searchTerm: '15 Pro' },
+    model: { slug: '15-pro', name: 'iPhone 15 Pro', chip: 'A17 Pro', year: 2023, searchTerm: '15 Pro' },
     issue: { slug: 'screen-replacement', name: 'Screen Replacement', adminName: 'Screen Replacement' },
     /** Written and then cleared by the admin → public revalidation test. */
     testPrice: '23456',

@@ -28,16 +28,45 @@ test.describe('Device catalog — public pages', () => {
     await expect(page.getByTestId('family-headline')).toContainText(C.family.name)
   })
 
-  test('family page groups models by year and links to a model', async ({ page }) => {
+  test('family page lists every model in a 4-column grid and links to a model', async ({ page }) => {
     await page.goto(`/en/services/${C.family.slug}`)
-    await expect(page.getByTestId('year-nav')).toBeVisible()
     await expect(page.getByTestId('family-issues')).toBeVisible()
+    const grid = page.getByTestId('model-grid')
+    await expect(grid).toBeVisible()
     expect(await page.getByTestId('model-card').count()).toBeGreaterThanOrEqual(C.family.minModels)
+    const columns = await grid.evaluate((el) => getComputedStyle(el).gridTemplateColumns.split(' ').length)
+    expect(columns).toBe(4)
     await page
       .getByTestId('model-card')
       .filter({ has: page.getByRole('heading', { name: C.model.name, exact: true }) })
       .click()
     await expect(page).toHaveURL(new RegExp(`/en/services/${C.family.slug}/${C.model.slug}$`))
+  })
+
+  test('year filter narrows the grid, updates the URL and resets', async ({ page }) => {
+    await page.goto(`/en/services/${C.family.slug}`)
+    const cards = page.getByTestId('model-card')
+    const total = await cards.count()
+    await expect(page.getByTestId('year-chip-all')).toHaveAttribute('aria-pressed', 'true')
+
+    await page.getByTestId(`year-chip-${C.model.year}`).click()
+    await expect(page).toHaveURL(new RegExp(`#y${C.model.year}$`))
+    await expect(page.getByTestId(`year-chip-${C.model.year}`)).toHaveAttribute('aria-pressed', 'true')
+    const filtered = await cards.count()
+    expect(filtered).toBeGreaterThan(0)
+    expect(filtered).toBeLessThan(total)
+    for (const meta of await page.locator('[data-testid="model-card"] .model-meta').allTextContents()) {
+      expect(meta).toContain(String(C.model.year))
+    }
+    await expect(page.getByTestId('model-browser-status')).toContainText(`${filtered} of ${total}`)
+
+    // A shared link opens already filtered
+    await page.goto(`/en/services/${C.family.slug}#y${C.model.year}`)
+    await expect(cards).toHaveCount(filtered)
+
+    await page.getByTestId('year-chip-all').click()
+    await expect(cards).toHaveCount(total)
+    await expect(page).not.toHaveURL(/#y\d{4}$/)
   })
 
   test('model page shows facts, repairs, breadcrumbs and JSON-LD', async ({ page }) => {

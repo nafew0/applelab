@@ -61,7 +61,7 @@ export default async function ModelPage({ params }: { params: Params }) {
   }
 
   return (
-    <main id="top">
+    <main id="top" className="cat-page">
       <JsonLd
         data={[
           breadcrumbJsonLd(locale, crumbs),
@@ -110,7 +110,7 @@ export default async function ModelPage({ params }: { params: Params }) {
             <p className="sub">{t('model.pricingNote')}</p>
           </div>
           {data.offerings.length > 0 ? (
-            <div className="offer-grid reveal stagger" data-testid="model-offerings">
+            <div className="offer-grid reveal" data-testid="model-offerings">
               {data.offerings.map((offering) => (
                 <OfferingCard key={offering.issue.slug} offering={offering} family={family} model={model} labels={offeringLabels} />
               ))}
@@ -149,7 +149,7 @@ export default async function ModelPage({ params }: { params: Params }) {
               <p className="eyebrow">{data.family.name}</p>
               <h2 className="h-lg">{t('model.related')}</h2>
             </div>
-            <div className="model-grid reveal stagger" data-testid="related-models">
+            <div className="model-grid reveal" data-testid="related-models">
               {data.related.map((related) => (
                 <ModelCard key={related.slug} model={related} />
               ))}
