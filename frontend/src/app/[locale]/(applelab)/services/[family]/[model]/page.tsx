@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 
+import AsideCta from '@/components/applelab/catalog/AsideCta'
 import Breadcrumbs from '@/components/applelab/catalog/Breadcrumbs'
 import CatalogImage from '@/components/applelab/catalog/CatalogImage'
 import FaqList from '@/components/applelab/catalog/FaqList'
@@ -127,17 +128,22 @@ export default async function ModelPage({ params }: { params: Params }) {
 
       {data.model.notes_html || data.model.content_html || data.model.faq.length ? (
         <section className="section">
-          <div className="container">
-            {data.model.notes_html ? (
-              <div className="reveal">
-                <h2 className="h-lg">{t('model.knownFaults', { model: data.model.name })}</h2>
-                <div className="prose" dangerouslySetInnerHTML={{ __html: data.model.notes_html }} />
-              </div>
-            ) : null}
-            {data.model.content_html ? (
-              <div className="prose reveal" dangerouslySetInnerHTML={{ __html: data.model.content_html }} />
-            ) : null}
-            <FaqList items={data.model.faq} heading={t('faq')} />
+          <div className="container cat-article">
+            <div className="cat-article-main">
+              {data.model.notes_html ? (
+                <div className="reveal">
+                  <h2 className="h-lg">{t('model.knownFaults', { model: data.model.name })}</h2>
+                  <div className="prose" dangerouslySetInnerHTML={{ __html: data.model.notes_html }} />
+                </div>
+              ) : null}
+              {data.model.content_html ? (
+                <div className="prose reveal" dangerouslySetInnerHTML={{ __html: data.model.content_html }} />
+              ) : null}
+              <FaqList items={data.model.faq} heading={t('faq')} />
+            </div>
+            <aside className="cat-article-aside">
+              <AsideCta title={t('cta.title')} body={t('cta.body')} button={t('cta.button')} />
+            </aside>
           </div>
         </section>
       ) : null}

@@ -1,5 +1,5 @@
 'use client'
-import { useEffect, useMemo, useRef, useSyncExternalStore } from 'react'
+import { useEffect, useRef, useSyncExternalStore } from 'react'
 
 import type { ModelBrief } from '@/lib/catalog'
 
@@ -54,14 +54,6 @@ export default function ModelBrowser({
     window.dispatchEvent(new HashChangeEvent('hashchange'))
   }
 
-  const counts = useMemo(() => {
-    const map = new Map<number, number>()
-    for (const model of models) {
-      if (model.release_year) map.set(model.release_year, (map.get(model.release_year) ?? 0) + 1)
-    }
-    return map
-  }, [models])
-
   const visible = year === null ? models : models.filter((model) => model.release_year === year)
 
   return (
@@ -76,7 +68,6 @@ export default function ModelBrowser({
             data-testid="year-chip-all"
           >
             {labels.all}
-            <span className="year-chip-count">{models.length}</span>
           </button>
           {years.map((option) => (
             <button
@@ -88,7 +79,6 @@ export default function ModelBrowser({
               data-testid={`year-chip-${option}`}
             >
               {option}
-              <span className="year-chip-count">{counts.get(option) ?? 0}</span>
             </button>
           ))}
         </div>

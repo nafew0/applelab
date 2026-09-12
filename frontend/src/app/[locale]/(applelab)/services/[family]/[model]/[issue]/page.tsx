@@ -2,9 +2,11 @@ import type { Metadata } from 'next'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 
+import AsideCta from '@/components/applelab/catalog/AsideCta'
 import Breadcrumbs from '@/components/applelab/catalog/Breadcrumbs'
 import CatalogImage from '@/components/applelab/catalog/CatalogImage'
 import FaqList from '@/components/applelab/catalog/FaqList'
+import IssueList from '@/components/applelab/catalog/IssueList'
 import { Link } from '@/i18n/navigation'
 import { getOfferingPage } from '@/lib/catalog'
 import { breadcrumbJsonLd, catalogMetadata, JsonLd, serviceJsonLd } from '@/lib/catalogSeo'
@@ -135,27 +137,28 @@ export default async function OfferingPage({ params }: { params: Params }) {
       </section>
 
       <section className="section gray">
-        <div className="container">
-          <div className="prose reveal" data-testid="offering-content" dangerouslySetInnerHTML={{ __html: data.offering.content_html }} />
-          <FaqList items={data.offering.faq} heading={t('faq')} />
+        <div className="container cat-article">
+          <div className="cat-article-main">
+            <div className="prose reveal" data-testid="offering-content" dangerouslySetInnerHTML={{ __html: data.offering.content_html }} />
+            <FaqList items={data.offering.faq} heading={t('faq')} />
+          </div>
+          <aside className="cat-article-aside">
+            {data.siblings.length > 0 ? (
+              <div className="aside-card">
+                <p className="eyebrow">{data.model.name}</p>
+                <h3>{t('offering.otherRepairs')}</h3>
+                <IssueList
+                  issues={data.siblings}
+                  hrefFor={(sibling) => `/services/${family}/${model}/${sibling.slug}`}
+                  stacked
+                  testId="sibling-repairs"
+                />
+              </div>
+            ) : null}
+            <AsideCta title={t('cta.title')} body={t('cta.body')} button={t('cta.button')} />
+          </aside>
         </div>
       </section>
-
-      {data.siblings.length > 0 ? (
-        <section className="section">
-          <div className="container">
-            <div className="section-head left reveal">
-              <p className="eyebrow">{data.model.name}</p>
-              <h2 className="h-lg">{t('offering.otherRepairs')}</h2>
-            </div>
-            <div className="issue-chips reveal" data-testid="sibling-repairs">
-              {data.siblings.map((sibling) => (
-                <Link key={sibling.slug} href={`/services/${family}/${model}/${sibling.slug}`}>{sibling.name}</Link>
-              ))}
-            </div>
-          </div>
-        </section>
-      ) : null}
     </main>
   )
 }

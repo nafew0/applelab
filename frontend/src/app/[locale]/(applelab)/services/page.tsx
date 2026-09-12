@@ -3,7 +3,6 @@ import { getTranslations, setRequestLocale } from 'next-intl/server'
 
 import Breadcrumbs from '@/components/applelab/catalog/Breadcrumbs'
 import CatalogImage from '@/components/applelab/catalog/CatalogImage'
-import TileArrow from '@/components/applelab/catalog/TileArrow'
 import { Link } from '@/i18n/navigation'
 import { getCatalogIndex } from '@/lib/catalog'
 import { breadcrumbJsonLd, catalogMetadata, JsonLd } from '@/lib/catalogSeo'
@@ -51,7 +50,6 @@ export default async function ServicesIndexPage({ params }: { params: Promise<{ 
             <div className="cat-grid reveal">
               {families.map((family) => (
                 <Link key={family.slug} href={`/services/${family.slug}`} className="cat-card" data-testid="family-card">
-                  <TileArrow />
                   <CatalogImage src={family.image} alt={family.name} className="cat-card-media" />
                   <h3>{family.name}</h3>
                   {family.intro ? <p>{family.intro}</p> : null}

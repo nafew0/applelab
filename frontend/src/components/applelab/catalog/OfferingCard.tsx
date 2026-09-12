@@ -2,7 +2,6 @@ import { Link } from '@/i18n/navigation'
 import type { OfferingCard as OfferingCardData } from '@/lib/catalog'
 
 import CatalogImage from './CatalogImage'
-import TileArrow from './TileArrow'
 
 export default function OfferingCard({
   offering,
@@ -21,7 +20,6 @@ export default function OfferingCard({
       className="offer-card"
       data-testid="offering-card"
     >
-      <TileArrow />
       <div className="offer-head">
         <CatalogImage src={offering.image} alt="" className="offer-icon" />
         <span className="offer-cat">{offering.issue.category}</span>

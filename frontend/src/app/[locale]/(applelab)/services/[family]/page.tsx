@@ -2,9 +2,11 @@ import type { Metadata } from 'next'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 
+import AsideCta from '@/components/applelab/catalog/AsideCta'
 import Breadcrumbs from '@/components/applelab/catalog/Breadcrumbs'
 import CatalogImage from '@/components/applelab/catalog/CatalogImage'
 import FaqList from '@/components/applelab/catalog/FaqList'
+import IssueList from '@/components/applelab/catalog/IssueList'
 import ModelBrowser from '@/components/applelab/catalog/ModelBrowser'
 import { Link } from '@/i18n/navigation'
 import { getFamilyPage } from '@/lib/catalog'
@@ -79,13 +81,9 @@ export default async function FamilyPage({ params }: { params: Params }) {
           </div>
 
           {data.issues.length > 0 ? (
-            <div className="reveal">
+            <div className="cat-repairs reveal">
               <p className="eyebrow">{t('family.commonRepairs')}</p>
-              <div className="issue-chips" data-testid="family-issues">
-                {data.issues.map((issue) => (
-                  <span key={issue.slug}>{issue.name}</span>
-                ))}
-              </div>
+              <IssueList issues={data.issues} testId="family-issues" />
             </div>
           ) : null}
         </div>
@@ -116,18 +114,16 @@ export default async function FamilyPage({ params }: { params: Params }) {
 
       {data.family.content_html || data.family.faq.length ? (
         <section className="section">
-          <div className="container">
-            {data.family.content_html ? (
-              <div className="prose reveal" dangerouslySetInnerHTML={{ __html: data.family.content_html }} />
-            ) : null}
-            <FaqList items={data.family.faq} heading={t('faq')} />
-            <div className="cta-band reveal">
-              <div>
-                <h3>{t('cta.title')}</h3>
-                <p>{t('cta.body')}</p>
-              </div>
-              <Link href="/f/demo" className="btn btn-primary">{t('cta.button')}</Link>
+          <div className="container cat-article">
+            <div className="cat-article-main">
+              {data.family.content_html ? (
+                <div className="prose reveal" dangerouslySetInnerHTML={{ __html: data.family.content_html }} />
+              ) : null}
+              <FaqList items={data.family.faq} heading={t('faq')} />
             </div>
+            <aside className="cat-article-aside">
+              <AsideCta title={t('cta.title')} body={t('cta.body')} button={t('cta.button')} />
+            </aside>
           </div>
         </section>
       ) : null}
