@@ -521,6 +521,11 @@ class VerifiedTokenRefreshView(TokenRefreshView):
             response = Response({"detail": "Refresh token is invalid or expired."}, status=status.HTTP_401_UNAUTHORIZED)
             clear_refresh_cookie(response)
             return response
+        except TokenError:
+            # Rotated-away (blacklisted) token. Usually a concurrent refresh from the
+            # same browser already set a newer cookie — clearing it here would log
+            # the user out, so leave the cookie alone.
+            return Response({"detail": "Refresh token is invalid or expired."}, status=status.HTTP_401_UNAUTHORIZED)
 
         response_payload = dict(serializer.validated_data)
         rotated_refresh = (response_payload.pop("refresh", "") or "").strip()

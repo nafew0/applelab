@@ -565,6 +565,22 @@ class TokenRefreshSecurityTests(AccountsBaseTestCase):
         self.assertIn("access", response.data)
         self.assertIn(get_refresh_cookie_name(), response.cookies)
 
+    def test_rotated_away_refresh_token_is_401_and_keeps_the_cookie(self):
+        refresh = RefreshToken.for_user(self.user)
+        refresh.blacklist()
+        self.client.cookies[get_refresh_cookie_name()] = str(refresh)
+
+        response = self.client.post(
+            "/api/auth/token/refresh/",
+            {},
+            format="json",
+            HTTP_ORIGIN="http://testserver",
+        )
+
+        self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
+        # A parallel refresh may have just set a newer cookie; don't delete it.
+        self.assertNotIn(get_refresh_cookie_name(), response.cookies)
+
 
 @override_settings(DB_ENGINE="django.db.backends.sqlite3")
 class ProfileUpdateSecurityTests(AccountsBaseTestCase):
