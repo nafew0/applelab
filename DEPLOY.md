@@ -27,7 +27,10 @@
 
 ```bash
 sudo useradd --system --shell /bin/bash --create-home --home-dir /opt/applelab applelab
+sudo usermod -aG applelab www-data
 ```
+
+Ubuntu 24.04 creates the home directory as `0750`, and Nginx (`www-data`) serves `/static/` and `/media/` from inside it. Without the group membership every image and the Django admin's CSS return **403**. (Restart Nginx after adding the group if it is already running.)
 
 ---
 
@@ -105,7 +108,8 @@ DEBUG=False
 ENVIRONMENT=production
 DJANGO_SECRET_KEY=__CHANGE_ME__
 JWT_SIGNING_KEY=__CHANGE_ME__
-ALLOWED_HOSTS=applelab.bd,www.applelab.bd
+# 127.0.0.1 is required: the Next.js server calls Django directly at BACKEND_URL
+ALLOWED_HOSTS=applelab.bd,www.applelab.bd,127.0.0.1,localhost
 APP_ORIGIN=https://applelab.bd
 PUBLIC_APP_URL=https://applelab.bd
 API_ORIGIN=https://applelab.bd
@@ -124,6 +128,9 @@ USE_REDIS=True
 REDIS_HOST=127.0.0.1
 REDIS_PORT=6379
 REDIS_CACHE_LOCATION=redis://127.0.0.1:6379/4
+
+# Repair ticket references: APL-YYYYMM-NNNNN
+LEADS_REFERENCE_PREFIX=APL
 
 # Celery (unused today — reserved DB 5)
 CELERY_BROKER_URL=redis://127.0.0.1:6379/5
@@ -155,6 +162,14 @@ CATALOG_PAGES_SECRET=__CHANGE_ME__
 
 > `USE_REDIS=True` matters in production: it makes rate limits shared across all Gunicorn workers.
 
+> `127.0.0.1` in `ALLOWED_HOSTS` matters too. Next.js renders pages by calling Django at `http://127.0.0.1:8002`; those requests carry the host `127.0.0.1`, and without it Django answers 400 to every one of them (the service pages then show "The catalog is being prepared").
+
+Lock the file down — it holds every secret, and `www-data` can now enter the home directory:
+
+```bash
+sudo chmod 600 /opt/applelab/app/backend/.env.production
+```
+
 Generate secrets:
 
 ```bash
@@ -180,10 +195,11 @@ sudo -u applelab DOTENV_FILE=.env.production venv/bin/python manage.py createsup
 The catalog pictures (family, model photos, repair icons) are **not in git** — they live in the local research folder `research/ifixit-crawl/images/`, together with `catalog_images.json`, which maps every file to our own family/model/repair slugs. Copy that folder to the server and attach it:
 
 ```bash
-# from your machine
-rsync -av research/ifixit-crawl/images/ applelab@<server>:/opt/applelab/catalog-images/
+# from your machine (as root — the applelab user has no SSH login)
+rsync -av research/ifixit-crawl/images/ root@<server>:/opt/applelab/catalog-images/
 
 # on the server (after seed_catalog)
+sudo chown -R applelab:applelab /opt/applelab/catalog-images
 cd /opt/applelab/app/backend
 sudo -u applelab DOTENV_FILE=.env.production venv/bin/python manage.py import_catalog_images --images-dir /opt/applelab/catalog-images --dry-run
 sudo -u applelab DOTENV_FILE=.env.production venv/bin/python manage.py import_catalog_images --images-dir /opt/applelab/catalog-images
@@ -224,7 +240,7 @@ sudo -u applelab nano /opt/applelab/app/frontend/.env.production
 ```ini
 BACKEND_URL=http://127.0.0.1:8002
 NEXT_PUBLIC_API_URL=/api
-NEXT_PUBLIC_DJANGO_ADMIN_URL=https://applelab.bd/admin
+NEXT_PUBLIC_DJANGO_ADMIN_URL=https://applelab.bd/django-admin
 NEXT_PUBLIC_SITE_URL=https://applelab.bd
 # Styleguide route is dev/QA only — leave at 0 in production
 NEXT_PUBLIC_ENABLE_STYLEGUIDE=0
@@ -234,6 +250,10 @@ CATALOG_PAGES_SECRET=__CHANGE_ME__
 ```
 
 > `BACKEND_URL` is server-side only, so it points straight at loopback `8002` and skips the Nginx round trip. `NEXT_PUBLIC_API_URL=/api` keeps browser calls same-origin.
+
+```bash
+sudo chmod 600 /opt/applelab/app/frontend/.env.production
+```
 
 Build:
 
@@ -347,8 +367,8 @@ server {
         proxy_set_header X-Forwarded-Proto $scheme;
     }
 
-    # Django admin
-    location /admin/ {
+    # Django's built-in admin. /admin itself is the site's staff panel (Next.js).
+    location /django-admin/ {
         proxy_pass http://127.0.0.1:8002;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
@@ -386,6 +406,8 @@ sudo certbot --nginx -d applelab.bd -d www.applelab.bd
 sudo certbot renew --dry-run
 ```
 
+Keep the HTTP → HTTPS redirect Certbot adds to the port-80 block. Django skips its own HTTPS redirect for `/api/` (so the Next.js server can call it over loopback HTTP), which makes Nginx the only thing sending public API traffic to HTTPS.
+
 ---
 
 ## 9. Verify Everything
@@ -394,8 +416,13 @@ sudo certbot renew --dry-run
 # Services running?
 sudo systemctl status applelab-backend applelab-frontend nginx
 
-# Backend responding?
-curl -s http://127.0.0.1:8002/api/auth/site-settings/ | python3 -m json.tool
+# Backend responding (as the frontend calls it)?
+curl -s http://127.0.0.1:8002/api/content/config/?lang=en | python3 -m json.tool
+
+# Catalog page data reachable with the shared key? Must print 200
+# (400 = 127.0.0.1 missing from ALLOWED_HOSTS; 404 = CATALOG_PAGES_SECRET missing or different)
+KEY=$(grep '^CATALOG_PAGES_SECRET=' /opt/applelab/app/frontend/.env.production | cut -d= -f2-)
+curl -s -o /dev/null -w '%{http_code}\n' -H "X-Catalog-Key: $KEY" "http://127.0.0.1:8002/api/catalog/pages/index/?lang=en"
 
 # Frontend responding?
 curl -s http://127.0.0.1:3002 | head -5
@@ -408,6 +435,13 @@ sudo ss -ltnp | grep -E '8002|3002'
 
 # Site live?
 curl -I https://applelab.bd
+
+# Service pages render with data? Must print 10 (one card per device family)
+curl -s https://applelab.bd/en/services | grep -c 'data-testid="family-card"'
+
+# Nginx can read uploads and static files? Both must print 200
+curl -s -o /dev/null -w '%{http_code}\n' https://applelab.bd/static/admin/css/base.css
+curl -s -o /dev/null -w '%{http_code}\n' "https://applelab.bd$(curl -s 'https://applelab.bd/api/catalog/families/?lang=en' | python3 -c 'import sys,json; print(json.load(sys.stdin)[0]["image"])')"
 ```
 
 ---
@@ -434,6 +468,18 @@ sudo -u applelab npm run build
 sudo systemctl restart applelab-backend applelab-frontend
 ```
 
+> **Never skip `npm run build`.** `npm ci` only reinstalls packages; without a build, `next start` keeps serving the previous version of the site. Restart the backend *before* building — the build fetches catalog data from it.
+
+### One-time steps for a server set up before 2026-09-14
+
+These settings arrived with the device catalog and the admin-routing fix. Apply them once, then run the update above:
+
+1. **Backend `.env.production`:** add `127.0.0.1,localhost` to `ALLOWED_HOSTS`; add `LEADS_REFERENCE_PREFIX=APL`, `NEXT_REVALIDATE_URL=http://127.0.0.1:3002/revalidate`, `NEXT_REVALIDATE_SECRET` and `CATALOG_PAGES_SECRET` (generate both secrets as in Section 4).
+2. **Frontend `.env.production`:** add the same two secrets, and set `NEXT_PUBLIC_DJANGO_ADMIN_URL=https://applelab.bd/django-admin`. `NEXT_PUBLIC_*` values are baked in at build time, so rebuild after changing it.
+3. **Nginx:** change `location /admin/` to `location /django-admin/`, add the `location /api/catalog/pages/ { return 404; }` block (Section 7), then `sudo nginx -t && sudo systemctl reload nginx`.
+4. **Permissions:** `sudo usermod -aG applelab www-data && sudo systemctl restart nginx`, and `chmod 600` both `.env.production` files.
+5. **Data:** run `seed_applelab` once (Section 4), and import the catalog images if you have not (Section 4, *Catalog images*).
+
 ---
 
 ## Troubleshooting
@@ -454,7 +500,11 @@ Common issues:
 
 - **Backend fails instantly with `status=203/EXEC`** — systemd cannot execute the `ExecStart` binary. Almost always `venv/bin/gunicorn` is missing (`pip install -r requirements.txt` was skipped or predates gunicorn being added). After fixing, run `sudo systemctl reset-failed applelab-backend` before `start`, or the restart-rate limit rejects it.
 
-- **400 Bad Request from Django** — the host is missing from `ALLOWED_HOSTS` in `.env.production`.
+- **400 Bad Request from Django** — the host is missing from `ALLOWED_HOSTS` in `.env.production`. For requests from the Next.js server that host is `127.0.0.1`.
+- **Site unchanged after an update** — `npm run build` was skipped; `next start` serves the last build.
+- **`/services` shows "The catalog is being prepared"** — the Next.js server cannot load catalog data. Run the key check in Section 9: `400` → add `127.0.0.1` to `ALLOWED_HOSTS`; `301` → the backend predates the loopback HTTPS fix (pull and restart it); `404` → `CATALOG_PAGES_SECRET` is missing or differs between the two `.env.production` files, or the backend was not restarted after editing. Then rebuild the frontend.
+- **Catalog images or the Django admin's CSS return 403** — Nginx cannot enter `/opt/applelab`; add `www-data` to the `applelab` group (Section 1) and restart Nginx.
+- **`/admin` opens the Django login page** — Nginx still has the old `location /admin/` block; it must be `location /django-admin/` (Section 7). The site's staff panel is `/admin`; Django's own admin is `/django-admin/`.
 - **CSRF/cookie failures over HTTPS** — check `TRUST_X_FORWARDED_PROTO=True` and that Nginx sends `X-Forwarded-Proto`.
 - **Unstyled admin** — `collectstatic` was not run, or the `/static/` alias path is wrong.
 - **Frontend 500s on data fetches** — `BACKEND_URL` is wrong, or the backend service is down; `curl` port 8002 directly.
