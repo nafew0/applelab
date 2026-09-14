@@ -39,7 +39,7 @@ function getAdminTitle(pathname: string) {
 }
 
 function getDjangoAdminUrl() {
-  return (process.env.NEXT_PUBLIC_DJANGO_ADMIN_URL?.trim() || 'http://localhost:8000/admin').replace(/\/+$/, '')
+  return (process.env.NEXT_PUBLIC_DJANGO_ADMIN_URL?.trim() || 'http://localhost:8000/django-admin').replace(/\/+$/, '')
 }
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {

@@ -430,6 +430,11 @@ CONTENT_SECURITY_POLICY = "; ".join(
     ]
 )
 
+# Next.js fetches the API server-to-server over loopback HTTP (BACKEND_URL), so
+# SECURE_SSL_REDIRECT must not bounce it to https. Public traffic is already
+# forced onto HTTPS by nginx before it reaches Django.
+SECURE_REDIRECT_EXEMPT = [r"^api/"]
+
 if IS_PRODUCTION:
     ensure_strong_secret("DJANGO_SECRET_KEY", SECRET_KEY)
     ensure_strong_secret("JWT_SIGNING_KEY", SIMPLE_JWT["SIGNING_KEY"])

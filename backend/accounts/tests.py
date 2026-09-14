@@ -1439,7 +1439,7 @@ class DjangoAdminUserDeletionTests(AccountsBaseTestCase):
             email="protected-admin@example.com",
             password="AdminPass123!",
         )
-        request = self.request_factory.get("/admin/accounts/user/")
+        request = self.request_factory.get("/django-admin/accounts/user/")
         request.user = self.admin_user
 
         response = self.admin_client.get(
@@ -1451,9 +1451,30 @@ class DjangoAdminUserDeletionTests(AccountsBaseTestCase):
         self.assertTrue(User.objects.filter(pk=target_user.pk).exists())
 
     def test_bulk_delete_action_is_removed(self):
-        request = self.request_factory.get("/admin/accounts/user/")
+        request = self.request_factory.get("/django-admin/accounts/user/")
         request.user = self.admin_user
 
         actions = self.model_admin.get_actions(request)
 
         self.assertNotIn("delete_selected", actions)
+
+
+@override_settings(SECURE_SSL_REDIRECT=True)
+class ProductionRoutingTests(TestCase):
+    """The HTTPS redirect and admin prefix as they behave behind nginx in production."""
+
+    def test_api_answers_loopback_http_without_redirect(self):
+        # Next.js server-side fetches reach Django over plain HTTP on 127.0.0.1.
+        response = self.client.get("/api/content/config/")
+
+        self.assertNotIn(response.status_code, (301, 302))
+
+    def test_django_admin_still_redirects_to_https(self):
+        response = self.client.get("/django-admin/login/")
+
+        self.assertEqual(response.status_code, 301)
+        self.assertTrue(response["Location"].startswith("https://"))
+
+    def test_admin_prefix_is_left_to_the_frontend(self):
+        self.assertEqual(reverse("admin:index"), "/django-admin/")
+        self.assertEqual(self.client.get("/admin/", secure=True).status_code, 404)
